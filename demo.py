@@ -1,3 +1,4 @@
+import openai
 import numpy as np
 import pandas as pd
 import gradio as gr
@@ -355,6 +356,9 @@ def run_prompt(prompt, inputs,
 
 
 def get_demo():
+    assert openai.api_key is not None, 'Please set your OpenAI API key first.'
+    assert openai.api_key != '', 'Please set your OpenAI API key first.'
+
     with gr.Blocks(title="Automatic Prompt Engineer", css=None, ) as demo:
         gr.Markdown("# Automatic Prompt Engineer")
         gr.Markdown("""This WebUI demonstrates how to use Automatic Prompt Engineer [APE](arxiv link) to optimize 
