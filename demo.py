@@ -442,6 +442,9 @@ def get_demo():
 
         gr.Markdown("## Results")
         with gr.Row():
+            with gr.Tab("APE Results"):
+                output_df = gr.DataFrame(type='pandas', headers=['Prompt', 'Likelihood'], wrap=True, interactive=False)
+
             with gr.Tab("Prompt Overview"):
                 with gr.Row():
                     generation_prompt_sample = gr.Textbox(lines=8, value="",
@@ -450,8 +453,6 @@ def get_demo():
                     evaluation_prompt_sample = gr.Textbox(lines=8, value="",
                                                           label="Evaluation Prompts",
                                                           disabled=True)
-            with gr.Tab("APE Results"):
-                output_df = gr.DataFrame(type='pandas', headers=['Prompt', 'Likelihood'], wrap=True, interactive=False)
 
             with gr.Tab("Prompt Score"):
                 with gr.Row():
