@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "place",
+      "output": "p"
+    },
+    "2": {
+      "input": "family",
+      "output": "f"
+    },
+    "3": {
+      "input": "point",
+      "output": "p"
+    },
+    "4": {
+      "input": "east",
+      "output": "e"
+    },
+    "5": {
+      "input": "service",
+      "output": "s"
+    },
+    "6": {
+      "input": "run",
+      "output": "r"
+    },
+    "7": {
+      "input": "site",
+      "output": "s"
+    },
+    "8": {
+      "input": "wife",
+      "output": "w"
+    },
+    "9": {
+      "input": "hurricane",
+      "output": "h"
+    },
+    "10": {
+      "input": "league",
+      "output": "l"
+    },
+    "11": {
+      "input": "section",
+      "output": "s"
+    },
+    "12": {
+      "input": "surface",
+      "output": "s"
+    },
+    "13": {
+      "input": "contract",
+      "output": "c"
+    },
+    "14": {
+      "input": "fight",
+      "output": "f"
+    },
+    "15": {
+      "input": "guitar",
+      "output": "g"
+    },
+    "16": {
+      "input": "ball",
+      "output": "b"
+    },
+    "17": {
+      "input": "model",
+      "output": "m"
+    },
+    "18": {
+      "input": "press",
+      "output": "p"
+    },
+    "19": {
+      "input": "culture",
+      "output": "c"
+    },
+    "20": {
+      "input": "collection",
+      "output": "c"
+    },
+    "21": {
+      "input": "foot",
+      "output": "f"
+    },
+    "22": {
+      "input": "theory",
+      "output": "t"
+    },
+    "23": {
+      "input": "invasion",
+      "output": "i"
+    },
+    "24": {
+      "input": "quarter",
+      "output": "q"
+    },
+    "25": {
+      "input": "agreement",
+      "output": "a"
+    },
+    "26": {
+      "input": "personnel",
+      "output": "p"
+    },
+    "27": {
+      "input": "northwest",
+      "output": "n"
+    },
+    "28": {
+      "input": "editor",
+      "output": "e"
+    },
+    "29": {
+      "input": "cricket",
+      "output": "c"
+    },
+    "30": {
+      "input": "lap",
+      "output": "l"
+    },
+    "31": {
+      "input": "description",
+      "output": "d"
+    },
+    "32": {
+      "input": "camera",
+      "output": "c"
+    },
+    "33": {
+      "input": "mountain",
+      "output": "m"
+    },
+    "34": {
+      "input": "principal",
+      "output": "p"
+    },
+    "35": {
+      "input": "regiment",
+      "output": "r"
+    },
+    "36": {
+      "input": "corner",
+      "output": "c"
+    },
+    "37": {
+      "input": "credit",
+      "output": "c"
+    },
+    "38": {
+      "input": "suit",
+      "output": "s"
+    },
+    "39": {
+      "input": "closing",
+      "output": "c"
+    },
+    "40": {
+      "input": "boundary",
+      "output": "b"
+    },
+    "41": {
+      "input": "armament",
+      "output": "a"
+    },
+    "42": {
+      "input": "signal",
+      "output": "s"
+    },
+    "43": {
+      "input": "affect",
+      "output": "a"
+    },
+    "44": {
+      "input": "baby",
+      "output": "b"
+    },
+    "45": {
+      "input": "fantasy",
+      "output": "f"
+    },
+    "46": {
+      "input": "voting",
+      "output": "v"
+    },
+    "47": {
+      "input": "reduction",
+      "output": "r"
+    },
+    "48": {
+      "input": "document",
+      "output": "d"
+    },
+    "49": {
+      "input": "inning",
+      "output": "i"
+    },
+    "50": {
+      "input": "lighter",
+      "output": "l"
+    },
+    "51": {
+      "input": "moon",
+      "output": "m"
+    },
+    "52": {
+      "input": "explanation",
+      "output": "e"
+    },
+    "53": {
+      "input": "diamond",
+      "output": "d"
+    },
+    "54": {
+      "input": "custom",
+      "output": "c"
+    },
+    "55": {
+      "input": "photograph",
+      "output": "p"
+    },
+    "56": {
+      "input": "accordance",
+      "output": "a"
+    },
+    "57": {
+      "input": "trap",
+      "output": "t"
+    },
+    "58": {
+      "input": "performer",
+      "output": "p"
+    },
+    "59": {
+      "input": "morale",
+      "output": "m"
+    },
+    "60": {
+      "input": "calm",
+      "output": "c"
+    },
+    "61": {
+      "input": "boom",
+      "output": "b"
+    },
+    "62": {
+      "input": "afford",
+      "output": "a"
+    },
+    "63": {
+      "input": "admission",
+      "output": "a"
+    },
+    "64": {
+      "input": "timing",
+      "output": "t"
+    },
+    "65": {
+      "input": "rendition",
+      "output": "r"
+    },
+    "66": {
+      "input": "breach",
+      "output": "b"
+    },
+    "67": {
+      "input": "servant",
+      "output": "s"
+    },
+    "68": {
+      "input": "counterpart",
+      "output": "c"
+    },
+    "69": {
+      "input": "drag",
+      "output": "d"
+    },
+    "70": {
+      "input": "shed",
+      "output": "s"
+    },
+    "71": {
+      "input": "cantata",
+      "output": "c"
+    },
+    "72": {
+      "input": "choreography",
+      "output": "c"
+    },
+    "73": {
+      "input": "rejection",
+      "output": "r"
+    },
+    "74": {
+      "input": "vector",
+      "output": "v"
+    },
+    "75": {
+      "input": "bite",
+      "output": "b"
+    },
+    "76": {
+      "input": "fare",
+      "output": "f"
+    },
+    "77": {
+      "input": "groove",
+      "output": "g"
+    },
+    "78": {
+      "input": "clearance",
+      "output": "c"
+    },
+    "79": {
+      "input": "precision",
+      "output": "p"
+    },
+    "80": {
+      "input": "simplicity",
+      "output": "s"
+    },
+    "81": {
+      "input": "characterization",
+      "output": "c"
+    },
+    "82": {
+      "input": "glory",
+      "output": "g"
+    },
+    "83": {
+      "input": "leisure",
+      "output": "l"
+    },
+    "84": {
+      "input": "simpler",
+      "output": "s"
+    },
+    "85": {
+      "input": "prequel",
+      "output": "p"
+    },
+    "86": {
+      "input": "baseman",
+      "output": "b"
+    },
+    "87": {
+      "input": "geography",
+      "output": "g"
+    },
+    "88": {
+      "input": "flu",
+      "output": "f"
+    },
+    "89": {
+      "input": "symbolism",
+      "output": "s"
+    },
+    "90": {
+      "input": "distributor",
+      "output": "d"
+    },
+    "91": {
+      "input": "judgement",
+      "output": "j"
+    },
+    "92": {
+      "input": "conquer",
+      "output": "c"
+    },
+    "93": {
+      "input": "strand",
+      "output": "s"
+    },
+    "94": {
+      "input": "diversion",
+      "output": "d"
+    },
+    "95": {
+      "input": "gateway",
+      "output": "g"
+    },
+    "96": {
+      "input": "rhetoric",
+      "output": "r"
+    },
+    "97": {
+      "input": "phosphate",
+      "output": "p"
+    },
+    "98": {
+      "input": "cheating",
+      "output": "c"
+    },
+    "99": {
+      "input": "fumble",
+      "output": "f"
+    },
+    "100": {
+      "input": "promoter",
+      "output": "p"
+    }
+  }
+}

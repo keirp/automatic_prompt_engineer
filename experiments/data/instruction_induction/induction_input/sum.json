@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7 84\nOutput: 91\n\nInput: 52 71\nOutput: 123\n\nInput: 8 64\nOutput: 72\n\nInput: 76 99\nOutput: 175\n\nInput: 22 81\nOutput: 103\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7 84\nOutput: 91\n\nInput: 52 71\nOutput: 123\n\nInput: 8 64\nOutput: 72\n\nInput: 76 99\nOutput: 175\n\nInput: 22 81\nOutput: 103"
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 0 54\nOutput: 54\n\nInput: 67 84\nOutput: 151\n\nInput: 7 66\nOutput: 73\n\nInput: 55 85\nOutput: 140\n\nInput: 29 48\nOutput: 77\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 0 54\nOutput: 54\n\nInput: 67 84\nOutput: 151\n\nInput: 7 66\nOutput: 73\n\nInput: 55 85\nOutput: 140\n\nInput: 29 48\nOutput: 77"
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 13 41\nOutput: 54\n\nInput: 29 42\nOutput: 71\n\nInput: 76 76\nOutput: 152\n\nInput: 19 90\nOutput: 109\n\nInput: 37 44\nOutput: 81\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 13 41\nOutput: 54\n\nInput: 29 42\nOutput: 71\n\nInput: 76 76\nOutput: 152\n\nInput: 19 90\nOutput: 109\n\nInput: 37 44\nOutput: 81"
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 29 29\nOutput: 58\n\nInput: 20 68\nOutput: 88\n\nInput: 43 51\nOutput: 94\n\nInput: 37 49\nOutput: 86\n\nInput: 5 8\nOutput: 13\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 29 29\nOutput: 58\n\nInput: 20 68\nOutput: 88\n\nInput: 43 51\nOutput: 94\n\nInput: 37 49\nOutput: 86\n\nInput: 5 8\nOutput: 13"
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 12 99\nOutput: 111\n\nInput: 29 33\nOutput: 62\n\nInput: 2 50\nOutput: 52\n\nInput: 29 55\nOutput: 84\n\nInput: 33 83\nOutput: 116\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 12 99\nOutput: 111\n\nInput: 29 33\nOutput: 62\n\nInput: 2 50\nOutput: 52\n\nInput: 29 55\nOutput: 84\n\nInput: 33 83\nOutput: 116"
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 26 69\nOutput: 95\n\nInput: 74 83\nOutput: 157\n\nInput: 92 97\nOutput: 189\n\nInput: 34 69\nOutput: 103\n\nInput: 24 75\nOutput: 99\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 26 69\nOutput: 95\n\nInput: 74 83\nOutput: 157\n\nInput: 92 97\nOutput: 189\n\nInput: 34 69\nOutput: 103\n\nInput: 24 75\nOutput: 99"
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 61 92\nOutput: 153\n\nInput: 34 42\nOutput: 76\n\nInput: 10 58\nOutput: 68\n\nInput: 25 44\nOutput: 69\n\nInput: 7 94\nOutput: 101\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 61 92\nOutput: 153\n\nInput: 34 42\nOutput: 76\n\nInput: 10 58\nOutput: 68\n\nInput: 25 44\nOutput: 69\n\nInput: 7 94\nOutput: 101"
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2 18\nOutput: 20\n\nInput: 28 84\nOutput: 112\n\nInput: 3 51\nOutput: 54\n\nInput: 10 72\nOutput: 82\n\nInput: 13 86\nOutput: 99\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2 18\nOutput: 20\n\nInput: 28 84\nOutput: 112\n\nInput: 3 51\nOutput: 54\n\nInput: 10 72\nOutput: 82\n\nInput: 13 86\nOutput: 99"
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 54 84\nOutput: 138\n\nInput: 26 71\nOutput: 97\n\nInput: 1 36\nOutput: 37\n\nInput: 29 51\nOutput: 80\n\nInput: 53 91\nOutput: 144\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 54 84\nOutput: 138\n\nInput: 26 71\nOutput: 97\n\nInput: 1 36\nOutput: 37\n\nInput: 29 51\nOutput: 80\n\nInput: 53 91\nOutput: 144"
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 44 72\nOutput: 116\n\nInput: 11 98\nOutput: 109\n\nInput: 17 32\nOutput: 49\n\nInput: 50 62\nOutput: 112\n\nInput: 50 58\nOutput: 108\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 44 72\nOutput: 116\n\nInput: 11 98\nOutput: 109\n\nInput: 17 32\nOutput: 49\n\nInput: 50 62\nOutput: 112\n\nInput: 50 58\nOutput: 108"
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 65 96\nOutput: 161\n\nInput: 52 65\nOutput: 117\n\nInput: 35 91\nOutput: 126\n\nInput: 29 34\nOutput: 63\n\nInput: 19 43\nOutput: 62\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 65 96\nOutput: 161\n\nInput: 52 65\nOutput: 117\n\nInput: 35 91\nOutput: 126\n\nInput: 29 34\nOutput: 63\n\nInput: 19 43\nOutput: 62"
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 18 29\nOutput: 47\n\nInput: 43 93\nOutput: 136\n\nInput: 38 91\nOutput: 129\n\nInput: 84 99\nOutput: 183\n\nInput: 22 30\nOutput: 52\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 18 29\nOutput: 47\n\nInput: 43 93\nOutput: 136\n\nInput: 38 91\nOutput: 129\n\nInput: 84 99\nOutput: 183\n\nInput: 22 30\nOutput: 52"
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 33 45\nOutput: 78\n\nInput: 12 98\nOutput: 110\n\nInput: 46 90\nOutput: 136\n\nInput: 56 77\nOutput: 133\n\nInput: 14 59\nOutput: 73\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 33 45\nOutput: 78\n\nInput: 12 98\nOutput: 110\n\nInput: 46 90\nOutput: 136\n\nInput: 56 77\nOutput: 133\n\nInput: 14 59\nOutput: 73"
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 18 19\nOutput: 37\n\nInput: 11 54\nOutput: 65\n\nInput: 37 66\nOutput: 103\n\nInput: 26 61\nOutput: 87\n\nInput: 16 50\nOutput: 66\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 18 19\nOutput: 37\n\nInput: 11 54\nOutput: 65\n\nInput: 37 66\nOutput: 103\n\nInput: 26 61\nOutput: 87\n\nInput: 16 50\nOutput: 66"
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 52 68\nOutput: 120\n\nInput: 61 96\nOutput: 157\n\nInput: 14 95\nOutput: 109\n\nInput: 12 96\nOutput: 108\n\nInput: 26 58\nOutput: 84\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 52 68\nOutput: 120\n\nInput: 61 96\nOutput: 157\n\nInput: 14 95\nOutput: 109\n\nInput: 12 96\nOutput: 108\n\nInput: 26 58\nOutput: 84"
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 63 88\nOutput: 151\n\nInput: 14 94\nOutput: 108\n\nInput: 9 22\nOutput: 31\n\nInput: 69 89\nOutput: 158\n\nInput: 65 66\nOutput: 131\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 63 88\nOutput: 151\n\nInput: 14 94\nOutput: 108\n\nInput: 9 22\nOutput: 31\n\nInput: 69 89\nOutput: 158\n\nInput: 65 66\nOutput: 131"
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 31 51\nOutput: 82\n\nInput: 25 25\nOutput: 50\n\nInput: 19 93\nOutput: 112\n\nInput: 82 95\nOutput: 177\n\nInput: 26 69\nOutput: 95\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 31 51\nOutput: 82\n\nInput: 25 25\nOutput: 50\n\nInput: 19 93\nOutput: 112\n\nInput: 82 95\nOutput: 177\n\nInput: 26 69\nOutput: 95"
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 11 68\nOutput: 79\n\nInput: 15 65\nOutput: 80\n\nInput: 10 30\nOutput: 40\n\nInput: 2 59\nOutput: 61\n\nInput: 8 76\nOutput: 84\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 11 68\nOutput: 79\n\nInput: 15 65\nOutput: 80\n\nInput: 10 30\nOutput: 40\n\nInput: 2 59\nOutput: 61\n\nInput: 8 76\nOutput: 84"
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 38 72\nOutput: 110\n\nInput: 8 50\nOutput: 58\n\nInput: 55 91\nOutput: 146\n\nInput: 18 91\nOutput: 109\n\nInput: 18 45\nOutput: 63\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 38 72\nOutput: 110\n\nInput: 8 50\nOutput: 58\n\nInput: 55 91\nOutput: 146\n\nInput: 18 91\nOutput: 109\n\nInput: 18 45\nOutput: 63"
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 55 72\nOutput: 127\n\nInput: 32 51\nOutput: 83\n\nInput: 12 25\nOutput: 37\n\nInput: 2 30\nOutput: 32\n\nInput: 40 85\nOutput: 125\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 55 72\nOutput: 127\n\nInput: 32 51\nOutput: 83\n\nInput: 12 25\nOutput: 37\n\nInput: 2 30\nOutput: 32\n\nInput: 40 85\nOutput: 125"
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 27 30\nOutput: 57\n\nInput: 19 23\nOutput: 42\n\nInput: 65 76\nOutput: 141\n\nInput: 25 68\nOutput: 93\n\nInput: 37 97\nOutput: 134\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 27 30\nOutput: 57\n\nInput: 19 23\nOutput: 42\n\nInput: 65 76\nOutput: 141\n\nInput: 25 68\nOutput: 93\n\nInput: 37 97\nOutput: 134"
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 32 47\nOutput: 79\n\nInput: 74 90\nOutput: 164\n\nInput: 57 57\nOutput: 114\n\nInput: 23 49\nOutput: 72\n\nInput: 19 80\nOutput: 99\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 32 47\nOutput: 79\n\nInput: 74 90\nOutput: 164\n\nInput: 57 57\nOutput: 114\n\nInput: 23 49\nOutput: 72\n\nInput: 19 80\nOutput: 99"
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 44 65\nOutput: 109\n\nInput: 46 73\nOutput: 119\n\nInput: 28 41\nOutput: 69\n\nInput: 76 97\nOutput: 173\n\nInput: 15 99\nOutput: 114\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 44 65\nOutput: 109\n\nInput: 46 73\nOutput: 119\n\nInput: 28 41\nOutput: 69\n\nInput: 76 97\nOutput: 173\n\nInput: 15 99\nOutput: 114"
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3 59\nOutput: 62\n\nInput: 33 48\nOutput: 81\n\nInput: 16 87\nOutput: 103\n\nInput: 53 81\nOutput: 134\n\nInput: 52 80\nOutput: 132\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3 59\nOutput: 62\n\nInput: 33 48\nOutput: 81\n\nInput: 16 87\nOutput: 103\n\nInput: 53 81\nOutput: 134\n\nInput: 52 80\nOutput: 132"
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 0 41\nOutput: 41\n\nInput: 58 72\nOutput: 130\n\nInput: 4 73\nOutput: 77\n\nInput: 39 93\nOutput: 132\n\nInput: 33 95\nOutput: 128\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 0 41\nOutput: 41\n\nInput: 58 72\nOutput: 130\n\nInput: 4 73\nOutput: 77\n\nInput: 39 93\nOutput: 132\n\nInput: 33 95\nOutput: 128"
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 11 18\nOutput: 29\n\nInput: 20 28\nOutput: 48\n\nInput: 68 73\nOutput: 141\n\nInput: 45 53\nOutput: 98\n\nInput: 10 53\nOutput: 63\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 11 18\nOutput: 29\n\nInput: 20 28\nOutput: 48\n\nInput: 68 73\nOutput: 141\n\nInput: 45 53\nOutput: 98\n\nInput: 10 53\nOutput: 63"
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 18 18\nOutput: 36\n\nInput: 91 97\nOutput: 188\n\nInput: 41 64\nOutput: 105\n\nInput: 43 77\nOutput: 120\n\nInput: 27 53\nOutput: 80\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 18 18\nOutput: 36\n\nInput: 91 97\nOutput: 188\n\nInput: 41 64\nOutput: 105\n\nInput: 43 77\nOutput: 120\n\nInput: 27 53\nOutput: 80"
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 35 68\nOutput: 103\n\nInput: 1 67\nOutput: 68\n\nInput: 59 86\nOutput: 145\n\nInput: 55 85\nOutput: 140\n\nInput: 79 87\nOutput: 166\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 35 68\nOutput: 103\n\nInput: 1 67\nOutput: 68\n\nInput: 59 86\nOutput: 145\n\nInput: 55 85\nOutput: 140\n\nInput: 79 87\nOutput: 166"
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 65 96\nOutput: 161\n\nInput: 20 26\nOutput: 46\n\nInput: 84 95\nOutput: 179\n\nInput: 25 56\nOutput: 81\n\nInput: 56 68\nOutput: 124\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 65 96\nOutput: 161\n\nInput: 20 26\nOutput: 46\n\nInput: 84 95\nOutput: 179\n\nInput: 25 56\nOutput: 81\n\nInput: 56 68\nOutput: 124"
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 37 77\nOutput: 114\n\nInput: 22 40\nOutput: 62\n\nInput: 22 22\nOutput: 44\n\nInput: 9 65\nOutput: 74\n\nInput: 11 47\nOutput: 58\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 37 77\nOutput: 114\n\nInput: 22 40\nOutput: 62\n\nInput: 22 22\nOutput: 44\n\nInput: 9 65\nOutput: 74\n\nInput: 11 47\nOutput: 58"
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 60 63\nOutput: 123\n\nInput: 8 46\nOutput: 54\n\nInput: 1 49\nOutput: 50\n\nInput: 40 42\nOutput: 82\n\nInput: 6 80\nOutput: 86\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 60 63\nOutput: 123\n\nInput: 8 46\nOutput: 54\n\nInput: 1 49\nOutput: 50\n\nInput: 40 42\nOutput: 82\n\nInput: 6 80\nOutput: 86"
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 23 26\nOutput: 49\n\nInput: 2 17\nOutput: 19\n\nInput: 44 94\nOutput: 138\n\nInput: 2 70\nOutput: 72\n\nInput: 40 41\nOutput: 81\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 23 26\nOutput: 49\n\nInput: 2 17\nOutput: 19\n\nInput: 44 94\nOutput: 138\n\nInput: 2 70\nOutput: 72\n\nInput: 40 41\nOutput: 81"
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 38 75\nOutput: 113\n\nInput: 6 82\nOutput: 88\n\nInput: 30 55\nOutput: 85\n\nInput: 59 74\nOutput: 133\n\nInput: 6 32\nOutput: 38\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 38 75\nOutput: 113\n\nInput: 6 82\nOutput: 88\n\nInput: 30 55\nOutput: 85\n\nInput: 59 74\nOutput: 133\n\nInput: 6 32\nOutput: 38"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 57 72\nOutput: 129\n\nInput: 1 38\nOutput: 39\n\nInput: 3 75\nOutput: 78\n\nInput: 42 44\nOutput: 86\n\nInput: 74 82\nOutput: 156\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 57 72\nOutput: 129\n\nInput: 1 38\nOutput: 39\n\nInput: 3 75\nOutput: 78\n\nInput: 42 44\nOutput: 86\n\nInput: 74 82\nOutput: 156"
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 71 82\nOutput: 153\n\nInput: 2 97\nOutput: 99\n\nInput: 2 6\nOutput: 8\n\nInput: 15 19\nOutput: 34\n\nInput: 47 97\nOutput: 144\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 71 82\nOutput: 153\n\nInput: 2 97\nOutput: 99\n\nInput: 2 6\nOutput: 8\n\nInput: 15 19\nOutput: 34\n\nInput: 47 97\nOutput: 144"
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 13 79\nOutput: 92\n\nInput: 36 36\nOutput: 72\n\nInput: 3 89\nOutput: 92\n\nInput: 12 50\nOutput: 62\n\nInput: 23 23\nOutput: 46\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 13 79\nOutput: 92\n\nInput: 36 36\nOutput: 72\n\nInput: 3 89\nOutput: 92\n\nInput: 12 50\nOutput: 62\n\nInput: 23 23\nOutput: 46"
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 33 44\nOutput: 77\n\nInput: 58 91\nOutput: 149\n\nInput: 54 94\nOutput: 148\n\nInput: 38 71\nOutput: 109\n\nInput: 19 96\nOutput: 115\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 33 44\nOutput: 77\n\nInput: 58 91\nOutput: 149\n\nInput: 54 94\nOutput: 148\n\nInput: 38 71\nOutput: 109\n\nInput: 19 96\nOutput: 115"
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 16 54\nOutput: 70\n\nInput: 88 89\nOutput: 177\n\nInput: 12 29\nOutput: 41\n\nInput: 25 73\nOutput: 98\n\nInput: 9 12\nOutput: 21\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 16 54\nOutput: 70\n\nInput: 88 89\nOutput: 177\n\nInput: 12 29\nOutput: 41\n\nInput: 25 73\nOutput: 98\n\nInput: 9 12\nOutput: 21"
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 1 13\nOutput: 14\n\nInput: 31 32\nOutput: 63\n\nInput: 52 67\nOutput: 119\n\nInput: 53 57\nOutput: 110\n\nInput: 8 63\nOutput: 71\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 1 13\nOutput: 14\n\nInput: 31 32\nOutput: 63\n\nInput: 52 67\nOutput: 119\n\nInput: 53 57\nOutput: 110\n\nInput: 8 63\nOutput: 71"
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 35 79\nOutput: 114\n\nInput: 22 97\nOutput: 119\n\nInput: 3 96\nOutput: 99\n\nInput: 13 53\nOutput: 66\n\nInput: 38 70\nOutput: 108\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 35 79\nOutput: 114\n\nInput: 22 97\nOutput: 119\n\nInput: 3 96\nOutput: 99\n\nInput: 13 53\nOutput: 66\n\nInput: 38 70\nOutput: 108"
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 62 86\nOutput: 148\n\nInput: 17 76\nOutput: 93\n\nInput: 24 45\nOutput: 69\n\nInput: 3 9\nOutput: 12\n\nInput: 27 96\nOutput: 123\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 62 86\nOutput: 148\n\nInput: 17 76\nOutput: 93\n\nInput: 24 45\nOutput: 69\n\nInput: 3 9\nOutput: 12\n\nInput: 27 96\nOutput: 123"
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 37 81\nOutput: 118\n\nInput: 0 85\nOutput: 85\n\nInput: 34 59\nOutput: 93\n\nInput: 13 36\nOutput: 49\n\nInput: 58 79\nOutput: 137\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 37 81\nOutput: 118\n\nInput: 0 85\nOutput: 85\n\nInput: 34 59\nOutput: 93\n\nInput: 13 36\nOutput: 49\n\nInput: 58 79\nOutput: 137"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 12 47\nOutput: 59\n\nInput: 17 44\nOutput: 61\n\nInput: 82 94\nOutput: 176\n\nInput: 48 55\nOutput: 103\n\nInput: 2 65\nOutput: 67\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 12 47\nOutput: 59\n\nInput: 17 44\nOutput: 61\n\nInput: 82 94\nOutput: 176\n\nInput: 48 55\nOutput: 103\n\nInput: 2 65\nOutput: 67"
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 28 32\nOutput: 60\n\nInput: 36 46\nOutput: 82\n\nInput: 33 89\nOutput: 122\n\nInput: 48 83\nOutput: 131\n\nInput: 36 63\nOutput: 99\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 28 32\nOutput: 60\n\nInput: 36 46\nOutput: 82\n\nInput: 33 89\nOutput: 122\n\nInput: 48 83\nOutput: 131\n\nInput: 36 63\nOutput: 99"
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 23 74\nOutput: 97\n\nInput: 10 23\nOutput: 33\n\nInput: 5 66\nOutput: 71\n\nInput: 11 64\nOutput: 75\n\nInput: 35 54\nOutput: 89\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 23 74\nOutput: 97\n\nInput: 10 23\nOutput: 33\n\nInput: 5 66\nOutput: 71\n\nInput: 11 64\nOutput: 75\n\nInput: 35 54\nOutput: 89"
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 60 75\nOutput: 135\n\nInput: 67 85\nOutput: 152\n\nInput: 11 58\nOutput: 69\n\nInput: 26 91\nOutput: 117\n\nInput: 71 80\nOutput: 151\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 60 75\nOutput: 135\n\nInput: 67 85\nOutput: 152\n\nInput: 11 58\nOutput: 69\n\nInput: 26 91\nOutput: 117\n\nInput: 71 80\nOutput: 151"
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 70 83\nOutput: 153\n\nInput: 1 36\nOutput: 37\n\nInput: 57 89\nOutput: 146\n\nInput: 26 59\nOutput: 85\n\nInput: 72 82\nOutput: 154\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 70 83\nOutput: 153\n\nInput: 1 36\nOutput: 37\n\nInput: 57 89\nOutput: 146\n\nInput: 26 59\nOutput: 85\n\nInput: 72 82\nOutput: 154"
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 71 93\nOutput: 164\n\nInput: 47 86\nOutput: 133\n\nInput: 61 89\nOutput: 150\n\nInput: 84 96\nOutput: 180\n\nInput: 17 65\nOutput: 82\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 71 93\nOutput: 164\n\nInput: 47 86\nOutput: 133\n\nInput: 61 89\nOutput: 150\n\nInput: 84 96\nOutput: 180\n\nInput: 17 65\nOutput: 82"
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 59 90\nOutput: 149\n\nInput: 11 61\nOutput: 72\n\nInput: 64 80\nOutput: 144\n\nInput: 14 25\nOutput: 39\n\nInput: 53 56\nOutput: 109\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 59 90\nOutput: 149\n\nInput: 11 61\nOutput: 72\n\nInput: 64 80\nOutput: 144\n\nInput: 14 25\nOutput: 39\n\nInput: 53 56\nOutput: 109"
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 14 42\nOutput: 56\n\nInput: 11 22\nOutput: 33\n\nInput: 0 72\nOutput: 72\n\nInput: 5 26\nOutput: 31\n\nInput: 40 87\nOutput: 127\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 14 42\nOutput: 56\n\nInput: 11 22\nOutput: 33\n\nInput: 0 72\nOutput: 72\n\nInput: 5 26\nOutput: 31\n\nInput: 40 87\nOutput: 127"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3 19\nOutput: 22\n\nInput: 85 94\nOutput: 179\n\nInput: 42 89\nOutput: 131\n\nInput: 74 93\nOutput: 167\n\nInput: 21 80\nOutput: 101\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3 19\nOutput: 22\n\nInput: 85 94\nOutput: 179\n\nInput: 42 89\nOutput: 131\n\nInput: 74 93\nOutput: 167\n\nInput: 21 80\nOutput: 101"
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 27 98\nOutput: 125\n\nInput: 54 75\nOutput: 129\n\nInput: 72 95\nOutput: 167\n\nInput: 34 74\nOutput: 108\n\nInput: 6 91\nOutput: 97\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 27 98\nOutput: 125\n\nInput: 54 75\nOutput: 129\n\nInput: 72 95\nOutput: 167\n\nInput: 34 74\nOutput: 108\n\nInput: 6 91\nOutput: 97"
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 82 85\nOutput: 167\n\nInput: 4 52\nOutput: 56\n\nInput: 40 88\nOutput: 128\n\nInput: 36 41\nOutput: 77\n\nInput: 9 37\nOutput: 46\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 82 85\nOutput: 167\n\nInput: 4 52\nOutput: 56\n\nInput: 40 88\nOutput: 128\n\nInput: 36 41\nOutput: 77\n\nInput: 9 37\nOutput: 46"
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 86 93\nOutput: 179\n\nInput: 44 44\nOutput: 88\n\nInput: 8 17\nOutput: 25\n\nInput: 40 90\nOutput: 130\n\nInput: 44 69\nOutput: 113\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 86 93\nOutput: 179\n\nInput: 44 44\nOutput: 88\n\nInput: 8 17\nOutput: 25\n\nInput: 40 90\nOutput: 130\n\nInput: 44 69\nOutput: 113"
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 39 84\nOutput: 123\n\nInput: 31 63\nOutput: 94\n\nInput: 55 72\nOutput: 127\n\nInput: 11 90\nOutput: 101\n\nInput: 24 92\nOutput: 116\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 39 84\nOutput: 123\n\nInput: 31 63\nOutput: 94\n\nInput: 55 72\nOutput: 127\n\nInput: 11 90\nOutput: 101\n\nInput: 24 92\nOutput: 116"
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 13 61\nOutput: 74\n\nInput: 32 92\nOutput: 124\n\nInput: 0 48\nOutput: 48\n\nInput: 65 98\nOutput: 163\n\nInput: 85 90\nOutput: 175\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 13 61\nOutput: 74\n\nInput: 32 92\nOutput: 124\n\nInput: 0 48\nOutput: 48\n\nInput: 65 98\nOutput: 163\n\nInput: 85 90\nOutput: 175"
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7 87\nOutput: 94\n\nInput: 65 79\nOutput: 144\n\nInput: 53 85\nOutput: 138\n\nInput: 54 88\nOutput: 142\n\nInput: 6 46\nOutput: 52\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7 87\nOutput: 94\n\nInput: 65 79\nOutput: 144\n\nInput: 53 85\nOutput: 138\n\nInput: 54 88\nOutput: 142\n\nInput: 6 46\nOutput: 52"
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 74 90\nOutput: 164\n\nInput: 16 18\nOutput: 34\n\nInput: 5 21\nOutput: 26\n\nInput: 12 24\nOutput: 36\n\nInput: 9 10\nOutput: 19\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 74 90\nOutput: 164\n\nInput: 16 18\nOutput: 34\n\nInput: 5 21\nOutput: 26\n\nInput: 12 24\nOutput: 36\n\nInput: 9 10\nOutput: 19"
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 20 91\nOutput: 111\n\nInput: 25 97\nOutput: 122\n\nInput: 19 55\nOutput: 74\n\nInput: 11 13\nOutput: 24\n\nInput: 67 98\nOutput: 165\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 20 91\nOutput: 111\n\nInput: 25 97\nOutput: 122\n\nInput: 19 55\nOutput: 74\n\nInput: 11 13\nOutput: 24\n\nInput: 67 98\nOutput: 165"
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7 82\nOutput: 89\n\nInput: 31 96\nOutput: 127\n\nInput: 15 23\nOutput: 38\n\nInput: 40 41\nOutput: 81\n\nInput: 10 46\nOutput: 56\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7 82\nOutput: 89\n\nInput: 31 96\nOutput: 127\n\nInput: 15 23\nOutput: 38\n\nInput: 40 41\nOutput: 81\n\nInput: 10 46\nOutput: 56"
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 80 80\nOutput: 160\n\nInput: 84 90\nOutput: 174\n\nInput: 25 37\nOutput: 62\n\nInput: 28 96\nOutput: 124\n\nInput: 61 77\nOutput: 138\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 80 80\nOutput: 160\n\nInput: 84 90\nOutput: 174\n\nInput: 25 37\nOutput: 62\n\nInput: 28 96\nOutput: 124\n\nInput: 61 77\nOutput: 138"
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 12 48\nOutput: 60\n\nInput: 6 74\nOutput: 80\n\nInput: 64 99\nOutput: 163\n\nInput: 7 41\nOutput: 48\n\nInput: 20 47\nOutput: 67\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 12 48\nOutput: 60\n\nInput: 6 74\nOutput: 80\n\nInput: 64 99\nOutput: 163\n\nInput: 7 41\nOutput: 48\n\nInput: 20 47\nOutput: 67"
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 31 59\nOutput: 90\n\nInput: 17 56\nOutput: 73\n\nInput: 9 40\nOutput: 49\n\nInput: 46 84\nOutput: 130\n\nInput: 2 11\nOutput: 13\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 31 59\nOutput: 90\n\nInput: 17 56\nOutput: 73\n\nInput: 9 40\nOutput: 49\n\nInput: 46 84\nOutput: 130\n\nInput: 2 11\nOutput: 13"
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 37 37\nOutput: 74\n\nInput: 16 67\nOutput: 83\n\nInput: 32 57\nOutput: 89\n\nInput: 32 82\nOutput: 114\n\nInput: 30 95\nOutput: 125\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 37 37\nOutput: 74\n\nInput: 16 67\nOutput: 83\n\nInput: 32 57\nOutput: 89\n\nInput: 32 82\nOutput: 114\n\nInput: 30 95\nOutput: 125"
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 34 56\nOutput: 90\n\nInput: 79 87\nOutput: 166\n\nInput: 59 63\nOutput: 122\n\nInput: 25 80\nOutput: 105\n\nInput: 11 58\nOutput: 69\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 34 56\nOutput: 90\n\nInput: 79 87\nOutput: 166\n\nInput: 59 63\nOutput: 122\n\nInput: 25 80\nOutput: 105\n\nInput: 11 58\nOutput: 69"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 83 94\nOutput: 177\n\nInput: 6 7\nOutput: 13\n\nInput: 12 47\nOutput: 59\n\nInput: 75 97\nOutput: 172\n\nInput: 11 21\nOutput: 32\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 83 94\nOutput: 177\n\nInput: 6 7\nOutput: 13\n\nInput: 12 47\nOutput: 59\n\nInput: 75 97\nOutput: 172\n\nInput: 11 21\nOutput: 32"
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9 20\nOutput: 29\n\nInput: 47 98\nOutput: 145\n\nInput: 24 43\nOutput: 67\n\nInput: 21 29\nOutput: 50\n\nInput: 11 44\nOutput: 55\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9 20\nOutput: 29\n\nInput: 47 98\nOutput: 145\n\nInput: 24 43\nOutput: 67\n\nInput: 21 29\nOutput: 50\n\nInput: 11 44\nOutput: 55"
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 24 43\nOutput: 67\n\nInput: 27 54\nOutput: 81\n\nInput: 8 98\nOutput: 106\n\nInput: 40 98\nOutput: 138\n\nInput: 80 94\nOutput: 174\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 24 43\nOutput: 67\n\nInput: 27 54\nOutput: 81\n\nInput: 8 98\nOutput: 106\n\nInput: 40 98\nOutput: 138\n\nInput: 80 94\nOutput: 174"
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 29 60\nOutput: 89\n\nInput: 21 63\nOutput: 84\n\nInput: 3 96\nOutput: 99\n\nInput: 19 21\nOutput: 40\n\nInput: 41 41\nOutput: 82\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 29 60\nOutput: 89\n\nInput: 21 63\nOutput: 84\n\nInput: 3 96\nOutput: 99\n\nInput: 19 21\nOutput: 40\n\nInput: 41 41\nOutput: 82"
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 13 77\nOutput: 90\n\nInput: 69 76\nOutput: 145\n\nInput: 60 73\nOutput: 133\n\nInput: 52 68\nOutput: 120\n\nInput: 9 83\nOutput: 92\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 13 77\nOutput: 90\n\nInput: 69 76\nOutput: 145\n\nInput: 60 73\nOutput: 133\n\nInput: 52 68\nOutput: 120\n\nInput: 9 83\nOutput: 92"
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 80 94\nOutput: 174\n\nInput: 45 92\nOutput: 137\n\nInput: 7 47\nOutput: 54\n\nInput: 1 53\nOutput: 54\n\nInput: 77 79\nOutput: 156\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 80 94\nOutput: 174\n\nInput: 45 92\nOutput: 137\n\nInput: 7 47\nOutput: 54\n\nInput: 1 53\nOutput: 54\n\nInput: 77 79\nOutput: 156"
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 12 18\nOutput: 30\n\nInput: 65 66\nOutput: 131\n\nInput: 39 69\nOutput: 108\n\nInput: 89 90\nOutput: 179\n\nInput: 28 34\nOutput: 62\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 12 18\nOutput: 30\n\nInput: 65 66\nOutput: 131\n\nInput: 39 69\nOutput: 108\n\nInput: 89 90\nOutput: 179\n\nInput: 28 34\nOutput: 62"
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 23 23\nOutput: 46\n\nInput: 65 82\nOutput: 147\n\nInput: 79 94\nOutput: 173\n\nInput: 31 90\nOutput: 121\n\nInput: 37 49\nOutput: 86\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 23 23\nOutput: 46\n\nInput: 65 82\nOutput: 147\n\nInput: 79 94\nOutput: 173\n\nInput: 31 90\nOutput: 121\n\nInput: 37 49\nOutput: 86"
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 46 83\nOutput: 129\n\nInput: 45 97\nOutput: 142\n\nInput: 0 45\nOutput: 45\n\nInput: 67 82\nOutput: 149\n\nInput: 48 54\nOutput: 102\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 46 83\nOutput: 129\n\nInput: 45 97\nOutput: 142\n\nInput: 0 45\nOutput: 45\n\nInput: 67 82\nOutput: 149\n\nInput: 48 54\nOutput: 102"
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 12 41\nOutput: 53\n\nInput: 0 46\nOutput: 46\n\nInput: 20 24\nOutput: 44\n\nInput: 39 45\nOutput: 84\n\nInput: 40 78\nOutput: 118\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 12 41\nOutput: 53\n\nInput: 0 46\nOutput: 46\n\nInput: 20 24\nOutput: 44\n\nInput: 39 45\nOutput: 84\n\nInput: 40 78\nOutput: 118"
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 1 64\nOutput: 65\n\nInput: 40 50\nOutput: 90\n\nInput: 69 81\nOutput: 150\n\nInput: 34 53\nOutput: 87\n\nInput: 69 79\nOutput: 148\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 1 64\nOutput: 65\n\nInput: 40 50\nOutput: 90\n\nInput: 69 81\nOutput: 150\n\nInput: 34 53\nOutput: 87\n\nInput: 69 79\nOutput: 148"
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 18 24\nOutput: 42\n\nInput: 13 83\nOutput: 96\n\nInput: 39 84\nOutput: 123\n\nInput: 1 63\nOutput: 64\n\nInput: 44 53\nOutput: 97\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 18 24\nOutput: 42\n\nInput: 13 83\nOutput: 96\n\nInput: 39 84\nOutput: 123\n\nInput: 1 63\nOutput: 64\n\nInput: 44 53\nOutput: 97"
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 17 33\nOutput: 50\n\nInput: 18 71\nOutput: 89\n\nInput: 77 78\nOutput: 155\n\nInput: 43 48\nOutput: 91\n\nInput: 64 88\nOutput: 152\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 17 33\nOutput: 50\n\nInput: 18 71\nOutput: 89\n\nInput: 77 78\nOutput: 155\n\nInput: 43 48\nOutput: 91\n\nInput: 64 88\nOutput: 152"
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 11 11\nOutput: 22\n\nInput: 67 69\nOutput: 136\n\nInput: 12 17\nOutput: 29\n\nInput: 50 89\nOutput: 139\n\nInput: 23 77\nOutput: 100\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 11 11\nOutput: 22\n\nInput: 67 69\nOutput: 136\n\nInput: 12 17\nOutput: 29\n\nInput: 50 89\nOutput: 139\n\nInput: 23 77\nOutput: 100"
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 45 76\nOutput: 121\n\nInput: 36 66\nOutput: 102\n\nInput: 9 85\nOutput: 94\n\nInput: 0 26\nOutput: 26\n\nInput: 23 69\nOutput: 92\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 45 76\nOutput: 121\n\nInput: 36 66\nOutput: 102\n\nInput: 9 85\nOutput: 94\n\nInput: 0 26\nOutput: 26\n\nInput: 23 69\nOutput: 92"
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 36 58\nOutput: 94\n\nInput: 6 6\nOutput: 12\n\nInput: 36 45\nOutput: 81\n\nInput: 85 85\nOutput: 170\n\nInput: 46 69\nOutput: 115\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 36 58\nOutput: 94\n\nInput: 6 6\nOutput: 12\n\nInput: 36 45\nOutput: 81\n\nInput: 85 85\nOutput: 170\n\nInput: 46 69\nOutput: 115"
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 69 95\nOutput: 164\n\nInput: 30 36\nOutput: 66\n\nInput: 4 43\nOutput: 47\n\nInput: 6 70\nOutput: 76\n\nInput: 50 70\nOutput: 120\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 69 95\nOutput: 164\n\nInput: 30 36\nOutput: 66\n\nInput: 4 43\nOutput: 47\n\nInput: 6 70\nOutput: 76\n\nInput: 50 70\nOutput: 120"
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 11 97\nOutput: 108\n\nInput: 52 96\nOutput: 148\n\nInput: 16 58\nOutput: 74\n\nInput: 5 32\nOutput: 37\n\nInput: 67 93\nOutput: 160\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 11 97\nOutput: 108\n\nInput: 52 96\nOutput: 148\n\nInput: 16 58\nOutput: 74\n\nInput: 5 32\nOutput: 37\n\nInput: 67 93\nOutput: 160"
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 32 77\nOutput: 109\n\nInput: 20 28\nOutput: 48\n\nInput: 43 64\nOutput: 107\n\nInput: 21 67\nOutput: 88\n\nInput: 30 31\nOutput: 61\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 32 77\nOutput: 109\n\nInput: 20 28\nOutput: 48\n\nInput: 43 64\nOutput: 107\n\nInput: 21 67\nOutput: 88\n\nInput: 30 31\nOutput: 61"
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 17 34\nOutput: 51\n\nInput: 60 96\nOutput: 156\n\nInput: 54 57\nOutput: 111\n\nInput: 66 92\nOutput: 158\n\nInput: 59 96\nOutput: 155\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 17 34\nOutput: 51\n\nInput: 60 96\nOutput: 156\n\nInput: 54 57\nOutput: 111\n\nInput: 66 92\nOutput: 158\n\nInput: 59 96\nOutput: 155"
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 22 54\nOutput: 76\n\nInput: 28 52\nOutput: 80\n\nInput: 49 51\nOutput: 100\n\nInput: 62 95\nOutput: 157\n\nInput: 19 20\nOutput: 39\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 22 54\nOutput: 76\n\nInput: 28 52\nOutput: 80\n\nInput: 49 51\nOutput: 100\n\nInput: 62 95\nOutput: 157\n\nInput: 19 20\nOutput: 39"
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2 77\nOutput: 79\n\nInput: 32 57\nOutput: 89\n\nInput: 15 21\nOutput: 36\n\nInput: 1 41\nOutput: 42\n\nInput: 45 58\nOutput: 103\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2 77\nOutput: 79\n\nInput: 32 57\nOutput: 89\n\nInput: 15 21\nOutput: 36\n\nInput: 1 41\nOutput: 42\n\nInput: 45 58\nOutput: 103"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 50 93\nOutput: 143\n\nInput: 11 19\nOutput: 30\n\nInput: 45 62\nOutput: 107\n\nInput: 28 38\nOutput: 66\n\nInput: 16 19\nOutput: 35\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 50 93\nOutput: 143\n\nInput: 11 19\nOutput: 30\n\nInput: 45 62\nOutput: 107\n\nInput: 28 38\nOutput: 66\n\nInput: 16 19\nOutput: 35"
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 26 35\nOutput: 61\n\nInput: 68 86\nOutput: 154\n\nInput: 7 17\nOutput: 24\n\nInput: 57 75\nOutput: 132\n\nInput: 45 79\nOutput: 124\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 26 35\nOutput: 61\n\nInput: 68 86\nOutput: 154\n\nInput: 7 17\nOutput: 24\n\nInput: 57 75\nOutput: 132\n\nInput: 45 79\nOutput: 124"
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 22 76\nOutput: 98\n\nInput: 81 89\nOutput: 170\n\nInput: 46 72\nOutput: 118\n\nInput: 8 70\nOutput: 78\n\nInput: 42 79\nOutput: 121\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 22 76\nOutput: 98\n\nInput: 81 89\nOutput: 170\n\nInput: 46 72\nOutput: 118\n\nInput: 8 70\nOutput: 78\n\nInput: 42 79\nOutput: 121"
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 49 68\nOutput: 117\n\nInput: 69 97\nOutput: 166\n\nInput: 5 40\nOutput: 45\n\nInput: 9 97\nOutput: 106\n\nInput: 4 48\nOutput: 52\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 49 68\nOutput: 117\n\nInput: 69 97\nOutput: 166\n\nInput: 5 40\nOutput: 45\n\nInput: 9 97\nOutput: 106\n\nInput: 4 48\nOutput: 52"
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 88 94\nOutput: 182\n\nInput: 64 65\nOutput: 129\n\nInput: 18 66\nOutput: 84\n\nInput: 4 63\nOutput: 67\n\nInput: 39 88\nOutput: 127\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 88 94\nOutput: 182\n\nInput: 64 65\nOutput: 129\n\nInput: 18 66\nOutput: 84\n\nInput: 4 63\nOutput: 67\n\nInput: 39 88\nOutput: 127"
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 24 53\nOutput: 77\n\nInput: 0 66\nOutput: 66\n\nInput: 10 67\nOutput: 77\n\nInput: 72 78\nOutput: 150\n\nInput: 22 36\nOutput: 58\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 24 53\nOutput: 77\n\nInput: 0 66\nOutput: 66\n\nInput: 10 67\nOutput: 77\n\nInput: 72 78\nOutput: 150\n\nInput: 22 36\nOutput: 58"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 32 36\nOutput: 68\n\nInput: 4 42\nOutput: 46\n\nInput: 36 43\nOutput: 79\n\nInput: 66 97\nOutput: 163\n\nInput: 7 45\nOutput: 52\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 32 36\nOutput: 68\n\nInput: 4 42\nOutput: 46\n\nInput: 36 43\nOutput: 79\n\nInput: 66 97\nOutput: 163\n\nInput: 7 45\nOutput: 52"
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 21 65\nOutput: 86\n\nInput: 55 60\nOutput: 115\n\nInput: 41 46\nOutput: 87\n\nInput: 61 80\nOutput: 141\n\nInput: 5 47\nOutput: 52\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 21 65\nOutput: 86\n\nInput: 55 60\nOutput: 115\n\nInput: 41 46\nOutput: 87\n\nInput: 61 80\nOutput: 141\n\nInput: 5 47\nOutput: 52"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 19 27\nOutput: 46\n\nInput: 4 65\nOutput: 69\n\nInput: 20 34\nOutput: 54\n\nInput: 14 88\nOutput: 102\n\nInput: 32 43\nOutput: 75\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 19 27\nOutput: 46\n\nInput: 4 65\nOutput: 69\n\nInput: 20 34\nOutput: 54\n\nInput: 14 88\nOutput: 102\n\nInput: 32 43\nOutput: 75"
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 95 98\nOutput: 193\n\nInput: 9 78\nOutput: 87\n\nInput: 34 85\nOutput: 119\n\nInput: 39 69\nOutput: 108\n\nInput: 62 89\nOutput: 151\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 95 98\nOutput: 193\n\nInput: 9 78\nOutput: 87\n\nInput: 34 85\nOutput: 119\n\nInput: 39 69\nOutput: 108\n\nInput: 62 89\nOutput: 151"
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 40 55\nOutput: 95\n\nInput: 47 56\nOutput: 103\n\nInput: 23 38\nOutput: 61\n\nInput: 31 59\nOutput: 90\n\nInput: 60 74\nOutput: 134\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 40 55\nOutput: 95\n\nInput: 47 56\nOutput: 103\n\nInput: 23 38\nOutput: 61\n\nInput: 31 59\nOutput: 90\n\nInput: 60 74\nOutput: 134"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 15 58\nOutput: 73\n\nInput: 48 79\nOutput: 127\n\nInput: 34 84\nOutput: 118\n\nInput: 23 98\nOutput: 121\n\nInput: 44 79\nOutput: 123\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 15 58\nOutput: 73\n\nInput: 48 79\nOutput: 127\n\nInput: 34 84\nOutput: 118\n\nInput: 23 98\nOutput: 121\n\nInput: 44 79\nOutput: 123"
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 71 79\nOutput: 150\n\nInput: 69 86\nOutput: 155\n\nInput: 38 40\nOutput: 78\n\nInput: 10 58\nOutput: 68\n\nInput: 58 93\nOutput: 151\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 71 79\nOutput: 150\n\nInput: 69 86\nOutput: 155\n\nInput: 38 40\nOutput: 78\n\nInput: 10 58\nOutput: 68\n\nInput: 58 93\nOutput: 151"
+      }
+    }
+  }
+}

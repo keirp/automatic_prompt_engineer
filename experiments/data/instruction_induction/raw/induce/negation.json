@@ -1,0 +1,4527 @@
+{
+  "metadata": {
+    "num_examples": 904
+  },
+  "examples": {
+    "1": {
+      "input": "To emphasize the 50th anniversary of the Super Bowl the gold color was used.",
+      "output": "To emphasize the 50th anniversary of the Super Bowl the gold color was not used.",
+      "orig_id": "56be4db0acb8001400a502f0_0"
+    },
+    "2": {
+      "input": "Von Miller plays in linebacker position for the Denver Broncos.",
+      "output": "Von Miller does not play in linebacker position for the Denver Broncos.",
+      "orig_id": "56bf17653aeaaa14008c9513_0"
+    },
+    "3": {
+      "input": "The TGIF comedy Family Matters for the 1997-98 season was originally aired by CBS.",
+      "output": "The TGIF comedy Family Matters for the 1997-98 season was not originally aired by CBS.",
+      "orig_id": "57273b69dd62a815002e99d8_0"
+    },
+    "4": {
+      "input": "Thomas Davis broke his arm during the NFC Championship Game.",
+      "output": "Thomas Davis did not break his arm during the NFC Championship Game.",
+      "orig_id": "56bf3a223aeaaa14008c9576_0"
+    },
+    "5": {
+      "input": "The first choice in the NFL draft of 1998 was Manning.",
+      "output": "The first choice in the NFL draft of 1998 was not Manning.",
+      "orig_id": "56bf41013aeaaa14008c959b_0"
+    },
+    "6": {
+      "input": "The Panthers head coach for the 2015 season was Rivera.",
+      "output": "The Panthers head coach for the 2015 season was not Rivera.",
+      "orig_id": "56d709ef0d65d21400198306_0"
+    },
+    "7": {
+      "input": "The primary race of students attending Christian academies was white.",
+      "output": "The primary race of students attending Christian academies was not white.",
+      "orig_id": "572757bef1498d1400e8f693_0"
+    },
+    "8": {
+      "input": "The color of the jerseys in Super Bowl XXXII when Elway was quarterback was blue.",
+      "output": "The color of the jerseys in Super Bowl XXXII when Elway was quarterback was not blue.",
+      "orig_id": "56d9a637dc89441400fdb698_0"
+    },
+    "9": {
+      "input": "jersey Denver 0-4 is colored in orange.",
+      "output": "jersey Denver 0-4 is not colored in orange.",
+      "orig_id": "56d9a637dc89441400fdb699_0"
+    },
+    "10": {
+      "input": "The Media Day for Super Bowl 50 was held on Monday.",
+      "output": "The Media Day for Super Bowl 50 was not held on Monday.",
+      "orig_id": "56bf57043aeaaa14008c95da_0"
+    },
+    "11": {
+      "input": "The Super Bowl sponsor was the Gap clothing company.",
+      "output": "The Super Bowl sponsor was not the Gap clothing company.",
+      "orig_id": "56bebe873aeaaa14008c9342_0"
+    },
+    "12": {
+      "input": "For Super Bowl 50 cameras were put on pylons.",
+      "output": "For Super Bowl 50 cameras were not put on pylons.",
+      "orig_id": "56d9b7dcdc89441400fdb744_0"
+    },
+    "13": {
+      "input": "The ad shown during the Super Bowl for the next Jason Bourne movie was paid by Universal.",
+      "output": "The ad shown during the Super Bowl for the next Jason Bourne movie was not paid by Universal.",
+      "orig_id": "56d9bf70dc89441400fdb77c_0"
+    },
+    "14": {
+      "input": "Richard G. Wilkinson and Kate Pickett are British.",
+      "output": "Richard G. Wilkinson and Kate Pickett are not British.",
+      "orig_id": "572a06866aef0514001551be_0"
+    },
+    "15": {
+      "input": "Gary Kubiak partedipated in the Super Bowl, as a player with the Broncos.",
+      "output": "Gary Kubiak did not partedipate in the Super Bowl, as a player with the Broncos.",
+      "orig_id": "56d7277c0d65d21400198402_0"
+    },
+    "16": {
+      "input": "Warsaw is the most diverse city in Poland.",
+      "output": "Warsaw is not the most diverse city in Poland.",
+      "orig_id": "57337ea24776f41900660bd0_0"
+    },
+    "17": {
+      "input": "A significant minority of in Warsaw were Jewish.",
+      "output": "A significant minority of in Warsaw were not Jewish.",
+      "orig_id": "57337ea24776f41900660bd1_0"
+    },
+    "18": {
+      "input": "Zbigniew Badowski is an architect.",
+      "output": "Zbigniew Badowski is not an architect.",
+      "orig_id": "57339902d058e614000b5e72_0"
+    },
+    "19": {
+      "input": "During the Eastern Bloc economy in Warsaw infrastructure suffered considerably.",
+      "output": "During the Eastern Bloc economy in Warsaw infrastructure did not suffer considerably.",
+      "orig_id": "573399b54776f41900660e64_0"
+    },
+    "20": {
+      "input": "The best medical facilities in East-Central Europe are located in Warsaw.",
+      "output": "The best medical facilities in East-Central Europe are not located in Warsaw.",
+      "orig_id": "57339a554776f41900660e74_0"
+    },
+    "21": {
+      "input": "The Teatr Wielki is a theatre.",
+      "output": "The Teatr Wielki is not a theatre.",
+      "orig_id": "57339ad74776f41900660e86_0"
+    },
+    "22": {
+      "input": "Botanic Garden and University Library garden are green spaces in Warsaw.",
+      "output": "Botanic Garden and University Library garden are not green spaces in Warsaw.",
+      "orig_id": "573368044776f41900660a29_0"
+    },
+    "23": {
+      "input": "The City Council divide itself into committees.",
+      "output": "The City Council do not divide itself into committees.",
+      "orig_id": "57338160d058e614000b5bfc_0"
+    },
+    "24": {
+      "input": "The mayor of Warsaw called is called the President.",
+      "output": "The mayor of Warsaw called is not called the President.",
+      "orig_id": "57338255d058e614000b5c0d_0"
+    },
+    "25": {
+      "input": "In the Treaty of Lisbon 2007 Ireland refused to content to changes.",
+      "output": "In the Treaty of Lisbon 2007 Ireland did not refuse to content to changes.",
+      "orig_id": "572691545951b619008f76e4_0"
+    },
+    "26": {
+      "input": "The Normans combine with the Irish culture in Ireland.",
+      "output": "The Normans combine with the Irish culture in Ireland.",
+      "orig_id": "56de179dcffd8e1900b4b5dc_0"
+    },
+    "27": {
+      "input": "The Davidian Revolution refers to the arrival of the Norman culture in Scotland.",
+      "output": "The Davidian Revolution does not refer to the arrival of the Norman culture in Scotland.",
+      "orig_id": "56de3cd0cffd8e1900b4b6bf_0"
+    },
+    "28": {
+      "input": "Tancred play a roll in the conquest of Jerusalem.",
+      "output": "Tancred do not play a roll in the conquest of Jerusalem.",
+      "orig_id": "56de3ebc4396321400ee26e8_0"
+    },
+    "29": {
+      "input": "Isaac's chains made out of silver.",
+      "output": "Isaac's chains were not made out of silver.",
+      "orig_id": "56de40da4396321400ee2709_0"
+    },
+    "30": {
+      "input": "Canarian Islands are located off the coast of Africa.",
+      "output": "Canarian Islands are not located off the coast of Africa.",
+      "orig_id": "56de49564396321400ee277a_0"
+    },
+    "31": {
+      "input": "The Norman architecture idiom is the Romanesque.",
+      "output": "The Norman architecture idiom is not the Romanesque.",
+      "orig_id": "56de4a89cffd8e1900b4b7bd_0"
+    },
+    "32": {
+      "input": "The Saint-Evroul monks were known for the singing tradition.",
+      "output": "The Saint-Evroul monks were not known for the singing tradition.",
+      "orig_id": "56de52614396321400ee27fe_0"
+    },
+    "33": {
+      "input": "Nikola Tesla was Serbian by ethnicity.",
+      "output": "Nikola Tesla was not Serbian by ethnicity.",
+      "orig_id": "56df9e2838dc4217001520f8_0"
+    },
+    "34": {
+      "input": "Nikola Tesla was born in modern-day Croatia.",
+      "output": "Nikola Tesla was not born in modern-day Croatia.",
+      "orig_id": "56dfa13d4a1a83140091ebc1_0"
+    },
+    "35": {
+      "input": "Tesla's brother's name is Dane.",
+      "output": "Tesla's brother's name is not Dane.",
+      "orig_id": "56e0c0c7231d4119001ac375_0"
+    },
+    "36": {
+      "input": "After leaving Gospic, Tesla went to Prague.",
+      "output": "After leaving Gospic, Tesla did not go to Prague.",
+      "orig_id": "56e0cdb9231d4119001ac3c7_0"
+    },
+    "37": {
+      "input": "After starting his company, Tesla first received patents.",
+      "output": "After starting his company, Tesla first did not receive patents.",
+      "orig_id": "56dfb5777aa994140058e024_0"
+    },
+    "38": {
+      "input": "In 1888, Tesla worked in Pittsburgh.",
+      "output": "In 1888, Tesla did not worke in Pittsburgh.",
+      "orig_id": "56e059c8231d4119001ac057_0"
+    },
+    "39": {
+      "input": "Tesla was in favour of the AC current type.",
+      "output": "Tesla was not in favour of the AC current type.",
+      "orig_id": "56e0e5f37aa994140058e78b_0"
+    },
+    "40": {
+      "input": "The 1893 World's Columbian Exposition was held in Chicago.",
+      "output": "The 1893 World's Columbian Exposition was not held in Chicago.",
+      "orig_id": "56e07c86231d4119001ac1ce_0"
+    },
+    "41": {
+      "input": "At his lab, Tesla showed off a wireless power transmission.",
+      "output": "At his lab, Tesla did not show off a wireless power transmission.",
+      "orig_id": "56e0ef90231d4119001ac46b_0"
+    },
+    "42": {
+      "input": "Tesla created the natural phenomenon of lightning artifically.",
+      "output": "Tesla did not create the natural phenomenon of lightning artifically.",
+      "orig_id": "56e0fe85e3433e1400422a6a_0"
+    },
+    "43": {
+      "input": "Tesla tried to get money from Morgan.",
+      "output": "Tesla did not try to get money from Morgan.",
+      "orig_id": "56e101f4e3433e1400422a8e_0"
+    },
+    "44": {
+      "input": "Prior to WWI, Tesla looked for investors overseas.",
+      "output": "Prior to WWI, Tesla did not look for investors overseas.",
+      "orig_id": "56e1075ae3433e1400422afa_0"
+    },
+    "45": {
+      "input": "Tesla's property was sent to Belgrade.",
+      "output": "Tesla's property was not sent to Belgrade.",
+      "orig_id": "56e1127bcd28a01900c67549_0"
+    },
+    "46": {
+      "input": "Thomas B. Edsall's profession is journalist.",
+      "output": "Thomas B. Edsall's profession is not journalist.",
+      "orig_id": "572a0c541d046914007796f7_0"
+    },
+    "47": {
+      "input": "In relationship to Tesla, Julian Hathorne was a friend.",
+      "output": "In relationship to Tesla, Julian Hathorne was not a friend.",
+      "orig_id": "56e11f05e3433e1400422c32_0"
+    },
+    "48": {
+      "input": "Tesla considered a curved shape of space as a \"false conception\".",
+      "output": "Tesla did not consider a curved shape of space as a \"false conception\".",
+      "orig_id": "56e121b7e3433e1400422c52_0"
+    },
+    "49": {
+      "input": "In Tesla's opinion, the attribute of human pity interfered with nature's ruthlessness.",
+      "output": "In Tesla's opinion, the attribute of human pity did not interfer with nature's ruthlessness.",
+      "orig_id": "56e122dacd28a01900c6763b_0"
+    },
+    "50": {
+      "input": "A Turing machine handles symbols on a strip of tape.",
+      "output": "A Turing machine does not handle symbols on a strip of tape.",
+      "orig_id": "56e1aba0e3433e1400423098_0"
+    },
+    "51": {
+      "input": "The most critical resource measured to in assessing the determination of a Turing machine's ability to solve any given set of problems is time.",
+      "output": "The most critical resource measured to in assessing the determination of a Turing machine's ability to solve any given set of problems is not time.",
+      "orig_id": "56e1b62ecd28a01900c67aa6_0"
+    },
+    "52": {
+      "input": "When extensive time is required to sort integers, the complexity is worst case.",
+      "output": "When extensive time is required to sort integers, the complexity is not worst case.",
+      "orig_id": "56e1ba41cd28a01900c67ae1_1"
+    },
+    "53": {
+      "input": "The complexity class to characterize computational tasks and efficient algorithms is P.",
+      "output": "The complexity class to characterize computational tasks and efficient algorithms is not P.",
+      "orig_id": "56e1dc62cd28a01900c67bca_0"
+    },
+    "54": {
+      "input": "A factor that may make a teacher's role vary is different cultures.",
+      "output": "A factor that may make a teacher's role vary is not different cultures.",
+      "orig_id": "56e748a200c9c71400d76f37_0"
+    },
+    "55": {
+      "input": "Quran is a religious text.",
+      "output": "Quran is  not a religious text.",
+      "orig_id": "56e74af500c9c71400d76f66_0"
+    },
+    "56": {
+      "input": "Another type of accountant other than a CPA is a Chartered.",
+      "output": "Another type of accountant other than a CPA is not a Chartered.",
+      "orig_id": "56e74bf937bdd419002c3e35_0"
+    },
+    "57": {
+      "input": "If a teacher teaches not inside a building, they might teach outdoors.",
+      "output": "If a teacher teaches not inside a building, they might not teach outdoors.",
+      "orig_id": "56e7504437bdd419002c3e5b_0"
+    },
+    "58": {
+      "input": "Another indoor place where teachers teach is an academy.",
+      "output": "Another indoor place where teachers teach is not an academy.",
+      "orig_id": "56e7504437bdd419002c3e5d_0"
+    },
+    "59": {
+      "input": "Another way of learning that is not formal is informal.",
+      "output": "Another way of learning that is not informal is informal.",
+      "orig_id": "56e751fb00c9c71400d76fa8_0"
+    },
+    "60": {
+      "input": "An objective that would be labeled as practical is a skill.",
+      "output": "An objective that would be labeled as practical is not a skill.",
+      "orig_id": "56e7535037bdd419002c3e6f_0"
+    },
+    "61": {
+      "input": "A teacher would help a student with their learning disability.",
+      "output": "A teacher would not help a student with their learning disability.",
+      "orig_id": "56e7535037bdd419002c3e71_0"
+    },
+    "62": {
+      "input": "Tor someone who is timid, a teacher would likely encourage that person.",
+      "output": "Tor someone who is timid, a teacher would not likely encourage that person.",
+      "orig_id": "56e7542f00c9c71400d76fbe_0"
+    },
+    "63": {
+      "input": "Teachers are expected to give respect to their students.",
+      "output": "Teachers are expected to not give respect to their students.",
+      "orig_id": "56e75b8237bdd419002c3ed5_0"
+    },
+    "64": {
+      "input": "A country that has problem with classroom discipline, even though scores on tests are high, is Japan.",
+      "output": "A country that has problem with classroom discipline, even though scores on tests are high, is not Japan.",
+      "orig_id": "56e75e4500c9c71400d7702e_0"
+    },
+    "65": {
+      "input": "For increase learning, teachers must show enthusiasm towards the course materials.",
+      "output": "For increase learning, teachers must not show enthusiasm towards the course materials.",
+      "orig_id": "56e761d037bdd419002c3f13_0"
+    },
+    "66": {
+      "input": "Students who are receptive to the teacher get passion.",
+      "output": "Students who are receptive to the teacher do not get passion.",
+      "orig_id": "56e761d037bdd419002c3f14_0"
+    },
+    "67": {
+      "input": "Enthusiastic teachers cause beneficial relationships.",
+      "output": "Enthusiastic teachers do not cause beneficial relationships.",
+      "orig_id": "56e764e200c9c71400d7708f_0"
+    },
+    "68": {
+      "input": "A 0.3% prevalence of sexual abuse by professionals has been shown in England.",
+      "output": "A 0.3% prevalence of sexual abuse by professionals has not been shown in England.",
+      "orig_id": "56e7683d00c9c71400d770ca_0"
+    },
+    "69": {
+      "input": "Upper-level secondary schools are called Gymnasium.",
+      "output": "Upper-level secondary schools are not called Gymnasium.",
+      "orig_id": "56e76f7000c9c71400d77130_0"
+    },
+    "70": {
+      "input": "In Scontland, Teaching is considered an all graduate profession.",
+      "output": "In Scontland, Teaching is not considered an all graduate profession.",
+      "orig_id": "56e775ec00c9c71400d7715d_0"
+    },
+    "71": {
+      "input": "In Wales, the language Welsh is used to educate.",
+      "output": "In Wales, the language Welsh is not used to educate.",
+      "orig_id": "56e777e500c9c71400d77177_0"
+    },
+    "72": {
+      "input": "The average of teachers in Wales has been falling.",
+      "output": "The average of teachers in Wales has not been falling.",
+      "orig_id": "56e7788200c9c71400d77181_0"
+    },
+    "73": {
+      "input": "Luther started to pursue and immediately dropped the educational study of law.",
+      "output": "Luther did not start to pursue and immediately drop the educational study of law.",
+      "orig_id": "56f7eba8a6d7ea1400e172cd_0"
+    },
+    "74": {
+      "input": "Luther thought the study of law meant uncertainty.",
+      "output": "Luther thought the study of law did not mean uncertainty.",
+      "orig_id": "56f7eba8a6d7ea1400e172ce_0"
+    },
+    "75": {
+      "input": "Martin Luther said that the lone granter of forgiveness was God.",
+      "output": "Martin Luther said that the lone granter of forgiveness was not God.",
+      "orig_id": "56f802c6a6d7ea1400e17377_0"
+    },
+    "76": {
+      "input": "Tetzel's collections of money to free souls from purgatory was objected by Luther.",
+      "output": "Tetzel's collections of money to free souls from purgatory was not objected by Luther.",
+      "orig_id": "56f80143aef2371900625d6a_0"
+    },
+    "77": {
+      "input": "Luther said that Christians must not slacken in following Christ.",
+      "output": "Luther said that Christians must slacken in following Christ.",
+      "orig_id": "56f802c6a6d7ea1400e1737b_0"
+    },
+    "78": {
+      "input": "Lurther's speech in Wittenberg was attened by students.",
+      "output": "Lurther's speech in Wittenberg was not attened by students.",
+      "orig_id": "56f8094aa6d7ea1400e17392_0"
+    },
+    "79": {
+      "input": "Luther writes that this life doesn't have justice.",
+      "output": "Luther writes that this life has justice.",
+      "orig_id": "56f82b25a6d7ea1400e1745b_0"
+    },
+    "80": {
+      "input": "According to Schurf's letter Luther's return caused joy.",
+      "output": "According to Schurf's letter Luther's return did not cause joy.",
+      "orig_id": "56f84a60aef2371900625fa0_0"
+    },
+    "81": {
+      "input": "Luther was an adviser in other areas' churches.",
+      "output": "Luther was not an adviser in other areas' churches.",
+      "orig_id": "56f85bb8aef2371900626011_0"
+    },
+    "82": {
+      "input": "Luther's hymn Christ unser Herr zum jordan kam concerns baptism.",
+      "output": "Luther's hymn Christ unser Herr zum jordan kam does not concern baptism.",
+      "orig_id": "56f87e95aef237190062610a_0"
+    },
+    "83": {
+      "input": "The baptismal hymn was used in Halle to introduce the Reformation.",
+      "output": "The baptismal hymn was not used in Halle to introduce the Reformation.",
+      "orig_id": "56f87e95aef237190062610e_0"
+    },
+    "84": {
+      "input": "Fritschel said the man's sleep was disturbed by dreams.",
+      "output": "Fritschel said the man's sleep was not disturbed by dreams.",
+      "orig_id": "56f88690a6d7ea1400e17727_0"
+    },
+    "85": {
+      "input": "According to Luther the faith's greatest enemy is reason.",
+      "output": "According to Luther the faith's greatest enemy is not reason.",
+      "orig_id": "56f895339e9bad19000a017a_0"
+    },
+    "86": {
+      "input": "In later years Luther strike out against Jews.",
+      "output": "In later years Luther does not strike out against Jews.",
+      "orig_id": "56f897059b226e1400dd0c5f_0"
+    },
+    "87": {
+      "input": "Supporters of Islamism believe their views reflect Islam.",
+      "output": "Supporters of Islamism believe their views do not reflect Islam.",
+      "orig_id": "572ff932a23a5019007fcbd6_0"
+    },
+    "88": {
+      "input": "Southern California touches Pacific coastline.",
+      "output": "Southern California does not touch Pacific coastline.",
+      "orig_id": "5705e3f252bb89140068966a_0"
+    },
+    "89": {
+      "input": "In terms of most populous counties in the United States the lowest ranking is Riverside.",
+      "output": "In terms of most populous counties in the United States the lowest ranking is not Riverside.",
+      "orig_id": "5705e99452bb89140068968b_2"
+    },
+    "90": {
+      "input": "The motion picture industry is accociated with a disctrict named Hollywood.",
+      "output": "The motion picture industry is accociated with a disctrict not named Hollywood.",
+      "orig_id": "5705eb3375f01819005e7764_0"
+    },
+    "91": {
+      "input": "The economy of southern California is depedent on petroleum.",
+      "output": "The economy of southern California is not depedent on petroleum.",
+      "orig_id": "5706094b52bb8914006897de_0"
+    },
+    "92": {
+      "input": "The argricultural region known for cattle.",
+      "output": "The argricultural region not known for cattle.",
+      "orig_id": "57060a1175f01819005e78d4_0"
+    },
+    "93": {
+      "input": "Aerospace has managed to survive major military spending cutbacks.",
+      "output": "Aerospace has not managed to survive major military spending cutbacks.",
+      "orig_id": "57060a1175f01819005e78d6_0"
+    },
+    "94": {
+      "input": "A sport that is growing in southern California is Rugby.",
+      "output": "A sport that is growing in southern California is not Rugby.",
+      "orig_id": "5706155352bb891400689894_0"
+    },
+    "95": {
+      "input": "The current rights holders for the Primer League were ITV.",
+      "output": "The current rights holders for the Primer League were not ITV.",
+      "orig_id": "57096e1ced30961900e84103_0"
+    },
+    "96": {
+      "input": "According to gross state product Victoria ranks second in Australia.",
+      "output": "According to gross state product Victoria does not rank second in Australia.",
+      "orig_id": "570d2417fed7b91900d45c3e_0"
+    },
+    "97": {
+      "input": "The sporting capital of Australia is Melbourne.",
+      "output": "The sporting capital of Australia is not Melbourne.",
+      "orig_id": "570d2417fed7b91900d45c40_0"
+    },
+    "98": {
+      "input": "Victoria's largest non-Christian religion is Buddhism.",
+      "output": "Victoria's largest non-Christian religion is not Buddhism.",
+      "orig_id": "570d29c2b3d812140066d4bf_0"
+    },
+    "99": {
+      "input": "The brand of car manufactured in Broadmeadows is Ford.",
+      "output": "The brand of car manufactured in Broadmeadows is not Ford.",
+      "orig_id": "570d3468b3d812140066d547_0"
+    },
+    "100": {
+      "input": "The center of dairy farming in Austalia is in Victoria.",
+      "output": "The center of dairy farming in Austalia is not in Victoria.",
+      "orig_id": "570d4606b3d812140066d619_0"
+    },
+    "101": {
+      "input": "The location of the colonial government that administered the new colony was in Sydney.",
+      "output": "The location of the colonial government that administered the new colony was not in Sydney.",
+      "orig_id": "570d4a6bfed7b91900d45e16_0"
+    },
+    "102": {
+      "input": "The Swiss center of the Calvinist movement was located in Geneva.",
+      "output": "The Swiss center of the Calvinist movement was not located in Geneva.",
+      "orig_id": "57106185b654c5140001f8dd_0"
+    },
+    "103": {
+      "input": "A group who call themselves Huguenots lives in Australia.",
+      "output": "A group who call themselves Huguenots does not live in Australia.",
+      "orig_id": "57108198b654c5140001f93b_0"
+    },
+    "104": {
+      "input": "The Gate of King Hugo was in Tours.",
+      "output": "The Gate of King Hugo was not in Tours.",
+      "orig_id": "57108ee6a58dae1900cd6a1a_0"
+    },
+    "105": {
+      "input": "Huguenots and Walloons settled in Canterbury.",
+      "output": "Huguenots and Walloons did not settle in Canterbury.",
+      "orig_id": "571090abb654c5140001f995_0"
+    },
+    "106": {
+      "input": "D'Olier Street is in Dublin.",
+      "output": "D'Olier Street is not in Dublin.",
+      "orig_id": "57109180a58dae1900cd6a42_0"
+    },
+    "107": {
+      "input": "The French ancestry of some South Africans is identified by names.",
+      "output": "The French ancestry of some South Africans is identified by names.",
+      "orig_id": "5710968aa58dae1900cd6a89_1"
+    },
+    "108": {
+      "input": "Jer√≥nimo de Ayanz y Beaumont was of Spanish nationality.",
+      "output": "Jer√≥nimo de Ayanz y Beaumont was not of Spanish nationality.",
+      "orig_id": "57115f652419e314009555ba_0"
+    },
+    "109": {
+      "input": "After the conclusion of the Revolutionary War Spain gained control of Florida.",
+      "output": "After the conclusion of the Revolutionary War Spain did not gain control of Florida.",
+      "orig_id": "572810ec2ca10214002d9d09_0"
+    },
+    "110": {
+      "input": "Quebec received Huguenot immigrants.",
+      "output": "Quebec did not receive Huguenot immigrants.",
+      "orig_id": "5711119cb654c5140001fae6_0"
+    },
+    "111": {
+      "input": "Thousands of Huguenots were killed by Catholics.",
+      "output": "Thousands of Huguenots were not killed by Catholics.",
+      "orig_id": "57111428b654c5140001fb00_0"
+    },
+    "112": {
+      "input": "Hero of Alexandria's was Greek.",
+      "output": "Hero of Alexandria's was not Greek.",
+      "orig_id": "57113c6da58dae1900cd6d34_0"
+    },
+    "113": {
+      "input": "Vessels equipped with double and triple expansion engines were shipping coal.",
+      "output": "Vessels equipped with double and triple expansion engines were not shipping coal.",
+      "orig_id": "57113f83b654c5140001fc2c_0"
+    },
+    "114": {
+      "input": "Newton's gravitational laws were seemed to be bucked by Mercury.",
+      "output": "Newton's gravitational laws were seemed to not be bucked by Mercury.",
+      "orig_id": "5737898f1c45671900574495_0"
+    },
+    "115": {
+      "input": "Nuclear power plants heat water to create electricity.",
+      "output": "Nuclear power plants do not heat water to create electricity.",
+      "orig_id": "571166352419e314009555f1_0"
+    },
+    "116": {
+      "input": "Steam turbine marine engines in the 20th century were using reduction gearing.",
+      "output": "Steam turbine marine engines in the 20th century were not using reduction gearing.",
+      "orig_id": "571154c72419e3140095558b_0"
+    },
+    "117": {
+      "input": "William Rankine's is Scottish by nationality.",
+      "output": "William Rankine's is not Scottish by nationality.",
+      "orig_id": "571155ae2419e31400955595_0"
+    },
+    "118": {
+      "input": "Experimental measurements on a model steam engine was made by Watt.",
+      "output": "Experimental measurements on a model steam engine was not made by Watt.",
+      "orig_id": "571163172419e314009555e8_0"
+    },
+    "119": {
+      "input": "A steam plant compared to that of an internal combustion engine has lower power-to-weight ratio.",
+      "output": "A steam plant compared to that of an internal combustion engine has not lower power-to-weight ratio.",
+      "orig_id": "5711607f2419e314009555cd_0"
+    },
+    "120": {
+      "input": "Another name for a coal supply bin is bunker.",
+      "output": "Another name for a coal supply bin is not bunker.",
+      "orig_id": "5711651050c2381900b54ace_0"
+    },
+    "121": {
+      "input": "Photosynthesis releases oxygen into the Earth's atmosphere.",
+      "output": "Photosynthesis does not release oxygen into the Earth's atmosphere.",
+      "orig_id": "571ccc00dd7acb1400e4c15e_0"
+    },
+    "122": {
+      "input": "Joseph Priestley was a clergyman.",
+      "output": "Joseph Priestley was not a clergyman.",
+      "orig_id": "571a4d1a4faf5e1900b8a959_0"
+    },
+    "123": {
+      "input": "Concentrated oxygen greatly speed up combustion.",
+      "output": "Concentrated oxygen do not greatly speed up combustion.",
+      "orig_id": "571ce9bddd7acb1400e4c1a0_0"
+    },
+    "124": {
+      "input": "Gay-Lussac and von Humboldt discovered that in water hydrogen was present in twice the amount of oxygen.",
+      "output": "Gay-Lussac and von Humboldt discovered that in water hydrogen was not present in twice the amount of oxygen.",
+      "orig_id": "571c7d55dd7acb1400e4c0c7_0"
+    },
+    "125": {
+      "input": "Lavoisier perceived that the air had lost as much weight as the tin had gained.",
+      "output": "Lavoisier perceived that the air had not lost as much weight as the tin had gained.",
+      "orig_id": "571c8eb9dd7acb1400e4c0f8_0"
+    },
+    "126": {
+      "input": "Large quantities of pure oxygen are needed by hospitals.",
+      "output": "Large quantities of pure oxygen are not needed by hospitals.",
+      "orig_id": "571cda1bdd7acb1400e4c19a_0"
+    },
+    "127": {
+      "input": "Genghis Khan is viewed as a contemptible perpetrator of genocide in Iran.",
+      "output": "Genghis Khan is not viewed as a contemptible perpetrator of genocide in Iran.",
+      "orig_id": "572753af708984140094dc2f_0"
+    },
+    "128": {
+      "input": "The organization that runs the satellite that measured dust that landed on the Amazon is NASA.",
+      "output": "The organization that runs the satellite that measured dust that landed on the Amazon is not NASA.",
+      "orig_id": "5729ea263f37b319004785be_0"
+    },
+    "129": {
+      "input": "Faget designed for the Apollo command module to be cone shaped.",
+      "output": "Faget designed for the Apollo command module to not be cone shaped.",
+      "orig_id": "5725ca35271a42140099d1c1_1"
+    },
+    "130": {
+      "input": "The Apollo CM intended to land in the ocean upon re entering the Earth's atmosphere.",
+      "output": "The Apollo CM did not intend to land in the ocean upon re entering the Earth's atmosphere.",
+      "orig_id": "5725cb4a89a1e219009abec9_0"
+    },
+    "131": {
+      "input": "Upon reentry to the atmosphere, the Apollo SM was discarded.",
+      "output": "Upon reentry to the atmosphere, the Apollo SM was not discarded.",
+      "orig_id": "5725cc2038643c19005acd1d_0"
+    },
+    "132": {
+      "input": "The AS-205 mission was originally canceled.",
+      "output": "The AS-205 mission was not originally canceled.",
+      "orig_id": "5725d94bec44d21400f3d69b_0"
+    },
+    "133": {
+      "input": "The planet named for a fly-by mission by an empty S-IVB was Venus.",
+      "output": "The planet named for a fly-by mission by an empty S-IVB was not Venus.",
+      "orig_id": "5725ee6438643c19005aceb5_0"
+    },
+    "134": {
+      "input": "The members of the European Parliament are elected by citizens.",
+      "output": "The members of the European Parliament are not elected by citizens.",
+      "orig_id": "5725c743ec44d21400f3d54b_0"
+    },
+    "135": {
+      "input": "The country that signed a treaty to give it special status in in 1985 was Greenland.",
+      "output": "The country that signed a treaty to give it special status in in 1985 was not Greenland.",
+      "orig_id": "5725cc38ec44d21400f3d5bf_0"
+    },
+    "136": {
+      "input": "The un-elected subordinates of member state governments of the EU are called Commissioners.",
+      "output": "The un-elected subordinates of member state governments of the EU are not called Commissioners.",
+      "orig_id": "572691545951b619008f76e5_0"
+    },
+    "137": {
+      "input": "Free movement in the EU is increasingly based on citizenship.",
+      "output": "Free movement in the EU is not increasingly based on citizenship.",
+      "orig_id": "5726baf2dd62a815002e8e76_0"
+    },
+    "138": {
+      "input": "In Groner v Minister for Education, the Court of Justice accepted Gaelic to be required to teach in Dublin colleges.",
+      "output": "In Groner v Minister for Education, the Court of Justice did not accept Gaelic to be required to teach in Dublin colleges.",
+      "orig_id": "5726bc1add62a815002e8ea8_0"
+    },
+    "139": {
+      "input": "The lobata have a pair of lobes.",
+      "output": "The lobata have not a pair of lobes.",
+      "orig_id": "57265aaf5951b619008f706b_0"
+    },
+    "140": {
+      "input": "The Japanese residents of Fresno primarily lived in the ethnic neighborhood of Chinatown in Fresno in 1940.",
+      "output": "The Japanese residents of Fresno primarily did not live in the ethnic neighborhood of Chinatown in Fresno in 1940.",
+      "orig_id": "5725d183271a42140099d23e_0"
+    },
+    "141": {
+      "input": "The hottest month on average in Jacksonville is July.",
+      "output": "The hottest month on average in Jacksonville is not July.",
+      "orig_id": "57282358ff5b5019007d9de1_0"
+    },
+    "142": {
+      "input": "Sedimentary rock often includes torn up gravel.",
+      "output": "Sedimentary rock never includes torn up gravel.",
+      "orig_id": "572667e2f1498d1400e8de94_0"
+    },
+    "143": {
+      "input": "Newcastle was granted a new charter in 1589 by Elizabeth.",
+      "output": "Newcastle was not granted a new charter in 1589 by Elizabeth.",
+      "orig_id": "572666d9dd62a815002e83b5_0"
+    },
+    "144": {
+      "input": "Cany Ash and Robert Sakula are both Architects.",
+      "output": "Cany Ash and Robert Sakula are both not Architects.",
+      "orig_id": "5726778df1498d1400e8e0af_0"
+    },
+    "145": {
+      "input": "The words \"howay\" and \"hadaway\" are often used by the Scots.",
+      "output": "The words \"howay\" and \"hadaway\" are never used by the Scots.",
+      "orig_id": "57267c63dd62a815002e86d8_0"
+    },
+    "146": {
+      "input": "Newcastle has a proud history of theatre.",
+      "output": "Newcastle has not a proud history of theatre.",
+      "orig_id": "57267f695951b619008f74bd_0"
+    },
+    "147": {
+      "input": "Newcastle still contains many theatres.",
+      "output": "Newcastle never contained many theatres.",
+      "orig_id": "5726800add62a815002e8750_0"
+    },
+    "148": {
+      "input": " The famous musician Sting starred in Stormy Monday.",
+      "output": " The famous musician Sting did not star in Stormy Monday.",
+      "orig_id": "57268731f1498d1400e8e2e6_0"
+    },
+    "149": {
+      "input": "Under the terms of the Scotland Act of 1978, an elected assembly to be set up in Edinburgh.",
+      "output": "Under the terms of the Scotland Act of 1978, an elected assembly to not be set up in Edinburgh.",
+      "orig_id": "572fadcbb2c2fd1400568329_0"
+    },
+    "150": {
+      "input": "Between 1979 and 1984, Catholic schools were integrated into New Zealand public schools.",
+      "output": "Between 1979 and 1984, Catholic schools were not integrated into New Zealand public schools.",
+      "orig_id": "57274eca5951b619008f8802_0"
+    },
+    "151": {
+      "input": "Despite having been born in Newcastle, Abhisit Vejjajiva prime minister of Thailand.",
+      "output": "Despite having been born in Newcastle, Abhisit Vejjajiva is not prime minister of Thailand.",
+      "orig_id": "57269e80f1498d1400e8e524_0"
+    },
+    "152": {
+      "input": "Former WWE NXT champion Neville born in Newcastle.",
+      "output": "Former WWE NXT champion Neville is not born in Newcastle.",
+      "orig_id": "57269fab5951b619008f780b_0"
+    },
+    "153": {
+      "input": "The Cast Courts has a full-size replica of David, the sculpture by Michelangelo.",
+      "output": "The Cast Courts has not a full-size replica of David, the sculpture by Michelangelo.",
+      "orig_id": "5726d993f1498d1400e8ed18_0"
+    },
+    "154": {
+      "input": "The long-term preservation of the V&A collections is due to Conservation.",
+      "output": "The long-term preservation of the V&A collections is not due to Conservation.",
+      "orig_id": "57270ab9708984140094d8f7_0"
+    },
+    "155": {
+      "input": "in the mid-1960s, ABC expanded into Beirut.",
+      "output": "in the mid-1960s, ABC did not expand into Beirut.",
+      "orig_id": "5726caaaf1498d1400e8eb5d_0"
+    },
+    "156": {
+      "input": "ABC transition to color programming in the 1960s.",
+      "output": "ABC did not transition to color programming in the 1960s.",
+      "orig_id": "5726efdbdd62a815002e95c7_0"
+    },
+    "157": {
+      "input": "ESPN and ABC sign an eight year deal with NASCAR in 2005.",
+      "output": "ESPN and ABC did not sign an eight year deal with NASCAR in 2005.",
+      "orig_id": "57273954708984140094db08_0"
+    },
+    "158": {
+      "input": "The 1947 film Wyoming Kid was adapted for ABC into the television show  Cheyenne.",
+      "output": "The 1947 film Wyoming Kid was not adapted for ABC into the television show  Cheyenne.",
+      "orig_id": "57274118dd62a815002e9a1c_0"
+    },
+    "159": {
+      "input": "Walt Disney's brother's name was Roy.",
+      "output": "Walt Disney's brother's name was not Roy.",
+      "orig_id": "572741aaf1498d1400e8f53e_0"
+    },
+    "160": {
+      "input": "When Sunday Night Football premiered, Monday Night Football moved to ESPN.",
+      "output": "When Sunday Night Football premiered, Monday Night Football did not move to ESPN.",
+      "orig_id": "5727448b5951b619008f87a3_0"
+    },
+    "161": {
+      "input": "The first television series to feature an openly gay character was Soap.",
+      "output": "The first television series to feature an openly gay character was not Soap.",
+      "orig_id": "572749d7dd62a815002e9a94_0"
+    },
+    "162": {
+      "input": "Shark Tank debuted on Sundays.",
+      "output": "Shark Tank did not debut on Sundays.",
+      "orig_id": "57275a505951b619008f88a1_0"
+    },
+    "163": {
+      "input": " Aaron Spelling's drama Dynasty debuted on ABC in the 80s.",
+      "output": " Aaron Spelling's drama Dynasty did not debut on ABC in the 80s.",
+      "orig_id": "57276166dd62a815002e9bd9_0"
+    },
+    "164": {
+      "input": "ABC's programming strategy was criticized in May 1961 by Life magazine.",
+      "output": "ABC's programming strategy was not criticized in May 1961 by Life magazine.",
+      "orig_id": "57277944f1498d1400e8f90c_0"
+    },
+    "165": {
+      "input": "When faced with defeat by Genghis Khan's forces, the Shah fled.",
+      "output": "When faced with defeat by Genghis Khan's forces, the Shah did not fled.",
+      "orig_id": "5726c3b3708984140094d0d2_0"
+    },
+    "166": {
+      "input": "Genghis Khan took Xiliang-fu from the Tanguts in the autumn.",
+      "output": "Genghis Khan did not take Xiliang-fu from the Tanguts in the autumn.",
+      "orig_id": "57272ce1f1498d1400e8f43b_0"
+    },
+    "167": {
+      "input": "The wounds that killed Tangut general Ma Jianlong were inflicted by arrows.",
+      "output": "The wounds that killed Tangut general Ma Jianlong were not inflicted by arrows.",
+      "orig_id": "57272dd55951b619008f8699_0"
+    },
+    "168": {
+      "input": "After the Tangut imperial family surrendered, Genghis Khan had them executed.",
+      "output": "After the Tangut imperial family surrendered, Genghis Khan did not have them executed.",
+      "orig_id": "57272dd55951b619008f869b_0"
+    },
+    "169": {
+      "input": "Genghis Khan sent for his sons in the spring of 1223, but Jochi remained in Khorasan.",
+      "output": "Genghis Khan sent for his sons in the spring of 1223, but Jochi did not remaine in Khorasan.",
+      "orig_id": "5727311d5951b619008f86ac_0"
+    },
+    "170": {
+      "input": "The Secret History says Genghis Khan sustained his mortal injuries while hunting.",
+      "output": "The Secret History says Genghis Khan did not sustain his mortal injuries while hunting.",
+      "orig_id": "57273249f1498d1400e8f46b_0"
+    },
+    "171": {
+      "input": "Genghis Khan's grave site may have been stampeded over by horses.",
+      "output": "Genghis Khan's grave site may not have been stampeded over by horses.",
+      "orig_id": "57273581708984140094daee_0"
+    },
+    "172": {
+      "input": "In order to cut off the resources of cities they were attacking, Mongol armies would divert rivers.",
+      "output": "In order to cut off the resources of cities they were attacking, Mongol armies would not divert rivers.",
+      "orig_id": "57273d06f1498d1400e8f4f6_0"
+    },
+    "173": {
+      "input": "Kublai Khan was Genghis Khan's grandson.",
+      "output": "Kublai Khan was not Genghis Khan's grandson.",
+      "orig_id": "57275250708984140094dc29_0"
+    },
+    "174": {
+      "input": "An example of a virus that uses antigenic variation is HIV.",
+      "output": "An example of a virus that uses antigenic variation is not HIV.",
+      "orig_id": "572a0e4b6aef051400155215_0"
+    },
+    "175": {
+      "input": "THe location of the 2003 Rose revolution is Georgia.",
+      "output": "THe location of the 2003 Rose revolution is not Georgia.",
+      "orig_id": "57271c235951b619008f860f_0"
+    },
+    "176": {
+      "input": "One of the earliest examples of Civil Disobedience was brought forward by the Egyptians.",
+      "output": "One of the earliest examples of Civil Disobedience was not brought forward by the Egyptians.",
+      "orig_id": "5728d4c03acd2414000dff9f_0"
+    },
+    "177": {
+      "input": "Thoreau's punishment for not paying his taxes was imprisonment.",
+      "output": "Thoreau's punishment for not paying his taxes was not imprisonment.",
+      "orig_id": "572812e74b864d19001643cf_0"
+    },
+    "178": {
+      "input": "Mass production of similar items without a designated purchaser is typically part of manufacturing.",
+      "output": "Mass production of similar items without a designated purchaser is typically not part of manufacturing.",
+      "orig_id": "57273a465951b619008f8700_0"
+    },
+    "179": {
+      "input": "On a site, the most common cause of injury are falls.",
+      "output": "On a site, the most common cause of injury are not falls.",
+      "orig_id": "572756fe708984140094dc72_0"
+    },
+    "180": {
+      "input": "Loreto Normanhurst is attended by girls.",
+      "output": "Loreto Normanhurst is not attended by girls.",
+      "orig_id": "57274971708984140094dbbe_0"
+    },
+    "181": {
+      "input": "The country with the most illiterate adults in the world is India.",
+      "output": "The country with the most illiterate adults in the world is not India.",
+      "orig_id": "57274ca8dd62a815002e9aa5_0"
+    },
+    "182": {
+      "input": "In Chinese primary schools in Malaysia, the language used is Chinese.",
+      "output": "In Chinese primary schools in Malaysia, the language used is not Chinese.",
+      "orig_id": "57274d9bf1498d1400e8f5f7_0"
+    },
+    "183": {
+      "input": "In Chinese secondary schools in Malaysia, the language used is English.",
+      "output": "In Chinese secondary schools in Malaysia, the language used is not English.",
+      "orig_id": "57274d9bf1498d1400e8f5f8_0"
+    },
+    "184": {
+      "input": "Schools that receive government assistance are called aided.",
+      "output": "Schools that receive government assistance are not called aided.",
+      "orig_id": "57274e145951b619008f87e7_0"
+    },
+    "185": {
+      "input": "Along with Hamilton, Wellington and Christchurch, Auckland is one of the largest cities in New Zealand.",
+      "output": "Along with Hamilton, Wellington and Christchurch, Auckland is not one of the largest cities in New Zealand.",
+      "orig_id": "57274eca5951b619008f8803_0"
+    },
+    "186": {
+      "input": "The Diocesan School for Girls in Auckland is affiliated with Anglican denomination.",
+      "output": "The Diocesan School for Girls in Auckland is not affiliated with Anglican denomination.",
+      "orig_id": "57274f49f1498d1400e8f61e_0"
+    },
+    "187": {
+      "input": "Samuel Marsden Collegiate School is located in Wellington.",
+      "output": "Samuel Marsden Collegiate School is not located in Wellington.",
+      "orig_id": "57274f49f1498d1400e8f61f_0"
+    },
+    "188": {
+      "input": "preparatory schools prepare British children to attend public schools.",
+      "output": "preparatory schools do not prepare British children to attend public schools.",
+      "orig_id": "572756265951b619008f886e_0"
+    },
+    "189": {
+      "input": "The first US state to have compulsory education was Massachusetts.",
+      "output": "The first US state to have compulsory education was not Massachusetts.",
+      "orig_id": "572759665951b619008f8883_0"
+    },
+    "190": {
+      "input": "The city in Florida with the biggest population is Jacksonville.",
+      "output": "The city in Florida with the biggest population is not Jacksonville.",
+      "orig_id": "5727c94bff5b5019007d954a_0"
+    },
+    "191": {
+      "input": "The sport that attracts most tourists to Jacksonville is golf.",
+      "output": "The sport that attracts most tourists to Jacksonville is not golf.",
+      "orig_id": "5727cd7dff5b5019007d958f_0"
+    },
+    "192": {
+      "input": "Jacksonville surrounds the town of Baldwin.",
+      "output": "Jacksonville does not surround the town of Baldwin.",
+      "orig_id": "572820512ca10214002d9e76_0"
+    },
+    "193": {
+      "input": "The tenth largest ethnic group located in Jacksonville is Arab.",
+      "output": "The tenth largest ethnic group not located in Jacksonville is Arab.",
+      "orig_id": "572826634b864d19001645be_0"
+    },
+    "194": {
+      "input": "The gender that is more populous across all groups in Jacksonville is female.",
+      "output": "The gender that is more populous across all groups in Jacksonville is not female.",
+      "orig_id": "572827fc3acd2414000df5bd_0"
+    },
+    "195": {
+      "input": "The top 400 richest Americans have more than half of the wealth of all Americans combined.",
+      "output": "The top 400 richest Americans do not have more than half of the wealth of all Americans combined.",
+      "orig_id": "5729d44b1d04691400779611_0"
+    },
+    "196": {
+      "input": "The arket price of skill is reflected by wages.",
+      "output": "The arket price of skill is not reflected by wages.",
+      "orig_id": "5729d878af94a219006aa66d_0"
+    },
+    "197": {
+      "input": "Something that can concentrate wealth, pass environmental costs on to society and abuse both workers and consumers is markets.",
+      "output": "Something that can concentrate wealth, pass environmental costs on to society and abuse both workers and consumers is not markets.",
+      "orig_id": "5729d878af94a219006aa66e_0"
+    },
+    "198": {
+      "input": "The productivity ability of the poor is unleashed by education.",
+      "output": "The productivity ability of the poor is not unleashed by education.",
+      "orig_id": "5729e1101d04691400779645_0"
+    },
+    "199": {
+      "input": "An important factor for the growth of the economy is Education.",
+      "output": "An important factor for the growth of the economy is not Education.",
+      "orig_id": "5729e2b76aef0514001550d1_0"
+    },
+    "200": {
+      "input": "The wage gap between genders provide an advantage to males.",
+      "output": "The wage gap between genders does not provide an advantage to males.",
+      "orig_id": "5727fd123acd2414000df188_0"
+    },
+    "201": {
+      "input": "Income inequality began to increase in the US in the 1970s.",
+      "output": "Income inequality did not begin to increase in the US in the 1970s.",
+      "orig_id": "57287b322ca10214002da3bf_0"
+    },
+    "202": {
+      "input": "Crime rate been shown to be correlated with inequality in a society.",
+      "output": "Crime rate has not been shown to be correlated with inequality in a society.",
+      "orig_id": "572a0a391d046914007796df_0"
+    },
+    "203": {
+      "input": "The marginal utility of wealth per income per person decreases as that person becomes richer.",
+      "output": "The marginal utility of wealth per income per person does not decreases as that person becomes richer.",
+      "orig_id": "572a0bafaf94a219006aa768_0"
+    },
+    "204": {
+      "input": "Conservative researchers feel consumption should be a measure of inequality.",
+      "output": "Conservative researchers do not feel consumption should be a measure of inequality.",
+      "orig_id": "572a0c541d046914007796f3_0"
+    },
+    "205": {
+      "input": "Raghuram Rajan is an economist.",
+      "output": "Raghuram Rajan is not an economist.",
+      "orig_id": "572a0d21af94a219006aa783_0"
+    },
+    "206": {
+      "input": "David Castlles-Quintana and Vicente Royuela are economists.",
+      "output": "David Castlles-Quintana and Vicente Royuela are not economists.",
+      "orig_id": "572a0ecb1d04691400779717_0"
+    },
+    "207": {
+      "input": "Robert Barro works at Harvard.",
+      "output": "Robert Barro does not work at Harvard.",
+      "orig_id": "572a12381d0469140077972b_0"
+    },
+    "208": {
+      "input": "When economic inequality is smaller, more waste and pollution is created.",
+      "output": "When economic inequality is smaller, more waste and pollution is not created.",
+      "orig_id": "572a1f086aef0514001552c0_0"
+    },
+    "209": {
+      "input": "The name of the first episode of the new Doctor Who series was Rose.",
+      "output": "The name of the first episode of the new Doctor Who series was not Rose.",
+      "orig_id": "5727f746ff5b5019007d9960_0"
+    },
+    "210": {
+      "input": "Changes in the appearance of Doctor Who are explained by regeneration.",
+      "output": "Changes in the appearance of Doctor Who are not explained by regeneration.",
+      "orig_id": "57280757ff5b5019007d9b42_0"
+    },
+    "211": {
+      "input": "The 20th anniversary special show of Doctor Who was shown on PBS before being shown on BBC.",
+      "output": "The 20th anniversary special show of Doctor Who was  not shown on PBS before being shown on BBC.",
+      "orig_id": "5728231fff5b5019007d9dd4_0"
+    },
+    "212": {
+      "input": "In 2009, Doctor Who started to be shown on Canadian cable station Space.",
+      "output": "In 2009, Doctor Who did not start to be shown on Canadian cable station Space.",
+      "orig_id": "572825714b864d1900164592_0"
+    },
+    "213": {
+      "input": "Kublai Khan was Ogedei Khan's nephew.",
+      "output": "Kublai Khan was not Ogedei Khan's nephew.",
+      "orig_id": "572863c72ca10214002da2d8_0"
+    },
+    "214": {
+      "input": "The later Yuan emperors were disinterested in administration.",
+      "output": "The later Yuan emperors were not disinterested in administration.",
+      "orig_id": "572872822ca10214002da378_0"
+    },
+    "215": {
+      "input": "During the Yuan dynasty, the Grand Canal reached Beijing.",
+      "output": "During the Yuan dynasty, the Grand Canal did not reach Beijing.",
+      "orig_id": "57287c142ca10214002da3d3_0"
+    },
+    "216": {
+      "input": "Zhu Shijie did work similar the modern math concept of matrices.",
+      "output": "Zhu Shijie did not work similar the modern math concept of matrices.",
+      "orig_id": "5728804b4b864d1900164a48_0"
+    },
+    "217": {
+      "input": "The second meaning of a Chinese word for 'barracks' is thanks.",
+      "output": "The second meaning of a Chinese word for 'barracks' is not thanks.",
+      "orig_id": "57288428ff5b5019007da291_0"
+    },
+    "218": {
+      "input": "The couhtry to the south of kenya is is Tanzania.",
+      "output": "The couhtry to the south of kenya is not Tanzania.",
+      "orig_id": "5728dab94b864d1900164f99_0"
+    },
+    "219": {
+      "input": "on the CPI scale, Kenya ranks low.",
+      "output": "on the CPI scale, Kenya does not rank low.",
+      "orig_id": "57290b21af94a219006a9fcf_0"
+    },
+    "220": {
+      "input": "The most industrially developed country in the African Great Lakes Region is Kenya.",
+      "output": "The most industrially developed country in the African Great Lakes Region is not Kenya.",
+      "orig_id": "57291beb1d04691400779053_0"
+    },
+    "221": {
+      "input": "The main religion in Kenya is Christianity.",
+      "output": "The main religion in Kenya is not Christianity.",
+      "orig_id": "572922206aef051400154a8a_0"
+    },
+    "222": {
+      "input": "The most successful team sport in Kenya is cricket.",
+      "output": "The most successful team sport in Kenya is not cricket.",
+      "orig_id": "5729293d3f37b319004780a0_0"
+    },
+    "223": {
+      "input": "Hoesung Lee has Korean nationality.",
+      "output": "Hoesung Lee does not have Korean nationality.",
+      "orig_id": "57293bc91d0469140077919c_0"
+    },
+    "224": {
+      "input": "Energy is needed to pack electrons densely together.",
+      "output": "Energy is not needed to pack electrons densely together.",
+      "orig_id": "5737958ac3c5551400e51f2b_0"
+    },
+    "225": {
+      "input": "Konstantin Mereschkowski has Russian nationality.",
+      "output": "Konstantin Mereschkowski has not Russian nationality.",
+      "orig_id": "572956c86aef051400154d1b_0"
+    },
+    "226": {
+      "input": "Konstantin Mereschkowski had a career as biologist.",
+      "output": "Konstantin Mereschkowski did not have a career as biologist.",
+      "orig_id": "572956c86aef051400154d1c_0"
+    },
+    "227": {
+      "input": "Phycoerytherin has red color.",
+      "output": "Phycoerytherin does not have red color.",
+      "orig_id": "5729714daf94a219006aa42e_0"
+    },
+    "228": {
+      "input": "FtsZ1 and FtsZ2 are proteins.",
+      "output": "FtsZ1 and FtsZ2 are not proteins.",
+      "orig_id": "5729784b1d046914007794ca_0"
+    },
+    "229": {
+      "input": "Chloroplasts needs light to replicate.",
+      "output": "Chloroplasts does not need light to replicate.",
+      "orig_id": "572978e66aef051400154f76_0"
+    },
+    "230": {
+      "input": "The first major city in the stream of the Rhine is Basel.",
+      "output": "The first major city in the stream of the Rhine is not Basel.",
+      "orig_id": "572f60f4947a6a140053c8ea_0"
+    },
+    "231": {
+      "input": "The Rhine encounter it's main tributaries in Germany.",
+      "output": "The Rhine does not encounter it's main tributaries in Germany.",
+      "orig_id": "572ff07304bcaa1900d76ef6_0"
+    },
+    "232": {
+      "input": "The country that has the most factories that pollute the Rhine is Switzerland.",
+      "output": "The country that has the most factories that pollute the Rhine is not Switzerland.",
+      "orig_id": "572ff293947a6a140053ce54_0"
+    },
+    "233": {
+      "input": "According to legend Hagen threw gold into the Rhine.",
+      "output": "According to legend Hagen did not throw gold into the Rhine.",
+      "orig_id": "57300911947a6a140053cfba_0"
+    },
+    "234": {
+      "input": "The Confederation of the Rhine was established by Napoleon.",
+      "output": "The Confederation of the Rhine was not established by Napoleon.",
+      "orig_id": "57300a25a23a5019007fcc99_0"
+    },
+    "235": {
+      "input": "When the Parliament was done with it the building on George IV Bridge was demolished.",
+      "output": "When the Parliament was done with it the building on George IV Bridge was not demolished.",
+      "orig_id": "572fb059947a6a140053cb82_0"
+    },
+    "236": {
+      "input": "MSPs who are not in the chamber when the division bell rings return to vote.",
+      "output": "MSPs who are not in the chamber when the division bell rings do not return to vote.",
+      "orig_id": "572fc49d04bcaa1900d76ccd_0"
+    },
+    "237": {
+      "input": "It is free to gain entry to a parliament meeting.",
+      "output": "It is not free to gain entry to a parliament meeting.",
+      "orig_id": "572fbfa504bcaa1900d76c76_0"
+    },
+    "238": {
+      "input": "Issues like abortion and drug policy are legislated on Westminster.",
+      "output": "Issues like abortion and drug policy are not legislated on Westminster.",
+      "orig_id": "572fcc43b2c2fd140056847f_0"
+    },
+    "239": {
+      "input": "The day of the week when general elections are held is Thursday.",
+      "output": "The day of the week when general elections are held is not Thursday.",
+      "orig_id": "572fd6aa04bcaa1900d76d9f_0"
+    },
+    "240": {
+      "input": "HAMAS want to establish an Islamic state in Palestine.",
+      "output": "HAMAS do not want to establish an Islamic state in Palestine.",
+      "orig_id": "5730208fa23a5019007fcdf0_0"
+    },
+    "241": {
+      "input": "Islamists think the term Muslims should be applied to them.",
+      "output": "Islamists do not think the term Muslims should be applied to them.",
+      "orig_id": "572ffabf04bcaa1900d76f9f_0"
+    },
+    "242": {
+      "input": "Sadat is for peace with Israel.",
+      "output": "Sadat is not for peace with Israel.",
+      "orig_id": "572ffc99947a6a140053cef7_0"
+    },
+    "243": {
+      "input": "Incompetent government's commitment to social justice limited to rhetoric.",
+      "output": "Incompetent government's commitment to social justice did not limit to rhetoric.",
+      "orig_id": "572ffe6fb2c2fd14005686f3_0"
+    },
+    "244": {
+      "input": "US directed at Iran economic sanctions.",
+      "output": "US did not direct at Iran economic sanctions.",
+      "orig_id": "57300e2604bcaa1900d770b8_0"
+    },
+    "245": {
+      "input": "al-Gama'a al-Islamiyya use violence to get its way.",
+      "output": "al-Gama'a al-Islamiyya do not use violence to get its way.",
+      "orig_id": "5730131c947a6a140053d052_0"
+    },
+    "246": {
+      "input": "The organization that continued to be a major disruptive force in Palestine is Hamas.",
+      "output": "The organization that continued to be a major disruptive force in Palestine is not Hamas.",
+      "orig_id": "573020f7b2c2fd14005688f7_0"
+    },
+    "247": {
+      "input": "The suggestion that imperialism was the \"highest\" form of capitalism is from Lenin.",
+      "output": "The suggestion that imperialism was the \"highest\" form of capitalism is not from Lenin.",
+      "orig_id": "573081c2069b531400832135_0"
+    },
+    "248": {
+      "input": "Besides the Russians, Ottoman are often left out of the colonialism debat.",
+      "output": "Besides the Russians, Ottoman are not left out of the colonialism debat.",
+      "orig_id": "573083dc2461fd1900a9ce70_0"
+    },
+    "249": {
+      "input": "Besides the british, the French colonized Africa.",
+      "output": "Besides the british, the French did not colonize Africa.",
+      "orig_id": "5730909d8ab72b1400f9c58e_0"
+    },
+    "250": {
+      "input": "The American show Dallas changed the views of Romanians during the cold war.",
+      "output": "The American show Dallas did not change the views of Romanians during the cold war.",
+      "orig_id": "573093598ab72b1400f9c5b0_0"
+    },
+    "251": {
+      "input": "Cultural imperialism to sway local elites was used by the Roman historic empire.",
+      "output": "Cultural imperialism to sway local elites was not used by the Roman historic empire.",
+      "orig_id": "573093598ab72b1400f9c5b1_0"
+    },
+    "252": {
+      "input": "Ronald Robinson and John Gallagher were historians by profession.",
+      "output": "Ronald Robinson and John Gallagher were not historians by profession.",
+      "orig_id": "57309564069b5314008321a7_0"
+    },
+    "253": {
+      "input": "The machine gun was invented in the European region.",
+      "output": "The machine gun was not invented in the European region.",
+      "orig_id": "573099ee8ab72b1400f9c5e0_0"
+    },
+    "254": {
+      "input": "France lose a war in the 1950's is Vietnam.",
+      "output": "France lose a war in the 1950's is not Vietnam.",
+      "orig_id": "5730aa52069b53140083221f_0"
+    },
+    "255": {
+      "input": "The capital of the Ottoman empire was Istanbul.",
+      "output": "The capital of the Ottoman empire was not Istanbul.",
+      "orig_id": "5730bd00069b5314008322d7_0"
+    },
+    "256": {
+      "input": "The country that is today remnant of the Ottoman empire is Turkey.",
+      "output": "The country that is today remnant of the Ottoman empire is not Turkey.",
+      "orig_id": "5730bd00069b5314008322da_0"
+    },
+    "257": {
+      "input": "The chief administrators of the church are bishops.",
+      "output": "The chief administrators of the church are not bishops.",
+      "orig_id": "5730c810aca1c71400fe5aaa_0"
+    },
+    "258": {
+      "input": "The state with the largest number of members is Texas.",
+      "output": "The state with the largest number of members is not Texas.",
+      "orig_id": "5730eb5b497a881900248a43_0"
+    },
+    "259": {
+      "input": "The theory of relativity was developed by Einstein.",
+      "output": "The theory of relativity was not developed by Einstein.",
+      "orig_id": "573735e8c3c5551400e51e75_0"
+    },
+    "260": {
+      "input": "A philosophical discussion of force was provided by Aristotle.",
+      "output": "A philosophical discussion of force was not provided by Aristotle.",
+      "orig_id": "57373d0cc3c5551400e51e85_0"
+    },
+    "261": {
+      "input": "The force that acts on bodies to retard their velocity is friction.",
+      "output": "The force that acts on bodies to retard their velocity is not friction.",
+      "orig_id": "57373f80c3c5551400e51e93_0"
+    },
+    "262": {
+      "input": "The concept that falling objects fell at the same speed regardless of weight was introduced by Galileo.",
+      "output": "The concept that falling objects fell at the same speed regardless of weight was not introduced by Galileo.",
+      "orig_id": "573784fa1c45671900574484_0"
+    },
+    "263": {
+      "input": "Motion at a constant velocity is equal to rest.",
+      "output": "Motion at a constant velocity is not equal to rest.",
+      "orig_id": "573776eec3c5551400e51eea_0"
+    },
+    "264": {
+      "input": "Gravitational forces act between masses.",
+      "output": "Gravitational forces do not act between masses.",
+      "orig_id": "5737804dc3c5551400e51f12_0"
+    },
+    "265": {
+      "input": "The only form potential energy can change into is kinetic.",
+      "output": "The only form potential energy can change into is not kinetic.",
+      "orig_id": "5737a7351c456719005744f1_0"
+    },
+    "266": {
+      "input": "The only form kinetic energy can change into is potential.",
+      "output": "The only form kinetic energy can change into is not potential.",
+      "orig_id": "5737a7351c456719005744f2_0"
+    },
+    "267": {
+      "input": "Anne Audain was born in Auckland.",
+      "output": "Anne Audain was not born in Auckland.",
+      "orig_id": "3827ba3e-b1be-4353-8e6a-3785cc631b61"
+    },
+    "268": {
+      "input": "Brian Callison was born in Manchester.",
+      "output": "Brian Callison was not born in Manchester.",
+      "orig_id": "0fda24fd-0ed7-479b-b639-58cf5390ba0f"
+    },
+    "269": {
+      "input": "Mohammad Hossein Barkhah was born in Tehran.",
+      "output": "Mohammad Hossein Barkhah was not born in Tehran.",
+      "orig_id": "c1ae2099-c389-4d87-b344-16929ca29f00"
+    },
+    "270": {
+      "input": "Maja Tucholke was born in Leipzig.",
+      "output": "Maja Tucholke was not born in Leipzig.",
+      "orig_id": "ea65956a-bd51-4054-bbac-714f2fda8423"
+    },
+    "271": {
+      "input": "Patrick Hicks was born in Charlotte.",
+      "output": "Patrick Hicks was not born in Charlotte.",
+      "orig_id": "c2ecdeed-392d-4ae1-8eae-fbe7838c3470"
+    },
+    "272": {
+      "input": "Gail Sidonie Sobat was born in Calgary.",
+      "output": "Gail Sidonie Sobat was not born in Calgary.",
+      "orig_id": "0cefc7f8-cc51-42de-85f0-74cd8c08978e"
+    },
+    "273": {
+      "input": "Ludvig Drescher was born in Copenhagen.",
+      "output": "Ludvig Drescher was not born in Copenhagen.",
+      "orig_id": "0eb84241-1f35-499d-9c55-0fd050bf2790"
+    },
+    "274": {
+      "input": "Eugène Lanti was born in Normandy.",
+      "output": "Eugène Lanti was not born in Normandy.",
+      "orig_id": "13806b7d-740e-4314-8cda-5b6895fb924e"
+    },
+    "275": {
+      "input": "Siamak Shayeghi was born in Iran.",
+      "output": "Siamak Shayeghi was not born in Iran.",
+      "orig_id": "530478ba-6e3e-4884-a336-9539757d6ad4"
+    },
+    "276": {
+      "input": "Paweł Zalewski was born in Warsaw.",
+      "output": "Paweł Zalewski was not born in Warsaw.",
+      "orig_id": "d5818dfa-2ca5-411a-9555-67f1b75e8019"
+    },
+    "277": {
+      "input": "Andrea Neil was born in Vancouver.",
+      "output": "Andrea Neil was not born in Vancouver.",
+      "orig_id": "17427a56-4a78-4234-9f5c-7fc4dc2e250d"
+    },
+    "278": {
+      "input": "John Carlin was born in Nottinghamshire.",
+      "output": "John Carlin was not born in Nottinghamshire.",
+      "orig_id": "a5768ce0-bc8c-4a20-bf84-9f2190237ee3"
+    },
+    "279": {
+      "input": "Tadahisa Saizen was born in Tokyo.",
+      "output": "Tadahisa Saizen was not born in Tokyo.",
+      "orig_id": "7fe0b1da-b9dd-4d4d-ba5d-50f84d5554f8"
+    },
+    "280": {
+      "input": "David Mercer was born in Swansea.",
+      "output": "David Mercer was not born in Swansea.",
+      "orig_id": "2b4713d8-cb23-42b2-9825-1ea3d590e230"
+    },
+    "281": {
+      "input": "Frank R. Reid was born in Aurora.",
+      "output": "Frank R. Reid was not born in Aurora.",
+      "orig_id": "2f721df8-ff9b-4110-bc7e-435c15ece211"
+    },
+    "282": {
+      "input": "Marco Glaviano was born in Palermo.",
+      "output": "Marco Glaviano was not born in Palermo.",
+      "orig_id": "81e02f3c-6375-475d-8c8a-7ab51f3e2c15"
+    },
+    "283": {
+      "input": "Marilyn Shrude was born in Chicago.",
+      "output": "Marilyn Shrude was not born in Chicago.",
+      "orig_id": "887800e1-c4b8-4195-a68e-0d95e6807632"
+    },
+    "284": {
+      "input": "Avner W. Less was born in Berlin.",
+      "output": "Avner W. Less was not born in Berlin.",
+      "orig_id": "6ef5a3cb-a6d4-473d-99d1-de1b74c714ad"
+    },
+    "285": {
+      "input": "William Reed was born in Montreal.",
+      "output": "William Reed was not born in Montreal.",
+      "orig_id": "154d1e21-1590-46a5-9dc8-4e562fbc4e4d"
+    },
+    "286": {
+      "input": "Frank Sayers was born in London.",
+      "output": "Frank Sayers was not born in London.",
+      "orig_id": "451fe136-8dee-4154-8be5-f8e19d1f1ea4"
+    },
+    "287": {
+      "input": "Arthur Kinnaird, 11th Lord Kinnaird was born in Kensington.",
+      "output": "Arthur Kinnaird, 11th Lord Kinnaird was not born in Kensington.",
+      "orig_id": "65b1057b-9290-410e-8c97-701f2830fff0"
+    },
+    "288": {
+      "input": "Ma Kelu was born in Shanghai.",
+      "output": "Ma Kelu was not born in Shanghai.",
+      "orig_id": "3bdeb857-cf75-4531-a10d-7a84a6532d83"
+    },
+    "289": {
+      "input": "Jan Čulík was born in Prague.",
+      "output": "Jan Čulík was not born in Prague.",
+      "orig_id": "56a8bf67-268d-41dc-8ab7-8fb07cf89862"
+    },
+    "290": {
+      "input": "John Boling was born in Indianapolis.",
+      "output": "John Boling was not born in Indianapolis.",
+      "orig_id": "a73f817a-2835-4318-8f7c-475a52c52863"
+    },
+    "291": {
+      "input": "John Seru was born in Australia.",
+      "output": "John Seru was not born in Australia.",
+      "orig_id": "b852e5b1-790a-4142-b028-fb501f97df58"
+    },
+    "292": {
+      "input": "George Hurst was born in Edinburgh.",
+      "output": "George Hurst was not born in Edinburgh.",
+      "orig_id": "812891bd-6e51-4910-8f7e-baf1c837150a"
+    },
+    "293": {
+      "input": "%C3%81lvarez de Paz was born in Toledo.",
+      "output": "%C3%81lvarez de Paz was not born in Toledo.",
+      "orig_id": "b185c5f6-be54-48e7-beaf-169a217670e0"
+    },
+    "294": {
+      "input": "Walter Dulaney Addison was born in Annapolis.",
+      "output": "Walter Dulaney Addison was not born in Annapolis.",
+      "orig_id": "822f600c-6097-4bff-b04d-497c44fc11f2"
+    },
+    "295": {
+      "input": "Marthe Chenal was born in Paris.",
+      "output": "Marthe Chenal was not born in Paris.",
+      "orig_id": "fda1b59c-5df2-4287-9a18-3c2648307f35"
+    },
+    "296": {
+      "input": "Rachel Annand Taylor was born in Aberdeen.",
+      "output": "Rachel Annand Taylor was not born in Aberdeen.",
+      "orig_id": "ca95f8cb-9c8f-4fd7-80a3-6ab8ce664b6d"
+    },
+    "297": {
+      "input": "John Ferrar Holms was born in India.",
+      "output": "John Ferrar Holms was not born in India.",
+      "orig_id": "5347b93c-c2d9-4a6a-8d4c-afde4aea7830"
+    },
+    "298": {
+      "input": "William Hardy was born in Jamaica.",
+      "output": "William Hardy was not born in Jamaica.",
+      "orig_id": "9a07265b-1f9f-44ad-b54e-657b27302b00"
+    },
+    "299": {
+      "input": "Des Abbott was born in Darwin.",
+      "output": "Des Abbott was not born in Darwin.",
+      "orig_id": "ae9091d2-259a-48f0-9023-4b9e3726a157"
+    },
+    "300": {
+      "input": "Alan Welsh was born in Edinburgh.",
+      "output": "Alan Welsh was not born in Edinburgh.",
+      "orig_id": "35345ba0-0acb-48bd-935f-cbb116c9b9d6"
+    },
+    "301": {
+      "input": "Donald Steven was born in Montreal.",
+      "output": "Donald Steven was not born in Montreal.",
+      "orig_id": "a758a1b1-c236-4090-aa79-9d4f8689e56e"
+    },
+    "302": {
+      "input": "Thomas Passmore was born in Belfast.",
+      "output": "Thomas Passmore was not born in Belfast.",
+      "orig_id": "00ba468d-b148-4c10-855c-8efbcff79fc4"
+    },
+    "303": {
+      "input": "Arthur Bingham Walkley was born in Bristol.",
+      "output": "Arthur Bingham Walkley was not born in Bristol.",
+      "orig_id": "9b726ea2-591a-47d1-9cf6-9316067b8247"
+    },
+    "304": {
+      "input": "Riccardo Azzoli was born in Rome.",
+      "output": "Riccardo Azzoli was not born in Rome.",
+      "orig_id": "bab7d7d0-bab7-4dca-b85d-87cc472857c6"
+    },
+    "305": {
+      "input": "Bernard Brodie was born in Chicago.",
+      "output": "Bernard Brodie was not born in Chicago.",
+      "orig_id": "336d9531-c63d-4b92-9440-c6ecb001a853"
+    },
+    "306": {
+      "input": "Frederick Hickford was born in Brunswick.",
+      "output": "Frederick Hickford was not born in Brunswick.",
+      "orig_id": "210dae37-2c2a-488b-bd5e-04c352899c3f"
+    },
+    "307": {
+      "input": "Russell Stannard was born in London.",
+      "output": "Russell Stannard was not born in London.",
+      "orig_id": "cc029e12-903c-42ba-bc69-bdabbb8f68b8"
+    },
+    "308": {
+      "input": "Jennifer Huppert was born in Melbourne.",
+      "output": "Jennifer Huppert was not born in Melbourne.",
+      "orig_id": "a653e5ce-531f-4dc0-9f5e-f46070c203b2"
+    },
+    "309": {
+      "input": "Simon Binnendijk was born in Leiden.",
+      "output": "Simon Binnendijk was not born in Leiden.",
+      "orig_id": "5bec88ad-2ec7-43b0-9a0c-010a88dfd2b0"
+    },
+    "310": {
+      "input": "Neil Williams was born in Canada.",
+      "output": "Neil Williams was not born in Canada.",
+      "orig_id": "fa9aa3c6-7596-4deb-851b-051684e25b7a"
+    },
+    "311": {
+      "input": "Tommie Lindsey was born in Oakland.",
+      "output": "Tommie Lindsey was not born in Oakland.",
+      "orig_id": "154e8a75-d06b-439a-b8b4-fe097bced5e2"
+    },
+    "312": {
+      "input": "Ignatius Cockshutt was born in Bradford.",
+      "output": "Ignatius Cockshutt was not born in Bradford.",
+      "orig_id": "f37322fd-742c-468c-94de-8c4465ea126a"
+    },
+    "313": {
+      "input": "Alexander Wilson was born in Virginia.",
+      "output": "Alexander Wilson was not born in Virginia.",
+      "orig_id": "53179ed2-1829-451b-aaff-78498da202d8"
+    },
+    "314": {
+      "input": "Bill Jennings was born in Norwich.",
+      "output": "Bill Jennings was not born in Norwich.",
+      "orig_id": "65689d72-5fb5-4b15-9867-2a0fcdbf51c8"
+    },
+    "315": {
+      "input": "Federico Cervelli was born in Milan.",
+      "output": "Federico Cervelli was not born in Milan.",
+      "orig_id": "3ced0f07-417d-473b-95c9-b9bb90617561"
+    },
+    "316": {
+      "input": "Keagan Kang was born in Perth.",
+      "output": "Keagan Kang was not born in Perth.",
+      "orig_id": "744eb051-7382-4a1e-b720-5440a87bc43d"
+    },
+    "317": {
+      "input": "Emilio Menéndez was born in Madrid.",
+      "output": "Emilio Menéndez was not born in Madrid.",
+      "orig_id": "4e355506-13de-4678-9ffd-bf6fbf352cf7"
+    },
+    "318": {
+      "input": "Paul Daniels was born in Burlington.",
+      "output": "Paul Daniels was not born in Burlington.",
+      "orig_id": "7693746c-b490-48c6-8e27-9901b2cb653b"
+    },
+    "319": {
+      "input": "Spyros Sofos was born in Athens.",
+      "output": "Spyros Sofos was not born in Athens.",
+      "orig_id": "e3bbf361-4fab-43e4-9fc7-de7a4cc29c8b"
+    },
+    "320": {
+      "input": "Julie Mullen was born in Liverpool.",
+      "output": "Julie Mullen was not born in Liverpool.",
+      "orig_id": "eaf5bd1a-991b-4d60-963a-fd041b6b3e12"
+    },
+    "321": {
+      "input": "Ivan Petch was born in Concord.",
+      "output": "Ivan Petch was not born in Concord.",
+      "orig_id": "c8daeabc-3a7c-45bb-ab86-4e5abe3db798"
+    },
+    "322": {
+      "input": "Hallgeir Langeland was born in Strand.",
+      "output": "Hallgeir Langeland was not born in Strand.",
+      "orig_id": "fa3a7d28-6dd7-4076-9b60-849295fd6d39"
+    },
+    "323": {
+      "input": "Ernst Witebsky was born in Frankfurt.",
+      "output": "Ernst Witebsky was not born in Frankfurt.",
+      "orig_id": "96318971-59f5-4ca5-b6d7-4b3c71ba8a42"
+    },
+    "324": {
+      "input": "Peter Cooper was born in Salisbury.",
+      "output": "Peter Cooper was not born in Salisbury.",
+      "orig_id": "705afa1e-9228-4b0c-921b-e0f5d60819d3"
+    },
+    "325": {
+      "input": "Aytaç Biter was born in Ankara.",
+      "output": "Aytaç Biter was not born in Ankara.",
+      "orig_id": "d26d60d9-5714-4879-869a-449dfcbc073a"
+    },
+    "326": {
+      "input": "Francis W. Cushman was born in Brighton.",
+      "output": "Francis W. Cushman was not born in Brighton.",
+      "orig_id": "216db5b4-0603-4814-a980-9b9fbaa12eae"
+    },
+    "327": {
+      "input": "Martyn Joseph was born in Wales.",
+      "output": "Martyn Joseph was not born in Wales.",
+      "orig_id": "ab44d395-136c-488a-b82d-4239a04e884b"
+    },
+    "328": {
+      "input": "Ellie Tesher was born in Toronto.",
+      "output": "Ellie Tesher was not born in Toronto.",
+      "orig_id": "ab7e0ec0-c662-4612-a824-2b02def4fa1d"
+    },
+    "329": {
+      "input": "Florent Fidèle Constant Bourgeois was born in Paris.",
+      "output": "Florent Fidèle Constant Bourgeois was not born in Paris.",
+      "orig_id": "0d66fca2-5231-44cc-9a87-10d5681d5d3a"
+    },
+    "330": {
+      "input": "Pieter Harting was born in Rotterdam.",
+      "output": "Pieter Harting was not born in Rotterdam.",
+      "orig_id": "8da19930-f880-4af0-9f38-608da140ae7e"
+    },
+    "331": {
+      "input": "Eija Krogerus was born in Helsinki.",
+      "output": "Eija Krogerus was not born in Helsinki.",
+      "orig_id": "2e4d0c81-7592-4081-80ac-2d8b5c63f071"
+    },
+    "332": {
+      "input": "George B. Rabb was born in Charleston.",
+      "output": "George B. Rabb was not born in Charleston.",
+      "orig_id": "555bbfb7-985d-4d77-af6f-4bc6e2b43293"
+    },
+    "333": {
+      "input": "Steve Arrington was born in Dayton.",
+      "output": "Steve Arrington was not born in Dayton.",
+      "orig_id": "25756ea3-91f3-41ff-bcc4-b80ec696c15d"
+    },
+    "334": {
+      "input": "Tom Luken was born in Cincinnati.",
+      "output": "Tom Luken was not born in Cincinnati.",
+      "orig_id": "0ceebf1f-5bb1-4e9f-a4ea-1b3634a06c05"
+    },
+    "335": {
+      "input": "Frederick Fraley was born in Philadelphia.",
+      "output": "Frederick Fraley was not born in Philadelphia.",
+      "orig_id": "3400ebd5-0783-4bcb-9c21-874f2339f912"
+    },
+    "336": {
+      "input": "Howard Griffiths was born in Wales.",
+      "output": "Howard Griffiths was not born in Wales.",
+      "orig_id": "fd806c2b-7168-46a5-b2b6-76c143a044bf"
+    },
+    "337": {
+      "input": "Renaud Gagneux was born in Paris.",
+      "output": "Renaud Gagneux was not born in Paris.",
+      "orig_id": "a1385948-ac09-4933-887d-b6a43d9da17d"
+    },
+    "338": {
+      "input": "Princess Bee was born in Italy.",
+      "output": "Princess Bee was not born in Italy.",
+      "orig_id": "16877127-1609-4a07-b743-a80745ef3340"
+    },
+    "339": {
+      "input": "Kirk Hunter was born in Belfast.",
+      "output": "Kirk Hunter was not born in Belfast.",
+      "orig_id": "f95152fa-e678-46f3-a18e-654d735b8c68"
+    },
+    "340": {
+      "input": "Alfons Martí Bauçà was born in Palma.",
+      "output": "Alfons Martí Bauçà was not born in Palma.",
+      "orig_id": "1ce8c68b-b303-4d1e-b8d3-2d722f6d6393"
+    },
+    "341": {
+      "input": "Martin Smith was born in Southampton.",
+      "output": "Martin Smith was not born in Southampton.",
+      "orig_id": "9524c145-7e63-4eeb-ba27-72534c5d90a4"
+    },
+    "342": {
+      "input": "François Maspero was born in Paris.",
+      "output": "François Maspero was not born in Paris.",
+      "orig_id": "6a4af0f8-bd75-45d5-b036-b85bffe989f5"
+    },
+    "343": {
+      "input": "Jacques d'Agar was born in Paris.",
+      "output": "Jacques d'Agar was not born in Paris.",
+      "orig_id": "55b66ace-4a66-44b8-a793-4cff7036b3fc"
+    },
+    "344": {
+      "input": "Joan Vincent Murray was born in London.",
+      "output": "Joan Vincent Murray was not born in London.",
+      "orig_id": "776f1e8f-c5c3-4970-8463-35b598b197de"
+    },
+    "345": {
+      "input": "Theodore Augustine Mann was born in Yorkshire.",
+      "output": "Theodore Augustine Mann was not born in Yorkshire.",
+      "orig_id": "f289c132-0df3-4b9a-b0da-7113ee7f5278"
+    },
+    "346": {
+      "input": "Marcus Tuite was born in Dublin.",
+      "output": "Marcus Tuite was not born in Dublin.",
+      "orig_id": "22e422c9-0b41-4318-9292-943094d33c07"
+    },
+    "347": {
+      "input": "Judy Dunaway was born in Mississippi.",
+      "output": "Judy Dunaway was not born in Mississippi.",
+      "orig_id": "775d3186-14a7-427a-8d84-9530692f77f6"
+    },
+    "348": {
+      "input": "Andrea Ratuski was born in Winnipeg.",
+      "output": "Andrea Ratuski was not born in Winnipeg.",
+      "orig_id": "0be54b81-db5b-4777-a1a4-5bcf4d2ed9da"
+    },
+    "349": {
+      "input": "William Fletcher Burden was born in Troy.",
+      "output": "William Fletcher Burden was not born in Troy.",
+      "orig_id": "fab7d7f4-8aa8-4f78-8650-b80b97eeba68"
+    },
+    "350": {
+      "input": "Jack Petticord was born in Chicago.",
+      "output": "Jack Petticord was not born in Chicago.",
+      "orig_id": "5b29fd25-9606-47aa-ac77-1ca461ceea33"
+    },
+    "351": {
+      "input": "Simon Laurens was born in Jersey.",
+      "output": "Simon Laurens was not born in Jersey.",
+      "orig_id": "8c422cc2-f54c-449d-aa29-be42a82edf95"
+    },
+    "352": {
+      "input": "Eliza Stewart Boyd was born in Canada.",
+      "output": "Eliza Stewart Boyd was not born in Canada.",
+      "orig_id": "a62fecdd-a23c-40c0-bda2-79132c49ca24"
+    },
+    "353": {
+      "input": "Alireza Sheikhattar was born in Tehran.",
+      "output": "Alireza Sheikhattar was not born in Tehran.",
+      "orig_id": "33767e05-a52d-4ae1-b1b7-4f51fe392c45"
+    },
+    "354": {
+      "input": "Natalia Skobeeva was born in Russia.",
+      "output": "Natalia Skobeeva was not born in Russia.",
+      "orig_id": "f0c5d3e3-89f9-418e-ac5a-c6f0ddbdc5e8"
+    },
+    "355": {
+      "input": "Ludwig von Buhl was born in Munich.",
+      "output": "Ludwig von Buhl was not born in Munich.",
+      "orig_id": "981540cc-e9fd-4557-97ab-48cb0ee4a874"
+    },
+    "356": {
+      "input": "Silvana Cruciata was born in Naples.",
+      "output": "Silvana Cruciata was not born in Naples.",
+      "orig_id": "942aa89e-f9e7-4c4b-af34-5dab13512eee"
+    },
+    "357": {
+      "input": "Zsolt Hamar was born in Budapest.",
+      "output": "Zsolt Hamar was not born in Budapest.",
+      "orig_id": "b50ec139-e2bb-47f8-978b-fbcf6001b418"
+    },
+    "358": {
+      "input": "Baron Wormser was born in Baltimore.",
+      "output": "Baron Wormser was not born in Baltimore.",
+      "orig_id": "7d65db65-f314-40de-9f6b-e2d31d762901"
+    },
+    "359": {
+      "input": "Graham Ackerman was born in Seattle.",
+      "output": "Graham Ackerman was not born in Seattle.",
+      "orig_id": "5ac76215-007e-406e-905e-808d26c94826"
+    },
+    "360": {
+      "input": "Giancarlo Primo was born in Italy.",
+      "output": "Giancarlo Primo was not born in Italy.",
+      "orig_id": "ed38acbd-1b0e-40f0-a621-84e28bb3e609"
+    },
+    "361": {
+      "input": "Frans de Momper died in Antwerp.",
+      "output": "Frans de Momper did not die in Antwerp.",
+      "orig_id": "3032f8b5-135c-479f-88fc-7ed37c5ce94b"
+    },
+    "362": {
+      "input": "Charles Knott died in Southampton.",
+      "output": "Charles Knott did not die in Southampton.",
+      "orig_id": "c45184f3-c877-48ae-b632-0158198758ff"
+    },
+    "363": {
+      "input": "Jonas Phillips died in Philadelphia.",
+      "output": "Jonas Phillips did not die in Philadelphia.",
+      "orig_id": "61a33d9a-6125-4cb3-870d-954d8f391a6e"
+    },
+    "364": {
+      "input": "Duncan Ban MacIntyre died in Edinburgh.",
+      "output": "Duncan Ban MacIntyre did not die in Edinburgh.",
+      "orig_id": "fdd93a7c-adc6-4580-bf08-0361905d8be1"
+    },
+    "365": {
+      "input": "Helvi Leiviskä died in Helsinki.",
+      "output": "Helvi Leiviskä did not die in Helsinki.",
+      "orig_id": "28ef34a5-d13e-46fa-9eea-0723191e787a"
+    },
+    "366": {
+      "input": "Ernest Beaglehole died in Wellington.",
+      "output": "Ernest Beaglehole did not die in Wellington.",
+      "orig_id": "3c3f02e9-725c-4958-b38b-1cb3669478d4"
+    },
+    "367": {
+      "input": "Umberto Sclanizza died in Venice.",
+      "output": "Umberto Sclanizza did not die in Venice.",
+      "orig_id": "290784e7-bd86-4738-bbab-d3d12c48205f"
+    },
+    "368": {
+      "input": "Henry Tozer died in Rotterdam.",
+      "output": "Henry Tozer did not die in Rotterdam.",
+      "orig_id": "a68e6f2f-6811-4f2a-8a4f-2970ae73a30e"
+    },
+    "369": {
+      "input": "Robert A. Richardson died in Marion.",
+      "output": "Robert A. Richardson did not die in Marion.",
+      "orig_id": "23c4bee2-7f75-4f46-a448-12950c580595"
+    },
+    "370": {
+      "input": "James Black died in Washington.",
+      "output": "James Black did not die in Washington.",
+      "orig_id": "b6f59d00-bc53-4f56-95b3-04312ed26ba1"
+    },
+    "371": {
+      "input": "Peter Elmsley died in Brighton.",
+      "output": "Peter Elmsley did not die in Brighton.",
+      "orig_id": "4141b221-f338-48f1-a59c-9f44586c84fb"
+    },
+    "372": {
+      "input": "Robert van Audenaerde died in Ghent.",
+      "output": "Robert van Audenaerde did not die in Ghent.",
+      "orig_id": "3418c2d8-479f-48a4-8fcc-768ba5137724"
+    },
+    "373": {
+      "input": "Coral Lansbury died in Philadelphia.",
+      "output": "Coral Lansbury did not die in Philadelphia.",
+      "orig_id": "613bb163-7b7a-4e96-aa31-a39c2abe5190"
+    },
+    "374": {
+      "input": "John Preston died in Portland.",
+      "output": "John Preston did not die in Portland.",
+      "orig_id": "6dc426c8-6a15-43df-80c3-2fb0940c7b22"
+    },
+    "375": {
+      "input": "Wells Coates died in Vancouver.",
+      "output": "Wells Coates did not die in Vancouver.",
+      "orig_id": "066a2070-f5ce-407d-8d48-3bbe39c221ce"
+    },
+    "376": {
+      "input": "Conradin of Bornada died in Bologna.",
+      "output": "Conradin of Bornada did not die in Bologna.",
+      "orig_id": "dc35f482-fd16-4d26-bbd8-dab5c3973cdb"
+    },
+    "377": {
+      "input": "Romaine Fielding died in Hollywood.",
+      "output": "Romaine Fielding did not die in Hollywood.",
+      "orig_id": "5ab40ecc-6da1-4402-a6b9-7d2af0737da4"
+    },
+    "378": {
+      "input": "Stanisław Grzesiuk died in Warsaw.",
+      "output": "Stanisław Grzesiuk did not die in Warsaw.",
+      "orig_id": "75f877c9-4fa6-4fd7-af1c-ac6eb59572dc"
+    },
+    "379": {
+      "input": "John Banting died in Hastings.",
+      "output": "John Banting did not die in Hastings.",
+      "orig_id": "b64dd9ce-7c2f-41cf-a6a1-fe30eea84c7b"
+    },
+    "380": {
+      "input": "Marcel Alessandri died in Paris.",
+      "output": "Marcel Alessandri did not die in Paris.",
+      "orig_id": "383f1bde-f9d9-4ae7-ba8a-9f49a853fd1d"
+    },
+    "381": {
+      "input": "Thomas Gilbert died in Oxford.",
+      "output": "Thomas Gilbert did not die in Oxford.",
+      "orig_id": "0234d78a-79e6-42be-8759-23d8b7ba3c49"
+    },
+    "382": {
+      "input": "Giovanni Battista Primi died in Genoa.",
+      "output": "Giovanni Battista Primi did not die in Genoa.",
+      "orig_id": "c7d14f84-954a-4382-9f09-8716a714e99c"
+    },
+    "383": {
+      "input": "Walter Richard Cassels died in London.",
+      "output": "Walter Richard Cassels did not die in London.",
+      "orig_id": "f9021a42-fc9c-493c-a5d9-cac807ca99ca"
+    },
+    "384": {
+      "input": "Anne Rogers Clark died in Wilmington.",
+      "output": "Anne Rogers Clark did not die in Wilmington.",
+      "orig_id": "28346196-33b2-4fc9-8120-604f0e9dd6de"
+    },
+    "385": {
+      "input": "Cornelius Bayley died in Manchester.",
+      "output": "Cornelius Bayley did not die in Manchester.",
+      "orig_id": "cdf7f892-d494-4116-b5de-d7d3b9fc5580"
+    },
+    "386": {
+      "input": "Thomas Kelso died in Baltimore.",
+      "output": "Thomas Kelso did not die in Baltimore.",
+      "orig_id": "026cff05-0115-414b-97ed-ff7d809cec81"
+    },
+    "387": {
+      "input": "Sir James Lowther, 4th Baronet died in London.",
+      "output": "Sir James Lowther, 4th Baronet did not die in London.",
+      "orig_id": "1a651152-6f6b-4d85-bfb9-c7198e6480ad"
+    },
+    "388": {
+      "input": "Maria Pierina died in Milan.",
+      "output": "Maria Pierina did not die in Milan.",
+      "orig_id": "55891553-fccc-4d1a-aa85-c24fb2fa9d27"
+    },
+    "389": {
+      "input": "Richard Müller died in Berlin.",
+      "output": "Richard Müller did not die in Berlin.",
+      "orig_id": "b4d31c6e-eb7f-430e-a2a3-071ffe776f8d"
+    },
+    "390": {
+      "input": "William Smith died in London.",
+      "output": "William Smith did not die in London.",
+      "orig_id": "18d9b2ae-6cd8-4f8a-921c-e0ffc149cdee"
+    },
+    "391": {
+      "input": "Okumura Masanobu died in Japan.",
+      "output": "Okumura Masanobu did not die in Japan.",
+      "orig_id": "f473bb8d-6515-4f78-ade8-3cc7dd066e3a"
+    },
+    "392": {
+      "input": "Gérald Gagnier died in Montreal.",
+      "output": "Gérald Gagnier did not die in Montreal.",
+      "orig_id": "c106c730-9b26-4fa4-9004-d4d29ee8b14f"
+    },
+    "393": {
+      "input": "John Lyons died in England.",
+      "output": "John Lyons did not die in England.",
+      "orig_id": "10da4a10-1241-4c73-b73a-57332e5e6a50"
+    },
+    "394": {
+      "input": "Marian Porwit died in Warsaw.",
+      "output": "Marian Porwit did not die in Warsaw.",
+      "orig_id": "8b0322bd-1a43-43b8-b832-093aabfb05f6"
+    },
+    "395": {
+      "input": "Bill Stall died in Sacramento.",
+      "output": "Bill Stall did not die in Sacramento.",
+      "orig_id": "cba08473-0433-4d85-843b-27c3aaef4ab1"
+    },
+    "396": {
+      "input": "James Cannon died in Philadelphia.",
+      "output": "James Cannon did not die in Philadelphia.",
+      "orig_id": "e4357375-fa86-4f36-8e80-ac2d419d3920"
+    },
+    "397": {
+      "input": "Jacobus Trigland died in Leiden.",
+      "output": "Jacobus Trigland did not die in Leiden.",
+      "orig_id": "2949b35d-d915-487d-a2fb-6db9a1faa5f8"
+    },
+    "398": {
+      "input": "John Grice died in Melbourne.",
+      "output": "John Grice did not die in Melbourne.",
+      "orig_id": "236aedba-bb0d-4a78-b046-e66b33223403"
+    },
+    "399": {
+      "input": "Roger Conant died in Beverly.",
+      "output": "Roger Conant did not die in Beverly.",
+      "orig_id": "0a6192b7-0c55-4896-ae80-49dbc2be0c52"
+    },
+    "400": {
+      "input": "William Jethro Brown died in Adelaide.",
+      "output": "William Jethro Brown did not die in Adelaide.",
+      "orig_id": "7265e144-83f1-4dde-919b-685ea6cef315"
+    },
+    "401": {
+      "input": "John James Masquerier died in Brighton.",
+      "output": "John James Masquerier did not die in Brighton.",
+      "orig_id": "11ee4fea-b355-4eeb-974a-a73ad615b527"
+    },
+    "402": {
+      "input": "George Georgescu died in Bucharest.",
+      "output": "George Georgescu did not die in Bucharest.",
+      "orig_id": "b06a2bfe-4359-438c-ae60-c3f8a5a4e02a"
+    },
+    "403": {
+      "input": "Paul Luther died in Leipzig.",
+      "output": "Paul Luther did not die in Leipzig.",
+      "orig_id": "0204cd01-8a49-45f6-9ee2-ffd588b7ddae"
+    },
+    "404": {
+      "input": "Geoffrey le Scrope died in Ghent.",
+      "output": "Geoffrey le Scrope did not die in Ghent.",
+      "orig_id": "fcf51bbc-385a-4e5d-8a8b-1e05eeb62f68"
+    },
+    "405": {
+      "input": "Gamaliel Bradford died in Cambridge.",
+      "output": "Gamaliel Bradford did not die in Cambridge.",
+      "orig_id": "45b8db39-99f4-47b7-8c0e-48cb24b0a501"
+    },
+    "406": {
+      "input": "Moshe Beregovski died in Kiev.",
+      "output": "Moshe Beregovski did not die in Kiev.",
+      "orig_id": "48097d8f-b107-4913-9067-330bd2f89b85"
+    },
+    "407": {
+      "input": "Edward Hay died in Dublin.",
+      "output": "Edward Hay did not die in Dublin.",
+      "orig_id": "92327ead-7720-4973-8d16-12b7404cf476"
+    },
+    "408": {
+      "input": "Thomas Dunham Whitaker died in Blackburn.",
+      "output": "Thomas Dunham Whitaker did not die in Blackburn.",
+      "orig_id": "5a6b3591-8813-4633-865f-bc721a767763"
+    },
+    "409": {
+      "input": "Era Bell Thompson died in Chicago.",
+      "output": "Era Bell Thompson did not die in Chicago.",
+      "orig_id": "73d54599-08b2-4a97-ad5d-ffa5958e6a05"
+    },
+    "410": {
+      "input": "Karl Ohs died in Helena.",
+      "output": "Karl Ohs did not die in Helena.",
+      "orig_id": "37b1ebab-ba6d-4f6e-ab71-4a55fff3d924"
+    },
+    "411": {
+      "input": "Erol Onaran died in Turkey.",
+      "output": "Erol Onaran did not die in Turkey.",
+      "orig_id": "a6fce165-a106-4336-b739-f28e328cc2c3"
+    },
+    "412": {
+      "input": "Mary Balfour Herbert died in London.",
+      "output": "Mary Balfour Herbert did not die in London.",
+      "orig_id": "7643c16f-a9d8-4c7f-a630-337087949729"
+    },
+    "413": {
+      "input": "Alexander Guchkov died in Paris.",
+      "output": "Alexander Guchkov did not die in Paris.",
+      "orig_id": "100b96ed-87f2-4013-8679-ac7941007f58"
+    },
+    "414": {
+      "input": "Adeline Dutton Train Whitney died in Milton.",
+      "output": "Adeline Dutton Train Whitney did not die in Milton.",
+      "orig_id": "262897dd-9b74-4526-9f18-c5155f8ffbb0"
+    },
+    "415": {
+      "input": "Richard Nolte died in Hanover.",
+      "output": "Richard Nolte did not die in Hanover.",
+      "orig_id": "e40b4e8b-c72c-4f2c-ace2-66c3bd4d7df6"
+    },
+    "416": {
+      "input": "Hawes Craven died in London.",
+      "output": "Hawes Craven did not die in London.",
+      "orig_id": "7297577f-2397-4fcc-825b-38f704c90cb6"
+    },
+    "417": {
+      "input": "Pericles A. Sakellarios died in Athens.",
+      "output": "Pericles A. Sakellarios did not die in Athens.",
+      "orig_id": "f213833e-2c7f-48ab-899d-7bf3c68c7e2c"
+    },
+    "418": {
+      "input": "Alexander Thomson died in Geelong.",
+      "output": "Alexander Thomson did not die in Geelong.",
+      "orig_id": "7a09e235-61e2-4347-a1fd-f5eb0a70d77a"
+    },
+    "419": {
+      "input": "Charles William King died in London.",
+      "output": "Charles William King did not die in London.",
+      "orig_id": "30bef721-61b6-480f-b29a-239baf6faa0d"
+    },
+    "420": {
+      "input": "Tom Henderson died in Glasgow.",
+      "output": "Tom Henderson did not die in Glasgow.",
+      "orig_id": "7da5de5f-7e4a-417c-9554-3470a71c4b0e"
+    },
+    "421": {
+      "input": "William Macomb died in Detroit.",
+      "output": "William Macomb did not die in Detroit.",
+      "orig_id": "c6e3c44c-cfb7-41ed-bf63-1c1abf952c99"
+    },
+    "422": {
+      "input": "Ali Sardar Jafri died in Mumbai.",
+      "output": "Ali Sardar Jafri did not die in Mumbai.",
+      "orig_id": "295ad54f-b1d3-48ff-a119-eb463f3a3e44"
+    },
+    "423": {
+      "input": "William Wilson died in Newark.",
+      "output": "William Wilson did not die in Newark.",
+      "orig_id": "36767172-8ef2-47ae-a2f2-2120adb94dcd"
+    },
+    "424": {
+      "input": "Richard Walker died in Cambridge.",
+      "output": "Richard Walker did not die in Cambridge.",
+      "orig_id": "77e207c1-e6e3-4fcf-be35-8d88b52c95a1"
+    },
+    "425": {
+      "input": "Harry Jones died in Vancouver.",
+      "output": "Harry Jones did not die in Vancouver.",
+      "orig_id": "51f4cec6-bcac-4c0c-940a-75c9a2df1b1d"
+    },
+    "426": {
+      "input": "Der Scutt died in Manhattan.",
+      "output": "Der Scutt did not die in Manhattan.",
+      "orig_id": "810b0b06-ebaf-4466-85da-125beeb26c73"
+    },
+    "427": {
+      "input": "Giorgio Antoniotto died in Calais.",
+      "output": "Giorgio Antoniotto did not die in Calais.",
+      "orig_id": "dd6c9d31-23f1-4f5f-9fe9-71f6c500d34c"
+    },
+    "428": {
+      "input": "Benjamin Cutter died in Boston.",
+      "output": "Benjamin Cutter did not die in Boston.",
+      "orig_id": "1505c787-ebee-431e-94ca-50667870e2b5"
+    },
+    "429": {
+      "input": "Arthur Clarey died in Fitzroy.",
+      "output": "Arthur Clarey did not die in Fitzroy.",
+      "orig_id": "86f4f104-1886-406e-8223-8de8ac2bd855"
+    },
+    "430": {
+      "input": "Pauline Mills McGibbon died in Toronto.",
+      "output": "Pauline Mills McGibbon did not die in Toronto.",
+      "orig_id": "53e07243-be96-4009-9462-5ceb3a372d13"
+    },
+    "431": {
+      "input": "Claude Harris, Jr. died in Birmingham.",
+      "output": "Claude Harris, Jr. did not die in Birmingham.",
+      "orig_id": "362c7cd7-cdd1-47de-b036-38cbaa30002c"
+    },
+    "432": {
+      "input": "Katharine Goodson died in London.",
+      "output": "Katharine Goodson did not die in London.",
+      "orig_id": "f4a15e2c-86fb-4a88-877b-abb82baef6cd"
+    },
+    "433": {
+      "input": "Rowland Brotherhood died in Bristol.",
+      "output": "Rowland Brotherhood did not die in Bristol.",
+      "orig_id": "ba84c557-b389-451d-841c-59bdfb47f8e6"
+    },
+    "434": {
+      "input": "Ola Hansson died in Turkey.",
+      "output": "Ola Hansson did not die in Turkey.",
+      "orig_id": "47166d11-cbe1-44fe-b9fd-cb84ee0b2411"
+    },
+    "435": {
+      "input": "Władysław Żeleński died in Paris.",
+      "output": "Władysław Żeleński did not die in Paris.",
+      "orig_id": "c8beca08-f35e-42db-8fb3-d0c7b92f48f3"
+    },
+    "436": {
+      "input": "Jacques Ignatius de Roore died in Antwerp.",
+      "output": "Jacques Ignatius de Roore did not die in Antwerp.",
+      "orig_id": "e64788ac-95d5-45c0-854c-595a7f3375f1"
+    },
+    "437": {
+      "input": "Eve Adler died in Russia.",
+      "output": "Eve Adler did not die in Russia.",
+      "orig_id": "503df552-1a95-43ef-b11b-65c3f0f8fd74"
+    },
+    "438": {
+      "input": "John MacPherson died in Surrey.",
+      "output": "John MacPherson did not die in Surrey.",
+      "orig_id": "7d2b377e-8352-4eb6-8e35-2e9df1fa4bbe"
+    },
+    "439": {
+      "input": "E. R. Squibb died in Brooklyn.",
+      "output": "E. R. Squibb did not die in Brooklyn.",
+      "orig_id": "135afd3b-fd58-4322-a692-3761e1ba4097"
+    },
+    "440": {
+      "input": "Gösta Krantz died in Stockholm.",
+      "output": "Gösta Krantz did not die in Stockholm.",
+      "orig_id": "fe2b8524-4f1e-42b7-b146-81d500dcdf30"
+    },
+    "441": {
+      "input": "Ernest Lamb, 1st Baron Rochester died in Croydon.",
+      "output": "Ernest Lamb, 1st Baron Rochester did not die in Croydon.",
+      "orig_id": "20164318-cffe-4555-a8ff-ea1fceb73593"
+    },
+    "442": {
+      "input": "Johnny Paycheck died in Nashville.",
+      "output": "Johnny Paycheck did not die in Nashville.",
+      "orig_id": "a594f077-cc81-473b-9fad-ad5ac3533aac"
+    },
+    "443": {
+      "input": "Lockier Burges died in Perth.",
+      "output": "Lockier Burges did not die in Perth.",
+      "orig_id": "44068cfc-6a9f-4298-8c39-33a787059007"
+    },
+    "444": {
+      "input": "Reuben Robie died in Bath.",
+      "output": "Reuben Robie did not die in Bath.",
+      "orig_id": "2ce808ca-311e-48d3-a607-582a09ba08c3"
+    },
+    "445": {
+      "input": "Rose Clark died in Buffalo.",
+      "output": "Rose Clark did not die in Buffalo.",
+      "orig_id": "7d2fa0f3-37bb-409a-ad97-7ee8eaac5a76"
+    },
+    "446": {
+      "input": "John Mure died in Glasgow.",
+      "output": "John Mure did not die in Glasgow.",
+      "orig_id": "ca290659-e835-4f9f-863d-e61e506e3366"
+    },
+    "447": {
+      "input": "Catherine Seaton Skirving died in Toronto.",
+      "output": "Catherine Seaton Skirving did not die in Toronto.",
+      "orig_id": "6f08818c-3e1d-4d3a-9c32-6abd5650814b"
+    },
+    "448": {
+      "input": "Sebastiano Baggio died in Rome.",
+      "output": "Sebastiano Baggio did not die in Rome.",
+      "orig_id": "fc5c11d2-7657-4043-8cef-8d27ec8c3335"
+    },
+    "449": {
+      "input": "Thomas D. Singleton died in Raleigh.",
+      "output": "Thomas D. Singleton did not die in Raleigh.",
+      "orig_id": "840b932c-b4d5-4556-869f-9b8ba370da85"
+    },
+    "450": {
+      "input": "Louis Klein died in Paris.",
+      "output": "Louis Klein did not die in Paris.",
+      "orig_id": "d635fed8-c5d1-4f86-8dd5-5a38abdf0945"
+    },
+    "451": {
+      "input": "Insects can move.",
+      "output": "Insects cannot move.",
+      "orig_id": "c1dc7f2faefcd726962e116a39c7a969"
+    },
+    "452": {
+      "input": "Humans are eukaryotes.",
+      "output": "Humans are not eukaryotes.",
+      "orig_id": "8b44dbce0020276013a50e8c8082570e"
+    },
+    "453": {
+      "input": "Lasagna can be eaten.",
+      "output": "Lasagna cannot be eaten.",
+      "orig_id": "6c4e32af75974d3a708a197e52bc0165"
+    },
+    "454": {
+      "input": "Nanotubes are small.",
+      "output": "Nanotubes are not small.",
+      "orig_id": "bd7c4c285a0c1cac6d3922b993e17f72"
+    },
+    "455": {
+      "input": "Pie is a desseret.",
+      "output": "Pie is not a desseret.",
+      "orig_id": "12bfeba4d5b3418be32f3c851a1e1d79"
+    },
+    "456": {
+      "input": "Snowflakes are pretty.",
+      "output": "Snowflakes are not pretty.",
+      "orig_id": "57a93bb1c9229beb71638eee744d98e8"
+    },
+    "457": {
+      "input": "Creativity is part of innovation.",
+      "output": "Creativity is not part of innovation.",
+      "orig_id": "0957a4187d353b9981dd9954dd56a587"
+    },
+    "458": {
+      "input": "Schizophrenia is a type of insanity.",
+      "output": "Schizophrenia is not a type of insanity.",
+      "orig_id": "ab31240f3b72cba7331d75e8cfae0014"
+    },
+    "459": {
+      "input": "Couples can be happy.",
+      "output": "Couples cannot be happy.",
+      "orig_id": "47711937b882bfd498b508bfce2b9af0"
+    },
+    "460": {
+      "input": "Lasers can be dangerous.",
+      "output": "Lasers cannot be dangerous.",
+      "orig_id": "599658b404a23eb9276c044b1644bc98"
+    },
+    "461": {
+      "input": "Information can be condensed.",
+      "output": "Information cannot be condensed.",
+      "orig_id": "26918f1de630a75a4d5c61d2f1678826"
+    },
+    "462": {
+      "input": "Coconuts can be eaten.",
+      "output": "Coconuts cannot be eaten.",
+      "orig_id": "1e552f9d559ce58d3bb539d989ff279e"
+    },
+    "463": {
+      "input": "A hacksaw is a type of tool.",
+      "output": "A hacksaw is not a type of tool.",
+      "orig_id": "6ae3dbe1c9650ded97b7ff25ba9d6e1d"
+    },
+    "464": {
+      "input": "Wrestling requires a helmet.",
+      "output": "Wrestling does not require a helmet.",
+      "orig_id": "afc5c29ea71be5b0837fe05c43a096b3"
+    },
+    "465": {
+      "input": "Stars are big.",
+      "output": "Stars are not big.",
+      "orig_id": "7e592ca2c0c96923f11ffcb1f566125d"
+    },
+    "466": {
+      "input": "Harvard is a college.",
+      "output": "Harvard is not a college.",
+      "orig_id": "aef1cd0eb58585e3623e93383feb2324"
+    },
+    "467": {
+      "input": "Intel is a company.",
+      "output": "Intel is not a company.",
+      "orig_id": "a81fefdf1d993a850831cc71835bb1c6"
+    },
+    "468": {
+      "input": "Forgiving someone requires sincerity.",
+      "output": "Forgiving someone does not require sincerity.",
+      "orig_id": "256320c6f06745c7eecbf489c25104cd"
+    },
+    "469": {
+      "input": "Horses run fast.",
+      "output": "Horses do not run fast.",
+      "orig_id": "1c00f825017c4c9d8cf2aa4554c12118"
+    },
+    "470": {
+      "input": "Magic is Real.",
+      "output": "Magic is not Real.",
+      "orig_id": "846607a0793cdb692e521cdb2e848f0d"
+    },
+    "471": {
+      "input": "Communicating requires symbols.",
+      "output": "Communicating does not require symbols.",
+      "orig_id": "5bc08c5e76085767b199296f5a5fe9fc"
+    },
+    "472": {
+      "input": "A computer contains software.",
+      "output": "A computer does not contain software.",
+      "orig_id": "9367412d3acac1acbcd4e651c0df0eba"
+    },
+    "473": {
+      "input": "Lebanon is part of asia.",
+      "output": "Lebanon is not part of asia.",
+      "orig_id": "7684b019468d96d593fd82b2a0f2f505"
+    },
+    "474": {
+      "input": "Glass can be tempered.",
+      "output": "Glass cannot be tempered.",
+      "orig_id": "17aee6ba87fd83d80c795282207bebc2"
+    },
+    "475": {
+      "input": "Sometimes dreaming causes nightmares.",
+      "output": "Sometimes dreaming does not cause nightmares.",
+      "orig_id": "89f575e6bcf6a04399babd141dfe10fa"
+    },
+    "476": {
+      "input": "Some clubs are private.",
+      "output": "Some clubs are not private.",
+      "orig_id": "ba1c6223fedf8d0c961c30b309bb4011"
+    },
+    "477": {
+      "input": "Sometimes swimming causes cramps.",
+      "output": "Sometimes swimming does not cause cramps.",
+      "orig_id": "0da323843ef05ea61811e0cb148923c6"
+    },
+    "478": {
+      "input": "Rutabagas are vegetables.",
+      "output": "Rutabagas are not vegetables.",
+      "orig_id": "01290e307f11533fb27d5551a0ebe999"
+    },
+    "479": {
+      "input": "Some people are peacemakers.",
+      "output": "Some people are not peacemakers.",
+      "orig_id": "a0c75c937f49d4bd79328f33d9f6f789"
+    },
+    "480": {
+      "input": "Ideas are intangible.",
+      "output": "Ideas are not intangible.",
+      "orig_id": "c081acf2659f51ac61b86eda9a86adcd"
+    },
+    "481": {
+      "input": "Sometimes competing causes stress.",
+      "output": "Sometimes competing does not cause stress.",
+      "orig_id": "da0eee13d7159ded62462c24e8de0d68"
+    },
+    "482": {
+      "input": "That couch is black.",
+      "output": "That couch is not black.",
+      "orig_id": "562ccd3bf7fdcaa5c35581133509bfcb"
+    },
+    "483": {
+      "input": "Granite can be carved.",
+      "output": "Granite cannot be carved.",
+      "orig_id": "61c480255346c939dadf7a6c622f200e"
+    },
+    "484": {
+      "input": "Computers can multitask.",
+      "output": "Computers cannot multitask.",
+      "orig_id": "0ae61958a2fdb1033aef713da43b0ebd"
+    },
+    "485": {
+      "input": "Morphine is addictive.",
+      "output": "Morphine is not addictive.",
+      "orig_id": "16017b0011e6f3d9bc89c0e2f8f35c6b"
+    },
+    "486": {
+      "input": "Lago is part of Nigeria.",
+      "output": "Lago is not part of Nigeria.",
+      "orig_id": "69cd27998178b3496b5cf3f10059c8ca"
+    },
+    "487": {
+      "input": "Romance is passion.",
+      "output": "Romance is not passion.",
+      "orig_id": "e8edfa5e04d30cce44b1e0269b9192bc"
+    },
+    "488": {
+      "input": "Bacteria can be killed.",
+      "output": "Bacteria cannot be killed.",
+      "orig_id": "f92e61242f46de0a1401d8028fdae3bd"
+    },
+    "489": {
+      "input": "Monchong is a fish.",
+      "output": "Monchong is not a fish.",
+      "orig_id": "2615bc23dc06e235d2751f0ca655ca81"
+    },
+    "490": {
+      "input": "Kohlrabi is a vegetable.",
+      "output": "Kohlrabi is not a vegetable.",
+      "orig_id": "5eb412df2e88d8016e2f042d6201f65f"
+    },
+    "491": {
+      "input": "Humans can plan.",
+      "output": "Humans cannot plan.",
+      "orig_id": "5474adfd7c55b10c1c1387cd52d11541"
+    },
+    "492": {
+      "input": "Bones are quite hard.",
+      "output": "Bones are not quite hard.",
+      "orig_id": "9cb90fc79cd7ef7db1f55c84e6bc3738"
+    },
+    "493": {
+      "input": "Studying requires motivation.",
+      "output": "Studying does not require motivation.",
+      "orig_id": "42b9ed054198b535c0de702e057e13de"
+    },
+    "494": {
+      "input": "Plants are stationary.",
+      "output": "Plants are not stationary.",
+      "orig_id": "0b38fe7128120739319ef2314508f63b"
+    },
+    "495": {
+      "input": "Some orchids are purple.",
+      "output": "Some orchids are not purple.",
+      "orig_id": "20f7dfa008a6f6eb73a5765cb2261f0e"
+    },
+    "496": {
+      "input": "Judging someone requires wisdom.",
+      "output": "Judging someone does not require wisdom.",
+      "orig_id": "2608f15e9912f6264d81cfffa0461515"
+    },
+    "497": {
+      "input": "Vertebrates are diverse.",
+      "output": "Vertebrates are not diverse.",
+      "orig_id": "76b4f846c2a4ab0b8ae293b7e3e12a7a"
+    },
+    "498": {
+      "input": "Some instructions are misleading.",
+      "output": "Some instructions are not misleading.",
+      "orig_id": "0ad6febce59ca0fb6ff7f59f19d20cac"
+    },
+    "499": {
+      "input": "Sharks are big.",
+      "output": "Sharks are not big.",
+      "orig_id": "e935e99653b11c0b6ed3b5fd5d45d547"
+    },
+    "500": {
+      "input": "Coconuts can be dried.",
+      "output": "Coconuts cannot be dried.",
+      "orig_id": "0356de36a8c6573cb10f75db0d74f9c1"
+    },
+    "501": {
+      "input": "Some wheelchairs are electric.",
+      "output": "Some wheelchairs are not electric.",
+      "orig_id": "05fac958cac11ad38d4de2d8125b2a30"
+    },
+    "502": {
+      "input": "The world is beautiful.",
+      "output": "The world is not beautiful.",
+      "orig_id": "d9bc99e741961816200de86cb5eb56da"
+    },
+    "503": {
+      "input": "Waxwing is a bird.",
+      "output": "Waxwing is not a bird.",
+      "orig_id": "65c96e5845d1e782093fb3593f8ada78"
+    },
+    "504": {
+      "input": "Disgust is an emotion.",
+      "output": "Disgust is not an emotion.",
+      "orig_id": "f9cf79160d18588553e8ce18fa887c55"
+    },
+    "505": {
+      "input": "Joy is a type of emotion.",
+      "output": "Joy is not a type of emotion.",
+      "orig_id": "ed9544d497396e9a302b4d2b69ebbbcc"
+    },
+    "506": {
+      "input": "Coffee contains caffiene.",
+      "output": "Coffee does not contain caffiene.",
+      "orig_id": "40b14247af1822baf23f890468acb703"
+    },
+    "507": {
+      "input": "Feathers are light.",
+      "output": "Feathers are not light.",
+      "orig_id": "4893947cef065fbb407a2fa499cfc508"
+    },
+    "508": {
+      "input": "Some flowers are fragrant.",
+      "output": "Some flowers are not fragrant.",
+      "orig_id": "259c396d68dc52966c6f957eaddfa2e5"
+    },
+    "509": {
+      "input": "Housework is boring.",
+      "output": "Housework is not boring.",
+      "orig_id": "31815e6639f564d585197c6391bf49ae"
+    },
+    "510": {
+      "input": "Writting requires ink.",
+      "output": "Writting does not require ink.",
+      "orig_id": "ff951676b145efcb09f8d0e0d8c9f1ab"
+    },
+    "511": {
+      "input": "Oranges can be squeezed.",
+      "output": "Oranges cannot be squeezed.",
+      "orig_id": "521f85cbf4f18d01f6c97b6010929e4a"
+    },
+    "512": {
+      "input": "Hats can be soft.",
+      "output": "Hats cannot be soft.",
+      "orig_id": "ffb45de46a016617315bd7e9fdc6910e"
+    },
+    "513": {
+      "input": "Some people are bold.",
+      "output": "Some people are not bold.",
+      "orig_id": "3b1dc08755b49f770cbf9d5a3b686709"
+    },
+    "514": {
+      "input": "Sapsucker is a bird.",
+      "output": "Sapsucker is not a bird.",
+      "orig_id": "ac73b6e33d935b2f18594b404475c06c"
+    },
+    "515": {
+      "input": "Enthusiasm is contagious.",
+      "output": "Enthusiasm is not contagious.",
+      "orig_id": "f3dc9e61244ef1fce8685ba89f0d9ee5"
+    },
+    "516": {
+      "input": "Time is finite.",
+      "output": "Time is not finite.",
+      "orig_id": "6d34457489dca8ec8bdd9402683d290b"
+    },
+    "517": {
+      "input": "Some umbrellas are blue.",
+      "output": "Some umbrellas are not blue.",
+      "orig_id": "ac95ab05dc434f4e970031356617c840"
+    },
+    "518": {
+      "input": "Plutonium is radioactive.",
+      "output": "Plutonium is not radioactive.",
+      "orig_id": "db92628f128d5351e32a0715cf18feaf"
+    },
+    "519": {
+      "input": "The lotion is sticky.",
+      "output": "The lotion is not sticky.",
+      "orig_id": "2a6c4b6210027e763e28006dd41efead"
+    },
+    "520": {
+      "input": "Some spiders are poisonous.",
+      "output": "Some spiders are not poisonous.",
+      "orig_id": "f5103732985cb66db1d390f67eb90747"
+    },
+    "521": {
+      "input": "Empathy can be learned.",
+      "output": "Empathy cannot be learned.",
+      "orig_id": "c89050edc74202449be6e215cd1dc806"
+    },
+    "522": {
+      "input": "Metal can be polished.",
+      "output": "Metal cannot be polished.",
+      "orig_id": "9ffd829ac14b46839d8152adc795a49e"
+    },
+    "523": {
+      "input": "Sometimes studying causes inspiration.",
+      "output": "Sometimes studying does not cause inspiration.",
+      "orig_id": "75450fa615dd8b53ad3a28a7ab05a8c6"
+    },
+    "524": {
+      "input": "Some guns are semiautomatic.",
+      "output": "Some guns are not semiautomatic.",
+      "orig_id": "d5165429c553c8cdd2d5c80e4ef6924b"
+    },
+    "525": {
+      "input": "Felines are carnivores.",
+      "output": "Felines are not carnivores.",
+      "orig_id": "dfb22405c5bf48983d3039b17da99b29"
+    },
+    "526": {
+      "input": "Negotiation is an art.",
+      "output": "Negotiation is not an art.",
+      "orig_id": "2583da1979452e40112905f93b4cc17c"
+    },
+    "527": {
+      "input": "Some truths are complex.",
+      "output": "Some truths are not complex.",
+      "orig_id": "e9d6a6c87c16117065c75f790f36ced4"
+    },
+    "528": {
+      "input": "Humans exhibit emotions.",
+      "output": "Humans do not exhibit emotions.",
+      "orig_id": "f9c53c0a5a4c7ed29e28942b64849de7"
+    },
+    "529": {
+      "input": "A magazine contains articles.",
+      "output": "A magazine does not contain articles.",
+      "orig_id": "7fe7b4596f5d4c69ff90ef459c0b33cf"
+    },
+    "530": {
+      "input": "Some inks are toxic.",
+      "output": "Some inks are not toxic.",
+      "orig_id": "08877af18a174dbe25bc5aab1db88f18"
+    },
+    "531": {
+      "input": "Bones are stiff.",
+      "output": "Bones are not stiff.",
+      "orig_id": "850118dbe9111dcd3ec872a70d0109f3"
+    },
+    "532": {
+      "input": "Grapes can be red.",
+      "output": "Grapes cannot be red.",
+      "orig_id": "6d762c7a8f200874e264a8e70c4bb195"
+    },
+    "533": {
+      "input": "Plato was a thinker.",
+      "output": "Plato was not a thinker.",
+      "orig_id": "5d605077f01fda079d2275b448f00bff"
+    },
+    "534": {
+      "input": "Chlorine can be poisonous.",
+      "output": "Chlorine cannot be poisonous.",
+      "orig_id": "5383371584786838848b4a24e69a2b8c"
+    },
+    "535": {
+      "input": "The library is dark.",
+      "output": "The library is not dark.",
+      "orig_id": "b93892d532ba41954b89046696371fc4"
+    },
+    "536": {
+      "input": "The birds are singing.",
+      "output": "The birds are not singing.",
+      "orig_id": "fa37dc89fe3843d5da917955dafdccaa"
+    },
+    "537": {
+      "input": "Pipes are hollow.",
+      "output": "Pipes are not hollow.",
+      "orig_id": "77deb5917a889efbb5ae3642218e92c3"
+    },
+    "538": {
+      "input": "Sometimes pretending causes distrust.",
+      "output": "Sometimes pretending does not cause distrust.",
+      "orig_id": "c2e3314aee12dfad70b5e4524f8bf5fd"
+    },
+    "539": {
+      "input": "Alligators are carnivorous.",
+      "output": "Alligators are not carnivorous.",
+      "orig_id": "37de405955baf55612120613fd4e36bb"
+    },
+    "540": {
+      "input": "Plastics may be recycled.",
+      "output": "Plastics may not be recycled.",
+      "orig_id": "b16342561ce4bed722caaff6c67123c4"
+    },
+    "541": {
+      "input": "Pity is a type of emotion.",
+      "output": "Pity is not a type of emotion.",
+      "orig_id": "022bd30dd39aa69d8e876ff53c0a6df3"
+    },
+    "542": {
+      "input": "Denmark is part of Scandinavia.",
+      "output": "Denmark is not part of Scandinavia.",
+      "orig_id": "5c8598dff925a60ce6e05aad03b9c222"
+    },
+    "543": {
+      "input": "Tinkerbell is a fairy.",
+      "output": "Tinkerbell is not a fairy.",
+      "orig_id": "e21f96e24d6d6db02f78f8e31f2c70d6"
+    },
+    "544": {
+      "input": "Flowers can be calming.",
+      "output": "Flowers cannot be calming.",
+      "orig_id": "4d9dcc472449365eb14fe8d7838f1ed9"
+    },
+    "545": {
+      "input": "Some people are wise.",
+      "output": "Some people are not wise.",
+      "orig_id": "ac8ba5a6e24959f8732579ccd7256441"
+    },
+    "546": {
+      "input": "Some rice is black.",
+      "output": "Some rice is not black.",
+      "orig_id": "30ac2918dd6b043d16208c4ca0f75c09"
+    },
+    "547": {
+      "input": "Surprise is like shock.",
+      "output": "Surprise is not like shock.",
+      "orig_id": "23f9d32af2d22167af60ce742e1af395"
+    },
+    "548": {
+      "input": "Xenon is an element.",
+      "output": "Xenon is not an element.",
+      "orig_id": "218af1c44e499ab449b7c538a81e2ee6"
+    },
+    "549": {
+      "input": "Some people are timid.",
+      "output": "Some people are not timid.",
+      "orig_id": "44483c316f053ad38eafb906d71ff7f1"
+    },
+    "550": {
+      "input": "Wrestling is for children.",
+      "output": "Wrestling is not for children.",
+      "orig_id": "4bea1bc9a9d70824d3a1b3bd68f35308"
+    },
+    "551": {
+      "input": "Diving requires courage.",
+      "output": "Diving does not require courage.",
+      "orig_id": "cdb1874648becf633725a154bd1ff1e4"
+    },
+    "552": {
+      "input": "Typing requires practice.",
+      "output": "Typing does not require practice.",
+      "orig_id": "d2f0cd6f7e38ebbc0134274993e3bf1f"
+    },
+    "553": {
+      "input": "Gold can be melted.",
+      "output": "Gold cannot be melted.",
+      "orig_id": "5acc0cf3eec4d2d23dc9354361264c73"
+    },
+    "554": {
+      "input": "Casper is a ghost.",
+      "output": "Casper is not a ghost.",
+      "orig_id": "e1c138c86d687da7bd14260eb4300275"
+    },
+    "555": {
+      "input": "Achievement requires effort.",
+      "output": "Achievement does not require effort.",
+      "orig_id": "90f9a860707d4338dc3cb65414be4b23"
+    },
+    "556": {
+      "input": "Swimming is relaxing.",
+      "output": "Swimming is not relaxing.",
+      "orig_id": "1854c87d85d26c33ec589e0662e510cd"
+    },
+    "557": {
+      "input": "Trash can be recycled.",
+      "output": "Trash cannot be recycled.",
+      "orig_id": "e5a64f6cb84512fa8abfb9be6be05d36"
+    },
+    "558": {
+      "input": "Humans like to cellebrate.",
+      "output": "Humans do not like to cellebrate.",
+      "orig_id": "c75c937d87cde9dbb1c27a69bea2642e"
+    },
+    "559": {
+      "input": "Gambia is part of Africa.",
+      "output": "Gambia is not part of Africa.",
+      "orig_id": "b448a3f078f8cd00adfa795444e22f6e"
+    },
+    "560": {
+      "input": "Your independence is precious.",
+      "output": "Your independence is not precious.",
+      "orig_id": "c1cc65a1caaf155698e7fc68add064a6"
+    },
+    "561": {
+      "input": "Metal can be tarnished.",
+      "output": "Metal cannot be tarnished.",
+      "orig_id": "e0e105056322c3a5a63239066c0982be"
+    },
+    "562": {
+      "input": "Yellowstone is spectalular.",
+      "output": "Yellowstone is not spectalular.",
+      "orig_id": "00bc65a76abb77101a26f0f3dd5ed2ab"
+    },
+    "563": {
+      "input": "Artichokes are green.",
+      "output": "Artichokes are not green.",
+      "orig_id": "20ba7f505c9bd71db8f7aaea54b5a2a7"
+    },
+    "564": {
+      "input": "Humans are mammels.",
+      "output": "Humans are not mammels.",
+      "orig_id": "a910aba1023964e5a8d7c50702c7fc0c"
+    },
+    "565": {
+      "input": "Winning is fun.",
+      "output": "Winning is not fun.",
+      "orig_id": "a5a3e0ebd774521381b34644a17217d4"
+    },
+    "566": {
+      "input": "Love can hurt.",
+      "output": "Love cannot hurt.",
+      "orig_id": "cbdd4ecf62f07037d3fc39d8e6ae5023"
+    },
+    "567": {
+      "input": "Mechanics are unimaginative.",
+      "output": "Mechanics are not unimaginative.",
+      "orig_id": "44f7e19479d3606ee67a753d646881fe"
+    },
+    "568": {
+      "input": "The cat is thirsty.",
+      "output": "The cat is not thirsty.",
+      "orig_id": "2f4e0d062896e324a57ea749817814d8"
+    },
+    "569": {
+      "input": "Champagne contains bubbles.",
+      "output": "Champagne does not contain bubbles.",
+      "orig_id": "fb3d73db48589fa427ae4f1423af2f39"
+    },
+    "570": {
+      "input": "Goats are mammals.",
+      "output": "Goats are not mammals.",
+      "orig_id": "4a52b1f93d9cc649ac54c2b8facfac51"
+    },
+    "571": {
+      "input": "Some pilots are bad.",
+      "output": "Some pilots are not bad.",
+      "orig_id": "6ea2332dd40ed41fa0afef14baa59fb3"
+    },
+    "572": {
+      "input": "Some advertisments are reliable.",
+      "output": "Some advertisments are not reliable.",
+      "orig_id": "504bba45b1fb048049f94b65e5777867"
+    },
+    "573": {
+      "input": "Squash is a sport.",
+      "output": "Squash is not a sport.",
+      "orig_id": "5f0bc19282a87ce1543844787a9b7ba7"
+    },
+    "574": {
+      "input": "Coding requires thinking.",
+      "output": "Coding does not require thinking.",
+      "orig_id": "d7f0a8280e80299f6a91b21edc46c1dc"
+    },
+    "575": {
+      "input": "Ice is splippery.",
+      "output": "Ice is not splippery.",
+      "orig_id": "6b731d2c94a401504c82a5c26ee85931"
+    },
+    "576": {
+      "input": "Copper can be melted.",
+      "output": "Copper cannot be melted.",
+      "orig_id": "a1a01a118466d68389722ae02e533dff"
+    },
+    "577": {
+      "input": "A dam is made of concert.",
+      "output": "A dam is not made of concert.",
+      "orig_id": "e8e115ae5e6c932a8eaebb7e3fa7ce16"
+    },
+    "578": {
+      "input": "Hydrogen is a fuel.",
+      "output": "Hydrogen is not a fuel.",
+      "orig_id": "ce61f5a097ddfc54ca2ad6ee8f98ba97"
+    },
+    "579": {
+      "input": "Oceans are wide.",
+      "output": "Oceans are not wide.",
+      "orig_id": "78a32b92d163ce70d7cdbcda52331f22"
+    },
+    "580": {
+      "input": "Lizards are small animals.",
+      "output": "Lizards are not small animals.",
+      "orig_id": "26b81a5b8839075e8faf6906057eff0d"
+    },
+    "581": {
+      "input": "Pepsi is a beverage.",
+      "output": "Pepsi is not a beverage.",
+      "orig_id": "5180cf4d6e719a677293843e5a8b2002"
+    },
+    "582": {
+      "input": "Stupidity is contagious.",
+      "output": "Stupidity is not contagious.",
+      "orig_id": "d91be13c3b7045e50bdb686432171ce9"
+    },
+    "583": {
+      "input": "A diamond is colorless.",
+      "output": "A diamond is not colorless.",
+      "orig_id": "6a1ea71c6550a75329f3505748129fa9"
+    },
+    "584": {
+      "input": "Potatoes can be diced.",
+      "output": "Potatoes cannot be diced.",
+      "orig_id": "1deb9fd1134279c7c716fa5a9ec99c05"
+    },
+    "585": {
+      "input": "Peole can dance.",
+      "output": "Peole cannot dance.",
+      "orig_id": "e9990ca0d710b60c3c9aca10d160ade4"
+    },
+    "586": {
+      "input": "Confidence can be shared.",
+      "output": "Confidence cannot be shared.",
+      "orig_id": "e15a2504f10033a555b74c55b9257ecf"
+    },
+    "587": {
+      "input": "Some sports are violent.",
+      "output": "Some sports are not violent.",
+      "orig_id": "ca2bee2ed5fffde217c65948d597fa09"
+    },
+    "588": {
+      "input": "Some politicians are puppets.",
+      "output": "Some politicians are not puppets.",
+      "orig_id": "33ae05496e63f4e39fe8aaa2e19936d7"
+    },
+    "589": {
+      "input": "Ozone is a compound.",
+      "output": "Ozone is not a compound.",
+      "orig_id": "37bdc1b93f96f0e1dbd4458a49ab7518"
+    },
+    "590": {
+      "input": "Watersking can be dangerous.",
+      "output": "Watersking cannot be dangerous.",
+      "orig_id": "0752ff8941bdffdd6cf0db317d98c7cb"
+    },
+    "591": {
+      "input": "Competing requires an opponent.",
+      "output": "Competing does not require an opponent.",
+      "orig_id": "2bcf828674353f59533a8af83ac5a6ce"
+    },
+    "592": {
+      "input": "Robert is loud.",
+      "output": "Robert is not loud.",
+      "orig_id": "db915b8960738179dd6723c641d45105"
+    },
+    "593": {
+      "input": "Kitties are tiny.",
+      "output": "Kitties are not tiny.",
+      "orig_id": "8c37a50112deb17d449fdb615968ab07"
+    },
+    "594": {
+      "input": "Dogs are evil.",
+      "output": "Dogs are not evil.",
+      "orig_id": "77859d6f82b664c64d7c98935b6f2b89"
+    },
+    "595": {
+      "input": "Confidence is contagious.",
+      "output": "Confidence is not contagious.",
+      "orig_id": "3f8920f059fd71a1167f459045d896b8"
+    },
+    "596": {
+      "input": "Cartoons are amusing.",
+      "output": "Cartoons are not amusing.",
+      "orig_id": "27496e94de25b2cb25376074b34eb7fb"
+    },
+    "597": {
+      "input": "Honor is a virtue.",
+      "output": "Honor is not a virtue.",
+      "orig_id": "fe7310277c205840eddbaec60fd8bf3d"
+    },
+    "598": {
+      "input": "Rats can bite.",
+      "output": "Rats cannot bite.",
+      "orig_id": "956758f00509dd1054cb5a6d5cadcaae"
+    },
+    "599": {
+      "input": "Socialising requires grace.",
+      "output": "Socialising does not require grace.",
+      "orig_id": "b7263fd762831f5ae9f96bf8bd046407"
+    },
+    "600": {
+      "input": "Alcohol can burn.",
+      "output": "Alcohol cannot burn.",
+      "orig_id": "1efe272ba84c12c647263b5dedc4be78"
+    },
+    "601": {
+      "input": "Math is interesting.",
+      "output": "Math is not interesting.",
+      "orig_id": "5ba8dc96a9b2b0ea9767804ac612d809"
+    },
+    "602": {
+      "input": "Sometimes ageing causes wrinkles.",
+      "output": "Sometimes ageing does not cause wrinkles.",
+      "orig_id": "4f1b049ab08857d490d25e7b11489338"
+    },
+    "603": {
+      "input": "Some literature is romantic.",
+      "output": "Some literature is not romantic.",
+      "orig_id": "30a166a5f7c667873ff19aa78a270d4e"
+    },
+    "604": {
+      "input": "Sative is made of cannabis.",
+      "output": "Sative is not made of cannabis.",
+      "orig_id": "997ae503cd115dca280517e1dbc85ffb"
+    },
+    "605": {
+      "input": "Some things are finite.",
+      "output": "Some things are not finite.",
+      "orig_id": "f6e613682e132d45cc68a7f392f15ccc"
+    },
+    "606": {
+      "input": "Salsa is generally fun.",
+      "output": "Salsa is not generally fun.",
+      "orig_id": "160e92a8e0d3a456cde7a633e364737c"
+    },
+    "607": {
+      "input": "Haemoglobin is made of iron.",
+      "output": "Haemoglobin is not made of iron.",
+      "orig_id": "f6cd99067a514e6ff8a31505b73c424c"
+    },
+    "608": {
+      "input": "Carrots can be cooked.",
+      "output": "Carrots cannot be cooked.",
+      "orig_id": "3dae79e76f654b4c73870f0a814e6a6a"
+    },
+    "609": {
+      "input": "Golfing is expensive.",
+      "output": "Golfing is not expensive.",
+      "orig_id": "23210470602cdf4875e766833c130791"
+    },
+    "610": {
+      "input": "Dance is a type of aerobics.",
+      "output": "Dance is not a type of aerobics.",
+      "orig_id": "e580277b4441602d657e1c0469ace2a0"
+    },
+    "611": {
+      "input": "Salt is a type of spice.",
+      "output": "Salt is not a type of spice.",
+      "orig_id": "a19c48bde8d599f48e42f9f4dae0ae82"
+    },
+    "612": {
+      "input": "Doves can fly.",
+      "output": "Doves cannot fly.",
+      "orig_id": "c5e48c02fa81d8ead4e3eb951d9de81e"
+    },
+    "613": {
+      "input": "A lion can roar.",
+      "output": "A lion cannot roar.",
+      "orig_id": "b89e81b9e88fdd96ca3447ea8f4f325c"
+    },
+    "614": {
+      "input": "Butter is yellow.",
+      "output": "Butter is not yellow.",
+      "orig_id": "437d01979db47cb28f7f94c8ba3977f0"
+    },
+    "615": {
+      "input": "Some herbs are poisonis.",
+      "output": "Some herbs are not poisonis.",
+      "orig_id": "3c8f377daade51fe605bc846b39c9677"
+    },
+    "616": {
+      "input": "Sugar can be melted.",
+      "output": "Sugar cannot be melted.",
+      "orig_id": "e8bcfd1cbce79ed7bc14e3f2c2e27c5c"
+    },
+    "617": {
+      "input": "Sometimes skating causes injuries.",
+      "output": "Sometimes skating does not cause injuries.",
+      "orig_id": "99c3438de6f950054fffc204d3d0b638"
+    },
+    "618": {
+      "input": "Pepper is black.",
+      "output": "Pepper is not black.",
+      "orig_id": "d82e449d87a14de996d78ec08e0c0d2c"
+    },
+    "619": {
+      "input": "Creativity requires inspiration.",
+      "output": "Creativity does not require inspiration.",
+      "orig_id": "c8c67bfe56e1041e60f7a2d848502499"
+    },
+    "620": {
+      "input": "Some people are entrepreneurs.",
+      "output": "Some people are not entrepreneurs.",
+      "orig_id": "3e22b63881b148409b5887a5b6dfa4be"
+    },
+    "621": {
+      "input": "Tennis is fun.",
+      "output": "Tennis is not fun.",
+      "orig_id": "781c3e25dfbd336909d1bb21eccc4298"
+    },
+    "622": {
+      "input": "Wisconsin is a State.",
+      "output": "Wisconsin is not a State.",
+      "orig_id": "03fea9c89b950278bab1614362f08990"
+    },
+    "623": {
+      "input": "A glock is a type of gun.",
+      "output": "A glock is not a type of gun.",
+      "orig_id": "9b6d11cf1e1d90183d6b0e7850a7d8bf"
+    },
+    "624": {
+      "input": "Diving is for relaxation.",
+      "output": "Diving is not for relaxation.",
+      "orig_id": "c0f08eefa4a259735b42abf8ed4d72c3"
+    },
+    "625": {
+      "input": "The ring is blue.",
+      "output": "The ring is not blue.",
+      "orig_id": "0e7102d0c0fc446e1d14ba580844a7f3"
+    },
+    "626": {
+      "input": "Some roofs are flat.",
+      "output": "Some roofs are not flat.",
+      "orig_id": "41d793ec4f360d44c8ec737d8fe8713b"
+    },
+    "627": {
+      "input": "Katana is made of steel.",
+      "output": "Katana is not made of steel.",
+      "orig_id": "8ba5ae7a1a433c9d3221f6171bf14863"
+    },
+    "628": {
+      "input": "Some people are pagan.",
+      "output": "Some people are not pagan.",
+      "orig_id": "63bafbdaf96f86550ea59a86de712a31"
+    },
+    "629": {
+      "input": "Forgiving someone requires sympathy.",
+      "output": "Forgiving someone does not require sympathy.",
+      "orig_id": "6c56013cea58d00d6a5370cb63068490"
+    },
+    "630": {
+      "input": "Dogs are hairy.",
+      "output": "Dogs are not hairy.",
+      "orig_id": "d1df110439872e79775ae8e7e29f38df"
+    },
+    "631": {
+      "input": "Namibia is a republic.",
+      "output": "Namibia is not a republic.",
+      "orig_id": "10dd7c3578e52d7371b674b300c04db7"
+    },
+    "632": {
+      "input": "Hay is organic.",
+      "output": "Hay is not organic.",
+      "orig_id": "dc6ebf05a5a8e2ea87fd498fa19ef3a1"
+    },
+    "633": {
+      "input": "Sometimes memorising causes headache.",
+      "output": "Sometimes memorising does not cause headache.",
+      "orig_id": "f93da0e5af5b5097f4428a31a1bfc488"
+    },
+    "634": {
+      "input": "Skiing is for excitement.",
+      "output": "Skiing is not for excitement.",
+      "orig_id": "82bf36bde2d3aed42d27caae7aefda60"
+    },
+    "635": {
+      "input": "Driving requires eyesight.",
+      "output": "Driving does not require eyesight.",
+      "orig_id": "ba9aecf16af4a2a9b6a1dfcaa2a72c52"
+    },
+    "636": {
+      "input": "Granite can be flamed.",
+      "output": "Granite cannot be flamed.",
+      "orig_id": "0237dc133083fed3a7c2cf25463df703"
+    },
+    "637": {
+      "input": "Some flowers are perennial.",
+      "output": "Some flowers are not perennial.",
+      "orig_id": "82bd6d99270f951e3e0a5ca276236035"
+    },
+    "638": {
+      "input": "Madonna is a songwriter.",
+      "output": "Madonna is not a songwriter.",
+      "orig_id": "771c8f973d153e5e95ae31774ab42938"
+    },
+    "639": {
+      "input": "The rain is pouring.",
+      "output": "The rain is not pouring.",
+      "orig_id": "4d8cbbe95c8225bfcfb15b4097d84c0d"
+    },
+    "640": {
+      "input": "Some truffles are black.",
+      "output": "Some truffles are not black.",
+      "orig_id": "1bb8b5db8a6019d3e323ad0f987f1b99"
+    },
+    "641": {
+      "input": "Rhea is a animal.",
+      "output": "Rhea is not a animal.",
+      "orig_id": "e6fdd578ddbeea1d398d568ae276077a"
+    },
+    "642": {
+      "input": "Horses are beuatiful.",
+      "output": "Horses are not beuatiful.",
+      "orig_id": "ad818719596f5af5e3549f1d9aaad2cd"
+    },
+    "643": {
+      "input": "Walking is healthy.",
+      "output": "Walking is not healthy.",
+      "orig_id": "ba8e777c4725216360685c0e7d0b822e"
+    },
+    "644": {
+      "input": "Paint is made of chemicals.",
+      "output": "Paint is not made of chemicals.",
+      "orig_id": "158b26aa5d3379411be2283a6e4a2b8b"
+    },
+    "645": {
+      "input": "Equines are mammals.",
+      "output": "Equines are not mammals.",
+      "orig_id": "c6035108895db1aea3653000f419c357"
+    },
+    "646": {
+      "input": "Tomatoes can be squashed.",
+      "output": "Tomatoes cannot be squashed.",
+      "orig_id": "8bb6d7c9dabfed9db1be13f7cfb795dc"
+    },
+    "647": {
+      "input": "Apples can be dried.",
+      "output": "Apples cannot be dried.",
+      "orig_id": "ede6423abc6d5975a1afc60bbf2c2968"
+    },
+    "648": {
+      "input": "Traveling is for entertainment.",
+      "output": "Traveling is not for entertainment.",
+      "orig_id": "7c806551ee1dbc3f3c52d00b29fb4be4"
+    },
+    "649": {
+      "input": "Dogs can pant.",
+      "output": "Dogs cannot pant.",
+      "orig_id": "00fd2831c2a26c58c4b628b66f2244a9"
+    },
+    "650": {
+      "input": "Automatism is a defence.",
+      "output": "Automatism is not a defence.",
+      "orig_id": "ed8eacfed478bc82c06e704b0f02b7e7"
+    },
+    "651": {
+      "input": "Jeff is dying.",
+      "output": "Jeff is not dying.",
+      "orig_id": "7a26fe1cc453c54d1d4b333116c877dd"
+    },
+    "652": {
+      "input": "Fear can motivate.",
+      "output": "Fear cannot motivate.",
+      "orig_id": "634a875f7301b153b62575c2d2bc3a27"
+    },
+    "653": {
+      "input": "Silverware is made of metal.",
+      "output": "Silverware is not made of metal.",
+      "orig_id": "0cbc94de2e415ba6e342d299e086055a"
+    },
+    "654": {
+      "input": "Swans are graceful.",
+      "output": "Swans are not graceful.",
+      "orig_id": "3beadd430286e373750c5fd7c78cddc4"
+    },
+    "655": {
+      "input": "A trip requires plannning.",
+      "output": "A trip does not require plannning.",
+      "orig_id": "374dee3c1a56fc765ed1ec88388e49f5"
+    },
+    "656": {
+      "input": "Sneezing is disruptive.",
+      "output": "Sneezing is not disruptive.",
+      "orig_id": "e553735eb1a71dfef6b1a49d9abe181b"
+    },
+    "657": {
+      "input": "Zucchini is a vegetable.",
+      "output": "Zucchini is not a vegetable.",
+      "orig_id": "e0b104dffc498b39f1c75788d27061ae"
+    },
+    "658": {
+      "input": "Iron can be forged.",
+      "output": "Iron cannot be forged.",
+      "orig_id": "5fbe5546a715d7c54782863a0ec8715d"
+    },
+    "659": {
+      "input": "Overeating may cause indigestion.",
+      "output": "Overeating may not cause indigestion.",
+      "orig_id": "45c79237132f8e7ea7277a3506ff12f1"
+    },
+    "660": {
+      "input": "Children are innocent.",
+      "output": "Children are not innocent.",
+      "orig_id": "4a5930b3a901335b29f6e6c0f9787ce0"
+    },
+    "661": {
+      "input": "Pigs are intelligent.",
+      "output": "Pigs are not intelligent.",
+      "orig_id": "df50d2197d6f8e89188800fc31bdf714"
+    },
+    "662": {
+      "input": "Some people are ignorant.",
+      "output": "Some people are not ignorant.",
+      "orig_id": "d40d6979d0f1ce40d6afe55522ad6cab"
+    },
+    "663": {
+      "input": "Some ships can be made of wood.",
+      "output": "Some ships cannot be made of wood.",
+      "orig_id": "9bf17f1ac3e18d23ffa20e1ad9081306"
+    },
+    "664": {
+      "input": "Bananas are curved.",
+      "output": "Bananas are not curved.",
+      "orig_id": "5fc0cb0871fff21f30d508c3315509d9"
+    },
+    "665": {
+      "input": "Some houses are empty.",
+      "output": "Some houses are not empty.",
+      "orig_id": "2393ab46ddf0b2d109918c00575aa367"
+    },
+    "666": {
+      "input": "Apples can be cooked.",
+      "output": "Apples cannot be cooked.",
+      "orig_id": "7d7dc5c7aebea67d4fbc15c12d8e41c3"
+    },
+    "667": {
+      "input": "People are flawed.",
+      "output": "People are not flawed.",
+      "orig_id": "67d1fd4cd4a5f1f915c278323cecabf9"
+    },
+    "668": {
+      "input": "Eggshells are fragile.",
+      "output": "Eggshells are not fragile.",
+      "orig_id": "b5297b75faedefefff67ab3f03f5f9f4"
+    },
+    "669": {
+      "input": "An umbrella is lightweight.",
+      "output": "An umbrella is not lightweight.",
+      "orig_id": "720794068443db25ea33c1b13edf4e36"
+    },
+    "670": {
+      "input": "Tiramisu is a type of food.",
+      "output": "Tiramisu is not a type of food.",
+      "orig_id": "ee7d07bba8ed175d38e283188dae69ec"
+    },
+    "671": {
+      "input": "Iron can be melted.",
+      "output": "Iron cannot be melted.",
+      "orig_id": "74d931c7b21811c0260c258bbe9ba53e"
+    },
+    "672": {
+      "input": "Sewing is a craft.",
+      "output": "Sewing is not a craft.",
+      "orig_id": "569794799ac4f4ec5d9da31609520842"
+    },
+    "673": {
+      "input": "Soap can be carved.",
+      "output": "Soap cannot be carved.",
+      "orig_id": "53489e3dbf0b4d0391ae6f3ccde96a3e"
+    },
+    "674": {
+      "input": "Cadillacs are expensive.",
+      "output": "Cadillacs are not expensive.",
+      "orig_id": "ce163fc8fa99c34fdaa5cb3d5d636335"
+    },
+    "675": {
+      "input": "Caffiene is a stimulant.",
+      "output": "Caffiene is not a stimulant.",
+      "orig_id": "13c83d471a409b24b8033aa07071c0a7"
+    },
+    "676": {
+      "input": "Murphy was an optimist.",
+      "output": "Murphy was not an optimist.",
+      "orig_id": "154c6c4ce1c0603a383b9d72ce076004"
+    },
+    "677": {
+      "input": "Friction produces heat.",
+      "output": "Friction does not produce heat.",
+      "orig_id": "66aa2bd4af5c783302bc7eef5ccf01bc"
+    },
+    "678": {
+      "input": "Cats are hairy.",
+      "output": "Cats are not hairy.",
+      "orig_id": "0448461be010ee308824a9503bc460a2"
+    },
+    "679": {
+      "input": "Relaxing requires inactivty.",
+      "output": "Relaxing does not require inactivty.",
+      "orig_id": "b80cdd3e7997bf704c2ee4bb70fde7a5"
+    },
+    "680": {
+      "input": "Reading requires concentration.",
+      "output": "Reading does not require concentration.",
+      "orig_id": "4ded6fb9ed7248b85e0f61db2946591e"
+    },
+    "681": {
+      "input": "Concrete is sturdy.",
+      "output": "Concrete is not sturdy.",
+      "orig_id": "a11af2d312377b0618b01390c862c053"
+    },
+    "682": {
+      "input": "Fruit can decay.",
+      "output": "Fruit cannot decay.",
+      "orig_id": "72cd2eb7cb692af4dcfdfbe0305cf422"
+    },
+    "683": {
+      "input": "Beets are purple.",
+      "output": "Beets are not purple.",
+      "orig_id": "e8abc648eb8e6820d10b78ee0221bae7"
+    },
+    "684": {
+      "input": "The ocean is beautiful.",
+      "output": "The ocean is not beautiful.",
+      "orig_id": "b82b7e0ceee6b2cbf5417e4578e0de9d"
+    },
+    "685": {
+      "input": "Trains can brake.",
+      "output": "Trains cannot brake.",
+      "orig_id": "8fdd4fca0a704c2aa06fc40d7d5c55cf"
+    },
+    "686": {
+      "input": "Eating requires an appetite.",
+      "output": "Eating does not require an appetite.",
+      "orig_id": "05db20992e1b656179e85b47a63aac59"
+    },
+    "687": {
+      "input": "Some people are altruistic.",
+      "output": "Some people are not altruistic.",
+      "orig_id": "2e9669b9fb545c79ed49df063d36a0a0"
+    },
+    "688": {
+      "input": "Alchoholism is a disease.",
+      "output": "Alchoholism is not a disease.",
+      "orig_id": "5376a2052d6ca6d45aaf920387d31660"
+    },
+    "689": {
+      "input": "Some hallways are dark.",
+      "output": "Some hallways are not dark.",
+      "orig_id": "239051dc85fae48bebbd189be0592650"
+    },
+    "690": {
+      "input": "Children like simple things.",
+      "output": "Children do not like simple things.",
+      "orig_id": "37300dce4d67a2b1636b1cb7350dbc75"
+    },
+    "691": {
+      "input": "Salmanders are amphibians.",
+      "output": "Salmanders are not amphibians.",
+      "orig_id": "2a5850b46f5e12e975e2fcb36ada2626"
+    },
+    "692": {
+      "input": "Brains are Complex.",
+      "output": "Brains are not Complex.",
+      "orig_id": "5b068695da9d9a157ce73a4111c299f4"
+    },
+    "693": {
+      "input": "A priest can baptise.",
+      "output": "A priest cannot baptise.",
+      "orig_id": "b6ac1d629933d88ae3228de38b14bd47"
+    },
+    "694": {
+      "input": "Falsecypress is a plant.",
+      "output": "Falsecypress is not a plant.",
+      "orig_id": "0b20f741379347d0522f8f9ed08d2b99"
+    },
+    "695": {
+      "input": "Giraffes are herbivores.",
+      "output": "Giraffes are not herbivores.",
+      "orig_id": "3333938df714e1baef37415e633f58d5"
+    },
+    "696": {
+      "input": "Art is subjective.",
+      "output": "Art is not subjective.",
+      "orig_id": "69bc18e49d2f72950a6614aa615dfe48"
+    },
+    "697": {
+      "input": "Acting is an art.",
+      "output": "Acting is not an art.",
+      "orig_id": "fe9925724a5e1fb9e5c86fc43eacf706"
+    },
+    "698": {
+      "input": "Go is a boardgame.",
+      "output": "Go is not a boardgame.",
+      "orig_id": "19227c9596237e11773e2f9586419549"
+    },
+    "699": {
+      "input": "Silk is organic.",
+      "output": "Silk is not organic.",
+      "orig_id": "035ff47ab14ad8824ff898129efe94d6"
+    },
+    "700": {
+      "input": "Diapers can be recycled.",
+      "output": "Diapers cannot be recycled.",
+      "orig_id": "02a950f1fd911f80a09ca2b5e920b75c"
+    },
+    "701": {
+      "input": "Some religions are monotheistic.",
+      "output": "Some religions are not monotheistic.",
+      "orig_id": "785302fd56691c3f1a24708bfb4b8974"
+    },
+    "702": {
+      "input": "A tricycle is made of steel.",
+      "output": "A tricycle is not made of steel.",
+      "orig_id": "ea8ca96f4e91518256e4c2855a77e0f6"
+    },
+    "703": {
+      "input": "Kansas is generally flat.",
+      "output": "Kansas is not generally flat.",
+      "orig_id": "453bb664cce2d6f0d3c84372abe484c1"
+    },
+    "704": {
+      "input": "Rocks are solid.",
+      "output": "Rocks are not solid.",
+      "orig_id": "55b60b161563499fafa46839e66f2e78"
+    },
+    "705": {
+      "input": "Helicoptors can fly.",
+      "output": "Helicoptors cannot fly.",
+      "orig_id": "2b05083a8d5304a4a8fd02c2d3c80434"
+    },
+    "706": {
+      "input": "Disease can strike unexpectedly.",
+      "output": "Disease cannot strike unexpectedly.",
+      "orig_id": "91449764b22921595bec734fe923d8e2"
+    },
+    "707": {
+      "input": "Steel can be recycled.",
+      "output": "Steel cannot be recycled.",
+      "orig_id": "b8fb8c6d96551e085c18d7a611776ba3"
+    },
+    "708": {
+      "input": "Leafs are green.",
+      "output": "Leafs are not green.",
+      "orig_id": "5d64b5227cd54d7035327a5aafc8e829"
+    },
+    "709": {
+      "input": "Cats are needy.",
+      "output": "Cats are not needy.",
+      "orig_id": "b9bb76275e17b104a8372c20882b7f3a"
+    },
+    "710": {
+      "input": "Some movies are excellent.",
+      "output": "Some movies are not excellent.",
+      "orig_id": "9a49826e6996a2fa90f90e66539f41f8"
+    },
+    "711": {
+      "input": "Buzzwords are annoying.",
+      "output": "Buzzwords are not annoying.",
+      "orig_id": "6bd7288742a1d56e142a2a97039696a3"
+    },
+    "712": {
+      "input": "Submarines can dive.",
+      "output": "Submarines cannot dive.",
+      "orig_id": "abbce5d59c3bdfa6396a070223080225"
+    },
+    "713": {
+      "input": "Water can be tinted.",
+      "output": "Water cannot be tinted.",
+      "orig_id": "70695803cdd322c56ea0e39ba6749a92"
+    },
+    "714": {
+      "input": "Tires are circular.",
+      "output": "Tires are not circular.",
+      "orig_id": "819e2d6b69b3755ffadf820256b62b94"
+    },
+    "715": {
+      "input": "Kadikoy is part of istanbul.",
+      "output": "Kadikoy is not part of istanbul.",
+      "orig_id": "cff83ff0dc6419b4a53fc6428f291ad8"
+    },
+    "716": {
+      "input": "Many vegetables are green.",
+      "output": "Many vegetables are not green.",
+      "orig_id": "6adbe76c037bfe231b470e4dbede7d70"
+    },
+    "717": {
+      "input": "Awaking requires a stimulus.",
+      "output": "Awaking does not require a stimulus.",
+      "orig_id": "c2da0c08d72ca8b58b168af4d9dbaa34"
+    },
+    "718": {
+      "input": "Peace is elusive.",
+      "output": "Peace is not elusive.",
+      "orig_id": "1b0361d6fceb5462c676b8974a42699a"
+    },
+    "719": {
+      "input": "Clouds are fluffy.",
+      "output": "Clouds are not fluffy.",
+      "orig_id": "8e8547f7518b9527df058264e1a844d1"
+    },
+    "720": {
+      "input": "A banjo is made of wood.",
+      "output": "A banjo is not made of wood.",
+      "orig_id": "6f210065704d0700b88c52997467d654"
+    },
+    "721": {
+      "input": "Knowledge is part of innovation.",
+      "output": "Knowledge is not part of innovation.",
+      "orig_id": "92c4176ca1f5c9e37103179ff33d9611"
+    },
+    "722": {
+      "input": "CBS Playhouse was originally aired on CBS.",
+      "output": "CBS Playhouse was not originally aired on CBS.",
+      "orig_id": "e454d89a-9cac-4c09-b333-a45b7a2dd38f"
+    },
+    "723": {
+      "input": "The headquarter of Smith & Nephew is in London.",
+      "output": "The headquarter of Smith & Nephew is not in London.",
+      "orig_id": "9bb47241-aef3-4bf3-a9ff-b16abef1bc4d"
+    },
+    "724": {
+      "input": "Chuy Province is located in Kyrgyzstan.",
+      "output": "Chuy Province is not located in Kyrgyzstan.",
+      "orig_id": "418b1dcc-b001-4653-b1ed-cdaaf67bf790"
+    },
+    "725": {
+      "input": "Chris McGregor plays jazz music.",
+      "output": "Chris McGregor does not play jazz music.",
+      "orig_id": "75b16b9b-3124-490f-a73e-92a2ee30c208"
+    },
+    "726": {
+      "input": "Mikhail Gromov works in the field of geometry.",
+      "output": "Mikhail Gromov does not work in the field of geometry.",
+      "orig_id": "e3d6e319-c6db-4110-a34b-febaf86b02af"
+    },
+    "727": {
+      "input": "Osterholz shares border with Bremen.",
+      "output": "Osterholz does not share border with Bremen.",
+      "orig_id": "367cbc65-1eb4-45bb-a54e-b27a01aa01d4"
+    },
+    "728": {
+      "input": "Pannonhalma Archabbey is located in Hungary.",
+      "output": "Pannonhalma Archabbey is not located in Hungary.",
+      "orig_id": "5a2c7f7d-ad4d-4cc0-b6c3-875bc89835b9"
+    },
+    "729": {
+      "input": "Garnett Brown plays jazz music.",
+      "output": "Garnett Brown does not play jazz music.",
+      "orig_id": "27ff05a9-b57a-49b0-8327-ac65ea74c793"
+    },
+    "730": {
+      "input": "Nagoya University is located in Japan.",
+      "output": "Nagoya University is not located in Japan.",
+      "orig_id": "61bd5b13-856f-4471-b08e-1cd680175e26"
+    },
+    "731": {
+      "input": "Antonio Caggiano has the position of archbishop.",
+      "output": "Antonio Caggiano does not have the position of archbishop.",
+      "orig_id": "a6926222-884a-4d5f-bf95-7024a9179365"
+    },
+    "732": {
+      "input": "Le cose che vivi was written in Italian.",
+      "output": "Le cose che vivi was not written in Italian.",
+      "orig_id": "352a213a-8945-411e-a191-e64e658aa79c"
+    },
+    "733": {
+      "input": "The official language of Lemi is Finnish.",
+      "output": "The official language of Lemi is not Finnish.",
+      "orig_id": "ecb65b77-7fb3-4f00-9d31-555a3bba7658"
+    },
+    "734": {
+      "input": "The headquarter of Beykent University is in Istanbul.",
+      "output": "The headquarter of Beykent University is not in Istanbul.",
+      "orig_id": "4d057585-1956-4d58-a9c7-48828ef7c4c4"
+    },
+    "735": {
+      "input": "Mewat is located in India.",
+      "output": "Mewat is not located in India.",
+      "orig_id": "e1e71129-47a0-4e4c-af77-97d27458254f"
+    },
+    "736": {
+      "input": "Jeremy Vine works for BBC.",
+      "output": "Jeremy Vine does not work for BBC.",
+      "orig_id": "b63f1ae9-8a7b-41b5-9dd0-8259f303f19d"
+    },
+    "737": {
+      "input": "Winterpills was founded in Northampton, Massachusetts.",
+      "output": "Winterpills was not founded in Northampton, Massachusetts.",
+      "orig_id": "ec26d48b-1f16-4435-89e4-a1c012e0253e"
+    },
+    "738": {
+      "input": "The capital of Staffordshire is Stafford.",
+      "output": "The capital of Staffordshire is not Stafford.",
+      "orig_id": "51d8687a-c539-418f-bef6-3ba6cf9e4757"
+    },
+    "739": {
+      "input": "Rollerblade was founded in Minneapolis.",
+      "output": "Rollerblade was not founded in Minneapolis.",
+      "orig_id": "ec7422b0-c0d9-4632-ae39-31870226acc7"
+    },
+    "740": {
+      "input": "The official language of Shakhunya is Russian.",
+      "output": "The official language of Shakhunya is not Russian.",
+      "orig_id": "72e96614-1931-4fd6-9149-67c640e55e1e"
+    },
+    "741": {
+      "input": "Mannheim-Heidelberg International Filmfestival is located in Heidelberg.",
+      "output": "Mannheim-Heidelberg International Filmfestival is not located in Heidelberg.",
+      "orig_id": "4889b837-99f6-470f-b3f4-31f2ee2df6c4"
+    },
+    "742": {
+      "input": "Christchurch City Council is a legal term in Christchurch.",
+      "output": "Christchurch City Council is not a legal term in Christchurch.",
+      "orig_id": "7265c547-631d-4b51-b369-154f3f0f05a6"
+    },
+    "743": {
+      "input": "Blue Bayou was written in English.",
+      "output": "Blue Bayou was not written in English.",
+      "orig_id": "8a4174c8-3a8a-4ecf-a552-59e3bb33f205"
+    },
+    "744": {
+      "input": "Deacon Blue was founded in Glasgow.",
+      "output": "Deacon Blue was not founded in Glasgow.",
+      "orig_id": "b0c416b1-a310-455d-9dfd-8dc57232fd95"
+    },
+    "745": {
+      "input": "Sikkim is located in India.",
+      "output": "Sikkim is not located in India.",
+      "orig_id": "dfce42a4-3193-47ea-8200-c62c346c1e01"
+    },
+    "746": {
+      "input": "The capital of Andrew County is Savannah, Missouri.",
+      "output": "The capital of Andrew County is not Savannah, Missouri.",
+      "orig_id": "646acdd9-c793-4a50-9534-3c631dcea026"
+    },
+    "747": {
+      "input": "Giannina Arangi-Lombardi died in Milan.",
+      "output": "Giannina Arangi-Lombardi did not die in Milan.",
+      "orig_id": "020a3ded-7219-4645-8996-f45e0eb528ab"
+    },
+    "748": {
+      "input": "Independence Hall is located in Philadelphia.",
+      "output": "Independence Hall is not located in Philadelphia.",
+      "orig_id": "de05c0b0-b804-408d-9f35-0cf88b1b5257"
+    },
+    "749": {
+      "input": "Fabiola is affiliated with the Christianity religion.",
+      "output": "Fabiola is not affiliated with the Christianity religion.",
+      "orig_id": "1da04043-474e-47ac-9f31-ba89e57161a7"
+    },
+    "750": {
+      "input": "Windows Millennium Edition is developed by Microsoft.",
+      "output": "Windows Millennium Edition is not developed by Microsoft.",
+      "orig_id": "f3c9afaa-d2c2-424a-8004-36588210c1aa"
+    },
+    "751": {
+      "input": "Romulus Augustus is affiliated with the Christianity religion.",
+      "output": "Romulus Augustus is not affiliated with the Christianity religion.",
+      "orig_id": "fd326c20-7047-4999-8edf-763e203a4999"
+    },
+    "752": {
+      "input": "Slovenian National Assembly is a legal term in Slovenian.",
+      "output": "Slovenian National Assembly is not a legal term in Slovenian.",
+      "orig_id": "bcc1f68e-2f47-434f-8f29-282ffe3764f4"
+    },
+    "753": {
+      "input": "The Little Prince was written in French.",
+      "output": "The Little Prince was not written in French.",
+      "orig_id": "e64f802a-2454-4352-97c6-2552907b772d"
+    },
+    "754": {
+      "input": "Guido Adler died in Vienna.",
+      "output": "Guido Adler did not die in Vienna.",
+      "orig_id": "256e2736-f045-4493-a40a-d09a307f4809"
+    },
+    "755": {
+      "input": "Roman-Dutch law is a legal term in Zimbabwe.",
+      "output": "Roman-Dutch law is not a legal term in Zimbabwe.",
+      "orig_id": "2fbe9c20-86e6-4490-95b6-9b0c1d5297bc"
+    },
+    "756": {
+      "input": "Santo Amaro has the position of abbot.",
+      "output": "Santo Amaro does not have the position of abbot.",
+      "orig_id": "4f59efbd-453b-4377-8256-c1c59c0ffd73"
+    },
+    "757": {
+      "input": "The capital of Libya is Tripoli.",
+      "output": "The capital of Libya is not Tripoli.",
+      "orig_id": "4ef63e37-79db-4b74-be46-8cb2628a3936"
+    },
+    "758": {
+      "input": "Anthony Veiller died in Hollywood, California.",
+      "output": "Anthony Veiller did not die in Hollywood, California.",
+      "orig_id": "f80a53ac-f6b1-487a-9122-e7f226ea53a8"
+    },
+    "759": {
+      "input": "Fort Macomb is owned by Louisiana.",
+      "output": "Fort Macomb is not owned by Louisiana.",
+      "orig_id": "dc9c403d-c4ea-4681-8ab5-4a45a62b8ab7"
+    },
+    "760": {
+      "input": "undecane consists of carbon.",
+      "output": "undecane does not consist of carbon.",
+      "orig_id": "d8b57229-1b2f-4260-9f92-47f5f885b256"
+    },
+    "761": {
+      "input": "Carlos Baute was born in Caracas, Venezuela.",
+      "output": "Carlos Baute was not born in Caracas, Venezuela.",
+      "orig_id": "693da730-9cfd-43e9-b16c-40c21b448578"
+    },
+    "762": {
+      "input": "The original language of I've Loved You So Long is French.",
+      "output": "The original language of I've Loved You So Long is not French.",
+      "orig_id": "8cbe7f2f-444b-44f8-aad4-deb581bfc6a9"
+    },
+    "763": {
+      "input": "The headquarter of Lloyd is in Bremen.",
+      "output": "The headquarter of Lloyd is not in Bremen.",
+      "orig_id": "c8872c9d-3ebe-480f-b42b-1b4849ec5b3b"
+    },
+    "764": {
+      "input": "The headquarter of Kroger is in Cincinnati, Ohio.",
+      "output": "The headquarter of Kroger is not in Cincinnati, Ohio.",
+      "orig_id": "fd0bfe1c-825f-438c-a127-1141bbced24d"
+    },
+    "765": {
+      "input": "Germany maintains diplomatic relations with Benin.",
+      "output": "Germany does not maintain diplomatic relations with Benin.",
+      "orig_id": "0f836488-dca9-48c3-8b8c-c434f7996bac"
+    },
+    "766": {
+      "input": "The Gene Autry Show was originally aired on CBS.",
+      "output": "The Gene Autry Show was not originally aired on CBS.",
+      "orig_id": "05141144-e026-4a18-83a2-a7e2fb9656a7"
+    },
+    "767": {
+      "input": "The official language of Krasnoyarsk Krai is Russian.",
+      "output": "The official language of Krasnoyarsk Krai is not Russian.",
+      "orig_id": "0b92d549-ced4-424f-bb94-eaf4c7a065bb"
+    },
+    "768": {
+      "input": "My Kitchen Rules was created in Australia.",
+      "output": "My Kitchen Rules was not created in Australia.",
+      "orig_id": "5be4a108-f2a6-41f2-9b2b-06ebc535b00a"
+    },
+    "769": {
+      "input": "Rydberg Peninsula is located in Antarctica.",
+      "output": "Rydberg Peninsula is not located in Antarctica.",
+      "orig_id": "29d08f03-2742-4b65-a347-4c15f4466ca9"
+    },
+    "770": {
+      "input": "The official language of Faido is Italian.",
+      "output": "The official language of Faido is not Italian.",
+      "orig_id": "1f2c67fa-6731-4f1c-a1ea-c72b4ddc03d1"
+    },
+    "771": {
+      "input": "Sylencer was founded in Chicago, Illinois.",
+      "output": "Sylencer was not founded in Chicago, Illinois.",
+      "orig_id": "3f265ebf-6cd5-4549-8d39-541582b7b87d"
+    },
+    "772": {
+      "input": "Sayyid Qutb is affiliated with the Muslim religion.",
+      "output": "Sayyid Qutb is not affiliated with the Muslim religion.",
+      "orig_id": "f45cfa83-7c41-4e2d-9827-e7f4645f4046"
+    },
+    "773": {
+      "input": "The original language of Amarcord is Italian.",
+      "output": "The original language of Amarcord is not Italian.",
+      "orig_id": "c2e255a0-fb18-4afe-bbd2-c5af14bbaeab"
+    },
+    "774": {
+      "input": "Boris Souvarine died in Paris.",
+      "output": "Boris Souvarine did not die in Paris.",
+      "orig_id": "e533f3bb-3344-4e3d-b307-b5409e3e0493"
+    },
+    "775": {
+      "input": "Pigface was founded in Chicago.",
+      "output": "Pigface was not founded in Chicago.",
+      "orig_id": "68c8c6e9-00bb-46ea-a531-1f355281cdad"
+    },
+    "776": {
+      "input": "Arthur Oliver Wheeler works for Canada.",
+      "output": "Arthur Oliver Wheeler does not work for Canada.",
+      "orig_id": "ca3b28fe-196e-4ccf-99ee-8ba91ee08135"
+    },
+    "777": {
+      "input": "Galatsi Olympic Hall is located in Athens, Greece.",
+      "output": "Galatsi Olympic Hall is not located in Athens, Greece.",
+      "orig_id": "1a9e8f52-ad0c-4ee4-b7d3-752659363674"
+    },
+    "778": {
+      "input": "art is a subclass of creativity.",
+      "output": "art is not a subclass of creativity.",
+      "orig_id": "9f4eea81-3e4e-4100-a115-84149143cedc"
+    },
+    "779": {
+      "input": "Stiff Valentine was founded in Vancouver, Canada.",
+      "output": "Stiff Valentine was not founded in Vancouver, Canada.",
+      "orig_id": "e6159e3d-69b4-463c-82af-83f9c71987ce"
+    },
+    "780": {
+      "input": "Prey Veng Province is located in Cambodia.",
+      "output": "Prey Veng Province is not located in Cambodia.",
+      "orig_id": "1459b1e7-fafa-4764-a7df-9f1d192b3dba"
+    },
+    "781": {
+      "input": "Tooth & Nail Records was founded in California.",
+      "output": "Tooth & Nail Records was not founded in California.",
+      "orig_id": "d6c3e620-4130-4069-9379-acf67fab905a"
+    },
+    "782": {
+      "input": "Abbasid Caliphate is located in Africa.",
+      "output": "Abbasid Caliphate is not located in Africa.",
+      "orig_id": "0e8e42b2-0758-4b2b-8a6e-18d044489cbf"
+    },
+    "783": {
+      "input": "Denise Jannah plays jazz music.",
+      "output": "Denise Jannah does not play jazz music.",
+      "orig_id": "4eb3d7ea-cb65-45b5-b6c9-6974f2015252"
+    },
+    "784": {
+      "input": "molecule consists of atomic structure.",
+      "output": "molecule does not consist of atomic structure.",
+      "orig_id": "99238fa1-f675-484f-8243-bddd07c57f48"
+    },
+    "785": {
+      "input": "Presidential Office is a legal term in Taiwan.",
+      "output": "Presidential Office is not a legal term in Taiwan.",
+      "orig_id": "6fc28cb7-7224-49d9-b0be-eb3366e67e33"
+    },
+    "786": {
+      "input": "The original language of Le chiavi di casa is Italian.",
+      "output": "The original language of Le chiavi di casa is not Italian.",
+      "orig_id": "c310ece1-46d0-421a-9d0e-cc7d0acc6a6e"
+    },
+    "787": {
+      "input": "Kenya maintains diplomatic relations with Italy.",
+      "output": "Kenya does not maintain diplomatic relations with Italy.",
+      "orig_id": "bf6a6f66-78a2-4f36-a60b-4dda32e2e151"
+    },
+    "788": {
+      "input": "Lusia Strus is a film actress by profession.",
+      "output": "Lusia Strus is not a film actress by profession.",
+      "orig_id": "5cea284d-4d98-4255-b029-67d6273e2614"
+    },
+    "789": {
+      "input": "Hydroxylamine consists of oxygen.",
+      "output": "Hydroxylamine does not consist of oxygen.",
+      "orig_id": "dbef0652-a400-4190-91a6-01e1540af922"
+    },
+    "790": {
+      "input": "Elbe River is located in Europe.",
+      "output": "Elbe River is not located in Europe.",
+      "orig_id": "ebf664aa-b10f-408d-b6b9-efa7b3e323fd"
+    },
+    "791": {
+      "input": "Manitoba Act is a legal term in Canada.",
+      "output": "Manitoba Act is not a legal term in Canada.",
+      "orig_id": "b78f6a08-3cdf-46dd-b70f-55990f579c4f"
+    },
+    "792": {
+      "input": "Bernd Sturmfels works in the field of Mathematics.",
+      "output": "Bernd Sturmfels does not work in the field of Mathematics.",
+      "orig_id": "2510f063-77cc-47b9-83a1-9aeb2d3e661c"
+    },
+    "793": {
+      "input": "Magnum P.I. was originally aired on CBS.",
+      "output": "Magnum P.I. was not originally aired on CBS.",
+      "orig_id": "0d7fec05-00da-40ac-8e08-37db3f78c30f"
+    },
+    "794": {
+      "input": "MSX-DOS is developed by Microsoft.",
+      "output": "MSX-DOS is not developed by Microsoft.",
+      "orig_id": "9a6a3add-b906-46df-8056-503571eeff1e"
+    },
+    "795": {
+      "input": "Berlin is the capital of Germany.",
+      "output": "Berlin is not the capital of Germany.",
+      "orig_id": "54b96082-7dbf-4aae-91d9-2c6a1b76b89d"
+    },
+    "796": {
+      "input": "Manatawny Creek is located in Pennsylvania.",
+      "output": "Manatawny Creek is not located in Pennsylvania.",
+      "orig_id": "61a6a6c5-ce87-4938-8cd6-37a612e7eadf"
+    },
+    "797": {
+      "input": "Hasdai Crescas is affiliated with the Jewish religion.",
+      "output": "Hasdai Crescas is not affiliated with the Jewish religion.",
+      "orig_id": "9aa241fe-ea17-41d1-9309-ac89b8850220"
+    },
+    "798": {
+      "input": "Chavanon is a river.",
+      "output": "Chavanon is not a river.",
+      "orig_id": "99b0963d-3b24-47ba-9e3e-c76527b2be8f"
+    },
+    "799": {
+      "input": "Candlewood Lake is a reservoir.",
+      "output": "Candlewood Lake is not a reservoir.",
+      "orig_id": "3462dba5-7302-4773-a178-82e88400d649"
+    },
+    "800": {
+      "input": "Chris Squire is a member of Yes (Band).",
+      "output": "Chris Squire is not a member of Yes (Band).",
+      "orig_id": "a36efbe9-7bb0-4902-9bae-b9b590038298"
+    },
+    "801": {
+      "input": "Como Ama una Mujer was written in Spanish.",
+      "output": "Como Ama una Mujer was not written in Spanish.",
+      "orig_id": "5792c1aa-67bb-4460-abb7-a9483a4a132d"
+    },
+    "802": {
+      "input": "Ola plays jazz music.",
+      "output": "Ola does not play jazz music.",
+      "orig_id": "2bd80dee-72d6-460d-9417-cd3db202cb1a"
+    },
+    "803": {
+      "input": "Crawfordsburn is a village.",
+      "output": "Crawfordsburn is not a village.",
+      "orig_id": "4ec17ddf-d247-462d-8f53-2c8e1793e51e"
+    },
+    "804": {
+      "input": "Cuba maintains diplomatic relations with Russia.",
+      "output": "Cuba does not maintain diplomatic relations with Russia.",
+      "orig_id": "947c9ab6-5399-4b42-b033-f35725448dea"
+    },
+    "805": {
+      "input": "John Newport Langley works in the field of physiologist.",
+      "output": "John Newport Langley does not work in the field of physiologist.",
+      "orig_id": "9bf7af60-1cad-4748-bfb3-c85af28d607b"
+    },
+    "806": {
+      "input": "Coca-Cola C2 was created in Japan.",
+      "output": "Coca-Cola C2 was not created in Japan.",
+      "orig_id": "c7ff1774-995a-4c31-a577-cf47ce632f5c"
+    },
+    "807": {
+      "input": "State Representative is a legal term in Louisiana.",
+      "output": "State Representative is not a legal term in Louisiana.",
+      "orig_id": "48352c67-2c52-41bc-bb3e-2e04d741f31c"
+    },
+    "808": {
+      "input": "Rekkit Rabbit was created in France.",
+      "output": "Rekkit Rabbit was not created in France.",
+      "orig_id": "af4f86fd-c134-4fe2-8daf-46b5783372c7"
+    },
+    "809": {
+      "input": "White consists of red.",
+      "output": "White does not consist of red.",
+      "orig_id": "1b86f959-08a1-46f1-b82c-c0630f3a6645"
+    },
+    "810": {
+      "input": "Disc-Overy was written in English.",
+      "output": "Disc-Overy was not written in English.",
+      "orig_id": "ae034beb-d5e6-4cc9-a264-21d0374a1f31"
+    },
+    "811": {
+      "input": "The official language of jersiais is English.",
+      "output": "The official language of jersiais is not English.",
+      "orig_id": "f7922bd5-66e6-46ea-ae84-8739a1c08d9f"
+    },
+    "812": {
+      "input": "The headquarter of E&Y is in London.",
+      "output": "The headquarter of E&Y is not in London.",
+      "orig_id": "33ff71b5-04a3-47e0-aeb0-f6dcf695b19f"
+    },
+    "813": {
+      "input": "Energy 52 plays trance music.",
+      "output": "Energy 52 does not play trance music.",
+      "orig_id": "b0316198-96b4-4d83-bd82-4f3fc7a583e8"
+    },
+    "814": {
+      "input": "Welsh Guards is located in London, England.",
+      "output": "Welsh Guards is not located in London, England.",
+      "orig_id": "1a4e3473-07cc-4bd6-a436-dfc6e43e1824"
+    },
+    "815": {
+      "input": "Nicolas Chuquet works in the field of mathematics.",
+      "output": "Nicolas Chuquet does not work in the field of mathematics.",
+      "orig_id": "4a7cf39f-3c2b-4a28-8588-facc31e22565"
+    },
+    "816": {
+      "input": "The official language of Montenegro is Croatian.",
+      "output": "The official language of Montenegro is not Croatian.",
+      "orig_id": "5e8baf03-fbb5-4fde-9ff9-58df2d4e4b06"
+    },
+    "817": {
+      "input": "Nkhata Bay District is located in Malawi.",
+      "output": "Nkhata Bay District is not located in Malawi.",
+      "orig_id": "f43850cb-3a7c-4485-ac95-2fed96829462"
+    },
+    "818": {
+      "input": "Senegal shares border with Guinea.",
+      "output": "Senegal does not share border with Guinea.",
+      "orig_id": "8b557de1-c61e-4f2b-b26f-d7cbefdb4698"
+    },
+    "819": {
+      "input": "Mongolia maintains diplomatic relations with Japan.",
+      "output": "Mongolia does not maintain diplomatic relations with Japan.",
+      "orig_id": "0ef0beb9-9375-41ad-9a3c-72f2ecca1558"
+    },
+    "820": {
+      "input": "Accursius was born in Florence.",
+      "output": "Accursius was not born in Florence.",
+      "orig_id": "c868e098-a2db-43a9-ac3c-0d9484c028da"
+    },
+    "821": {
+      "input": "The Danny Kaye Show was originally aired on CBS.",
+      "output": "The Danny Kaye Show was not originally aired on CBS.",
+      "orig_id": "011254ed-9546-49a2-9587-cf80ae6ee4b9"
+    },
+    "822": {
+      "input": "Afro-dite was founded in Sweden.",
+      "output": "Afro-dite was not founded in Sweden.",
+      "orig_id": "51e6b72d-dffe-4c80-afdd-8f79938c9ea0"
+    },
+    "823": {
+      "input": "Joseph Haydn plays opera music.",
+      "output": "Joseph Haydn does not play opera music.",
+      "orig_id": "25d5f1e4-d291-4337-90b7-e8491c64ce17"
+    },
+    "824": {
+      "input": "Miami Vice was originally aired on NBC.",
+      "output": "Miami Vice was not originally aired on NBC.",
+      "orig_id": "907bce83-88f6-425e-a7f2-0b502d72a2f6"
+    },
+    "825": {
+      "input": "The original language of The Adventure Game is English.",
+      "output": "The original language of The Adventure Game is not English.",
+      "orig_id": "fe0753fb-8b91-478a-b366-d4fdb799d0a2"
+    },
+    "826": {
+      "input": "The original language of Radio Times is English.",
+      "output": "The original language of Radio Times is not English.",
+      "orig_id": "a1f27bc7-c611-4b04-9094-11eeb9690be0"
+    },
+    "827": {
+      "input": "Carl Marstrander died in Oslo.",
+      "output": "Carl Marstrander did not die in Oslo.",
+      "orig_id": "608d7444-a6fd-400e-945f-4fb18ff995b0"
+    },
+    "828": {
+      "input": "Vietnam is located in Asia.",
+      "output": "Vietnam is not located in Asia.",
+      "orig_id": "8a1cea73-fc7f-4c11-9aed-5aa295bfbad1"
+    },
+    "829": {
+      "input": "The capital of Lombardy is Milano.",
+      "output": "The capital of Lombardy is not Milano.",
+      "orig_id": "fd4747c1-d4d2-44c6-b97e-de6f6d6f05b0"
+    },
+    "830": {
+      "input": "The Naked Vicar Show was created in Australia.",
+      "output": "The Naked Vicar Show was not created in Australia.",
+      "orig_id": "e6910c00-7b4d-4002-a591-7c2f1ed8a5f3"
+    },
+    "831": {
+      "input": "The headquarter of Nahdlatul Ulama is in Jakarta.",
+      "output": "The headquarter of Nahdlatul Ulama is not in Jakarta.",
+      "orig_id": "cbf1abd5-3d97-490a-a0cd-c7823573e852"
+    },
+    "832": {
+      "input": "Peter Metro plays reggae music.",
+      "output": "Peter Metro does not play reggae music.",
+      "orig_id": "85861498-a24d-4bf9-bdd4-fcfe9976e949"
+    },
+    "833": {
+      "input": "Totten Glacier is located in Antarctica.",
+      "output": "Totten Glacier is not located in Antarctica.",
+      "orig_id": "e79c3f15-41a7-485b-9e0b-c5af74d815cc"
+    },
+    "834": {
+      "input": "N-methylmorpholine N-oxide consists of molecular oxygen.",
+      "output": "N-methylmorpholine N-oxide does not consist of molecular oxygen.",
+      "orig_id": "e6ea0505-bb1f-43b4-ade0-192726b28c25"
+    },
+    "835": {
+      "input": "Bloodsports was written in English.",
+      "output": "Bloodsports was not written in English.",
+      "orig_id": "b97f65f7-03f1-45ad-8b38-62d5b8afce84"
+    },
+    "836": {
+      "input": "Wards Island is located in Manhattan.",
+      "output": "Wards Island is not located in Manhattan.",
+      "orig_id": "4a50d4d3-e8e8-4a60-96e9-955e58e02821"
+    },
+    "837": {
+      "input": "Dunragit is a village.",
+      "output": "Dunragit is not a village.",
+      "orig_id": "8b9b94d9-c8dd-4970-aede-b636f6598a4f"
+    },
+    "838": {
+      "input": "Henry van de Velde was born in Antwerp.",
+      "output": "Henry van de Velde was not born in Antwerp.",
+      "orig_id": "a17a1d3c-f2ba-4009-8f00-ed6c5816640a"
+    },
+    "839": {
+      "input": "Millikan works in the field of physics.",
+      "output": "Millikan does not work in the field of physics.",
+      "orig_id": "fbdb812e-8a95-4f2c-9421-3f8f328dbd29"
+    },
+    "840": {
+      "input": "quantum electronics is part of physics.",
+      "output": "quantum electronics is not part of physics.",
+      "orig_id": "db4201f8-f2bb-496b-8801-28c804e7116a"
+    },
+    "841": {
+      "input": "Porto-Novo is the capital of Benin.",
+      "output": "Porto-Novo is not the capital of Benin.",
+      "orig_id": "93f5e8fb-e07c-4cd0-aff8-0e56df53e9e8"
+    },
+    "842": {
+      "input": "La Voz was written in Spanish.",
+      "output": "La Voz was not written in Spanish.",
+      "orig_id": "17ce70d6-6bfe-42f0-9f74-874d616efe41"
+    },
+    "843": {
+      "input": "The original language of Les Nanas is French.",
+      "output": "The original language of Les Nanas is not French.",
+      "orig_id": "7fc2b1db-65f5-4bcb-aede-b3ed7c0abb7e"
+    },
+    "844": {
+      "input": "Murray Grand is a songwriter by profession.",
+      "output": "Murray Grand is not a songwriter by profession.",
+      "orig_id": "67a8ffd5-7954-4d29-8ff3-9a29e9bbcf5a"
+    },
+    "845": {
+      "input": "Edward Vesala plays jazz music.",
+      "output": "Edward Vesala does not play jazz music.",
+      "orig_id": "160d8eda-241a-4d1c-8b93-40d3d73dc024"
+    },
+    "846": {
+      "input": "Kindle is owned by Amazon.com.",
+      "output": "Kindle is not owned by Amazon.com.",
+      "orig_id": "59b587ff-9c60-4cee-9a64-628bc869db39"
+    },
+    "847": {
+      "input": "Pindamonhangaba is located in Brazil.",
+      "output": "Pindamonhangaba is not located in Brazil.",
+      "orig_id": "4f7e967b-c437-41e0-8c2a-681b6a664e2f"
+    },
+    "848": {
+      "input": "House Speaker is a legal term in Pennsylvania.",
+      "output": "House Speaker is not a legal term in Pennsylvania.",
+      "orig_id": "f41aeb3a-5311-48ad-a152-c94a34514597"
+    },
+    "849": {
+      "input": "Australia maintains diplomatic relations with Bulgaria.",
+      "output": "Australia does not maintain diplomatic relations with Bulgaria.",
+      "orig_id": "d4555048-0698-4805-94e0-f66f38da42a5"
+    },
+    "850": {
+      "input": "Where Are They Now was written in English.",
+      "output": "Where Are They Now was not written in English.",
+      "orig_id": "ca1e4088-fe18-45a0-a53b-1b0f133e312d"
+    },
+    "851": {
+      "input": "Dan Le Batard works for ESPN.",
+      "output": "Dan Le Batard does not work for ESPN.",
+      "orig_id": "7b21efec-3a62-4ad9-84a2-825f5c7c87f2"
+    },
+    "852": {
+      "input": "Sonic Team is owned by Sega.",
+      "output": "Sonic Team is not owned by Sega.",
+      "orig_id": "bd3f4c8c-45be-4efb-9b16-31a2a193214a"
+    },
+    "853": {
+      "input": "Pierre Beauchamp died in Paris.",
+      "output": "Pierre Beauchamp did not die in Paris.",
+      "orig_id": "12a80f57-2cf5-44f0-8ffc-1a56f89dfcae"
+    },
+    "854": {
+      "input": "Yakubu Gowon is a politician by profession.",
+      "output": "Yakubu Gowon is not a politician by profession.",
+      "orig_id": "19f06e6c-d71e-4adb-aa1a-8d61303484cb"
+    },
+    "855": {
+      "input": "Yambol Peak is located in Antarctica.",
+      "output": "Yambol Peak is not located in Antarctica.",
+      "orig_id": "0e124ecb-2834-4e29-a66d-da4fe8fffd5a"
+    },
+    "856": {
+      "input": "Leap Castle is located in Ireland.",
+      "output": "Leap Castle is not located in Ireland.",
+      "orig_id": "3bf8db49-ebfe-4045-a568-dd78ffe287ac"
+    },
+    "857": {
+      "input": "Ivughli Rural District is located in Iran.",
+      "output": "Ivughli Rural District is not located in Iran.",
+      "orig_id": "d34c0523-580f-4482-8bd3-1ef17d5782b6"
+    },
+    "858": {
+      "input": "Bill Conselman is a screenwriter by profession.",
+      "output": "Bill Conselman is not a screenwriter by profession.",
+      "orig_id": "5f005604-f903-46ea-9d80-d474bd12ccaf"
+    },
+    "859": {
+      "input": "The original language of Le Globe is French.",
+      "output": "The original language of Le Globe is not French.",
+      "orig_id": "f528fa77-09fe-4c18-8da0-b1d73a0ce727"
+    },
+    "860": {
+      "input": "lactulose is a medicine.",
+      "output": "lactulose is not a medicine.",
+      "orig_id": "51b46a11-3242-4bfd-9f00-e5aafba1fdcd"
+    },
+    "861": {
+      "input": "Villa La Pietra is located in Italy.",
+      "output": "Villa La Pietra is not located in Italy.",
+      "orig_id": "da744f12-07d9-439d-a490-c38faf24d7bb"
+    },
+    "862": {
+      "input": "Vikramarkudu was created in India.",
+      "output": "Vikramarkudu was not created in India.",
+      "orig_id": "a9524d3f-d63f-4534-a7fd-f4dd4fc3dc82"
+    },
+    "863": {
+      "input": "Gazzetta Chimica Italiana was written in Italian.",
+      "output": "Gazzetta Chimica Italiana was not written in Italian.",
+      "orig_id": "fc6b6233-c47f-409e-bdde-6ddbc657f0e3"
+    },
+    "864": {
+      "input": "Renault Trucks is owned by AB Volvo.",
+      "output": "Renault Trucks is not owned by AB Volvo.",
+      "orig_id": "03c99174-6664-4bef-9260-0530064c669e"
+    },
+    "865": {
+      "input": "Research Machines was founded in Oxford.",
+      "output": "Research Machines was not founded in Oxford.",
+      "orig_id": "139706b8-622c-4011-9a52-b65502bcb7ef"
+    },
+    "866": {
+      "input": "Chaos Divine was founded in Perth, Western Australia.",
+      "output": "Chaos Divine was not founded in Perth, Western Australia.",
+      "orig_id": "cc8d0fcb-5de9-4eba-ab0d-196f6617f328"
+    },
+    "867": {
+      "input": "Furan consists of carbon.",
+      "output": "Furan does not consist of carbon.",
+      "orig_id": "a5e52db0-796a-44cf-a1e5-b43bb4fb8c5b"
+    },
+    "868": {
+      "input": "Belisario was created in Italy.",
+      "output": "Belisario was not created in Italy.",
+      "orig_id": "39621517-ecbb-41fe-bd80-d80c84dabec3"
+    },
+    "869": {
+      "input": "Herpa Wings was founded in Germany.",
+      "output": "Herpa Wings was not founded in Germany.",
+      "orig_id": "0c08aa55-0968-4836-81e1-0f64edd333c7"
+    },
+    "870": {
+      "input": "Kibera Kid was created in Kenya.",
+      "output": "Kibera Kid was not created in Kenya.",
+      "orig_id": "b2eeda0d-8a0a-4368-b213-d49967bbad2d"
+    },
+    "871": {
+      "input": "The official language of Finland is Finnish.",
+      "output": "The official language of Finland is not Finnish.",
+      "orig_id": "5b37ddf5-0079-4b49-90a0-29ba1b2df642"
+    },
+    "872": {
+      "input": "Lou Marini plays jazz music.",
+      "output": "Lou Marini does not play jazz music.",
+      "orig_id": "bc209198-a679-4bfd-aa2c-9cf8f5320987"
+    },
+    "873": {
+      "input": "Frederick William Seward is a politician by profession.",
+      "output": "Frederick William Seward is not a politician by profession.",
+      "orig_id": "49475131-b5b7-453f-b166-fceb59a7906c"
+    },
+    "874": {
+      "input": "Ctesias is a physician by profession.",
+      "output": "Ctesias is not a physician by profession.",
+      "orig_id": "b4a0e0d3-3514-49f3-bae0-4d4a56f1e8e3"
+    },
+    "875": {
+      "input": "The official language of Zabaykalsky Krai is Russian.",
+      "output": "The official language of Zabaykalsky Krai is not Russian.",
+      "orig_id": "6067073b-5ab8-4962-8203-0b5b5675b17b"
+    },
+    "876": {
+      "input": "Michael Lipman was born in London.",
+      "output": "Michael Lipman was not born in London.",
+      "orig_id": "b6c949d4-8fe3-4c80-b279-85c10eefb52b"
+    },
+    "877": {
+      "input": "Eden Roc is a hotel.",
+      "output": "Eden Roc is not a hotel.",
+      "orig_id": "333fe5a2-7dab-4592-98b9-4b830181b049"
+    },
+    "878": {
+      "input": "Bandai was founded in Tokyo.",
+      "output": "Bandai was not founded in Tokyo.",
+      "orig_id": "c70173b6-82b7-4e2c-b574-d2da4e7021fa"
+    },
+    "879": {
+      "input": "Northtown is located in Nevada.",
+      "output": "Northtown is not located in Nevada.",
+      "orig_id": "c6d20d6f-f20d-408c-b588-22c65e0891ef"
+    },
+    "880": {
+      "input": "Eugene Odum works in the field of ecology.",
+      "output": "Eugene Odum does not work in the field of ecology.",
+      "orig_id": "dc9ea727-f462-4efe-82c2-b850e8e110be"
+    },
+    "881": {
+      "input": "Dominick Argento plays opera music.",
+      "output": "Dominick Argento does not play opera music.",
+      "orig_id": "5c41e088-d0f8-4828-89af-2cbf0895e2b2"
+    },
+    "882": {
+      "input": "Bowman Coast is located in Antarctica.",
+      "output": "Bowman Coast is not located in Antarctica.",
+      "orig_id": "5088f473-07b2-437d-9053-8b4a66c0544a"
+    },
+    "883": {
+      "input": "The headquarter of ICF is in Madras.",
+      "output": "The headquarter of ICF is not in Madras.",
+      "orig_id": "d73afb92-58dc-4194-b46e-b13a9a9aa865"
+    },
+    "884": {
+      "input": "Irina Bokova works for UNESCO.",
+      "output": "Irina Bokova does not work for UNESCO.",
+      "orig_id": "13e9fad6-10a7-4e88-b100-9ea0e51b3bd2"
+    },
+    "885": {
+      "input": "Libreville is the capital of Gabon.",
+      "output": "Libreville is not the capital of Gabon.",
+      "orig_id": "bc535f6c-ded0-4e19-90e2-c1520de9fa8e"
+    },
+    "886": {
+      "input": "Grobbendonk is located in Belgian.",
+      "output": "Grobbendonk is not located in Belgian.",
+      "orig_id": "830db00c-c03d-4c58-b741-232aab91db6e"
+    },
+    "887": {
+      "input": "The Wanted was founded in England.",
+      "output": "The Wanted was not founded in England.",
+      "orig_id": "469bc358-d008-46e9-91be-06bbb495f50a"
+    },
+    "888": {
+      "input": "Scottish Parliament is a legal term in Scotland.",
+      "output": "Scottish Parliament is not a legal term in Scotland.",
+      "orig_id": "9ee9af5a-4a13-44a9-8a0d-6238bb00bfab"
+    },
+    "889": {
+      "input": "Cavendish works in the field of Physics.",
+      "output": "Cavendish does not work in the field of Physics.",
+      "orig_id": "6a500096-cef4-4422-ac27-ada222cab6d9"
+    },
+    "890": {
+      "input": "MQSeries is developed by IBM.",
+      "output": "MQSeries is not developed by IBM.",
+      "orig_id": "6ed561c3-9660-4220-9bb9-a214943f2e8e"
+    },
+    "891": {
+      "input": "Michelangelo died in Rome.",
+      "output": "Michelangelo did not die in Rome.",
+      "orig_id": "a431d8f9-2a7a-4add-ad81-3f72c562a1fd"
+    },
+    "892": {
+      "input": "Darryl Kile died in Chicago.",
+      "output": "Darryl Kile did not die in Chicago.",
+      "orig_id": "dd7eb23e-46f6-4173-a454-8175be4fcdcb"
+    },
+    "893": {
+      "input": "Pecorino Sardo is a subclass of cheese.",
+      "output": "Pecorino Sardo is not a subclass of cheese.",
+      "orig_id": "e52362da-d6e9-4c0d-85a9-42138a3149ad"
+    },
+    "894": {
+      "input": "Greens Norton is a village.",
+      "output": "Greens Norton is not a village.",
+      "orig_id": "df57760e-974f-4e4a-8ce3-279f6729bbe1"
+    },
+    "895": {
+      "input": "Leser Landshuth died in Berlin.",
+      "output": "Leser Landshuth did not die in Berlin.",
+      "orig_id": "67fd0952-9c0c-486a-a516-8c3ba03c6b3a"
+    },
+    "896": {
+      "input": "Ptolemaic Baris is located in Jerusalem.",
+      "output": "Ptolemaic Baris is not located in Jerusalem.",
+      "orig_id": "1a584072-61b4-43b0-9552-b7a8da390915"
+    },
+    "897": {
+      "input": "Waltham High School is located in Massachusetts.",
+      "output": "Waltham High School is not located in Massachusetts.",
+      "orig_id": "fa547d8e-ee5b-4090-94de-1f76806c3450"
+    },
+    "898": {
+      "input": "Silica gel consists of silicon.",
+      "output": "Silica gel does not consist of silicon.",
+      "orig_id": "e4298b15-a19a-4313-a6bd-a4534970cf8c"
+    },
+    "899": {
+      "input": "The original language of The Purple Taxi is French.",
+      "output": "The original language of The Purple Taxi is not French.",
+      "orig_id": "53e00b40-fbb6-4f02-ab7c-02e97e5d7bfb"
+    },
+    "900": {
+      "input": "thiazole consists of carbon.",
+      "output": "thiazole does not consist of carbon.",
+      "orig_id": "44b207f7-38cf-4cc8-8579-a9c51480ea6b"
+    },
+    "901": {
+      "input": "Nuri Pasha is a politician by profession.",
+      "output": "Nuri Pasha is not a politician by profession.",
+      "orig_id": "ff58470c-1734-403d-945d-519f740dcf50"
+    },
+    "902": {
+      "input": "Lancia Lybra is produced by Fiat.",
+      "output": "Lancia Lybra is not produced by Fiat.",
+      "orig_id": "fdced97e-1728-44e3-9fb5-b36830ed2c0f"
+    },
+    "903": {
+      "input": "Pierre-Jules Cavelier died in Paris.",
+      "output": "Pierre-Jules Cavelier did not die in Paris.",
+      "orig_id": "521e7b3d-e207-44cd-8bc3-9762bfc03ad1"
+    },
+    "904": {
+      "input": "Los amantes pasajeros was written in Spanish.",
+      "output": "Los amantes pasajeros was not written in Spanish.",
+      "orig_id": "ca8daf7e-2a5a-4526-a3b9-35e8a3ff58ad"
+    }
+  }
+}

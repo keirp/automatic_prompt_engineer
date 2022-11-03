@@ -1,0 +1,12 @@
+{
+  "annotations": [
+    "Output whether the sentiment of the input sentence is positive or negative.",
+    "Given an input text, output whether the sentiment is positive or negative.",
+    "For each input, determine if the sentiment in the input is prone to negative or positive opinion.",
+    "For each input, determine whether it expresses a positive or a negative opinion.",
+    "Classify the sentiment of the input sentence (options are positive or negative)",
+    "write \"positive\" if the input is a positive review, and \"negative\" if the input is a negative review",
+    "Determine whether the sentiment is positive or negative",
+    "Output whether the sentiment is positive or negative"
+  ]
+}

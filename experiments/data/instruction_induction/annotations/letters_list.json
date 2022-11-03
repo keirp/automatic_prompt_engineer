@@ -1,0 +1,13 @@
+{
+  "annotations": [
+    "write down the spelling of the inputs",
+    "spell the word in the input",
+    "Write the word, but with a space between each one of its letters",
+    "Write the input word, but with a space between each one of its letters",
+    "For each word in the input, write the same word but add a space between all characters.",
+    "For each input, write the input word with the addition of a space separating each character pair in the word.",
+    "Break the following word into letters:",
+    "Write the word that you will be given as input, but separate the characters with a space.",
+    "Write the characters of the input word, separate the characters with a space."
+  ]
+}

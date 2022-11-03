@@ -1,0 +1,945 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "place",
+      "output": "Platz",
+      "possible_translations": [
+        "Position",
+        "plazieren",
+        "Bude",
+        "Stelle",
+        "Ort",
+        "Schlafplatz",
+        "Sitzplatz",
+        "Quartier",
+        "Stehplatz",
+        "for vehicles: Standplatz",
+        "stellen",
+        "Platz",
+        "Sitz",
+        "einordnen"
+      ]
+    },
+    "2": {
+      "input": "family",
+      "output": "Familie",
+      "possible_translations": [
+        "Familie",
+        "vom anderen Ufer sein"
+      ]
+    },
+    "3": {
+      "input": "point",
+      "output": "Punkt",
+      "possible_translations": [
+        "Komma",
+        "Peninsula",
+        "Standpunkt",
+        "Halbinsel",
+        "Spitze",
+        "Zeitpunkt",
+        "Landzunge",
+        "Punkt",
+        "zeigen"
+      ]
+    },
+    "4": {
+      "input": "east",
+      "output": "Osten",
+      "possible_translations": [
+        "Osten",
+        "Ost"
+      ]
+    },
+    "5": {
+      "input": "aircraft",
+      "output": "Luftfahrzeug",
+      "possible_translations": [
+        "Luftfahrzeug"
+      ]
+    },
+    "6": {
+      "input": "title",
+      "output": "Titel",
+      "possible_translations": [
+        "Eigentumsnachweis",
+        "Titel",
+        "Eigentumsrecht"
+      ]
+    },
+    "7": {
+      "input": "party",
+      "output": "Partei",
+      "possible_translations": [
+        "Partie",
+        "Fest",
+        "Partei",
+        "Teilnehmer",
+        "Teilnehmerin",
+        "Party",
+        "Feier",
+        "Fete"
+      ]
+    },
+    "8": {
+      "input": "victory",
+      "output": "Sieg",
+      "possible_translations": [
+        "Sieg"
+      ]
+    },
+    "9": {
+      "input": "list",
+      "output": "Liste",
+      "possible_translations": [
+        "Liste",
+        "Schlagseite",
+        "aufzählen",
+        "Krängung"
+      ]
+    },
+    "10": {
+      "input": "cover",
+      "output": "Deckung",
+      "possible_translations": [
+        "Abdeckung",
+        "decken",
+        "Versteck",
+        "Deckung",
+        "bespringen",
+        "besteigen",
+        "behandeln",
+        "Deckel",
+        "Gedeck",
+        "abdecken",
+        "covern",
+        "Deckung geben",
+        "Überdeckung",
+        "Decke"
+      ]
+    },
+    "11": {
+      "input": "idea",
+      "output": "Idee",
+      "possible_translations": [
+        "Idee",
+        "Ahnung"
+      ]
+    },
+    "12": {
+      "input": "loss",
+      "output": "Verlust",
+      "possible_translations": [
+        "Verlust",
+        "Niederlage"
+      ]
+    },
+    "13": {
+      "input": "king",
+      "output": "König",
+      "possible_translations": [
+        "Dame",
+        "König"
+      ]
+    },
+    "14": {
+      "input": "staff",
+      "output": "Belegschaft",
+      "possible_translations": [
+        "Belegschaft",
+        "Notenlinien",
+        "Personal",
+        "Stab"
+      ]
+    },
+    "15": {
+      "input": "broadcast",
+      "output": "Sendung",
+      "possible_translations": [
+        "verbreiten",
+        "Rundfunk",
+        "Sendung",
+        "Ausstrahlung",
+        "senden",
+        "Übertragung"
+      ]
+    },
+    "16": {
+      "input": "trade",
+      "output": "Handel",
+      "possible_translations": [
+        "Passat",
+        "Kommerz",
+        "Tausch",
+        "Facharbeiter",
+        "Passatwind",
+        "Handel",
+        "Handwerk",
+        "Geschäft"
+      ]
+    },
+    "17": {
+      "input": "energy",
+      "output": "Energie",
+      "possible_translations": [
+        "Energie"
+      ]
+    },
+    "18": {
+      "input": "peak",
+      "output": "Gipfel",
+      "possible_translations": [
+        "Gipfel",
+        "Maximum"
+      ]
+    },
+    "19": {
+      "input": "combat",
+      "output": "Kampf",
+      "possible_translations": [
+        "Schlacht",
+        "Kampf"
+      ]
+    },
+    "20": {
+      "input": "source",
+      "output": "Quelle",
+      "possible_translations": [
+        "Ursprung",
+        "beziehen",
+        "Quellkode",
+        "Quelle",
+        "belegen",
+        "Quellcode"
+      ]
+    },
+    "21": {
+      "input": "piece",
+      "output": "Stück",
+      "possible_translations": [
+        "Stück"
+      ]
+    },
+    "22": {
+      "input": "plant",
+      "output": "Pflanze",
+      "possible_translations": [
+        "platzieren",
+        "pflanzen",
+        "Kombination",
+        "Pflanze"
+      ]
+    },
+    "23": {
+      "input": "ice",
+      "output": "Eis",
+      "possible_translations": [
+        "frieren",
+        "einfrieren",
+        "Eis"
+      ]
+    },
+    "24": {
+      "input": "lot",
+      "output": "Los",
+      "possible_translations": [
+        "Parzelle",
+        "Grund",
+        "Haufen",
+        "Grundstück",
+        "Los",
+        "Häuflein",
+        "Anzahl",
+        "Gruppe",
+        "Schicksal",
+        "Charge",
+        "Menge"
+      ]
+    },
+    "25": {
+      "input": "couple",
+      "output": "Paar",
+      "possible_translations": [
+        "Paar",
+        "einige",
+        "ein paar"
+      ]
+    },
+    "26": {
+      "input": "boat",
+      "output": "Boot",
+      "possible_translations": [
+        "Boot",
+        "Schiff"
+      ]
+    },
+    "27": {
+      "input": "seat",
+      "output": "Sitz",
+      "possible_translations": [
+        "Sitz",
+        "Sitzplatz"
+      ]
+    },
+    "28": {
+      "input": "transport",
+      "output": "Beförderung",
+      "possible_translations": [
+        "befördern",
+        "Beförderung",
+        "transportieren"
+      ]
+    },
+    "29": {
+      "input": "mouth",
+      "output": "Mündung",
+      "possible_translations": [
+        "Mündlein",
+        "Mund",
+        "Maul",
+        "Mündung"
+      ]
+    },
+    "30": {
+      "input": "iron",
+      "output": "Eisen",
+      "possible_translations": [
+        "eisern",
+        "Eisen",
+        "bügeln",
+        "Bügeleisen"
+      ]
+    },
+    "31": {
+      "input": "composition",
+      "output": "Zusammenstellung",
+      "possible_translations": [
+        "Komposition",
+        "Zusammenstellung"
+      ]
+    },
+    "32": {
+      "input": "forest",
+      "output": "Wald",
+      "possible_translations": [
+        "Hain",
+        "Wald",
+        "aufforsten",
+        "Gehölz",
+        "Forst"
+      ]
+    },
+    "33": {
+      "input": "bird",
+      "output": "Vogel",
+      "possible_translations": [
+        "Braut",
+        "Typ",
+        "Perle",
+        "Schnitte",
+        "Vogel",
+        "absitzen im Cafe Viereck",
+        "Mieze"
+      ]
+    },
+    "34": {
+      "input": "armor",
+      "output": "Panzerung",
+      "possible_translations": [
+        "Rüstung",
+        "Panzerung",
+        "Panzer",
+        "Panzerkraftwagen"
+      ]
+    },
+    "35": {
+      "input": "replacement",
+      "output": "Ersatz",
+      "possible_translations": [
+        "Ersatzspieler",
+        "Ersatz"
+      ]
+    },
+    "36": {
+      "input": "discovery",
+      "output": "Entdeckung",
+      "possible_translations": [
+        "Entdeckung"
+      ]
+    },
+    "37": {
+      "input": "sale",
+      "output": "Auktion",
+      "possible_translations": [
+        "Verkauf",
+        "Ausverkauf",
+        "Auktion",
+        "Schlussverkauf"
+      ]
+    },
+    "38": {
+      "input": "chain",
+      "output": "Kette",
+      "possible_translations": [
+        "Kette",
+        "ketten"
+      ]
+    },
+    "39": {
+      "input": "designation",
+      "output": "Benennung",
+      "possible_translations": [
+        "Benennung"
+      ]
+    },
+    "40": {
+      "input": "pace",
+      "output": "Tempo",
+      "possible_translations": [
+        "Tempo",
+        "Geschwindigkeit",
+        "Schritt",
+        "Pass",
+        "Passgang"
+      ]
+    },
+    "41": {
+      "input": "pit",
+      "output": "Box",
+      "possible_translations": [
+        "Stein",
+        "Loch",
+        "Same",
+        "Kern",
+        "Box",
+        "Grube"
+      ]
+    },
+    "42": {
+      "input": "dress",
+      "output": "Kleidung",
+      "possible_translations": [
+        "sich anziehen",
+        "ankleiden",
+        "anziehen",
+        "Kleid",
+        "Kleidung",
+        "kleiden"
+      ]
+    },
+    "43": {
+      "input": "delay",
+      "output": "Verzögerung",
+      "possible_translations": [
+        "etwas verschieben",
+        "sich verspäten",
+        "Verzögerung"
+      ]
+    },
+    "44": {
+      "input": "electricity",
+      "output": "Strom",
+      "possible_translations": [
+        "Elektrizität",
+        "Strom"
+      ]
+    },
+    "45": {
+      "input": "coup",
+      "output": "Coup",
+      "possible_translations": [
+        "Coup"
+      ]
+    },
+    "46": {
+      "input": "improvement",
+      "output": "Verbesserung",
+      "possible_translations": [
+        "Verbesserung"
+      ]
+    },
+    "47": {
+      "input": "victim",
+      "output": "Opfer",
+      "possible_translations": [
+        "Opfer"
+      ]
+    },
+    "48": {
+      "input": "girlfriend",
+      "output": "Freundin",
+      "possible_translations": [
+        "Freundin",
+        "Girlfriend"
+      ]
+    },
+    "49": {
+      "input": "tension",
+      "output": "Spannung",
+      "possible_translations": [
+        "Spannung"
+      ]
+    },
+    "50": {
+      "input": "patient",
+      "output": "Patient",
+      "possible_translations": [
+        "Patient",
+        "geduldig"
+      ]
+    },
+    "51": {
+      "input": "crest",
+      "output": "Kamm",
+      "possible_translations": [
+        "Krone",
+        "Kamm",
+        "Haube"
+      ]
+    },
+    "52": {
+      "input": "consideration",
+      "output": "Vergütung",
+      "possible_translations": [
+        "Rücksicht",
+        "Vergütung",
+        "Erwägung",
+        "Überlegung"
+      ]
+    },
+    "53": {
+      "input": "autobiography",
+      "output": "Autobiografie",
+      "possible_translations": [
+        "Autobiografie"
+      ]
+    },
+    "54": {
+      "input": "sum",
+      "output": "Summe",
+      "possible_translations": [
+        "Summe",
+        "summieren"
+      ]
+    },
+    "55": {
+      "input": "procedure",
+      "output": "Prozedur",
+      "possible_translations": [
+        "Prozedur",
+        "Vorgehensweise",
+        "Vorgehen",
+        "Unterprogramm",
+        "Prozedere"
+      ]
+    },
+    "56": {
+      "input": "ceiling",
+      "output": "Decke",
+      "possible_translations": [
+        "Decke"
+      ]
+    },
+    "57": {
+      "input": "coalition",
+      "output": "Koalition",
+      "possible_translations": [
+        "Koalition"
+      ]
+    },
+    "58": {
+      "input": "essay",
+      "output": "Versuch",
+      "possible_translations": [
+        "Aufsatz",
+        "Essay",
+        "Versuch"
+      ]
+    },
+    "59": {
+      "input": "goalkeeper",
+      "output": "Torwart",
+      "possible_translations": [
+        "Goali",
+        "Schlussmann",
+        "Torsteher",
+        "Fliegenfängerin",
+        "Keeper",
+        "Torwartin",
+        "Torwächterin",
+        "Torsteherin",
+        "Schlussfrau",
+        "Keeperin",
+        "Tormann",
+        "Goalmann",
+        "Torhüterin",
+        "Torwächter",
+        "Fliegenfänger",
+        "Torhüter",
+        "Torwart",
+        "Torfrau",
+        "Goalie",
+        "Goalfrau"
+      ]
+    },
+    "60": {
+      "input": "marble",
+      "output": "Marmor",
+      "possible_translations": [
+        "Murmel",
+        "Marmor",
+        "marmorieren"
+      ]
+    },
+    "61": {
+      "input": "ballet",
+      "output": "Ballett",
+      "possible_translations": [
+        "Ballett"
+      ]
+    },
+    "62": {
+      "input": "stunt",
+      "output": "Stunt",
+      "possible_translations": [
+        "Stunt"
+      ]
+    },
+    "63": {
+      "input": "dragon",
+      "output": "Drache",
+      "possible_translations": [
+        "Drache",
+        "Lindwurm",
+        "Wurm",
+        "Wyvern"
+      ]
+    },
+    "64": {
+      "input": "soccer",
+      "output": "Fußball",
+      "possible_translations": [
+        "Fußball"
+      ]
+    },
+    "65": {
+      "input": "biology",
+      "output": "Biologie",
+      "possible_translations": [
+        "Biologie"
+      ]
+    },
+    "66": {
+      "input": "invention",
+      "output": "Erfinden",
+      "possible_translations": [
+        "Invention",
+        "Erfinden",
+        "Erfindung",
+        "Einfallsreichtum"
+      ]
+    },
+    "67": {
+      "input": "button",
+      "output": "Taste",
+      "possible_translations": [
+        "Taste",
+        "Knopf",
+        "Knospe"
+      ]
+    },
+    "68": {
+      "input": "embassy",
+      "output": "Botschaft",
+      "possible_translations": [
+        "Botschaft"
+      ]
+    },
+    "69": {
+      "input": "abbey",
+      "output": "Klosterkirche",
+      "possible_translations": [
+        "Abtei",
+        "Klosterkirche"
+      ]
+    },
+    "70": {
+      "input": "ankle",
+      "output": "Knöchel",
+      "possible_translations": [
+        "Fußknöchel",
+        "Knöchel",
+        "enkel"
+      ]
+    },
+    "71": {
+      "input": "fog",
+      "output": "Nebel",
+      "possible_translations": [
+        "Nebel"
+      ]
+    },
+    "72": {
+      "input": "suspicion",
+      "output": "Verdacht",
+      "possible_translations": [
+        "Argwohn",
+        "Verdacht",
+        "Verdächtigung"
+      ]
+    },
+    "73": {
+      "input": "poison",
+      "output": "Gift",
+      "possible_translations": [
+        "Giftstoff",
+        "Gift",
+        "vergiften"
+      ]
+    },
+    "74": {
+      "input": "integrity",
+      "output": "Integrität",
+      "possible_translations": [
+        "Integrität"
+      ]
+    },
+    "75": {
+      "input": "treasure",
+      "output": "Schatz",
+      "possible_translations": [
+        "Schatz"
+      ]
+    },
+    "76": {
+      "input": "vector",
+      "output": "Vektor",
+      "possible_translations": [
+        "Vektor"
+      ]
+    },
+    "77": {
+      "input": "evaluation",
+      "output": "Beurteilung",
+      "possible_translations": [
+        "Beurteilung"
+      ]
+    },
+    "78": {
+      "input": "premier",
+      "output": "Ministerpräzident",
+      "possible_translations": [
+        "Ministerpräzident"
+      ]
+    },
+    "79": {
+      "input": "mock",
+      "output": "Nachahmung",
+      "possible_translations": [
+        "aufziehen",
+        "Schein-",
+        "nachahmen",
+        "hochnehmen",
+        "Nachahmung",
+        "nachgemacht",
+        "nachäffen"
+      ]
+    },
+    "80": {
+      "input": "certificate",
+      "output": "Zertifikat",
+      "possible_translations": [
+        "Zertifikat"
+      ]
+    },
+    "81": {
+      "input": "slate",
+      "output": "Schiefergrau",
+      "possible_translations": [
+        "planen",
+        "Kandidatenliste",
+        "verreissen",
+        "schiefergrau",
+        "Tafel",
+        "vorsehen",
+        "Liste",
+        "Schiefergrau",
+        "Schiefertafel",
+        "Dachschiefer",
+        "bestimmen",
+        "ansetzen",
+        "Schuldentafel",
+        "Schiefer"
+      ]
+    },
+    "82": {
+      "input": "coordination",
+      "output": "Koordination",
+      "possible_translations": [
+        "Koordinierung",
+        "Koordination"
+      ]
+    },
+    "83": {
+      "input": "mourning",
+      "output": "Trauer",
+      "possible_translations": [
+        "Trauer"
+      ]
+    },
+    "84": {
+      "input": "confluence",
+      "output": "Zusammenfluss",
+      "possible_translations": [
+        "Zusammenfluss"
+      ]
+    },
+    "85": {
+      "input": "fortification",
+      "output": "Festung",
+      "possible_translations": [
+        "Festung",
+        "Fort",
+        "Befestigen",
+        "Festungsbau"
+      ]
+    },
+    "86": {
+      "input": "slogan",
+      "output": "Devise",
+      "possible_translations": [
+        "Devise",
+        "Losung",
+        "Spruch ; Schlachtruf",
+        "Parole",
+        "Motto"
+      ]
+    },
+    "87": {
+      "input": "authenticity",
+      "output": "Authentizität",
+      "possible_translations": [
+        "Authentizität"
+      ]
+    },
+    "88": {
+      "input": "denial",
+      "output": "Leugnung",
+      "possible_translations": [
+        "Negierung",
+        "Negation",
+        "Verneinung",
+        "Leugnung",
+        "Dementi",
+        "Verweigerung"
+      ]
+    },
+    "89": {
+      "input": "haul",
+      "output": "Lastbeförderung",
+      "possible_translations": [
+        "Fang",
+        "ziehen",
+        "Gütertransport",
+        "transportieren",
+        "Fischzug",
+        "schleppen",
+        "Lastbeförderung",
+        "befödern"
+      ]
+    },
+    "90": {
+      "input": "attribute",
+      "output": "Attribut",
+      "possible_translations": [
+        "zuschreiben",
+        "Attribut"
+      ]
+    },
+    "91": {
+      "input": "bunker",
+      "output": "Bunker",
+      "possible_translations": [
+        "Bunker"
+      ]
+    },
+    "92": {
+      "input": "prostitute",
+      "output": "Prostituierte",
+      "possible_translations": [
+        "prostituieren",
+        "sich prostituieren",
+        "Hure",
+        "Prostituierte",
+        "Dirne"
+      ]
+    },
+    "93": {
+      "input": "foliage",
+      "output": "Blätter",
+      "possible_translations": [
+        "Laub",
+        "Blätter"
+      ]
+    },
+    "94": {
+      "input": "perfection",
+      "output": "Vollkommenheit",
+      "possible_translations": [
+        "Vollkommenheit",
+        "Perfektion"
+      ]
+    },
+    "95": {
+      "input": "quartet",
+      "output": "Quartett",
+      "possible_translations": [
+        "Quartett"
+      ]
+    },
+    "96": {
+      "input": "sailor",
+      "output": "Matrose",
+      "possible_translations": [
+        "Seemann",
+        "Matrose"
+      ]
+    },
+    "97": {
+      "input": "shootout",
+      "output": "Schießerei",
+      "possible_translations": [
+        "Schusswechsel",
+        "Schießerei"
+      ]
+    },
+    "98": {
+      "input": "jewellery",
+      "output": "Schmuck",
+      "possible_translations": [
+        "Juwelen",
+        "Schmuck"
+      ]
+    },
+    "99": {
+      "input": "objection",
+      "output": "Beanstandung",
+      "possible_translations": [
+        "Einspruch",
+        "Beanstandung",
+        "Widerspruch",
+        "Einwand"
+      ]
+    },
+    "100": {
+      "input": "casualty",
+      "output": "Opfer",
+      "possible_translations": [
+        "Opfer"
+      ]
+    }
+  }
+}

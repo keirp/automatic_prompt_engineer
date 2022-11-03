@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Who did you say my talking to would bother? [d]\nOutput: did\n\nInput: All special rights of voting in the election were abolished. [w]\nOutput: were\n\nInput: He intended to will the large amount of money to Frank. [w]\nOutput: will\n\nInput: Chocolate cakes and pies are my favorite desserts. [m]\nOutput: my\n\nInput: Last year I saw this film several times. [s]\nOutput: saw several\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Who did you say my talking to would bother? [d]\nOutput: did\n\nInput: All special rights of voting in the election were abolished. [w]\nOutput: were\n\nInput: He intended to will the large amount of money to Frank. [w]\nOutput: will\n\nInput: Chocolate cakes and pies are my favorite desserts. [m]\nOutput: my\n\nInput: Last year I saw this film several times. [s]\nOutput: saw several"
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The outcome depends on how many candidates participate in the election. [e]\nOutput: election\n\nInput: There were several doctors available. [a]\nOutput: available\n\nInput: Fred talked about everything before Rusty did. [e]\nOutput: everything\n\nInput: John made Mary cook Korean food. [m]\nOutput: made mary\n\nInput: I expect soon to see the results. [t]\nOutput: to the\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The outcome depends on how many candidates participate in the election. [e]\nOutput: election\n\nInput: There were several doctors available. [a]\nOutput: available\n\nInput: Fred talked about everything before Rusty did. [e]\nOutput: everything\n\nInput: John made Mary cook Korean food. [m]\nOutput: made mary\n\nInput: I expect soon to see the results. [t]\nOutput: to the"
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The roof is leaking. [l]\nOutput: leaking\n\nInput: Do not use these words in the beginning of a sentence. [d]\nOutput: do\n\nInput: John knew every language that we encountered on our trip. [w]\nOutput: we\n\nInput: John rolled the ball from the tree to the bush. [b]\nOutput: ball bush\n\nInput: Why did you eat the cake? [d]\nOutput: did\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The roof is leaking. [l]\nOutput: leaking\n\nInput: Do not use these words in the beginning of a sentence. [d]\nOutput: do\n\nInput: John knew every language that we encountered on our trip. [w]\nOutput: we\n\nInput: John rolled the ball from the tree to the bush. [b]\nOutput: ball bush\n\nInput: Why did you eat the cake? [d]\nOutput: did"
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: You may pick any flower, but leave a few for Mary. [p]\nOutput: pick\n\nInput: Ellen talked with Helen about the problem. [t]\nOutput: talked the\n\nInput: The very young child walked from school to the store. [v]\nOutput: very\n\nInput: He is not finishing. [h]\nOutput: he\n\nInput: Dana doubts that Drew believes I think Rosie loves magazine ads. [t]\nOutput: that think\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: You may pick any flower, but leave a few for Mary. [p]\nOutput: pick\n\nInput: Ellen talked with Helen about the problem. [t]\nOutput: talked the\n\nInput: The very young child walked from school to the store. [v]\nOutput: very\n\nInput: He is not finishing. [h]\nOutput: he\n\nInput: Dana doubts that Drew believes I think Rosie loves magazine ads. [t]\nOutput: that think"
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: It is not allowed to incriminate oneself. [i]\nOutput: it is incriminate\n\nInput: We wonder if Bill left. [b]\nOutput: bill\n\nInput: Frances has had the drapes cleaned. [f]\nOutput: frances\n\nInput: I am not certain about when he will come. [i]\nOutput: i\n\nInput: Whose car is blocking the entrance to the store? [c]\nOutput: car\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: It is not allowed to incriminate oneself. [i]\nOutput: it is incriminate\n\nInput: We wonder if Bill left. [b]\nOutput: bill\n\nInput: Frances has had the drapes cleaned. [f]\nOutput: frances\n\nInput: I am not certain about when he will come. [i]\nOutput: i\n\nInput: Whose car is blocking the entrance to the store? [c]\nOutput: car"
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I want all the students who have ever tried to pat Fido to show me their scars. [f]\nOutput: fido\n\nInput: The harder that it rains, how much faster a flow do you see in the river? [m]\nOutput: much\n\nInput: Whom did Bill leave. [l]\nOutput: leave\n\nInput: Kim may have admitted to let Mary mow the lawn. [h]\nOutput: have\n\nInput: The bear sniffs [b]\nOutput: bear\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I want all the students who have ever tried to pat Fido to show me their scars. [f]\nOutput: fido\n\nInput: The harder that it rains, how much faster a flow do you see in the river? [m]\nOutput: much\n\nInput: Whom did Bill leave. [l]\nOutput: leave\n\nInput: Kim may have admitted to let Mary mow the lawn. [h]\nOutput: have\n\nInput: The bear sniffs [b]\nOutput: bear"
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Jean is reluctant to leave. [j]\nOutput: jean\n\nInput: Smith loaned, and his widow later donated, a valuable collection of manuscripts to the library. [v]\nOutput: valuable\n\nInput: I bought a book about Harry [a]\nOutput: a about\n\nInput: He always eats deep fried muffins. [d]\nOutput: deep\n\nInput: They paid a lot of attention to the matter. [a]\nOutput: a attention\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Jean is reluctant to leave. [j]\nOutput: jean\n\nInput: Smith loaned, and his widow later donated, a valuable collection of manuscripts to the library. [v]\nOutput: valuable\n\nInput: I bought a book about Harry [a]\nOutput: a about\n\nInput: He always eats deep fried muffins. [d]\nOutput: deep\n\nInput: They paid a lot of attention to the matter. [a]\nOutput: a attention"
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The more articles he reads, the fewer people he thinks that under the current circumstances will go into linguistics. [m]\nOutput: more\n\nInput: For John to either make up such a story or repeat it is outrageous. [f]\nOutput: for\n\nInput: Bill left when it is certain that no one else was awake. [o]\nOutput: one\n\nInput: Fred gave flowers to his sweetie because Frank had. [s]\nOutput: sweetie\n\nInput: Ellen conferred with Helen. [w]\nOutput: with\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The more articles he reads, the fewer people he thinks that under the current circumstances will go into linguistics. [m]\nOutput: more\n\nInput: For John to either make up such a story or repeat it is outrageous. [f]\nOutput: for\n\nInput: Bill left when it is certain that no one else was awake. [o]\nOutput: one\n\nInput: Fred gave flowers to his sweetie because Frank had. [s]\nOutput: sweetie\n\nInput: Ellen conferred with Helen. [w]\nOutput: with"
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Martha carves. [c]\nOutput: carves\n\nInput: Carla poured lemonade into the pitcher. [c]\nOutput: carla\n\nInput: There were five tourists in the room apart from myself. [i]\nOutput: in\n\nInput: I am angrier today that I was yesterday. [t]\nOutput: today that\n\nInput: Water filled the cup. [w]\nOutput: water\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Martha carves. [c]\nOutput: carves\n\nInput: Carla poured lemonade into the pitcher. [c]\nOutput: carla\n\nInput: There were five tourists in the room apart from myself. [i]\nOutput: in\n\nInput: I am angrier today that I was yesterday. [t]\nOutput: today that\n\nInput: Water filled the cup. [w]\nOutput: water"
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Mary sang a song, but Lee did not. [s]\nOutput: sang song\n\nInput: Jeff must not have eaten the deep fried muffin. [n]\nOutput: not\n\nInput: She cooked Matt dinner. [m]\nOutput: matt\n\nInput: I said that Mary signed my yearbook. [s]\nOutput: said signed\n\nInput: I doubt you can help me in understanding this. [u]\nOutput: understanding\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Mary sang a song, but Lee did not. [s]\nOutput: sang song\n\nInput: Jeff must not have eaten the deep fried muffin. [n]\nOutput: not\n\nInput: She cooked Matt dinner. [m]\nOutput: matt\n\nInput: I said that Mary signed my yearbook. [s]\nOutput: said signed\n\nInput: I doubt you can help me in understanding this. [u]\nOutput: understanding"
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think he will eat asparagus. [i]\nOutput: i\n\nInput: I saw the physics student. [i]\nOutput: i\n\nInput: He treats John very nicely. [h]\nOutput: he\n\nInput: Jane imagines Bill claims John believes Mary thinks Tom is honest. [h]\nOutput: honest\n\nInput: Carmen bought a dress from Diana. [c]\nOutput: carmen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think he will eat asparagus. [i]\nOutput: i\n\nInput: I saw the physics student. [i]\nOutput: i\n\nInput: He treats John very nicely. [h]\nOutput: he\n\nInput: Jane imagines Bill claims John believes Mary thinks Tom is honest. [h]\nOutput: honest\n\nInput: Carmen bought a dress from Diana. [c]\nOutput: carmen"
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: He worked his way through the book. [t]\nOutput: through the\n\nInput: I rolled up a newspaper, and Lynn did a magazine? [u]\nOutput: up\n\nInput: Why did you say that you were leaving? [t]\nOutput: that\n\nInput: It is easy to please John. [p]\nOutput: please\n\nInput: Poseidon had run away, because the executioner murdered Hera. [t]\nOutput: the\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: He worked his way through the book. [t]\nOutput: through the\n\nInput: I rolled up a newspaper, and Lynn did a magazine? [u]\nOutput: up\n\nInput: Why did you say that you were leaving? [t]\nOutput: that\n\nInput: It is easy to please John. [p]\nOutput: please\n\nInput: Poseidon had run away, because the executioner murdered Hera. [t]\nOutput: the"
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Lucy sent Jane a letter. [a]\nOutput: a\n\nInput: In the woods lives an old woman. [l]\nOutput: lives\n\nInput: A flowering plant is on the windowsill. [p]\nOutput: plant\n\nInput: Anne and Cathy met. [m]\nOutput: met\n\nInput: John believes that Bill saw him. [t]\nOutput: that\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Lucy sent Jane a letter. [a]\nOutput: a\n\nInput: In the woods lives an old woman. [l]\nOutput: lives\n\nInput: A flowering plant is on the windowsill. [p]\nOutput: plant\n\nInput: Anne and Cathy met. [m]\nOutput: met\n\nInput: John believes that Bill saw him. [t]\nOutput: that"
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Through the hall echoed a loud cry. [e]\nOutput: echoed\n\nInput: Where did John put the books? [b]\nOutput: books\n\nInput: Sharon shivered at the thought of the cold sea. [a]\nOutput: at\n\nInput: John has a hole in the upper right hand corner of his quilt. [a]\nOutput: a\n\nInput: The scenes to which the censors took objection had to do with the mixed marriage of a woman and a giant panda. [w]\nOutput: which with woman\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Through the hall echoed a loud cry. [e]\nOutput: echoed\n\nInput: Where did John put the books? [b]\nOutput: books\n\nInput: Sharon shivered at the thought of the cold sea. [a]\nOutput: at\n\nInput: John has a hole in the upper right hand corner of his quilt. [a]\nOutput: a\n\nInput: The scenes to which the censors took objection had to do with the mixed marriage of a woman and a giant panda. [w]\nOutput: which with woman"
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Fiona must not eat the sauteed candy canes. [t]\nOutput: the\n\nInput: They denied the claim that they should report only to us. [c]\nOutput: claim\n\nInput: He always eats deep fried muffins. [d]\nOutput: deep\n\nInput: The student was hoping for a good clue. [w]\nOutput: was\n\nInput: I will eat spaghetti on Sunday with Marco. [o]\nOutput: on\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Fiona must not eat the sauteed candy canes. [t]\nOutput: the\n\nInput: They denied the claim that they should report only to us. [c]\nOutput: claim\n\nInput: He always eats deep fried muffins. [d]\nOutput: deep\n\nInput: The student was hoping for a good clue. [w]\nOutput: was\n\nInput: I will eat spaghetti on Sunday with Marco. [o]\nOutput: on"
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The door has a fresh coat of paint. [o]\nOutput: of\n\nInput: Tom placed it under the table. [i]\nOutput: it\n\nInput: Either Dana or Lee is going to lead the parade. [o]\nOutput: or\n\nInput: Jill kicked the ball from home plate to third base. [h]\nOutput: home\n\nInput: The dancing chorus line of elephants broke my television set. [b]\nOutput: broke\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The door has a fresh coat of paint. [o]\nOutput: of\n\nInput: Tom placed it under the table. [i]\nOutput: it\n\nInput: Either Dana or Lee is going to lead the parade. [o]\nOutput: or\n\nInput: Jill kicked the ball from home plate to third base. [h]\nOutput: home\n\nInput: The dancing chorus line of elephants broke my television set. [b]\nOutput: broke"
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I owe my acquittal to you. [o]\nOutput: owe\n\nInput: With which club did you hit the winning putt? [w]\nOutput: with which winning\n\nInput: I bought a book about Harry [a]\nOutput: a about\n\nInput: On which bed does Tom sleep? [w]\nOutput: which\n\nInput: Maxwell is the man who won the Nobel Prize for astrology. [m]\nOutput: maxwell man\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I owe my acquittal to you. [o]\nOutput: owe\n\nInput: With which club did you hit the winning putt? [w]\nOutput: with which winning\n\nInput: I bought a book about Harry [a]\nOutput: a about\n\nInput: On which bed does Tom sleep? [w]\nOutput: which\n\nInput: Maxwell is the man who won the Nobel Prize for astrology. [m]\nOutput: maxwell man"
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Pauline smiled her thanks. [s]\nOutput: smiled\n\nInput: all the students left. [l]\nOutput: left\n\nInput: The biggest man in the room said that John danced an Irish jig from County Kerry to County Tipperary on Thursday. [j]\nOutput: john jig\n\nInput: For him to eat asparagus is a travesty. [t]\nOutput: to travesty\n\nInput: Each of these stones has to be cut and polished. [h]\nOutput: has\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Pauline smiled her thanks. [s]\nOutput: smiled\n\nInput: all the students left. [l]\nOutput: left\n\nInput: The biggest man in the room said that John danced an Irish jig from County Kerry to County Tipperary on Thursday. [j]\nOutput: john jig\n\nInput: For him to eat asparagus is a travesty. [t]\nOutput: to travesty\n\nInput: Each of these stones has to be cut and polished. [h]\nOutput: has"
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: He is believed by John to have been at the game. [g]\nOutput: game\n\nInput: They kicked themselves [t]\nOutput: they themselves\n\nInput: You is the only person that I can rely on. [o]\nOutput: only on\n\nInput: Jones would prefer for it to be clear to Barry that the city plans to sue him. [p]\nOutput: prefer plans\n\nInput: Which celebrity did he mention that he had run into? [c]\nOutput: celebrity\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: He is believed by John to have been at the game. [g]\nOutput: game\n\nInput: They kicked themselves [t]\nOutput: they themselves\n\nInput: You is the only person that I can rely on. [o]\nOutput: only on\n\nInput: Jones would prefer for it to be clear to Barry that the city plans to sue him. [p]\nOutput: prefer plans\n\nInput: Which celebrity did he mention that he had run into? [c]\nOutput: celebrity"
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: His expectations are lower, the higher the stakes. [s]\nOutput: stakes\n\nInput: The ball kicked a man. [b]\nOutput: ball\n\nInput: Know yourself! [y]\nOutput: yourself\n\nInput: Jones would prefer for it to be clear to Barry that the city plans to sue him. [p]\nOutput: prefer plans\n\nInput: Romeo conceded that he and Juliet were going steady. [a]\nOutput: and\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: His expectations are lower, the higher the stakes. [s]\nOutput: stakes\n\nInput: The ball kicked a man. [b]\nOutput: ball\n\nInput: Know yourself! [y]\nOutput: yourself\n\nInput: Jones would prefer for it to be clear to Barry that the city plans to sue him. [p]\nOutput: prefer plans\n\nInput: Romeo conceded that he and Juliet were going steady. [a]\nOutput: and"
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: That Patrick left is likely. [i]\nOutput: is\n\nInput: She asked a man who was near the window whether it looked like rain. [w]\nOutput: who was window whether\n\nInput: Harry will be in the Marines next year and Herman was drafted last night. [a]\nOutput: and\n\nInput: Ellen said to Helen that melons were selling well. [w]\nOutput: were well\n\nInput: We talked about the issues we had worked on as students and that our perspectives had changed over the years. [o]\nOutput: on our over\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: That Patrick left is likely. [i]\nOutput: is\n\nInput: She asked a man who was near the window whether it looked like rain. [w]\nOutput: who was window whether\n\nInput: Harry will be in the Marines next year and Herman was drafted last night. [a]\nOutput: and\n\nInput: Ellen said to Helen that melons were selling well. [w]\nOutput: were well\n\nInput: We talked about the issues we had worked on as students and that our perspectives had changed over the years. [o]\nOutput: on our over"
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Bill left when it is certain that no one else was awake. [o]\nOutput: one\n\nInput: A little boy ran in the yard. [b]\nOutput: boy\n\nInput: That the golden thread would show Jason his path through the labyrinth was [g]\nOutput: golden\n\nInput: The public never had faith in his ability to handle the job. [n]\nOutput: never\n\nInput: I will eat a mango, and Gillian will too. [m]\nOutput: mango\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Bill left when it is certain that no one else was awake. [o]\nOutput: one\n\nInput: A little boy ran in the yard. [b]\nOutput: boy\n\nInput: That the golden thread would show Jason his path through the labyrinth was [g]\nOutput: golden\n\nInput: The public never had faith in his ability to handle the job. [n]\nOutput: never\n\nInput: I will eat a mango, and Gillian will too. [m]\nOutput: mango"
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I know I bought the book that you recommended. [b]\nOutput: bought book\n\nInput: Ron heard a discussion in the foyer [f]\nOutput: foyer\n\nInput: She spruced herself up before the job interview. [u]\nOutput: up\n\nInput: Fred gave flowers to his sweetie because Frank had. [s]\nOutput: sweetie\n\nInput: is taller than that man. [t]\nOutput: taller than that\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I know I bought the book that you recommended. [b]\nOutput: bought book\n\nInput: Ron heard a discussion in the foyer [f]\nOutput: foyer\n\nInput: She spruced herself up before the job interview. [u]\nOutput: up\n\nInput: Fred gave flowers to his sweetie because Frank had. [s]\nOutput: sweetie\n\nInput: is taller than that man. [t]\nOutput: taller than that"
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: My eyes are itching from the smoke. [t]\nOutput: the\n\nInput: Why did you kill Pegasus? [p]\nOutput: pegasus\n\nInput: John wants to come up with a solution as good as Christine. [s]\nOutput: solution\n\nInput: What I believe that he was wearing is this hat. [t]\nOutput: that this\n\nInput: Amanda carried packages to New York. [a]\nOutput: amanda\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: My eyes are itching from the smoke. [t]\nOutput: the\n\nInput: Why did you kill Pegasus? [p]\nOutput: pegasus\n\nInput: John wants to come up with a solution as good as Christine. [s]\nOutput: solution\n\nInput: What I believe that he was wearing is this hat. [t]\nOutput: that this\n\nInput: Amanda carried packages to New York. [a]\nOutput: amanda"
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The luscious chick who Billy went to the movies with will wed me ere the morn. [l]\nOutput: luscious\n\nInput: The accident happened. [t]\nOutput: the\n\nInput: This girl in the red coat but no boys will put a picture of Bill on your desk before tomorrow. [w]\nOutput: will\n\nInput: The big man from NY has often said that he gave peanuts to elephants. [b]\nOutput: big\n\nInput: A choir sang in the church. [i]\nOutput: in\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The luscious chick who Billy went to the movies with will wed me ere the morn. [l]\nOutput: luscious\n\nInput: The accident happened. [t]\nOutput: the\n\nInput: This girl in the red coat but no boys will put a picture of Bill on your desk before tomorrow. [w]\nOutput: will\n\nInput: The big man from NY has often said that he gave peanuts to elephants. [b]\nOutput: big\n\nInput: A choir sang in the church. [i]\nOutput: in"
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Fanny stopped talking because in came Aunt Norris. [s]\nOutput: stopped\n\nInput: John promised Mary that he would leave. [m]\nOutput: mary\n\nInput: Heather cabled for Sara to come. [c]\nOutput: cabled come\n\nInput: Jane imagines Bill claims John believes Mary thinks Tom is honest. [m]\nOutput: mary\n\nInput: The tiger bled to death. [t]\nOutput: the tiger to\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Fanny stopped talking because in came Aunt Norris. [s]\nOutput: stopped\n\nInput: John promised Mary that he would leave. [m]\nOutput: mary\n\nInput: Heather cabled for Sara to come. [c]\nOutput: cabled come\n\nInput: Jane imagines Bill claims John believes Mary thinks Tom is honest. [m]\nOutput: mary\n\nInput: The tiger bled to death. [t]\nOutput: the tiger to"
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: A boy did not laugh. [b]\nOutput: boy\n\nInput: Everyone hopes to sleep. [t]\nOutput: to\n\nInput: He rowed Penny across the lake. [a]\nOutput: across\n\nInput: Benjamin gave the cloak and sent the book to Lee [b]\nOutput: benjamin book\n\nInput: Mary will soon play the violin. [p]\nOutput: play\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: A boy did not laugh. [b]\nOutput: boy\n\nInput: Everyone hopes to sleep. [t]\nOutput: to\n\nInput: He rowed Penny across the lake. [a]\nOutput: across\n\nInput: Benjamin gave the cloak and sent the book to Lee [b]\nOutput: benjamin book\n\nInput: Mary will soon play the violin. [p]\nOutput: play"
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Lora buttered the toast with unsalted butter. [t]\nOutput: the toast\n\nInput: Being honest is not an easy task. [t]\nOutput: task\n\nInput: Pat is a Republican and proud of it. [o]\nOutput: of\n\nInput: Would you mind taking out the garbage? [y]\nOutput: you\n\nInput: Brian wiped the fingerprints from outside the cupboard. [o]\nOutput: outside\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Lora buttered the toast with unsalted butter. [t]\nOutput: the toast\n\nInput: Being honest is not an easy task. [t]\nOutput: task\n\nInput: Pat is a Republican and proud of it. [o]\nOutput: of\n\nInput: Would you mind taking out the garbage? [y]\nOutput: you\n\nInput: Brian wiped the fingerprints from outside the cupboard. [o]\nOutput: outside"
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Jewels sparkled on the crown. [t]\nOutput: the\n\nInput: Brandon has been reading more novels than he has short stories. [t]\nOutput: than\n\nInput: I must eat macaroni. [i]\nOutput: i\n\nInput: John is in the room. [r]\nOutput: room\n\nInput: Sue moved, and Mary also transferred, her business to a different location. [h]\nOutput: her\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Jewels sparkled on the crown. [t]\nOutput: the\n\nInput: Brandon has been reading more novels than he has short stories. [t]\nOutput: than\n\nInput: I must eat macaroni. [i]\nOutput: i\n\nInput: John is in the room. [r]\nOutput: room\n\nInput: Sue moved, and Mary also transferred, her business to a different location. [h]\nOutput: her"
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John gave Mary, and Joan presented to Fred, books which looked. [f]\nOutput: fred\n\nInput: Bill is drying a lot of clothes on the line. [o]\nOutput: of on\n\nInput: She was sent a review copy of the book by the publisher. [s]\nOutput: she sent\n\nInput: I consider there to be a man in that garden. [g]\nOutput: garden\n\nInput: When Lydia went to Brighton, she eloped with Wickham. [l]\nOutput: lydia\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John gave Mary, and Joan presented to Fred, books which looked. [f]\nOutput: fred\n\nInput: Bill is drying a lot of clothes on the line. [o]\nOutput: of on\n\nInput: She was sent a review copy of the book by the publisher. [s]\nOutput: she sent\n\nInput: I consider there to be a man in that garden. [g]\nOutput: garden\n\nInput: When Lydia went to Brighton, she eloped with Wickham. [l]\nOutput: lydia"
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I had eaten the deep fried muffins. [m]\nOutput: muffins\n\nInput: Bob proved this set is recursive. [p]\nOutput: proved\n\nInput: Jean is likely to dance. [i]\nOutput: is\n\nInput: She thought it was likely that everyone might fit into the car. [m]\nOutput: might\n\nInput: Henri wants the book which is on the top shelf. [w]\nOutput: wants which\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I had eaten the deep fried muffins. [m]\nOutput: muffins\n\nInput: Bob proved this set is recursive. [p]\nOutput: proved\n\nInput: Jean is likely to dance. [i]\nOutput: is\n\nInput: She thought it was likely that everyone might fit into the car. [m]\nOutput: might\n\nInput: Henri wants the book which is on the top shelf. [w]\nOutput: wants which"
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Jackie chased the thief down the street. [s]\nOutput: street\n\nInput: My family always summers at the seashore. [f]\nOutput: family\n\nInput: John mentioned the issue to me. [t]\nOutput: the to\n\nInput: I know several people who she kissed. [i]\nOutput: i\n\nInput: You would have a reply if you come back tomorrow. [h]\nOutput: have\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Jackie chased the thief down the street. [s]\nOutput: street\n\nInput: My family always summers at the seashore. [f]\nOutput: family\n\nInput: John mentioned the issue to me. [t]\nOutput: the to\n\nInput: I know several people who she kissed. [i]\nOutput: i\n\nInput: You would have a reply if you come back tomorrow. [h]\nOutput: have"
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John, to who and to whose friends that letter was addressed, is a fool. [f]\nOutput: friends fool\n\nInput: No photo of Max and sketch by his students appeared in the magazine. [n]\nOutput: no\n\nInput: The teacher set us a problem the answer to which we can find in the textbook. [c]\nOutput: can\n\nInput: The fans were deliberately provoked by a rival group. [p]\nOutput: provoked\n\nInput: What John did to the wall was paint it. [p]\nOutput: paint\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John, to who and to whose friends that letter was addressed, is a fool. [f]\nOutput: friends fool\n\nInput: No photo of Max and sketch by his students appeared in the magazine. [n]\nOutput: no\n\nInput: The teacher set us a problem the answer to which we can find in the textbook. [c]\nOutput: can\n\nInput: The fans were deliberately provoked by a rival group. [p]\nOutput: provoked\n\nInput: What John did to the wall was paint it. [p]\nOutput: paint"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Herman mixed the eggs and the cream. [h]\nOutput: herman\n\nInput: Pauline smiled her thanks. [s]\nOutput: smiled\n\nInput: Never have I stolen from any members of your family. [h]\nOutput: have\n\nInput: He is John. [h]\nOutput: he\n\nInput: I cycled around France. [f]\nOutput: france\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Herman mixed the eggs and the cream. [h]\nOutput: herman\n\nInput: Pauline smiled her thanks. [s]\nOutput: smiled\n\nInput: Never have I stolen from any members of your family. [h]\nOutput: have\n\nInput: He is John. [h]\nOutput: he\n\nInput: I cycled around France. [f]\nOutput: france"
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: They returned the books all to their owners. [t]\nOutput: they the to their\n\nInput: I knew the man with the brown hair. [h]\nOutput: hair\n\nInput: Mrs Bennet having taken the others upstairs, Mr Bingley proposed to. [u]\nOutput: upstairs\n\nInput: The roof is leaking. [l]\nOutput: leaking\n\nInput: The angrier that Sue gets, the more that Fred admires her. [g]\nOutput: gets\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: They returned the books all to their owners. [t]\nOutput: they the to their\n\nInput: I knew the man with the brown hair. [h]\nOutput: hair\n\nInput: Mrs Bennet having taken the others upstairs, Mr Bingley proposed to. [u]\nOutput: upstairs\n\nInput: The roof is leaking. [l]\nOutput: leaking\n\nInput: The angrier that Sue gets, the more that Fred admires her. [g]\nOutput: gets"
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Gilgamesh wanted to seduce Ishtar, and seduce Ishtar he did . [g]\nOutput: gilgamesh\n\nInput: Truman punched Johnson [j]\nOutput: johnson\n\nInput: The scenes to which the censors took objection had to do with the mixed marriage of a woman and a giant panda. [w]\nOutput: which with woman\n\nInput: John persuaded Stephen to be more careful. [m]\nOutput: more\n\nInput: Susan found every book she had been looking for at Borders. [f]\nOutput: found for\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Gilgamesh wanted to seduce Ishtar, and seduce Ishtar he did . [g]\nOutput: gilgamesh\n\nInput: Truman punched Johnson [j]\nOutput: johnson\n\nInput: The scenes to which the censors took objection had to do with the mixed marriage of a woman and a giant panda. [w]\nOutput: which with woman\n\nInput: John persuaded Stephen to be more careful. [m]\nOutput: more\n\nInput: Susan found every book she had been looking for at Borders. [f]\nOutput: found for"
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I know I bought the book that you recommended. [k]\nOutput: know\n\nInput: Any senator seems to become more corrupt, as he talks to more lobbyists. [b]\nOutput: become\n\nInput: No one wanted any cake. [c]\nOutput: cake\n\nInput: Susan has a cold. [c]\nOutput: cold\n\nInput: I like the book that you gave me. [y]\nOutput: you\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I know I bought the book that you recommended. [k]\nOutput: know\n\nInput: Any senator seems to become more corrupt, as he talks to more lobbyists. [b]\nOutput: become\n\nInput: No one wanted any cake. [c]\nOutput: cake\n\nInput: Susan has a cold. [c]\nOutput: cold\n\nInput: I like the book that you gave me. [y]\nOutput: you"
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: What Henri wants is the book which is on the top shelf. [s]\nOutput: shelf\n\nInput: Jessica loaded boxes into the wagon. [j]\nOutput: jessica\n\nInput: Reagan, whom the Republicans nominated in , lived most of his life in California. [c]\nOutput: california\n\nInput: John tagged the monkey in the forest. [f]\nOutput: forest\n\nInput: Carol cut at the bread. [b]\nOutput: bread\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: What Henri wants is the book which is on the top shelf. [s]\nOutput: shelf\n\nInput: Jessica loaded boxes into the wagon. [j]\nOutput: jessica\n\nInput: Reagan, whom the Republicans nominated in , lived most of his life in California. [c]\nOutput: california\n\nInput: John tagged the monkey in the forest. [f]\nOutput: forest\n\nInput: Carol cut at the bread. [b]\nOutput: bread"
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I got phoned by a woman friend. [f]\nOutput: friend\n\nInput: He attributed to a short circuit the fire which. [a]\nOutput: attributed a\n\nInput: The exhibition really impressed the critics. [i]\nOutput: impressed\n\nInput: We asked him not to try to call us again. [n]\nOutput: not\n\nInput: Which girl did he give my binoculars to? [h]\nOutput: he\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I got phoned by a woman friend. [f]\nOutput: friend\n\nInput: He attributed to a short circuit the fire which. [a]\nOutput: attributed a\n\nInput: The exhibition really impressed the critics. [i]\nOutput: impressed\n\nInput: We asked him not to try to call us again. [n]\nOutput: not\n\nInput: Which girl did he give my binoculars to? [h]\nOutput: he"
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The pictures of Bill, she put on your desk. [p]\nOutput: pictures put\n\nInput: It was not until I was perhaps twenty five or thirty that I read and enjoyed them. [p]\nOutput: perhaps\n\nInput: Amanda carried packages to New York. [a]\nOutput: amanda\n\nInput: Fred will warn Martha that she should claim that her brother is patriotic. [c]\nOutput: claim\n\nInput: You or Kerry have perjured yourselves. [k]\nOutput: kerry\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The pictures of Bill, she put on your desk. [p]\nOutput: pictures put\n\nInput: It was not until I was perhaps twenty five or thirty that I read and enjoyed them. [p]\nOutput: perhaps\n\nInput: Amanda carried packages to New York. [a]\nOutput: amanda\n\nInput: Fred will warn Martha that she should claim that her brother is patriotic. [c]\nOutput: claim\n\nInput: You or Kerry have perjured yourselves. [k]\nOutput: kerry"
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: To delay the march and to go ahead with it have been argued by different people at different times. [h]\nOutput: have\n\nInput: The bright green filing cabinet was filled to the brim with the most boring articles from a prestigious journal of linguistics with a moderately large readership. [m]\nOutput: most moderately\n\nInput: After the executioner left, Poseidon wept. [t]\nOutput: the\n\nInput: They lent a bicycle to me. [m]\nOutput: me\n\nInput: I stalked the woods for game. [w]\nOutput: woods\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: To delay the march and to go ahead with it have been argued by different people at different times. [h]\nOutput: have\n\nInput: The bright green filing cabinet was filled to the brim with the most boring articles from a prestigious journal of linguistics with a moderately large readership. [m]\nOutput: most moderately\n\nInput: After the executioner left, Poseidon wept. [t]\nOutput: the\n\nInput: They lent a bicycle to me. [m]\nOutput: me\n\nInput: I stalked the woods for game. [w]\nOutput: woods"
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I sent Louis a book. [s]\nOutput: sent\n\nInput: Smith loaned, and his widow later donated, a valuable collection of manuscripts to the library. [t]\nOutput: to the\n\nInput: How do you think that Mary solved the problem? [y]\nOutput: you\n\nInput: I would prefer that he not have finished. [i]\nOutput: i\n\nInput: Fred gave flowers to his sweetie because Frank had. [s]\nOutput: sweetie\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I sent Louis a book. [s]\nOutput: sent\n\nInput: Smith loaned, and his widow later donated, a valuable collection of manuscripts to the library. [t]\nOutput: to the\n\nInput: How do you think that Mary solved the problem? [y]\nOutput: you\n\nInput: I would prefer that he not have finished. [i]\nOutput: i\n\nInput: Fred gave flowers to his sweetie because Frank had. [s]\nOutput: sweetie"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Anne and Cathy met. [m]\nOutput: met\n\nInput: Would the horse budge if you pushed? [y]\nOutput: you\n\nInput: Each man lifted a table. [e]\nOutput: each\n\nInput: John scratched his arm and the boy who knew Mary scratched her arm. [j]\nOutput: john\n\nInput: I asked what John kissed. [w]\nOutput: what\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Anne and Cathy met. [m]\nOutput: met\n\nInput: Would the horse budge if you pushed? [y]\nOutput: you\n\nInput: Each man lifted a table. [e]\nOutput: each\n\nInput: John scratched his arm and the boy who knew Mary scratched her arm. [j]\nOutput: john\n\nInput: I asked what John kissed. [w]\nOutput: what"
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Every student who wins any trophy displays it in a prominent place. [a]\nOutput: any a\n\nInput: I am anxious for you to arrive on time. [t]\nOutput: to time\n\nInput: Smith threw the first baseman the ball. [f]\nOutput: first\n\nInput: Frank hopes to persuade Harry to make the cook wash the dishes. [d]\nOutput: dishes\n\nInput: Ellen complained about the situation to Helen. [e]\nOutput: ellen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Every student who wins any trophy displays it in a prominent place. [a]\nOutput: any a\n\nInput: I am anxious for you to arrive on time. [t]\nOutput: to time\n\nInput: Smith threw the first baseman the ball. [f]\nOutput: first\n\nInput: Frank hopes to persuade Harry to make the cook wash the dishes. [d]\nOutput: dishes\n\nInput: Ellen complained about the situation to Helen. [e]\nOutput: ellen"
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The toilet leaked through the floor into the kitchen below. [b]\nOutput: below\n\nInput: Their teaching material is what we are using. [m]\nOutput: material\n\nInput: The streets gushed with water. [t]\nOutput: the\n\nInput: Which club did you hit the winning putt with? [p]\nOutput: putt\n\nInput: A cat jumped onto the table. [a]\nOutput: a\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The toilet leaked through the floor into the kitchen below. [b]\nOutput: below\n\nInput: Their teaching material is what we are using. [m]\nOutput: material\n\nInput: The streets gushed with water. [t]\nOutput: the\n\nInput: Which club did you hit the winning putt with? [p]\nOutput: putt\n\nInput: A cat jumped onto the table. [a]\nOutput: a"
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: He let the cats out which were whining. [h]\nOutput: he\n\nInput: The couple waltzed to the window. [c]\nOutput: couple\n\nInput: John gave the CDs to the boys. [c]\nOutput: cds\n\nInput: That anybody ever left at all is not known. [t]\nOutput: that\n\nInput: Margaret cut at the bread. [c]\nOutput: cut\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: He let the cats out which were whining. [h]\nOutput: he\n\nInput: The couple waltzed to the window. [c]\nOutput: couple\n\nInput: John gave the CDs to the boys. [c]\nOutput: cds\n\nInput: That anybody ever left at all is not known. [t]\nOutput: that\n\nInput: Margaret cut at the bread. [c]\nOutput: cut"
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: In the woods lives an old woman. [l]\nOutput: lives\n\nInput: The man who I gave John a picture of was bald. [w]\nOutput: who was\n\nInput: I know a man who Bill saw and Mary liked. [b]\nOutput: bill\n\nInput: Perhaps Iphigenia will have murdered Oedipus by tomorrow. [b]\nOutput: by\n\nInput: My nephew could write letters to his parents with a fountain pen with your help. [a]\nOutput: a\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: In the woods lives an old woman. [l]\nOutput: lives\n\nInput: The man who I gave John a picture of was bald. [w]\nOutput: who was\n\nInput: I know a man who Bill saw and Mary liked. [b]\nOutput: bill\n\nInput: Perhaps Iphigenia will have murdered Oedipus by tomorrow. [b]\nOutput: by\n\nInput: My nephew could write letters to his parents with a fountain pen with your help. [a]\nOutput: a"
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The testing of such drugs on oneself is too risky. [d]\nOutput: drugs\n\nInput: Clyde got a passionate love letter from Stacy. [s]\nOutput: stacy\n\nInput: We Americans and the British pamper ourselves. [b]\nOutput: british\n\nInput: The little boy hit the child with a toy. [l]\nOutput: little\n\nInput: Rarely is any lion majestic. [a]\nOutput: any\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The testing of such drugs on oneself is too risky. [d]\nOutput: drugs\n\nInput: Clyde got a passionate love letter from Stacy. [s]\nOutput: stacy\n\nInput: We Americans and the British pamper ourselves. [b]\nOutput: british\n\nInput: The little boy hit the child with a toy. [l]\nOutput: little\n\nInput: Rarely is any lion majestic. [a]\nOutput: any"
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I am delighted at the idea they might demolish the Appleton Tower. [d]\nOutput: delighted demolish\n\nInput: That we invaded Iraq really freaks me out. [t]\nOutput: that\n\nInput: Nathan showed Benjamin himself in the mirror. [n]\nOutput: nathan\n\nInput: Whose car is blocking the entrance to the store? [s]\nOutput: store\n\nInput: I did not have a red cent. [d]\nOutput: did\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I am delighted at the idea they might demolish the Appleton Tower. [d]\nOutput: delighted demolish\n\nInput: That we invaded Iraq really freaks me out. [t]\nOutput: that\n\nInput: Nathan showed Benjamin himself in the mirror. [n]\nOutput: nathan\n\nInput: Whose car is blocking the entrance to the store? [s]\nOutput: store\n\nInput: I did not have a red cent. [d]\nOutput: did"
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: What John did to the wall was hit it. [h]\nOutput: hit\n\nInput: That Bill tried to discover which drawer Alice put the money in made us realize that we should have left him in Seoul. [w]\nOutput: which we\n\nInput: This information could have been released by Gorbachev, but he chose not to. [b]\nOutput: been by but\n\nInput: Susan begged Bill to let her sing in the concert. [t]\nOutput: to the\n\nInput: I ate a mango and Gillian did too. [i]\nOutput: i\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: What John did to the wall was hit it. [h]\nOutput: hit\n\nInput: That Bill tried to discover which drawer Alice put the money in made us realize that we should have left him in Seoul. [w]\nOutput: which we\n\nInput: This information could have been released by Gorbachev, but he chose not to. [b]\nOutput: been by but\n\nInput: Susan begged Bill to let her sing in the concert. [t]\nOutput: to the\n\nInput: I ate a mango and Gillian did too. [i]\nOutput: i"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Either Professor Swansong or the graduate students are going to proctor the exam. [o]\nOutput: or\n\nInput: John believes that Bill has slept. [j]\nOutput: john\n\nInput: They melted, broke the ice. [t]\nOutput: they the\n\nInput: John promised Bill to leave. [l]\nOutput: leave\n\nInput: This boy must not go to school, and his father must not go to school either. [a]\nOutput: and\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Either Professor Swansong or the graduate students are going to proctor the exam. [o]\nOutput: or\n\nInput: John believes that Bill has slept. [j]\nOutput: john\n\nInput: They melted, broke the ice. [t]\nOutput: they the\n\nInput: John promised Bill to leave. [l]\nOutput: leave\n\nInput: This boy must not go to school, and his father must not go to school either. [a]\nOutput: and"
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Peter said that Danny danced. [t]\nOutput: that\n\nInput: John whined that he was hungry. [h]\nOutput: he hungry\n\nInput: These stories about himself worry John more than anything else. [h]\nOutput: himself\n\nInput: What Mary offered to him is unclear. [i]\nOutput: is\n\nInput: He gave that girl my binoculars. [h]\nOutput: he\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Peter said that Danny danced. [t]\nOutput: that\n\nInput: John whined that he was hungry. [h]\nOutput: he hungry\n\nInput: These stories about himself worry John more than anything else. [h]\nOutput: himself\n\nInput: What Mary offered to him is unclear. [i]\nOutput: is\n\nInput: He gave that girl my binoculars. [h]\nOutput: he"
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: What did he reply? [h]\nOutput: he\n\nInput: Sonatas are difficult to play on this violin. [s]\nOutput: sonatas\n\nInput: Amanda drove the package from Boston to New York. [b]\nOutput: boston\n\nInput: The latest research on dieting always warns people about the dangers of too much cholesterol. [o]\nOutput: on of\n\nInput: The vase stood on the table in the hall. [h]\nOutput: hall\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: What did he reply? [h]\nOutput: he\n\nInput: Sonatas are difficult to play on this violin. [s]\nOutput: sonatas\n\nInput: Amanda drove the package from Boston to New York. [b]\nOutput: boston\n\nInput: The latest research on dieting always warns people about the dangers of too much cholesterol. [o]\nOutput: on of\n\nInput: The vase stood on the table in the hall. [h]\nOutput: hall"
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Smith inscribed his name over the door. [s]\nOutput: smith\n\nInput: The day when Jim got fired was a sad day for everyone. [s]\nOutput: sad\n\nInput: Mary left the room angry. [a]\nOutput: angry\n\nInput: Kim jogs on the hill. [h]\nOutput: hill\n\nInput: John will study syntax, and Mary, too. [a]\nOutput: and\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Smith inscribed his name over the door. [s]\nOutput: smith\n\nInput: The day when Jim got fired was a sad day for everyone. [s]\nOutput: sad\n\nInput: Mary left the room angry. [a]\nOutput: angry\n\nInput: Kim jogs on the hill. [h]\nOutput: hill\n\nInput: John will study syntax, and Mary, too. [a]\nOutput: and"
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Fifty pounds seem like a lot of weight to lose in one year. [i]\nOutput: in\n\nInput: His analysis of her was flawed [h]\nOutput: his her\n\nInput: I think that he eats asparagus. [i]\nOutput: i\n\nInput: My car was stolen. [m]\nOutput: my\n\nInput: What Medea attempted was to poison her children. [p]\nOutput: poison\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Fifty pounds seem like a lot of weight to lose in one year. [i]\nOutput: in\n\nInput: His analysis of her was flawed [h]\nOutput: his her\n\nInput: I think that he eats asparagus. [i]\nOutput: i\n\nInput: My car was stolen. [m]\nOutput: my\n\nInput: What Medea attempted was to poison her children. [p]\nOutput: poison"
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Who asked which statue which tourist had taken a photo of? [a]\nOutput: asked a\n\nInput: John deposited some money in the bank on Friday. [f]\nOutput: friday\n\nInput: John tagged Lewis with a regulation baseball on Tuesday. [r]\nOutput: regulation\n\nInput: John made Mary cook Korean food. [m]\nOutput: made mary\n\nInput: I know you like the back of my hand. [i]\nOutput: i\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Who asked which statue which tourist had taken a photo of? [a]\nOutput: asked a\n\nInput: John deposited some money in the bank on Friday. [f]\nOutput: friday\n\nInput: John tagged Lewis with a regulation baseball on Tuesday. [r]\nOutput: regulation\n\nInput: John made Mary cook Korean food. [m]\nOutput: made mary\n\nInput: I know you like the back of my hand. [i]\nOutput: i"
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The very young child walked from school to the store. [v]\nOutput: very\n\nInput: I have wanted to know exactly what happened to Rosa Luxemburg for many years. [l]\nOutput: luxemburg\n\nInput: The money which I will make a proposal for us to squander amounts to , . [a]\nOutput: a amounts\n\nInput: Whether to win is a question Mary never considered. [m]\nOutput: mary\n\nInput: Bob proved that this set is recursive. [s]\nOutput: set\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The very young child walked from school to the store. [v]\nOutput: very\n\nInput: I have wanted to know exactly what happened to Rosa Luxemburg for many years. [l]\nOutput: luxemburg\n\nInput: The money which I will make a proposal for us to squander amounts to , . [a]\nOutput: a amounts\n\nInput: Whether to win is a question Mary never considered. [m]\nOutput: mary\n\nInput: Bob proved that this set is recursive. [s]\nOutput: set"
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: It is easy to please John. [p]\nOutput: please\n\nInput: John believes himself to be proud of Mary. [o]\nOutput: of\n\nInput: The piano Frank bought for Jane. [f]\nOutput: frank for\n\nInput: His expectations are lower, the higher the stakes. [s]\nOutput: stakes\n\nInput: The sign warned us against skating on the pond. [a]\nOutput: against\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: It is easy to please John. [p]\nOutput: please\n\nInput: John believes himself to be proud of Mary. [o]\nOutput: of\n\nInput: The piano Frank bought for Jane. [f]\nOutput: frank for\n\nInput: His expectations are lower, the higher the stakes. [s]\nOutput: stakes\n\nInput: The sign warned us against skating on the pond. [a]\nOutput: against"
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John is easy to please and to love. [i]\nOutput: is\n\nInput: Chris liked which pictures of himself? [p]\nOutput: pictures\n\nInput: I dried the clothes in the sun. [d]\nOutput: dried\n\nInput: Pat is likely to be examined by the dentist. [i]\nOutput: is\n\nInput: He mended the shoe. [m]\nOutput: mended\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John is easy to please and to love. [i]\nOutput: is\n\nInput: Chris liked which pictures of himself? [p]\nOutput: pictures\n\nInput: I dried the clothes in the sun. [d]\nOutput: dried\n\nInput: Pat is likely to be examined by the dentist. [i]\nOutput: is\n\nInput: He mended the shoe. [m]\nOutput: mended"
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Students enter high level educational institutions might face many problems relating to study habits. [r]\nOutput: relating\n\nInput: A cat jumped onto the table. [a]\nOutput: a\n\nInput: George wrote a volume of poems in Latin for Jane. [i]\nOutput: in\n\nInput: They were believed all to be quite diligent. [a]\nOutput: all\n\nInput: It was the director that I think she said she wants to meet. [d]\nOutput: director\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Students enter high level educational institutions might face many problems relating to study habits. [r]\nOutput: relating\n\nInput: A cat jumped onto the table. [a]\nOutput: a\n\nInput: George wrote a volume of poems in Latin for Jane. [i]\nOutput: in\n\nInput: They were believed all to be quite diligent. [a]\nOutput: all\n\nInput: It was the director that I think she said she wants to meet. [d]\nOutput: director"
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John talked to any woman who came up to him. [w]\nOutput: woman who\n\nInput: Lorenzo saw the eclipse. [l]\nOutput: lorenzo\n\nInput: The farmer loaded apples into the cart. [i]\nOutput: into\n\nInput: Philippa cried her eyes dry. [p]\nOutput: philippa\n\nInput: That that it would confuse the guards for Herschel to throw a fit was obvious is not true. [o]\nOutput: obvious\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John talked to any woman who came up to him. [w]\nOutput: woman who\n\nInput: Lorenzo saw the eclipse. [l]\nOutput: lorenzo\n\nInput: The farmer loaded apples into the cart. [i]\nOutput: into\n\nInput: Philippa cried her eyes dry. [p]\nOutput: philippa\n\nInput: That that it would confuse the guards for Herschel to throw a fit was obvious is not true. [o]\nOutput: obvious"
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John is more embarrassed, the more pictures of himself that appear in the news. [a]\nOutput: appear\n\nInput: Anybody who ever swears at me better watch his step. [s]\nOutput: swears step\n\nInput: Susan ate yesterday at the restaurant. [y]\nOutput: yesterday\n\nInput: Ellen complained about the situation. [t]\nOutput: the\n\nInput: Bill confirmed that Roger has eaten the cake. [h]\nOutput: has\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John is more embarrassed, the more pictures of himself that appear in the news. [a]\nOutput: appear\n\nInput: Anybody who ever swears at me better watch his step. [s]\nOutput: swears step\n\nInput: Susan ate yesterday at the restaurant. [y]\nOutput: yesterday\n\nInput: Ellen complained about the situation. [t]\nOutput: the\n\nInput: Bill confirmed that Roger has eaten the cake. [h]\nOutput: has"
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: My brother likes collecting jazz records. [l]\nOutput: likes\n\nInput: Will George indeed not endorse the treaty? [g]\nOutput: george\n\nInput: I think that you will see that the girl will put a picture on your desk. [p]\nOutput: put picture\n\nInput: Lee will not leave. [n]\nOutput: not\n\nInput: John is no more reliable a fellow than Bill. [i]\nOutput: is\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: My brother likes collecting jazz records. [l]\nOutput: likes\n\nInput: Will George indeed not endorse the treaty? [g]\nOutput: george\n\nInput: I think that you will see that the girl will put a picture on your desk. [p]\nOutput: put picture\n\nInput: Lee will not leave. [n]\nOutput: not\n\nInput: John is no more reliable a fellow than Bill. [i]\nOutput: is"
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: It was to the student that the teacher gave the best advice. [a]\nOutput: advice\n\nInput: John learned French perfectly almost immediately. [l]\nOutput: learned\n\nInput: John scratched his arm and the boy who Mary knew did so too. [t]\nOutput: the too\n\nInput: John came from Seoul. [s]\nOutput: seoul\n\nInput: Whose car is blocking the entrance to the store? [s]\nOutput: store\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: It was to the student that the teacher gave the best advice. [a]\nOutput: advice\n\nInput: John learned French perfectly almost immediately. [l]\nOutput: learned\n\nInput: John scratched his arm and the boy who Mary knew did so too. [t]\nOutput: the too\n\nInput: John came from Seoul. [s]\nOutput: seoul\n\nInput: Whose car is blocking the entrance to the store? [s]\nOutput: store"
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Jennie smiled. [j]\nOutput: jennie\n\nInput: She held him by the arm. [b]\nOutput: by\n\nInput: Jasper wonders which book he should attempt to persuade his students to buy. [a]\nOutput: attempt\n\nInput: I handed the ball to Reg. [t]\nOutput: the to\n\nInput: He always eats deep fried muffins. [f]\nOutput: fried\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Jennie smiled. [j]\nOutput: jennie\n\nInput: She held him by the arm. [b]\nOutput: by\n\nInput: Jasper wonders which book he should attempt to persuade his students to buy. [a]\nOutput: attempt\n\nInput: I handed the ball to Reg. [t]\nOutput: the to\n\nInput: He always eats deep fried muffins. [f]\nOutput: fried"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I believed that Otto was wearing this hat. [t]\nOutput: that this\n\nInput: Dana is longing for a sunny day. [f]\nOutput: for\n\nInput: I often send Mary home drunk, and she gets there just fine. [g]\nOutput: gets\n\nInput: Paula swatted Deirdre on the back. [d]\nOutput: deirdre\n\nInput: I have wanted to meet the man who spent so much money planning the assassination of Kennedy for many years. [w]\nOutput: wanted who\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I believed that Otto was wearing this hat. [t]\nOutput: that this\n\nInput: Dana is longing for a sunny day. [f]\nOutput: for\n\nInput: I often send Mary home drunk, and she gets there just fine. [g]\nOutput: gets\n\nInput: Paula swatted Deirdre on the back. [d]\nOutput: deirdre\n\nInput: I have wanted to meet the man who spent so much money planning the assassination of Kennedy for many years. [w]\nOutput: wanted who"
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John laughed. [j]\nOutput: john\n\nInput: Briana showed Justin himself. [j]\nOutput: justin\n\nInput: That he ever went there alone is odd. [a]\nOutput: alone\n\nInput: Which goddess did help us? [g]\nOutput: goddess\n\nInput: Jack eats caviar more than he sleeps. [c]\nOutput: caviar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John laughed. [j]\nOutput: john\n\nInput: Briana showed Justin himself. [j]\nOutput: justin\n\nInput: That he ever went there alone is odd. [a]\nOutput: alone\n\nInput: Which goddess did help us? [g]\nOutput: goddess\n\nInput: Jack eats caviar more than he sleeps. [c]\nOutput: caviar"
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John got the book from Bill. [b]\nOutput: book bill\n\nInput: Teresa bottle fed soy milk to the baby. [t]\nOutput: teresa to the\n\nInput: Everyone reported that Max and some lady disappeared. [s]\nOutput: some\n\nInput: Jennie smiled. [j]\nOutput: jennie\n\nInput: Mary is such a wit that people are afraid of her. [p]\nOutput: people\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John got the book from Bill. [b]\nOutput: book bill\n\nInput: Teresa bottle fed soy milk to the baby. [t]\nOutput: teresa to the\n\nInput: Everyone reported that Max and some lady disappeared. [s]\nOutput: some\n\nInput: Jennie smiled. [j]\nOutput: jennie\n\nInput: Mary is such a wit that people are afraid of her. [p]\nOutput: people"
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think John likes his beer. [j]\nOutput: john\n\nInput: the book of poems with a red cover and with a blue spine takes a very long time to read. [c]\nOutput: cover\n\nInput: It is not true that it was obvious that it would confuse the guards for Herschel to throw a fit. [a]\nOutput: a\n\nInput: For him to win the race would surprise them. [f]\nOutput: for\n\nInput: Jeff must not have eaten the deep fried muffin. [f]\nOutput: fried\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think John likes his beer. [j]\nOutput: john\n\nInput: the book of poems with a red cover and with a blue spine takes a very long time to read. [c]\nOutput: cover\n\nInput: It is not true that it was obvious that it would confuse the guards for Herschel to throw a fit. [a]\nOutput: a\n\nInput: For him to win the race would surprise them. [f]\nOutput: for\n\nInput: Jeff must not have eaten the deep fried muffin. [f]\nOutput: fried"
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: He told her the whole story. [t]\nOutput: told the\n\nInput: Mercedes gave a test to the students in the lecture hall. [a]\nOutput: a\n\nInput: The brave are not afraid to die. [b]\nOutput: brave\n\nInput: Fred tracked the leak to its source. [f]\nOutput: fred\n\nInput: Alison poked the needle through the denim. [d]\nOutput: denim\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: He told her the whole story. [t]\nOutput: told the\n\nInput: Mercedes gave a test to the students in the lecture hall. [a]\nOutput: a\n\nInput: The brave are not afraid to die. [b]\nOutput: brave\n\nInput: Fred tracked the leak to its source. [f]\nOutput: fred\n\nInput: Alison poked the needle through the denim. [d]\nOutput: denim"
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Everyone hopes to sleep. [t]\nOutput: to\n\nInput: In the book, he talks about his ups and downs at school. [b]\nOutput: book\n\nInput: Every man who said he would buy some salmon did. [b]\nOutput: buy\n\nInput: The accident happened. [t]\nOutput: the\n\nInput: Who did you think Mary saw? [w]\nOutput: who\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Everyone hopes to sleep. [t]\nOutput: to\n\nInput: In the book, he talks about his ups and downs at school. [b]\nOutput: book\n\nInput: Every man who said he would buy some salmon did. [b]\nOutput: buy\n\nInput: The accident happened. [t]\nOutput: the\n\nInput: Who did you think Mary saw? [w]\nOutput: who"
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I owe my acquittal to you. [a]\nOutput: acquittal\n\nInput: They lent me a bicycle. [m]\nOutput: me\n\nInput: John tagged Lewis with a regulation baseball on Tuesday. [l]\nOutput: lewis\n\nInput: Many of the people were dying of thirst. [m]\nOutput: many\n\nInput: If you give him enough opportunity, every senator will succumb to corruption. [t]\nOutput: to\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I owe my acquittal to you. [a]\nOutput: acquittal\n\nInput: They lent me a bicycle. [m]\nOutput: me\n\nInput: John tagged Lewis with a regulation baseball on Tuesday. [l]\nOutput: lewis\n\nInput: Many of the people were dying of thirst. [m]\nOutput: many\n\nInput: If you give him enough opportunity, every senator will succumb to corruption. [t]\nOutput: to"
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Several people are sick. [s]\nOutput: several sick\n\nInput: There lived a man with his grandson. [t]\nOutput: there\n\nInput: I am drinking lemonade and eating a brownie. [l]\nOutput: lemonade\n\nInput: The streets gushed with water. [t]\nOutput: the\n\nInput: Mary received an award from the department. [f]\nOutput: from\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Several people are sick. [s]\nOutput: several sick\n\nInput: There lived a man with his grandson. [t]\nOutput: there\n\nInput: I am drinking lemonade and eating a brownie. [l]\nOutput: lemonade\n\nInput: The streets gushed with water. [t]\nOutput: the\n\nInput: Mary received an award from the department. [f]\nOutput: from"
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I borrowed and my sister stole large sums of money from the bank. [l]\nOutput: large\n\nInput: John will have enthusiastically been eating cake. [j]\nOutput: john\n\nInput: Mary saw the tall man come from the back. [s]\nOutput: saw\n\nInput: Jim will go if he feels good. [w]\nOutput: will\n\nInput: Mary will complete her exam within an hour. [a]\nOutput: an\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I borrowed and my sister stole large sums of money from the bank. [l]\nOutput: large\n\nInput: John will have enthusiastically been eating cake. [j]\nOutput: john\n\nInput: Mary saw the tall man come from the back. [s]\nOutput: saw\n\nInput: Jim will go if he feels good. [w]\nOutput: will\n\nInput: Mary will complete her exam within an hour. [a]\nOutput: an"
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I gave the charity. [t]\nOutput: the\n\nInput: This is the friend for whose mother Kim gave a party. [m]\nOutput: mother\n\nInput: Exactly half of the students attended some seminar. [t]\nOutput: the\n\nInput: John deposited some money in the checking account on Friday and Mary did the same thing on Monday. [s]\nOutput: some same\n\nInput: What did he reply? [h]\nOutput: he\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I gave the charity. [t]\nOutput: the\n\nInput: This is the friend for whose mother Kim gave a party. [m]\nOutput: mother\n\nInput: Exactly half of the students attended some seminar. [t]\nOutput: the\n\nInput: John deposited some money in the checking account on Friday and Mary did the same thing on Monday. [s]\nOutput: some same\n\nInput: What did he reply? [h]\nOutput: he"
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Smith inscribed his name over the door. [d]\nOutput: door\n\nInput: What does John think Mary bought? [b]\nOutput: bought\n\nInput: Who has drunk the poison? [t]\nOutput: the\n\nInput: Michelle became an architect. [b]\nOutput: became\n\nInput: She spruced herself up before the job interview. [u]\nOutput: up\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Smith inscribed his name over the door. [d]\nOutput: door\n\nInput: What does John think Mary bought? [b]\nOutput: bought\n\nInput: Who has drunk the poison? [t]\nOutput: the\n\nInput: Michelle became an architect. [b]\nOutput: became\n\nInput: She spruced herself up before the job interview. [u]\nOutput: up"
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I succeeded in convincing, even though John had failed to persuade, Mary not to leave. [n]\nOutput: not\n\nInput: It was John on whom the sheriff placed the blame. [i]\nOutput: it\n\nInput: Calvin has eaten a peanut. [c]\nOutput: calvin\n\nInput: These stories about himself worry John more than anything else. [a]\nOutput: about anything\n\nInput: Calvin had eaten. [c]\nOutput: calvin\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I succeeded in convincing, even though John had failed to persuade, Mary not to leave. [n]\nOutput: not\n\nInput: It was John on whom the sheriff placed the blame. [i]\nOutput: it\n\nInput: Calvin has eaten a peanut. [c]\nOutput: calvin\n\nInput: These stories about himself worry John more than anything else. [a]\nOutput: about anything\n\nInput: Calvin had eaten. [c]\nOutput: calvin"
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Sue moved, and Mary also transferred, her business to a different location. [t]\nOutput: transferred to\n\nInput: I would dance with Mary or Sue. [o]\nOutput: or\n\nInput: Dracula thought that he was the Prince of Darkness. [t]\nOutput: thought that the\n\nInput: June covered the baby with a blanket. [j]\nOutput: june\n\nInput: John hummed, and Mary sang, at equal volumes. [s]\nOutput: sang\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Sue moved, and Mary also transferred, her business to a different location. [t]\nOutput: transferred to\n\nInput: I would dance with Mary or Sue. [o]\nOutput: or\n\nInput: Dracula thought that he was the Prince of Darkness. [t]\nOutput: thought that the\n\nInput: June covered the baby with a blanket. [j]\nOutput: june\n\nInput: John hummed, and Mary sang, at equal volumes. [s]\nOutput: sang"
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The employees staffed the store. [e]\nOutput: employees\n\nInput: which city the claim that Philip would invade. [p]\nOutput: philip\n\nInput: Sally eats caviar more than I had expected. [e]\nOutput: eats expected\n\nInput: Gregory appears to have wanted to be loyal to the company. [a]\nOutput: appears\n\nInput: Only Churchill remembered giving the Blood, Sweat and Tears speech. [g]\nOutput: giving\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The employees staffed the store. [e]\nOutput: employees\n\nInput: which city the claim that Philip would invade. [p]\nOutput: philip\n\nInput: Sally eats caviar more than I had expected. [e]\nOutput: eats expected\n\nInput: Gregory appears to have wanted to be loyal to the company. [a]\nOutput: appears\n\nInput: Only Churchill remembered giving the Blood, Sweat and Tears speech. [g]\nOutput: giving"
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The butler polished the silver. [p]\nOutput: polished\n\nInput: The curtain which Fred tore in rolling up was the kind gift of my maternal Aunt Priscilla. [a]\nOutput: aunt\n\nInput: The cottage which Mrs Dashwood accepted was rather small. [d]\nOutput: dashwood\n\nInput: I know you like the back of my hand. [i]\nOutput: i\n\nInput: For John to either make up such a story or repeat it is outrageous. [f]\nOutput: for\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The butler polished the silver. [p]\nOutput: polished\n\nInput: The curtain which Fred tore in rolling up was the kind gift of my maternal Aunt Priscilla. [a]\nOutput: aunt\n\nInput: The cottage which Mrs Dashwood accepted was rather small. [d]\nOutput: dashwood\n\nInput: I know you like the back of my hand. [i]\nOutput: i\n\nInput: For John to either make up such a story or repeat it is outrageous. [f]\nOutput: for"
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John promised Bill to leave tomorrow morning. [l]\nOutput: leave\n\nInput: What did he reply? [h]\nOutput: he\n\nInput: Who do you think it is that Mary met? [d]\nOutput: do\n\nInput: His expectations are lower, the higher the stakes. [a]\nOutput: are\n\nInput: Nora sent the book to Peter. [b]\nOutput: book\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John promised Bill to leave tomorrow morning. [l]\nOutput: leave\n\nInput: What did he reply? [h]\nOutput: he\n\nInput: Who do you think it is that Mary met? [d]\nOutput: do\n\nInput: His expectations are lower, the higher the stakes. [a]\nOutput: are\n\nInput: Nora sent the book to Peter. [b]\nOutput: book"
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I am anxious for you to arrive on time. [t]\nOutput: to time\n\nInput: Confiscate any liquor. [c]\nOutput: confiscate\n\nInput: We peered around the room. [a]\nOutput: around\n\nInput: Why did you kill Pegasus? [k]\nOutput: kill\n\nInput: Susan found every book she had been looking for at Borders. [l]\nOutput: looking\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I am anxious for you to arrive on time. [t]\nOutput: to time\n\nInput: Confiscate any liquor. [c]\nOutput: confiscate\n\nInput: We peered around the room. [a]\nOutput: around\n\nInput: Why did you kill Pegasus? [k]\nOutput: kill\n\nInput: Susan found every book she had been looking for at Borders. [l]\nOutput: looking"
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Confiscate any liquor. [c]\nOutput: confiscate\n\nInput: He is John. [h]\nOutput: he\n\nInput: Bob does not think that there is anyone from Greece in his basement. [i]\nOutput: is in\n\nInput: The more obnoxious Fred is, the less attention you should pay to him. [h]\nOutput: him\n\nInput: Sally eats caviar too much for her own good. [c]\nOutput: caviar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Confiscate any liquor. [c]\nOutput: confiscate\n\nInput: He is John. [h]\nOutput: he\n\nInput: Bob does not think that there is anyone from Greece in his basement. [i]\nOutput: is in\n\nInput: The more obnoxious Fred is, the less attention you should pay to him. [h]\nOutput: him\n\nInput: Sally eats caviar too much for her own good. [c]\nOutput: caviar"
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Sandy tried to eat oysters. [o]\nOutput: oysters\n\nInput: This hat it is certain that he was wearing. [c]\nOutput: certain\n\nInput: Car sales have surprised the stockbrokers. [c]\nOutput: car\n\nInput: What John did to the wall was hit it. [h]\nOutput: hit\n\nInput: These books disappoint me. [d]\nOutput: disappoint\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Sandy tried to eat oysters. [o]\nOutput: oysters\n\nInput: This hat it is certain that he was wearing. [c]\nOutput: certain\n\nInput: Car sales have surprised the stockbrokers. [c]\nOutput: car\n\nInput: What John did to the wall was hit it. [h]\nOutput: hit\n\nInput: These books disappoint me. [d]\nOutput: disappoint"
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Because they hated him, the druids forced Jason to live in a cupboard [f]\nOutput: forced\n\nInput: Fluffy is sick, which nobody knows. [w]\nOutput: which\n\nInput: In English, the main verb agrees with the head element of the subject. [i]\nOutput: in\n\nInput: Jim will go if he feels good. [i]\nOutput: if\n\nInput: Cynthia gobbled the pizza . [t]\nOutput: the\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Because they hated him, the druids forced Jason to live in a cupboard [f]\nOutput: forced\n\nInput: Fluffy is sick, which nobody knows. [w]\nOutput: which\n\nInput: In English, the main verb agrees with the head element of the subject. [i]\nOutput: in\n\nInput: Jim will go if he feels good. [i]\nOutput: if\n\nInput: Cynthia gobbled the pizza . [t]\nOutput: the"
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Martha carved a piece of wood for the baby. [w]\nOutput: wood\n\nInput: Sue said something although she was the most likely not to say anything. [s]\nOutput: sue said something she say\n\nInput: Tom will force you to marry no student, and neither will I. [f]\nOutput: force\n\nInput: Jim was chopping logs when Margaret left and was still at it when she got back. [b]\nOutput: back\n\nInput: Linda winked. [w]\nOutput: winked\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Martha carved a piece of wood for the baby. [w]\nOutput: wood\n\nInput: Sue said something although she was the most likely not to say anything. [s]\nOutput: sue said something she say\n\nInput: Tom will force you to marry no student, and neither will I. [f]\nOutput: force\n\nInput: Jim was chopping logs when Margaret left and was still at it when she got back. [b]\nOutput: back\n\nInput: Linda winked. [w]\nOutput: winked"
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: There arrived a tall, red haired and incredibly well dressed man. [h]\nOutput: haired\n\nInput: It was to Boston that they decided to take the patient. [b]\nOutput: boston\n\nInput: Lucy sent Jane a letter. [a]\nOutput: a\n\nInput: I consider him immoral. [c]\nOutput: consider\n\nInput: That Patrick left is likely. [i]\nOutput: is\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: There arrived a tall, red haired and incredibly well dressed man. [h]\nOutput: haired\n\nInput: It was to Boston that they decided to take the patient. [b]\nOutput: boston\n\nInput: Lucy sent Jane a letter. [a]\nOutput: a\n\nInput: I consider him immoral. [c]\nOutput: consider\n\nInput: That Patrick left is likely. [i]\nOutput: is"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: It would be inconvenience for you to leave so soon. [i]\nOutput: it inconvenience\n\nInput: Who do you think Mary said John likes? [m]\nOutput: mary\n\nInput: John tries to be easy to get along with. [b]\nOutput: be\n\nInput: John scratched his arm and the boy who knew Mary scratched her arm. [j]\nOutput: john\n\nInput: Their teaching material is what we are using. [m]\nOutput: material\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: It would be inconvenience for you to leave so soon. [i]\nOutput: it inconvenience\n\nInput: Who do you think Mary said John likes? [m]\nOutput: mary\n\nInput: John tries to be easy to get along with. [b]\nOutput: be\n\nInput: John scratched his arm and the boy who knew Mary scratched her arm. [j]\nOutput: john\n\nInput: Their teaching material is what we are using. [m]\nOutput: material"
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The constant reading of Shakespeare satisfied me [r]\nOutput: reading\n\nInput: We contributed our paycheck to her. [h]\nOutput: her\n\nInput: I believe John with all my heart to be a fine person. [m]\nOutput: my\n\nInput: Kim may have admitted to let Mary mow the lawn. [h]\nOutput: have\n\nInput: John will have been eating cake enthusiastically. [b]\nOutput: been\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The constant reading of Shakespeare satisfied me [r]\nOutput: reading\n\nInput: We contributed our paycheck to her. [h]\nOutput: her\n\nInput: I believe John with all my heart to be a fine person. [m]\nOutput: my\n\nInput: Kim may have admitted to let Mary mow the lawn. [h]\nOutput: have\n\nInput: John will have been eating cake enthusiastically. [b]\nOutput: been"
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Calvin had eaten. [c]\nOutput: calvin\n\nInput: To whom did you throw the ball? [t]\nOutput: to throw the\n\nInput: For me to concentrate on calculus is difficult. [m]\nOutput: me\n\nInput: Where do we go to register for graduation? [f]\nOutput: for\n\nInput: Rosemary tried to get a new car. [r]\nOutput: rosemary\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Calvin had eaten. [c]\nOutput: calvin\n\nInput: To whom did you throw the ball? [t]\nOutput: to throw the\n\nInput: For me to concentrate on calculus is difficult. [m]\nOutput: me\n\nInput: Where do we go to register for graduation? [f]\nOutput: for\n\nInput: Rosemary tried to get a new car. [r]\nOutput: rosemary"
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The dumplings which Sasha is gobbling down faster than I can reheat them are extremely tasty, if I do say so. [r]\nOutput: reheat\n\nInput: Heather cabled Sara about the situation. [t]\nOutput: the\n\nInput: She will put a picture of Bill on your desk before tomorrow. [w]\nOutput: will\n\nInput: Who knew Mickey would overthrow home plate by that much? [w]\nOutput: who would\n\nInput: I think John likes his beer. [j]\nOutput: john\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The dumplings which Sasha is gobbling down faster than I can reheat them are extremely tasty, if I do say so. [r]\nOutput: reheat\n\nInput: Heather cabled Sara about the situation. [t]\nOutput: the\n\nInput: She will put a picture of Bill on your desk before tomorrow. [w]\nOutput: will\n\nInput: Who knew Mickey would overthrow home plate by that much? [w]\nOutput: who would\n\nInput: I think John likes his beer. [j]\nOutput: john"
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John said Martha sang the aria with gusto. [s]\nOutput: said sang\n\nInput: There is a description of Aristotle in the book. [a]\nOutput: a aristotle\n\nInput: Through the hall echoed a loud cry. [t]\nOutput: through the\n\nInput: He bought a refrigerator in which to put the beer. [r]\nOutput: refrigerator\n\nInput: The president that Fred voted for dislikes his opponents. [o]\nOutput: opponents\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John said Martha sang the aria with gusto. [s]\nOutput: said sang\n\nInput: There is a description of Aristotle in the book. [a]\nOutput: a aristotle\n\nInput: Through the hall echoed a loud cry. [t]\nOutput: through the\n\nInput: He bought a refrigerator in which to put the beer. [r]\nOutput: refrigerator\n\nInput: The president that Fred voted for dislikes his opponents. [o]\nOutput: opponents"
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I cut the soft bread. [i]\nOutput: i\n\nInput: Which city and which conference did Bill go to? [t]\nOutput: to\n\nInput: John believes it to be obvious that Bill left. [t]\nOutput: to that\n\nInput: The jeweller decorated the ring with the name. [d]\nOutput: decorated\n\nInput: Neither of the cars has air conditioning. [c]\nOutput: cars conditioning\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I cut the soft bread. [i]\nOutput: i\n\nInput: Which city and which conference did Bill go to? [t]\nOutput: to\n\nInput: John believes it to be obvious that Bill left. [t]\nOutput: to that\n\nInput: The jeweller decorated the ring with the name. [d]\nOutput: decorated\n\nInput: Neither of the cars has air conditioning. [c]\nOutput: cars conditioning"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John laughed. [j]\nOutput: john\n\nInput: He bought a refrigerator in which to put the beer. [r]\nOutput: refrigerator\n\nInput: In the hallway there ticked a grandfather clock. [c]\nOutput: clock\n\nInput: Margaret cut Bill on the arm. [c]\nOutput: cut\n\nInput: John believes that Bill saw him. [t]\nOutput: that\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John laughed. [j]\nOutput: john\n\nInput: He bought a refrigerator in which to put the beer. [r]\nOutput: refrigerator\n\nInput: In the hallway there ticked a grandfather clock. [c]\nOutput: clock\n\nInput: Margaret cut Bill on the arm. [c]\nOutput: cut\n\nInput: John believes that Bill saw him. [t]\nOutput: that"
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Imogen broke the vase. [b]\nOutput: broke\n\nInput: Aphrodite may quickly free the animals. [a]\nOutput: aphrodite animals\n\nInput: The man on whose lap the puppet is sitting is ventriloquist. [s]\nOutput: sitting\n\nInput: John believes it to be obvious that Bill left. [t]\nOutput: to that\n\nInput: Julia and Maria wanted to be allowed to perform a play. [a]\nOutput: and allowed a\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Imogen broke the vase. [b]\nOutput: broke\n\nInput: Aphrodite may quickly free the animals. [a]\nOutput: aphrodite animals\n\nInput: The man on whose lap the puppet is sitting is ventriloquist. [s]\nOutput: sitting\n\nInput: John believes it to be obvious that Bill left. [t]\nOutput: to that\n\nInput: Julia and Maria wanted to be allowed to perform a play. [a]\nOutput: and allowed a"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I saw this film several times last year during the summer. [l]\nOutput: last\n\nInput: I have wanted to meet the man who spent so much money planning the assassination of Kennedy for many years. [k]\nOutput: kennedy\n\nInput: the book of poems with a red cover from Blackwell by Robert Burns takes a very long time to read. [t]\nOutput: the takes time to\n\nInput: There are fewer trucks on the motorway this winter. [m]\nOutput: motorway\n\nInput: Sandy must, too. [t]\nOutput: too\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I saw this film several times last year during the summer. [l]\nOutput: last\n\nInput: I have wanted to meet the man who spent so much money planning the assassination of Kennedy for many years. [k]\nOutput: kennedy\n\nInput: the book of poems with a red cover from Blackwell by Robert Burns takes a very long time to read. [t]\nOutput: the takes time to\n\nInput: There are fewer trucks on the motorway this winter. [m]\nOutput: motorway\n\nInput: Sandy must, too. [t]\nOutput: too"
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Tom will force you to marry no student, and neither will I. [s]\nOutput: student\n\nInput: Last year I saw this film several times. [s]\nOutput: saw several\n\nInput: Never have I stolen from any members of your family. [o]\nOutput: of\n\nInput: I doubt that Mary reads mysteries. [i]\nOutput: i\n\nInput: It rained. [r]\nOutput: rained\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Tom will force you to marry no student, and neither will I. [s]\nOutput: student\n\nInput: Last year I saw this film several times. [s]\nOutput: saw several\n\nInput: Never have I stolen from any members of your family. [o]\nOutput: of\n\nInput: I doubt that Mary reads mysteries. [i]\nOutput: i\n\nInput: It rained. [r]\nOutput: rained"
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: His friend kicked a ball. [h]\nOutput: his\n\nInput: It is John who wants to look at your notes after class. [n]\nOutput: notes\n\nInput: I believe that the sun was out. [w]\nOutput: was\n\nInput: How brave everybody must think you expect me to believe he is! [m]\nOutput: must me\n\nInput: Julie felt he was there [t]\nOutput: there\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: His friend kicked a ball. [h]\nOutput: his\n\nInput: It is John who wants to look at your notes after class. [n]\nOutput: notes\n\nInput: I believe that the sun was out. [w]\nOutput: was\n\nInput: How brave everybody must think you expect me to believe he is! [m]\nOutput: must me\n\nInput: Julie felt he was there [t]\nOutput: there"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: John hit the wall with the stone. [h]\nOutput: hit\n\nInput: Jill kicked the ball from home plate to third base. [h]\nOutput: home\n\nInput: She will put a picture of Bill on your desk before tomorrow. [w]\nOutput: will\n\nInput: John remained a student. [j]\nOutput: john\n\nInput: Mary jumped the horse over the last fence perfectly. [f]\nOutput: fence\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: John hit the wall with the stone. [h]\nOutput: hit\n\nInput: Jill kicked the ball from home plate to third base. [h]\nOutput: home\n\nInput: She will put a picture of Bill on your desk before tomorrow. [w]\nOutput: will\n\nInput: John remained a student. [j]\nOutput: john\n\nInput: Mary jumped the horse over the last fence perfectly. [f]\nOutput: fence"
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: If John wants to succeed in corporate life, he has to know the rules of the game. [c]\nOutput: corporate\n\nInput: To whom did you give the ball? [b]\nOutput: ball\n\nInput: Sarah sang a hymn. [a]\nOutput: a\n\nInput: Rory will eat the muffins. [m]\nOutput: muffins\n\nInput: Which bed did Tom sleep on? [t]\nOutput: tom\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: If John wants to succeed in corporate life, he has to know the rules of the game. [c]\nOutput: corporate\n\nInput: To whom did you give the ball? [b]\nOutput: ball\n\nInput: Sarah sang a hymn. [a]\nOutput: a\n\nInput: Rory will eat the muffins. [m]\nOutput: muffins\n\nInput: Which bed did Tom sleep on? [t]\nOutput: tom"
+      }
+    }
+  }
+}

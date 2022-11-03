@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "num_examples": 26
+  },
+  "examples": {
+    "1": {
+      "cause": "It started raining.",
+      "effect": "The woman who was walking on the street opened her umbrella."
+    },
+    "2": {
+      "cause": "A watermelon exploded.",
+      "effect": "A man was covered in sticky red goo."
+    },
+    "3": {
+      "cause": "A large object hit the Earth.",
+      "effect": "The dinosaurs became extinct."
+    },
+    "4": {
+      "cause": "The bottle was left open.",
+      "effect": "The soda went flat."
+    },
+    "5": {
+      "cause": "The laptop ran out of battery.",
+      "effect": "George plugged the laptop charger in."
+    },
+    "6": {
+      "cause": "The curtains were opened.",
+      "effect": "Sunlight filled the room."
+    },
+    "7": {
+      "cause": "The insect pollinated the tomato flowers.",
+      "effect": "Tomatoes grew on the vine."
+    },
+    "8": {
+      "cause": "There was a wardrobe malfunction.",
+      "effect": "The performer ran off the stage."
+    },
+    "9": {
+      "cause": "A bird hit the engine.",
+      "effect": "The pilot turned on the \"fasten seatbelts\" light."
+    },
+    "10": {
+      "cause": "The milk was left outside the fridge over night.",
+      "effect": "The man sipped the milk and spit it out."
+    },
+    "11": {
+      "cause": "The man couldn't hear what the woman was saying.",
+      "effect": "The man turned down the music volume."
+    },
+    "12": {
+      "cause": "The power was out for days.",
+      "effect": "The meat spoiled."
+    },
+    "13": {
+      "cause": "The gardener planted a seed.",
+      "effect": "A flower grew."
+    },
+    "14": {
+      "cause": "The door was locked.",
+      "effect": "The man climbed in through the window."
+    },
+    "15": {
+      "cause": "The wind blew strong.",
+      "effect": "The ship capsized."
+    },
+    "16": {
+      "cause": "The man robbed a gas station.",
+      "effect": "The man went to jail."
+    },
+    "17": {
+      "cause": "Jill won the lawsuit against Acme.",
+      "effect": "Acme paid Jill's legal fees."
+    },
+    "18": {
+      "cause": "The girl skipped school.",
+      "effect": "The girl got detention."
+    },
+    "19": {
+      "cause": "I flipped the switch.",
+      "effect": "Light filled the room."
+    },
+    "20": {
+      "cause": "I pulled the dog's tail.",
+      "effect": "The dog bit me."
+    },
+    "21": {
+      "cause": "The air conditioner broke.",
+      "effect": "The family went to the beach."
+    },
+    "22": {
+      "cause": "The company's posted strong earnings.",
+      "effect": "The company's stock went up."
+    },
+    "23": {
+      "cause": "My friend got a promotion.",
+      "effect": "My friend celebrated with their family."
+    },
+    "24": {
+      "cause": "The floor was wet.",
+      "effect": "The man sued."
+    },
+    "25": {
+      "cause": "Ted went out drinking.",
+      "effect": "Ted had a hangover."
+    },
+    "26": {
+      "cause": "Jimmy took the last piece of cake.",
+      "effect": "Mom rinsed the tray."
+    }
+  }
+}

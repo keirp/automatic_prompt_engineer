@@ -1,0 +1,12 @@
+{
+  "annotations": [
+    "Output all tokens in the sentence that start with the letter in [ ]",
+    "output all the tokens in the input that start with the letter in [ ]",
+    "Write all the words of the input that start with the letter in the square brackets",
+    "Write all the words from the sentence that start with the letter in the square brackets",
+    "For each input sentence, list all the words in the sentence that begin with the character written inside the brackets.",
+    "For each input, list all the words in the sentence that begin with the character in brackets at the end of the sentence.",
+    "Write all the words in the following sentence that start with the bracketed letter, in their original order.",
+    "Write a word from the following sentence that starts with the bracketed letter:"
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling."
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations."
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: folding, committee, lounge\nOutput: types of chairs."
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something."
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes."
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something."
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, light, dog, ware\nOutput: types of house.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes."
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: picture, issue, reference\nOutput: involve frames.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins."
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: folding, committee, lounge\nOutput: types of chairs.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins."
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: picture, issue, reference\nOutput: involve frames.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: dentistry, construction, oil\nOutput: involve drilling."
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, light, dog, ware\nOutput: types of house.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: folding, committee, lounge\nOutput: types of chairs."
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: dentistry, construction, oil\nOutput: involve drilling."
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: bamboo, memory, lines\nOutput: have segments."
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells."
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: folding, committee, lounge\nOutput: types of chairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations."
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes."
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something."
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching."
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: folding, committee, lounge\nOutput: types of chairs.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling."
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something."
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes."
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching."
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: bamboo, memory, lines\nOutput: have segments."
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells."
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something."
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something."
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something."
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something."
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells."
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins."
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: bamboo, memory, lines\nOutput: have segments."
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells."
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something."
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes."
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching."
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling."
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins."
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes."
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes."
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching."
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: bamboo, memory, lines\nOutput: have segments."
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells."
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: folding, committee, lounge\nOutput: types of chairs."
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling."
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching."
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: green, light, dog, ware\nOutput: types of house."
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something."
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells."
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching."
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling."
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: green, light, dog, ware\nOutput: types of house."
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, light, dog, ware\nOutput: types of house.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes."
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something."
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells."
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: dentistry, construction, oil\nOutput: involve drilling."
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes."
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, light, dog, ware\nOutput: types of house.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: bamboo, memory, lines\nOutput: have segments."
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins."
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: green, light, dog, ware\nOutput: types of house."
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames."
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: picture, issue, reference\nOutput: involve frames."
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: folding, committee, lounge\nOutput: types of chairs."
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations."
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: picture, issue, reference\nOutput: involve frames."
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: folding, committee, lounge\nOutput: types of chairs.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: green, light, dog, ware\nOutput: types of house."
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: squirrel foraging, memoization, web browsers\nOutput: involve caching.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind."
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes."
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: picture, issue, reference\nOutput: involve frames."
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bamboo, memory, lines\nOutput: have segments.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can be used for repairs."
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: picture, issue, reference\nOutput: involve frames.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: snowman, marzipan fruit, rubber plant\nOutput: inanimate, but made to imitate something animate."
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: bamboo, memory, lines\nOutput: have segments.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dentistry, construction, oil\nOutput: involve drilling.\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: green, light, dog, ware\nOutput: types of house.\n\nInput: bamboo, memory, lines\nOutput: have segments."
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: normal distribution, Pavlov, carillon\nOutput: relate to bells.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: poker, displays of embarrassment, toilets\nOutput: involve flushes.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something."
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: picture, issue, reference\nOutput: involve frames.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nInput: blue whales, Jupiter, top quarks, Mt. Everest\nOutput: the largest of their kind.\n\nInput: ballet, snow, running, snorkeling\nOutput: use specialized shoes.\n\nInput: avalanches, rock polishing, gymnastics\nOutput: involve tumbling."
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guitars, pendulums, neutrinos\nOutput: involve oscillations.\n\nInput: folding, committee, lounge\nOutput: types of chairs.\n\nInput: magnetic resonance imaging, propaganda, figure skating\nOutput: involve spins.\n\nInput: boats, tablecloths, crowns\nOutput: go on top of something.\n\nInput: sewing, wrenches, glue, surgery\nOutput: can help repair something."
+      }
+    }
+  }
+}

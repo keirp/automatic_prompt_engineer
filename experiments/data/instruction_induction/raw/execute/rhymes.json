@@ -1,0 +1,1561 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "compete",
+      "output": "neat",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "2": {
+      "input": "ice",
+      "output": "rice",
+      "other_rhymes": [
+        "rice",
+        "price",
+        "ice",
+        "twice",
+        "slice",
+        "spice"
+      ],
+      "rhyme_group": "AY S"
+    },
+    "3": {
+      "input": "day",
+      "output": "gay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "4": {
+      "input": "weigh",
+      "output": "may",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "5": {
+      "input": "sheet",
+      "output": "heat",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "6": {
+      "input": "laugh",
+      "output": "calf",
+      "other_rhymes": [
+        "half",
+        "staff",
+        "calf",
+        "laugh",
+        "giraffe"
+      ],
+      "rhyme_group": "AE F"
+    },
+    "7": {
+      "input": "thief",
+      "output": "leaf",
+      "other_rhymes": [
+        "beef",
+        "thief",
+        "leaf",
+        "brief"
+      ],
+      "rhyme_group": "IY F"
+    },
+    "8": {
+      "input": "happy",
+      "output": "unhappy",
+      "other_rhymes": [
+        "happy",
+        "unhappy"
+      ],
+      "rhyme_group": "AE P IY"
+    },
+    "9": {
+      "input": "gay",
+      "output": "way",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "10": {
+      "input": "gray",
+      "output": "way",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "11": {
+      "input": "street",
+      "output": "defeat",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "12": {
+      "input": "eat",
+      "output": "defeat",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "13": {
+      "input": "neat",
+      "output": "complete",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "14": {
+      "input": "smart",
+      "output": "apart",
+      "other_rhymes": [
+        "part",
+        "start",
+        "heart",
+        "art",
+        "smart",
+        "depart",
+        "apart"
+      ],
+      "rhyme_group": "AA R T"
+    },
+    "15": {
+      "input": "defeat",
+      "output": "seat",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "16": {
+      "input": "they",
+      "output": "away",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "17": {
+      "input": "myself",
+      "output": "herself",
+      "other_rhymes": [
+        "myself",
+        "itself",
+        "shelf",
+        "himself",
+        "herself"
+      ],
+      "rhyme_group": "EH L F"
+    },
+    "18": {
+      "input": "stage",
+      "output": "page",
+      "other_rhymes": [
+        "page",
+        "age",
+        "stage",
+        "wage",
+        "cage"
+      ],
+      "rhyme_group": "EY JH"
+    },
+    "19": {
+      "input": "heat",
+      "output": "beat",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "20": {
+      "input": "play",
+      "output": "stay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "21": {
+      "input": "crop",
+      "output": "pop",
+      "other_rhymes": [
+        "stop",
+        "shop",
+        "pop",
+        "crop"
+      ],
+      "rhyme_group": "AA P"
+    },
+    "22": {
+      "input": "may",
+      "output": "play",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "23": {
+      "input": "seat",
+      "output": "compete",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "24": {
+      "input": "wool",
+      "output": "bull",
+      "other_rhymes": [
+        "pull",
+        "full",
+        "wool",
+        "bull"
+      ],
+      "rhyme_group": "UH L"
+    },
+    "25": {
+      "input": "meat",
+      "output": "street",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "26": {
+      "input": "spoon",
+      "output": "afternoon",
+      "other_rhymes": [
+        "afternoon",
+        "noon",
+        "balloon",
+        "cartoon",
+        "soon",
+        "spoon"
+      ],
+      "rhyme_group": "UW N"
+    },
+    "27": {
+      "input": "car",
+      "output": "far",
+      "other_rhymes": [
+        "car",
+        "guitar",
+        "star",
+        "bar",
+        "far",
+        "jar"
+      ],
+      "rhyme_group": "AA R"
+    },
+    "28": {
+      "input": "away",
+      "output": "delay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "29": {
+      "input": "beef",
+      "output": "leaf",
+      "other_rhymes": [
+        "beef",
+        "thief",
+        "leaf",
+        "brief"
+      ],
+      "rhyme_group": "IY F"
+    },
+    "30": {
+      "input": "rice",
+      "output": "price",
+      "other_rhymes": [
+        "rice",
+        "price",
+        "ice",
+        "twice",
+        "slice",
+        "spice"
+      ],
+      "rhyme_group": "AY S"
+    },
+    "31": {
+      "input": "part",
+      "output": "start",
+      "other_rhymes": [
+        "part",
+        "start",
+        "heart",
+        "art",
+        "smart",
+        "depart",
+        "apart"
+      ],
+      "rhyme_group": "AA R T"
+    },
+    "32": {
+      "input": "complete",
+      "output": "compete",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "33": {
+      "input": "beat",
+      "output": "sheet",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "34": {
+      "input": "pop",
+      "output": "crop",
+      "other_rhymes": [
+        "stop",
+        "shop",
+        "pop",
+        "crop"
+      ],
+      "rhyme_group": "AA P"
+    },
+    "35": {
+      "input": "lock",
+      "output": "sock",
+      "other_rhymes": [
+        "clock",
+        "sock",
+        "block",
+        "rock",
+        "knock",
+        "shock",
+        "lock"
+      ],
+      "rhyme_group": "AA K"
+    },
+    "36": {
+      "input": "say",
+      "output": "bay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "37": {
+      "input": "slice",
+      "output": "twice",
+      "other_rhymes": [
+        "rice",
+        "price",
+        "ice",
+        "twice",
+        "slice",
+        "spice"
+      ],
+      "rhyme_group": "AY S"
+    },
+    "38": {
+      "input": "bar",
+      "output": "guitar",
+      "other_rhymes": [
+        "car",
+        "guitar",
+        "star",
+        "bar",
+        "far",
+        "jar"
+      ],
+      "rhyme_group": "AA R"
+    },
+    "39": {
+      "input": "block",
+      "output": "clock",
+      "other_rhymes": [
+        "clock",
+        "sock",
+        "block",
+        "rock",
+        "knock",
+        "shock",
+        "lock"
+      ],
+      "rhyme_group": "AA K"
+    },
+    "40": {
+      "input": "meet",
+      "output": "street",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "41": {
+      "input": "pray",
+      "output": "gay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "42": {
+      "input": "spice",
+      "output": "twice",
+      "other_rhymes": [
+        "rice",
+        "price",
+        "ice",
+        "twice",
+        "slice",
+        "spice"
+      ],
+      "rhyme_group": "AY S"
+    },
+    "43": {
+      "input": "piece",
+      "output": "peace",
+      "other_rhymes": [
+        "police",
+        "piece",
+        "niece",
+        "peace"
+      ],
+      "rhyme_group": "IY S"
+    },
+    "44": {
+      "input": "pay",
+      "output": "may",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "45": {
+      "input": "hey",
+      "output": "pay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "46": {
+      "input": "bay",
+      "output": "may",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "47": {
+      "input": "wage",
+      "output": "page",
+      "other_rhymes": [
+        "page",
+        "age",
+        "stage",
+        "wage",
+        "cage"
+      ],
+      "rhyme_group": "EY JH"
+    },
+    "48": {
+      "input": "sweet",
+      "output": "beat",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "49": {
+      "input": "age",
+      "output": "cage",
+      "other_rhymes": [
+        "page",
+        "age",
+        "stage",
+        "wage",
+        "cage"
+      ],
+      "rhyme_group": "EY JH"
+    },
+    "50": {
+      "input": "knock",
+      "output": "clock",
+      "other_rhymes": [
+        "clock",
+        "sock",
+        "block",
+        "rock",
+        "knock",
+        "shock",
+        "lock"
+      ],
+      "rhyme_group": "AA K"
+    },
+    "51": {
+      "input": "pull",
+      "output": "wool",
+      "other_rhymes": [
+        "pull",
+        "full",
+        "wool",
+        "bull"
+      ],
+      "rhyme_group": "UH L"
+    },
+    "52": {
+      "input": "start",
+      "output": "part",
+      "other_rhymes": [
+        "part",
+        "start",
+        "heart",
+        "art",
+        "smart",
+        "depart",
+        "apart"
+      ],
+      "rhyme_group": "AA R T"
+    },
+    "53": {
+      "input": "cage",
+      "output": "page",
+      "other_rhymes": [
+        "page",
+        "age",
+        "stage",
+        "wage",
+        "cage"
+      ],
+      "rhyme_group": "EY JH"
+    },
+    "54": {
+      "input": "man",
+      "output": "van",
+      "other_rhymes": [
+        "man",
+        "fan",
+        "plan",
+        "pan",
+        "van"
+      ],
+      "rhyme_group": "AE N"
+    },
+    "55": {
+      "input": "far",
+      "output": "bar",
+      "other_rhymes": [
+        "car",
+        "guitar",
+        "star",
+        "bar",
+        "far",
+        "jar"
+      ],
+      "rhyme_group": "AA R"
+    },
+    "56": {
+      "input": "stay",
+      "output": "bay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "57": {
+      "input": "guitar",
+      "output": "bar",
+      "other_rhymes": [
+        "car",
+        "guitar",
+        "star",
+        "bar",
+        "far",
+        "jar"
+      ],
+      "rhyme_group": "AA R"
+    },
+    "58": {
+      "input": "heart",
+      "output": "start",
+      "other_rhymes": [
+        "part",
+        "start",
+        "heart",
+        "art",
+        "smart",
+        "depart",
+        "apart"
+      ],
+      "rhyme_group": "AA R T"
+    },
+    "59": {
+      "input": "sock",
+      "output": "knock",
+      "other_rhymes": [
+        "clock",
+        "sock",
+        "block",
+        "rock",
+        "knock",
+        "shock",
+        "lock"
+      ],
+      "rhyme_group": "AA K"
+    },
+    "60": {
+      "input": "sandal",
+      "output": "handle",
+      "other_rhymes": [
+        "handle",
+        "candle",
+        "sandal"
+      ],
+      "rhyme_group": "AE N D AH L"
+    },
+    "61": {
+      "input": "staff",
+      "output": "giraffe",
+      "other_rhymes": [
+        "half",
+        "staff",
+        "calf",
+        "laugh",
+        "giraffe"
+      ],
+      "rhyme_group": "AE F"
+    },
+    "62": {
+      "input": "way",
+      "output": "gay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "63": {
+      "input": "exist",
+      "output": "insist",
+      "other_rhymes": [
+        "list",
+        "insist",
+        "exist"
+      ],
+      "rhyme_group": "IH S T"
+    },
+    "64": {
+      "input": "shop",
+      "output": "stop",
+      "other_rhymes": [
+        "stop",
+        "shop",
+        "pop",
+        "crop"
+      ],
+      "rhyme_group": "AA P"
+    },
+    "65": {
+      "input": "soon",
+      "output": "spoon",
+      "other_rhymes": [
+        "afternoon",
+        "noon",
+        "balloon",
+        "cartoon",
+        "soon",
+        "spoon"
+      ],
+      "rhyme_group": "UW N"
+    },
+    "66": {
+      "input": "calf",
+      "output": "half",
+      "other_rhymes": [
+        "half",
+        "staff",
+        "calf",
+        "laugh",
+        "giraffe"
+      ],
+      "rhyme_group": "AE F"
+    },
+    "67": {
+      "input": "plan",
+      "output": "van",
+      "other_rhymes": [
+        "man",
+        "fan",
+        "plan",
+        "pan",
+        "van"
+      ],
+      "rhyme_group": "AE N"
+    },
+    "68": {
+      "input": "fan",
+      "output": "man",
+      "other_rhymes": [
+        "man",
+        "fan",
+        "plan",
+        "pan",
+        "van"
+      ],
+      "rhyme_group": "AE N"
+    },
+    "69": {
+      "input": "greet",
+      "output": "complete",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "70": {
+      "input": "art",
+      "output": "heart",
+      "other_rhymes": [
+        "part",
+        "start",
+        "heart",
+        "art",
+        "smart",
+        "depart",
+        "apart"
+      ],
+      "rhyme_group": "AA R T"
+    },
+    "71": {
+      "input": "star",
+      "output": "far",
+      "other_rhymes": [
+        "car",
+        "guitar",
+        "star",
+        "bar",
+        "far",
+        "jar"
+      ],
+      "rhyme_group": "AA R"
+    },
+    "72": {
+      "input": "rock",
+      "output": "knock",
+      "other_rhymes": [
+        "clock",
+        "sock",
+        "block",
+        "rock",
+        "knock",
+        "shock",
+        "lock"
+      ],
+      "rhyme_group": "AA K"
+    },
+    "73": {
+      "input": "page",
+      "output": "wage",
+      "other_rhymes": [
+        "page",
+        "age",
+        "stage",
+        "wage",
+        "cage"
+      ],
+      "rhyme_group": "EY JH"
+    },
+    "74": {
+      "input": "stop",
+      "output": "shop",
+      "other_rhymes": [
+        "stop",
+        "shop",
+        "pop",
+        "crop"
+      ],
+      "rhyme_group": "AA P"
+    },
+    "75": {
+      "input": "apart",
+      "output": "depart",
+      "other_rhymes": [
+        "part",
+        "start",
+        "heart",
+        "art",
+        "smart",
+        "depart",
+        "apart"
+      ],
+      "rhyme_group": "AA R T"
+    },
+    "76": {
+      "input": "delay",
+      "output": "pray",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "77": {
+      "input": "police",
+      "output": "piece",
+      "other_rhymes": [
+        "police",
+        "piece",
+        "niece",
+        "peace"
+      ],
+      "rhyme_group": "IY S"
+    },
+    "78": {
+      "input": "display",
+      "output": "bay",
+      "other_rhymes": [
+        "pay",
+        "gray",
+        "stay",
+        "play",
+        "day",
+        "they",
+        "say",
+        "away",
+        "way",
+        "may",
+        "delay",
+        "hey",
+        "pray",
+        "bay",
+        "gay",
+        "display",
+        "weigh"
+      ],
+      "rhyme_group": "EY"
+    },
+    "79": {
+      "input": "delete",
+      "output": "sheet",
+      "other_rhymes": [
+        "eat",
+        "sweet",
+        "street",
+        "meet",
+        "meat",
+        "complete",
+        "seat",
+        "heat",
+        "beat",
+        "defeat",
+        "compete",
+        "greet",
+        "sheet",
+        "delete",
+        "neat"
+      ],
+      "rhyme_group": "IY T"
+    },
+    "80": {
+      "input": "clock",
+      "output": "block",
+      "other_rhymes": [
+        "clock",
+        "sock",
+        "block",
+        "rock",
+        "knock",
+        "shock",
+        "lock"
+      ],
+      "rhyme_group": "AA K"
+    },
+    "81": {
+      "input": "sightseeing",
+      "output": "skiing",
+      "other_rhymes": [
+        "skiing",
+        "sightseeing"
+      ],
+      "rhyme_group": "IY IH NG"
+    },
+    "82": {
+      "input": "pump",
+      "output": "jump",
+      "other_rhymes": [
+        "jump",
+        "pump"
+      ],
+      "rhyme_group": "AH M P"
+    },
+    "83": {
+      "input": "balloon",
+      "output": "afternoon",
+      "other_rhymes": [
+        "afternoon",
+        "noon",
+        "balloon",
+        "cartoon",
+        "soon",
+        "spoon"
+      ],
+      "rhyme_group": "UW N"
+    },
+    "84": {
+      "input": "itself",
+      "output": "myself",
+      "other_rhymes": [
+        "myself",
+        "itself",
+        "shelf",
+        "himself",
+        "herself"
+      ],
+      "rhyme_group": "EH L F"
+    },
+    "85": {
+      "input": "jar",
+      "output": "bar",
+      "other_rhymes": [
+        "car",
+        "guitar",
+        "star",
+        "bar",
+        "far",
+        "jar"
+      ],
+      "rhyme_group": "AA R"
+    },
+    "86": {
+      "input": "only",
+      "output": "lonely",
+      "other_rhymes": [
+        "only",
+        "lonely"
+      ],
+      "rhyme_group": "OW N L IY"
+    },
+    "87": {
+      "input": "herself",
+      "output": "shelf",
+      "other_rhymes": [
+        "myself",
+        "itself",
+        "shelf",
+        "himself",
+        "herself"
+      ],
+      "rhyme_group": "EH L F"
+    },
+    "88": {
+      "input": "leaf",
+      "output": "beef",
+      "other_rhymes": [
+        "beef",
+        "thief",
+        "leaf",
+        "brief"
+      ],
+      "rhyme_group": "IY F"
+    },
+    "89": {
+      "input": "joke",
+      "output": "smoke",
+      "other_rhymes": [
+        "smoke",
+        "joke",
+        "folk"
+      ],
+      "rhyme_group": "OW K"
+    },
+    "90": {
+      "input": "price",
+      "output": "ice",
+      "other_rhymes": [
+        "rice",
+        "price",
+        "ice",
+        "twice",
+        "slice",
+        "spice"
+      ],
+      "rhyme_group": "AY S"
+    },
+    "91": {
+      "input": "impossible",
+      "output": "possible",
+      "other_rhymes": [
+        "possible",
+        "impossible"
+      ],
+      "rhyme_group": "AA S AH B AH L"
+    },
+    "92": {
+      "input": "shock",
+      "output": "rock",
+      "other_rhymes": [
+        "clock",
+        "sock",
+        "block",
+        "rock",
+        "knock",
+        "shock",
+        "lock"
+      ],
+      "rhyme_group": "AA K"
+    },
+    "93": {
+      "input": "dog",
+      "output": "blog",
+      "other_rhymes": [
+        "dog",
+        "blog"
+      ],
+      "rhyme_group": "AO G"
+    },
+    "94": {
+      "input": "himself",
+      "output": "herself",
+      "other_rhymes": [
+        "myself",
+        "itself",
+        "shelf",
+        "himself",
+        "herself"
+      ],
+      "rhyme_group": "EH L F"
+    },
+    "95": {
+      "input": "van",
+      "output": "pan",
+      "other_rhymes": [
+        "man",
+        "fan",
+        "plan",
+        "pan",
+        "van"
+      ],
+      "rhyme_group": "AE N"
+    },
+    "96": {
+      "input": "peace",
+      "output": "police",
+      "other_rhymes": [
+        "police",
+        "piece",
+        "niece",
+        "peace"
+      ],
+      "rhyme_group": "IY S"
+    },
+    "97": {
+      "input": "giraffe",
+      "output": "calf",
+      "other_rhymes": [
+        "half",
+        "staff",
+        "calf",
+        "laugh",
+        "giraffe"
+      ],
+      "rhyme_group": "AE F"
+    },
+    "98": {
+      "input": "cartoon",
+      "output": "afternoon",
+      "other_rhymes": [
+        "afternoon",
+        "noon",
+        "balloon",
+        "cartoon",
+        "soon",
+        "spoon"
+      ],
+      "rhyme_group": "UW N"
+    },
+    "99": {
+      "input": "uncomfortable",
+      "output": "comfortable",
+      "other_rhymes": [
+        "comfortable",
+        "uncomfortable"
+      ],
+      "rhyme_group": "AH M F ER T AH B AH L"
+    },
+    "100": {
+      "input": "smoke",
+      "output": "joke",
+      "other_rhymes": [
+        "smoke",
+        "joke",
+        "folk"
+      ],
+      "rhyme_group": "OW K"
+    }
+  }
+}

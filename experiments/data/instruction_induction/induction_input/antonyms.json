@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: informed\nOutput: uninformed\n\nInput: shout\nOutput: whisper\n\nInput: distal\nOutput: proximal\n\nInput: defiant\nOutput: compliant\n\nInput: unrestricted\nOutput: restricted\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: informed\nOutput: uninformed\n\nInput: shout\nOutput: whisper\n\nInput: distal\nOutput: proximal\n\nInput: defiant\nOutput: compliant\n\nInput: unrestricted\nOutput: restricted"
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: inoffensive\nOutput: offensive\n\nInput: untapped\nOutput: tapped\n\nInput: ordinal\nOutput: cardinal\n\nInput: unexpired\nOutput: expired\n\nInput: obscurity\nOutput: clarity\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: inoffensive\nOutput: offensive\n\nInput: untapped\nOutput: tapped\n\nInput: ordinal\nOutput: cardinal\n\nInput: unexpired\nOutput: expired\n\nInput: obscurity\nOutput: clarity"
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: structured\nOutput: unstructured\n\nInput: designed\nOutput: undesigned\n\nInput: blond\nOutput: brunet\n\nInput: activator\nOutput: inhibitor\n\nInput: geographic\nOutput: magnetic\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: structured\nOutput: unstructured\n\nInput: designed\nOutput: undesigned\n\nInput: blond\nOutput: brunet\n\nInput: activator\nOutput: inhibitor\n\nInput: geographic\nOutput: magnetic"
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: proactive\nOutput: retroactive\n\nInput: cheerful\nOutput: depressing\n\nInput: service\nOutput: disservice\n\nInput: coarsely\nOutput: finely\n\nInput: unashamed\nOutput: ashamed\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: proactive\nOutput: retroactive\n\nInput: cheerful\nOutput: depressing\n\nInput: service\nOutput: disservice\n\nInput: coarsely\nOutput: finely\n\nInput: unashamed\nOutput: ashamed"
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: harmony\nOutput: dissonance\n\nInput: irreplaceable\nOutput: replaceable\n\nInput: inflexible\nOutput: flexible\n\nInput: discreet\nOutput: indiscreet\n\nInput: nonpolitical\nOutput: political\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: harmony\nOutput: dissonance\n\nInput: irreplaceable\nOutput: replaceable\n\nInput: inflexible\nOutput: flexible\n\nInput: discreet\nOutput: indiscreet\n\nInput: nonpolitical\nOutput: political"
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: infinitely\nOutput: finitely\n\nInput: imprecision\nOutput: precision\n\nInput: frequent\nOutput: infrequent\n\nInput: wish\nOutput: begrudge\n\nInput: obstructed\nOutput: unobstructed\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: infinitely\nOutput: finitely\n\nInput: imprecision\nOutput: precision\n\nInput: frequent\nOutput: infrequent\n\nInput: wish\nOutput: begrudge\n\nInput: obstructed\nOutput: unobstructed"
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: indecision\nOutput: decision\n\nInput: progressive\nOutput: regressive\n\nInput: dissonance\nOutput: harmony\n\nInput: incurious\nOutput: curious\n\nInput: strong\nOutput: weak\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: indecision\nOutput: decision\n\nInput: progressive\nOutput: regressive\n\nInput: dissonance\nOutput: harmony\n\nInput: incurious\nOutput: curious\n\nInput: strong\nOutput: weak"
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: autologous\nOutput: homologous\n\nInput: tonic\nOutput: atonic\n\nInput: suffix\nOutput: prefix\n\nInput: unaddressed\nOutput: addressed\n\nInput: fatal\nOutput: nonfatal\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: autologous\nOutput: homologous\n\nInput: tonic\nOutput: atonic\n\nInput: suffix\nOutput: prefix\n\nInput: unaddressed\nOutput: addressed\n\nInput: fatal\nOutput: nonfatal"
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: disorder\nOutput: order\n\nInput: unchangeable\nOutput: changeable\n\nInput: finite\nOutput: infinite\n\nInput: distant\nOutput: close\n\nInput: sophisticated\nOutput: naive\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: disorder\nOutput: order\n\nInput: unchangeable\nOutput: changeable\n\nInput: finite\nOutput: infinite\n\nInput: distant\nOutput: close\n\nInput: sophisticated\nOutput: naive"
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: insolubility\nOutput: solubility\n\nInput: inflexibility\nOutput: flexibility\n\nInput: found\nOutput: lost\n\nInput: vertebrate\nOutput: invertebrate\n\nInput: demobilization\nOutput: mobilization\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: insolubility\nOutput: solubility\n\nInput: inflexibility\nOutput: flexibility\n\nInput: found\nOutput: lost\n\nInput: vertebrate\nOutput: invertebrate\n\nInput: demobilization\nOutput: mobilization"
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: home\nOutput: away\n\nInput: unofficial\nOutput: official\n\nInput: insignificant\nOutput: significant\n\nInput: illogically\nOutput: logically\n\nInput: honesty\nOutput: dishonesty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: home\nOutput: away\n\nInput: unofficial\nOutput: official\n\nInput: insignificant\nOutput: significant\n\nInput: illogically\nOutput: logically\n\nInput: honesty\nOutput: dishonesty"
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: personal\nOutput: impersonal\n\nInput: nonsurgical\nOutput: surgical\n\nInput: unauthorized\nOutput: authorized\n\nInput: inconsiderate\nOutput: considerate\n\nInput: vocal\nOutput: instrumental\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: personal\nOutput: impersonal\n\nInput: nonsurgical\nOutput: surgical\n\nInput: unauthorized\nOutput: authorized\n\nInput: inconsiderate\nOutput: considerate\n\nInput: vocal\nOutput: instrumental"
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stabilization\nOutput: destabilization\n\nInput: centripetal\nOutput: centrifugal\n\nInput: morality\nOutput: immorality\n\nInput: harmony\nOutput: dissonance\n\nInput: nonalignment\nOutput: alignment\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: stabilization\nOutput: destabilization\n\nInput: centripetal\nOutput: centrifugal\n\nInput: morality\nOutput: immorality\n\nInput: harmony\nOutput: dissonance\n\nInput: nonalignment\nOutput: alignment"
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: acquittal\nOutput: conviction\n\nInput: frivolous\nOutput: serious\n\nInput: ugly\nOutput: beautiful\n\nInput: unchain\nOutput: chain\n\nInput: thinly\nOutput: thickly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: acquittal\nOutput: conviction\n\nInput: frivolous\nOutput: serious\n\nInput: ugly\nOutput: beautiful\n\nInput: unchain\nOutput: chain\n\nInput: thinly\nOutput: thickly"
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: neuter\nOutput: feminine\n\nInput: settled\nOutput: unsettled\n\nInput: scarce\nOutput: abundant\n\nInput: sufficiently\nOutput: insufficiently\n\nInput: disagreement\nOutput: agreement\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: neuter\nOutput: feminine\n\nInput: settled\nOutput: unsettled\n\nInput: scarce\nOutput: abundant\n\nInput: sufficiently\nOutput: insufficiently\n\nInput: disagreement\nOutput: agreement"
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sweeten\nOutput: sour\n\nInput: difficulty\nOutput: ease\n\nInput: derived\nOutput: underived\n\nInput: assigned\nOutput: unassigned\n\nInput: disagreement\nOutput: agreement\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sweeten\nOutput: sour\n\nInput: difficulty\nOutput: ease\n\nInput: derived\nOutput: underived\n\nInput: assigned\nOutput: unassigned\n\nInput: disagreement\nOutput: agreement"
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: likeness\nOutput: unlikeness\n\nInput: improved\nOutput: unimproved\n\nInput: disarrange\nOutput: arrange\n\nInput: unready\nOutput: ready\n\nInput: feminine\nOutput: neuter\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: likeness\nOutput: unlikeness\n\nInput: improved\nOutput: unimproved\n\nInput: disarrange\nOutput: arrange\n\nInput: unready\nOutput: ready\n\nInput: feminine\nOutput: neuter"
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: steadily\nOutput: unsteadily\n\nInput: infinitely\nOutput: finitely\n\nInput: mechanical\nOutput: nonmechanical\n\nInput: invest\nOutput: divest\n\nInput: visibility\nOutput: invisibility\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: steadily\nOutput: unsteadily\n\nInput: infinitely\nOutput: finitely\n\nInput: mechanical\nOutput: nonmechanical\n\nInput: invest\nOutput: divest\n\nInput: visibility\nOutput: invisibility"
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: insensitivity\nOutput: sensitivity\n\nInput: careless\nOutput: careful\n\nInput: exclude\nOutput: include\n\nInput: imprecision\nOutput: precision\n\nInput: varied\nOutput: unvaried\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: insensitivity\nOutput: sensitivity\n\nInput: careless\nOutput: careful\n\nInput: exclude\nOutput: include\n\nInput: imprecision\nOutput: precision\n\nInput: varied\nOutput: unvaried"
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ungrateful\nOutput: grateful\n\nInput: fortunately\nOutput: unfortunately\n\nInput: nonalcoholic\nOutput: alcoholic\n\nInput: worsen\nOutput: better\n\nInput: conditional\nOutput: unconditional\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ungrateful\nOutput: grateful\n\nInput: fortunately\nOutput: unfortunately\n\nInput: nonalcoholic\nOutput: alcoholic\n\nInput: worsen\nOutput: better\n\nInput: conditional\nOutput: unconditional"
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: fitness\nOutput: unfitness\n\nInput: unsold\nOutput: sold\n\nInput: necessitate\nOutput: obviate\n\nInput: unwillingly\nOutput: willingly\n\nInput: identifiable\nOutput: unidentifiable\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: fitness\nOutput: unfitness\n\nInput: unsold\nOutput: sold\n\nInput: necessitate\nOutput: obviate\n\nInput: unwillingly\nOutput: willingly\n\nInput: identifiable\nOutput: unidentifiable"
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: indication\nOutput: contraindication\n\nInput: restricted\nOutput: unrestricted\n\nInput: sedate\nOutput: stimulate\n\nInput: untouched\nOutput: touched\n\nInput: inside\nOutput: outside\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: indication\nOutput: contraindication\n\nInput: restricted\nOutput: unrestricted\n\nInput: sedate\nOutput: stimulate\n\nInput: untouched\nOutput: touched\n\nInput: inside\nOutput: outside"
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: upland\nOutput: lowland\n\nInput: heaviness\nOutput: lightness\n\nInput: tolerably\nOutput: intolerably\n\nInput: majority\nOutput: minority\n\nInput: provincial\nOutput: cosmopolitan\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: upland\nOutput: lowland\n\nInput: heaviness\nOutput: lightness\n\nInput: tolerably\nOutput: intolerably\n\nInput: majority\nOutput: minority\n\nInput: provincial\nOutput: cosmopolitan"
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: loudness\nOutput: softness\n\nInput: committed\nOutput: uncommitted\n\nInput: unemotional\nOutput: emotional\n\nInput: salty\nOutput: fresh\n\nInput: helpful\nOutput: unhelpful\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: loudness\nOutput: softness\n\nInput: committed\nOutput: uncommitted\n\nInput: unemotional\nOutput: emotional\n\nInput: salty\nOutput: fresh\n\nInput: helpful\nOutput: unhelpful"
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: officially\nOutput: unofficially\n\nInput: intolerable\nOutput: tolerable\n\nInput: lively\nOutput: dull\n\nInput: submissive\nOutput: domineering\n\nInput: internally\nOutput: externally\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: officially\nOutput: unofficially\n\nInput: intolerable\nOutput: tolerable\n\nInput: lively\nOutput: dull\n\nInput: submissive\nOutput: domineering\n\nInput: internally\nOutput: externally"
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: purposeful\nOutput: purposeless\n\nInput: untalented\nOutput: talented\n\nInput: changeable\nOutput: unchangeable\n\nInput: nonexplosive\nOutput: explosive\n\nInput: afloat\nOutput: aground\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: purposeful\nOutput: purposeless\n\nInput: untalented\nOutput: talented\n\nInput: changeable\nOutput: unchangeable\n\nInput: nonexplosive\nOutput: explosive\n\nInput: afloat\nOutput: aground"
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: incorrectly\nOutput: correctly\n\nInput: unimpressive\nOutput: impressive\n\nInput: multiple\nOutput: single\n\nInput: wholly\nOutput: partly\n\nInput: unvaried\nOutput: varied\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: incorrectly\nOutput: correctly\n\nInput: unimpressive\nOutput: impressive\n\nInput: multiple\nOutput: single\n\nInput: wholly\nOutput: partly\n\nInput: unvaried\nOutput: varied"
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: inconveniently\nOutput: conveniently\n\nInput: caudal\nOutput: cephalic\n\nInput: concrete\nOutput: abstract\n\nInput: contented\nOutput: discontented\n\nInput: frivolous\nOutput: serious\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: inconveniently\nOutput: conveniently\n\nInput: caudal\nOutput: cephalic\n\nInput: concrete\nOutput: abstract\n\nInput: contented\nOutput: discontented\n\nInput: frivolous\nOutput: serious"
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: carelessly\nOutput: carefully\n\nInput: happily\nOutput: unhappily\n\nInput: hot\nOutput: cold\n\nInput: foe\nOutput: friend\n\nInput: conform\nOutput: deviate\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: carelessly\nOutput: carefully\n\nInput: happily\nOutput: unhappily\n\nInput: hot\nOutput: cold\n\nInput: foe\nOutput: friend\n\nInput: conform\nOutput: deviate"
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unwind\nOutput: wind\n\nInput: concealed\nOutput: unconcealed\n\nInput: insignificant\nOutput: significant\n\nInput: compatibility\nOutput: incompatibility\n\nInput: decentralization\nOutput: centralization\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unwind\nOutput: wind\n\nInput: concealed\nOutput: unconcealed\n\nInput: insignificant\nOutput: significant\n\nInput: compatibility\nOutput: incompatibility\n\nInput: decentralization\nOutput: centralization"
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: nonmechanical\nOutput: mechanical\n\nInput: guilt\nOutput: innocence\n\nInput: considerable\nOutput: inconsiderable\n\nInput: avoid\nOutput: confront\n\nInput: validate\nOutput: invalidate\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: nonmechanical\nOutput: mechanical\n\nInput: guilt\nOutput: innocence\n\nInput: considerable\nOutput: inconsiderable\n\nInput: avoid\nOutput: confront\n\nInput: validate\nOutput: invalidate"
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: undrained\nOutput: drained\n\nInput: unloving\nOutput: loving\n\nInput: ultimate\nOutput: proximate\n\nInput: incautiously\nOutput: cautiously\n\nInput: uncombined\nOutput: combined\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: undrained\nOutput: drained\n\nInput: unloving\nOutput: loving\n\nInput: ultimate\nOutput: proximate\n\nInput: incautiously\nOutput: cautiously\n\nInput: uncombined\nOutput: combined"
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: colored\nOutput: uncolored\n\nInput: nonproliferation\nOutput: proliferation\n\nInput: citizen\nOutput: noncitizen\n\nInput: autologous\nOutput: homologous\n\nInput: progress\nOutput: regress\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: colored\nOutput: uncolored\n\nInput: nonproliferation\nOutput: proliferation\n\nInput: citizen\nOutput: noncitizen\n\nInput: autologous\nOutput: homologous\n\nInput: progress\nOutput: regress"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: conditional\nOutput: unconditional\n\nInput: applied\nOutput: theoretical\n\nInput: uncritically\nOutput: critically\n\nInput: unreliability\nOutput: reliability\n\nInput: closed\nOutput: open\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: conditional\nOutput: unconditional\n\nInput: applied\nOutput: theoretical\n\nInput: uncritically\nOutput: critically\n\nInput: unreliability\nOutput: reliability\n\nInput: closed\nOutput: open"
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: security\nOutput: insecurity\n\nInput: responsible\nOutput: irresponsible\n\nInput: fertile\nOutput: sterile\n\nInput: unrealistic\nOutput: realistic\n\nInput: association\nOutput: disassociation\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: security\nOutput: insecurity\n\nInput: responsible\nOutput: irresponsible\n\nInput: fertile\nOutput: sterile\n\nInput: unrealistic\nOutput: realistic\n\nInput: association\nOutput: disassociation"
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: insincerity\nOutput: sincerity\n\nInput: imprecision\nOutput: precision\n\nInput: found\nOutput: lost\n\nInput: isotropic\nOutput: anisotropic\n\nInput: luckily\nOutput: unluckily\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: insincerity\nOutput: sincerity\n\nInput: imprecision\nOutput: precision\n\nInput: found\nOutput: lost\n\nInput: isotropic\nOutput: anisotropic\n\nInput: luckily\nOutput: unluckily"
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: satisfactory\nOutput: unsatisfactory\n\nInput: inwardly\nOutput: outwardly\n\nInput: voluntarily\nOutput: involuntarily\n\nInput: ill\nOutput: well\n\nInput: providence\nOutput: improvidence\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: satisfactory\nOutput: unsatisfactory\n\nInput: inwardly\nOutput: outwardly\n\nInput: voluntarily\nOutput: involuntarily\n\nInput: ill\nOutput: well\n\nInput: providence\nOutput: improvidence"
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unfilled\nOutput: filled\n\nInput: increased\nOutput: decreased\n\nInput: employer\nOutput: employee\n\nInput: near\nOutput: far\n\nInput: equatorial\nOutput: polar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unfilled\nOutput: filled\n\nInput: increased\nOutput: decreased\n\nInput: employer\nOutput: employee\n\nInput: near\nOutput: far\n\nInput: equatorial\nOutput: polar"
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: disengage\nOutput: engage\n\nInput: declared\nOutput: undeclared\n\nInput: insolubility\nOutput: solubility\n\nInput: here\nOutput: there\n\nInput: dullness\nOutput: brightness\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: disengage\nOutput: engage\n\nInput: declared\nOutput: undeclared\n\nInput: insolubility\nOutput: solubility\n\nInput: here\nOutput: there\n\nInput: dullness\nOutput: brightness"
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tangled\nOutput: untangled\n\nInput: insolvency\nOutput: solvency\n\nInput: unsure\nOutput: sure\n\nInput: manage\nOutput: fail\n\nInput: breathing\nOutput: breathless\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tangled\nOutput: untangled\n\nInput: insolvency\nOutput: solvency\n\nInput: unsure\nOutput: sure\n\nInput: manage\nOutput: fail\n\nInput: breathing\nOutput: breathless"
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: scarce\nOutput: abundant\n\nInput: unequipped\nOutput: equipped\n\nInput: war\nOutput: peace\n\nInput: noncritical\nOutput: critical\n\nInput: sealed\nOutput: unsealed\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: scarce\nOutput: abundant\n\nInput: unequipped\nOutput: equipped\n\nInput: war\nOutput: peace\n\nInput: noncritical\nOutput: critical\n\nInput: sealed\nOutput: unsealed"
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: northern\nOutput: southern\n\nInput: irritate\nOutput: soothe\n\nInput: declared\nOutput: undeclared\n\nInput: perfection\nOutput: imperfection\n\nInput: green\nOutput: ripe\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: northern\nOutput: southern\n\nInput: irritate\nOutput: soothe\n\nInput: declared\nOutput: undeclared\n\nInput: perfection\nOutput: imperfection\n\nInput: green\nOutput: ripe"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: maladjusted\nOutput: adjusted\n\nInput: unavailability\nOutput: availability\n\nInput: unlined\nOutput: lined\n\nInput: directional\nOutput: omnidirectional\n\nInput: stand\nOutput: lie\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: maladjusted\nOutput: adjusted\n\nInput: unavailability\nOutput: availability\n\nInput: unlined\nOutput: lined\n\nInput: directional\nOutput: omnidirectional\n\nInput: stand\nOutput: lie"
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: immortal\nOutput: mortal\n\nInput: ungracious\nOutput: gracious\n\nInput: infinite\nOutput: finite\n\nInput: uninjured\nOutput: injured\n\nInput: coordination\nOutput: incoordination\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: immortal\nOutput: mortal\n\nInput: ungracious\nOutput: gracious\n\nInput: infinite\nOutput: finite\n\nInput: uninjured\nOutput: injured\n\nInput: coordination\nOutput: incoordination"
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dejected\nOutput: elated\n\nInput: creative\nOutput: uncreative\n\nInput: courage\nOutput: cowardice\n\nInput: outer\nOutput: inner\n\nInput: ease\nOutput: difficulty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dejected\nOutput: elated\n\nInput: creative\nOutput: uncreative\n\nInput: courage\nOutput: cowardice\n\nInput: outer\nOutput: inner\n\nInput: ease\nOutput: difficulty"
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: decreased\nOutput: increased\n\nInput: integrate\nOutput: differentiate\n\nInput: limited\nOutput: unlimited\n\nInput: activate\nOutput: inactivate\n\nInput: worse\nOutput: better\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: decreased\nOutput: increased\n\nInput: integrate\nOutput: differentiate\n\nInput: limited\nOutput: unlimited\n\nInput: activate\nOutput: inactivate\n\nInput: worse\nOutput: better"
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: adorned\nOutput: unadorned\n\nInput: counterfeit\nOutput: genuine\n\nInput: insolvent\nOutput: solvent\n\nInput: pleasure\nOutput: pain\n\nInput: deregulate\nOutput: regulate\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: adorned\nOutput: unadorned\n\nInput: counterfeit\nOutput: genuine\n\nInput: insolvent\nOutput: solvent\n\nInput: pleasure\nOutput: pain\n\nInput: deregulate\nOutput: regulate"
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: untapped\nOutput: tapped\n\nInput: immaterial\nOutput: material\n\nInput: clergyman\nOutput: layman\n\nInput: unflattering\nOutput: flattering\n\nInput: egalitarian\nOutput: elitist\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: untapped\nOutput: tapped\n\nInput: immaterial\nOutput: material\n\nInput: clergyman\nOutput: layman\n\nInput: unflattering\nOutput: flattering\n\nInput: egalitarian\nOutput: elitist"
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: distant\nOutput: close\n\nInput: inappropriate\nOutput: appropriate\n\nInput: weakly\nOutput: strongly\n\nInput: difficulty\nOutput: ease\n\nInput: hostile\nOutput: friendly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: distant\nOutput: close\n\nInput: inappropriate\nOutput: appropriate\n\nInput: weakly\nOutput: strongly\n\nInput: difficulty\nOutput: ease\n\nInput: hostile\nOutput: friendly"
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: volatile\nOutput: nonvolatile\n\nInput: whole\nOutput: half\n\nInput: nearness\nOutput: farness\n\nInput: continuance\nOutput: discontinuance\n\nInput: peripheral\nOutput: central\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: volatile\nOutput: nonvolatile\n\nInput: whole\nOutput: half\n\nInput: nearness\nOutput: farness\n\nInput: continuance\nOutput: discontinuance\n\nInput: peripheral\nOutput: central"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: confidence\nOutput: diffidence\n\nInput: subordinating\nOutput: coordinating\n\nInput: stuck\nOutput: unstuck\n\nInput: improbable\nOutput: probable\n\nInput: specialized\nOutput: unspecialized\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: confidence\nOutput: diffidence\n\nInput: subordinating\nOutput: coordinating\n\nInput: stuck\nOutput: unstuck\n\nInput: improbable\nOutput: probable\n\nInput: specialized\nOutput: unspecialized"
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: impossibly\nOutput: possibly\n\nInput: there\nOutput: here\n\nInput: kern\nOutput: kern\n\nInput: win\nOutput: lose\n\nInput: docile\nOutput: stubborn\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: impossibly\nOutput: possibly\n\nInput: there\nOutput: here\n\nInput: kern\nOutput: kern\n\nInput: win\nOutput: lose\n\nInput: docile\nOutput: stubborn"
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: distributive\nOutput: collective\n\nInput: linguistic\nOutput: nonlinguistic\n\nInput: criticize\nOutput: praise\n\nInput: illegality\nOutput: legality\n\nInput: incoordination\nOutput: coordination\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: distributive\nOutput: collective\n\nInput: linguistic\nOutput: nonlinguistic\n\nInput: criticize\nOutput: praise\n\nInput: illegality\nOutput: legality\n\nInput: incoordination\nOutput: coordination"
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: westerly\nOutput: easterly\n\nInput: virtuous\nOutput: wicked\n\nInput: differentiate\nOutput: integrate\n\nInput: incorrect\nOutput: correct\n\nInput: parasite\nOutput: host\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: westerly\nOutput: easterly\n\nInput: virtuous\nOutput: wicked\n\nInput: differentiate\nOutput: integrate\n\nInput: incorrect\nOutput: correct\n\nInput: parasite\nOutput: host"
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: important\nOutput: unimportant\n\nInput: acquit\nOutput: convict\n\nInput: extinguish\nOutput: ignite\n\nInput: merit\nOutput: demerit\n\nInput: separate\nOutput: joint\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: important\nOutput: unimportant\n\nInput: acquit\nOutput: convict\n\nInput: extinguish\nOutput: ignite\n\nInput: merit\nOutput: demerit\n\nInput: separate\nOutput: joint"
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: discontented\nOutput: contented\n\nInput: diffident\nOutput: confident\n\nInput: unbelief\nOutput: belief\n\nInput: nonparticipation\nOutput: participation\n\nInput: blur\nOutput: focus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: discontented\nOutput: contented\n\nInput: diffident\nOutput: confident\n\nInput: unbelief\nOutput: belief\n\nInput: nonparticipation\nOutput: participation\n\nInput: blur\nOutput: focus"
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: lie\nOutput: stand\n\nInput: unsealed\nOutput: sealed\n\nInput: moderately\nOutput: immoderately\n\nInput: uneven\nOutput: even\n\nInput: nonconformity\nOutput: conformity\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: lie\nOutput: stand\n\nInput: unsealed\nOutput: sealed\n\nInput: moderately\nOutput: immoderately\n\nInput: uneven\nOutput: even\n\nInput: nonconformity\nOutput: conformity"
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unhappily\nOutput: happily\n\nInput: impatient\nOutput: patient\n\nInput: stability\nOutput: instability\n\nInput: coherence\nOutput: incoherence\n\nInput: downward\nOutput: upward\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unhappily\nOutput: happily\n\nInput: impatient\nOutput: patient\n\nInput: stability\nOutput: instability\n\nInput: coherence\nOutput: incoherence\n\nInput: downward\nOutput: upward"
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: incredible\nOutput: credible\n\nInput: hot\nOutput: cold\n\nInput: inconsistent\nOutput: consistent\n\nInput: objectively\nOutput: subjectively\n\nInput: irregularly\nOutput: regularly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: incredible\nOutput: credible\n\nInput: hot\nOutput: cold\n\nInput: inconsistent\nOutput: consistent\n\nInput: objectively\nOutput: subjectively\n\nInput: irregularly\nOutput: regularly"
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unwrap\nOutput: wrap\n\nInput: egoistic\nOutput: altruistic\n\nInput: upland\nOutput: lowland\n\nInput: sterile\nOutput: fertile\n\nInput: dove\nOutput: hawk\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unwrap\nOutput: wrap\n\nInput: egoistic\nOutput: altruistic\n\nInput: upland\nOutput: lowland\n\nInput: sterile\nOutput: fertile\n\nInput: dove\nOutput: hawk"
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: masculinity\nOutput: femininity\n\nInput: cry\nOutput: laugh\n\nInput: disapprobation\nOutput: approbation\n\nInput: noninterference\nOutput: interference\n\nInput: evil\nOutput: good\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: masculinity\nOutput: femininity\n\nInput: cry\nOutput: laugh\n\nInput: disapprobation\nOutput: approbation\n\nInput: noninterference\nOutput: interference\n\nInput: evil\nOutput: good"
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: falsify\nOutput: correct\n\nInput: unoriented\nOutput: oriented\n\nInput: principled\nOutput: unprincipled\n\nInput: biological\nOutput: adoptive\n\nInput: heterologous\nOutput: analogous\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: falsify\nOutput: correct\n\nInput: unoriented\nOutput: oriented\n\nInput: principled\nOutput: unprincipled\n\nInput: biological\nOutput: adoptive\n\nInput: heterologous\nOutput: analogous"
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: frivolity\nOutput: seriousness\n\nInput: inland\nOutput: coastal\n\nInput: adjusted\nOutput: unadjusted\n\nInput: sharpen\nOutput: dull\n\nInput: ineffective\nOutput: effective\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: frivolity\nOutput: seriousness\n\nInput: inland\nOutput: coastal\n\nInput: adjusted\nOutput: unadjusted\n\nInput: sharpen\nOutput: dull\n\nInput: ineffective\nOutput: effective"
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: able\nOutput: unable\n\nInput: repel\nOutput: attract\n\nInput: divided\nOutput: united\n\nInput: uncharitable\nOutput: charitable\n\nInput: inflow\nOutput: outflow\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: able\nOutput: unable\n\nInput: repel\nOutput: attract\n\nInput: divided\nOutput: united\n\nInput: uncharitable\nOutput: charitable\n\nInput: inflow\nOutput: outflow"
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: intrinsic\nOutput: extrinsic\n\nInput: uncontroversial\nOutput: controversial\n\nInput: exclude\nOutput: include\n\nInput: nonstandard\nOutput: standard\n\nInput: lengthwise\nOutput: crosswise\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: intrinsic\nOutput: extrinsic\n\nInput: uncontroversial\nOutput: controversial\n\nInput: exclude\nOutput: include\n\nInput: nonstandard\nOutput: standard\n\nInput: lengthwise\nOutput: crosswise"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rush\nOutput: delay\n\nInput: sold\nOutput: unsold\n\nInput: uninhibited\nOutput: inhibited\n\nInput: uncontaminated\nOutput: contaminated\n\nInput: subsequent\nOutput: antecedent\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rush\nOutput: delay\n\nInput: sold\nOutput: unsold\n\nInput: uninhibited\nOutput: inhibited\n\nInput: uncontaminated\nOutput: contaminated\n\nInput: subsequent\nOutput: antecedent"
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: uncertain\nOutput: certain\n\nInput: knowable\nOutput: unknowable\n\nInput: abundance\nOutput: scarcity\n\nInput: front\nOutput: back\n\nInput: fraternal\nOutput: identical\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: uncertain\nOutput: certain\n\nInput: knowable\nOutput: unknowable\n\nInput: abundance\nOutput: scarcity\n\nInput: front\nOutput: back\n\nInput: fraternal\nOutput: identical"
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unwind\nOutput: wind\n\nInput: assemble\nOutput: disassemble\n\nInput: unsupervised\nOutput: supervised\n\nInput: nourished\nOutput: malnourished\n\nInput: immaterial\nOutput: material\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unwind\nOutput: wind\n\nInput: assemble\nOutput: disassemble\n\nInput: unsupervised\nOutput: supervised\n\nInput: nourished\nOutput: malnourished\n\nInput: immaterial\nOutput: material"
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: succumb\nOutput: survive\n\nInput: leave\nOutput: arrive\n\nInput: uncharitable\nOutput: charitable\n\nInput: intelligible\nOutput: unintelligible\n\nInput: inexpedient\nOutput: expedient\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: succumb\nOutput: survive\n\nInput: leave\nOutput: arrive\n\nInput: uncharitable\nOutput: charitable\n\nInput: intelligible\nOutput: unintelligible\n\nInput: inexpedient\nOutput: expedient"
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: matriarchal\nOutput: patriarchal\n\nInput: inwardly\nOutput: outwardly\n\nInput: regular\nOutput: irregular\n\nInput: disclaim\nOutput: claim\n\nInput: unaltered\nOutput: altered\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: matriarchal\nOutput: patriarchal\n\nInput: inwardly\nOutput: outwardly\n\nInput: regular\nOutput: irregular\n\nInput: disclaim\nOutput: claim\n\nInput: unaltered\nOutput: altered"
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: regular\nOutput: irregular\n\nInput: carelessly\nOutput: carefully\n\nInput: inadequacy\nOutput: adequacy\n\nInput: outgoing\nOutput: incoming\n\nInput: perfectly\nOutput: imperfectly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: regular\nOutput: irregular\n\nInput: carelessly\nOutput: carefully\n\nInput: inadequacy\nOutput: adequacy\n\nInput: outgoing\nOutput: incoming\n\nInput: perfectly\nOutput: imperfectly"
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: abstract\nOutput: concrete\n\nInput: handless\nOutput: handed\n\nInput: northern\nOutput: southern\n\nInput: intangible\nOutput: tangible\n\nInput: unswept\nOutput: swept\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: abstract\nOutput: concrete\n\nInput: handless\nOutput: handed\n\nInput: northern\nOutput: southern\n\nInput: intangible\nOutput: tangible\n\nInput: unswept\nOutput: swept"
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hardness\nOutput: softness\n\nInput: verbal\nOutput: numerical\n\nInput: never\nOutput: ever\n\nInput: scarce\nOutput: abundant\n\nInput: cephalic\nOutput: caudal\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hardness\nOutput: softness\n\nInput: verbal\nOutput: numerical\n\nInput: never\nOutput: ever\n\nInput: scarce\nOutput: abundant\n\nInput: cephalic\nOutput: caudal"
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: perfectly\nOutput: imperfectly\n\nInput: hydrophobic\nOutput: hydrophilic\n\nInput: harmonious\nOutput: inharmonious\n\nInput: inelegant\nOutput: elegant\n\nInput: unsettled\nOutput: settled\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: perfectly\nOutput: imperfectly\n\nInput: hydrophobic\nOutput: hydrophilic\n\nInput: harmonious\nOutput: inharmonious\n\nInput: inelegant\nOutput: elegant\n\nInput: unsettled\nOutput: settled"
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: belief\nOutput: unbelief\n\nInput: improved\nOutput: unimproved\n\nInput: touched\nOutput: untouched\n\nInput: supply\nOutput: demand\n\nInput: ancestor\nOutput: descendant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: belief\nOutput: unbelief\n\nInput: improved\nOutput: unimproved\n\nInput: touched\nOutput: untouched\n\nInput: supply\nOutput: demand\n\nInput: ancestor\nOutput: descendant"
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: increased\nOutput: decreased\n\nInput: selfish\nOutput: unselfish\n\nInput: connect\nOutput: disconnect\n\nInput: sensitive\nOutput: insensitive\n\nInput: noncompetitive\nOutput: competitive\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: increased\nOutput: decreased\n\nInput: selfish\nOutput: unselfish\n\nInput: connect\nOutput: disconnect\n\nInput: sensitive\nOutput: insensitive\n\nInput: noncompetitive\nOutput: competitive"
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unequal\nOutput: equal\n\nInput: sold\nOutput: unsold\n\nInput: ignite\nOutput: extinguish\n\nInput: immobility\nOutput: mobility\n\nInput: dissatisfaction\nOutput: satisfaction\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unequal\nOutput: equal\n\nInput: sold\nOutput: unsold\n\nInput: ignite\nOutput: extinguish\n\nInput: immobility\nOutput: mobility\n\nInput: dissatisfaction\nOutput: satisfaction"
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: affirmative\nOutput: negative\n\nInput: undefeated\nOutput: defeated\n\nInput: coherence\nOutput: incoherence\n\nInput: boldness\nOutput: timidity\n\nInput: contraindicate\nOutput: indicate\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: affirmative\nOutput: negative\n\nInput: undefeated\nOutput: defeated\n\nInput: coherence\nOutput: incoherence\n\nInput: boldness\nOutput: timidity\n\nInput: contraindicate\nOutput: indicate"
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: studio\nOutput: location\n\nInput: atomistic\nOutput: holistic\n\nInput: brighten\nOutput: darken\n\nInput: living\nOutput: dead\n\nInput: disassemble\nOutput: assemble\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: studio\nOutput: location\n\nInput: atomistic\nOutput: holistic\n\nInput: brighten\nOutput: darken\n\nInput: living\nOutput: dead\n\nInput: disassemble\nOutput: assemble"
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unpleasant\nOutput: pleasant\n\nInput: diffidence\nOutput: confidence\n\nInput: disenchanted\nOutput: enchanted\n\nInput: lie\nOutput: stand\n\nInput: atomistic\nOutput: holistic\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unpleasant\nOutput: pleasant\n\nInput: diffidence\nOutput: confidence\n\nInput: disenchanted\nOutput: enchanted\n\nInput: lie\nOutput: stand\n\nInput: atomistic\nOutput: holistic"
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: agreeable\nOutput: disagreeable\n\nInput: vertebrate\nOutput: invertebrate\n\nInput: dissimilarity\nOutput: similarity\n\nInput: defiant\nOutput: compliant\n\nInput: unpleasant\nOutput: pleasant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: agreeable\nOutput: disagreeable\n\nInput: vertebrate\nOutput: invertebrate\n\nInput: dissimilarity\nOutput: similarity\n\nInput: defiant\nOutput: compliant\n\nInput: unpleasant\nOutput: pleasant"
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sealed\nOutput: unsealed\n\nInput: narrowing\nOutput: widening\n\nInput: unpalatable\nOutput: palatable\n\nInput: incontinent\nOutput: continent\n\nInput: unloading\nOutput: loading\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sealed\nOutput: unsealed\n\nInput: narrowing\nOutput: widening\n\nInput: unpalatable\nOutput: palatable\n\nInput: incontinent\nOutput: continent\n\nInput: unloading\nOutput: loading"
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: disapprove\nOutput: approve\n\nInput: suffer\nOutput: enjoy\n\nInput: quiet\nOutput: active\n\nInput: worthy\nOutput: unworthy\n\nInput: specialize\nOutput: diversify\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: disapprove\nOutput: approve\n\nInput: suffer\nOutput: enjoy\n\nInput: quiet\nOutput: active\n\nInput: worthy\nOutput: unworthy\n\nInput: specialize\nOutput: diversify"
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: focused\nOutput: unfocused\n\nInput: inaccessibility\nOutput: accessibility\n\nInput: proud\nOutput: humble\n\nInput: leave\nOutput: arrive\n\nInput: forfeit\nOutput: claim\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: focused\nOutput: unfocused\n\nInput: inaccessibility\nOutput: accessibility\n\nInput: proud\nOutput: humble\n\nInput: leave\nOutput: arrive\n\nInput: forfeit\nOutput: claim"
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: affirmative\nOutput: negative\n\nInput: temperance\nOutput: intemperance\n\nInput: unsaturated\nOutput: saturated\n\nInput: descending\nOutput: ascending\n\nInput: uncontrolled\nOutput: controlled\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: affirmative\nOutput: negative\n\nInput: temperance\nOutput: intemperance\n\nInput: unsaturated\nOutput: saturated\n\nInput: descending\nOutput: ascending\n\nInput: uncontrolled\nOutput: controlled"
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: joyful\nOutput: sorrowful\n\nInput: reverent\nOutput: irreverent\n\nInput: hook\nOutput: unhook\n\nInput: polar\nOutput: equatorial\n\nInput: involved\nOutput: uninvolved\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: joyful\nOutput: sorrowful\n\nInput: reverent\nOutput: irreverent\n\nInput: hook\nOutput: unhook\n\nInput: polar\nOutput: equatorial\n\nInput: involved\nOutput: uninvolved"
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: impalpable\nOutput: palpable\n\nInput: unspecialized\nOutput: specialized\n\nInput: overestimate\nOutput: underestimate\n\nInput: malodorous\nOutput: fragrant\n\nInput: multiple\nOutput: single\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: impalpable\nOutput: palpable\n\nInput: unspecialized\nOutput: specialized\n\nInput: overestimate\nOutput: underestimate\n\nInput: malodorous\nOutput: fragrant\n\nInput: multiple\nOutput: single"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: deviate\nOutput: conform\n\nInput: noninstitutional\nOutput: institutional\n\nInput: second\nOutput: first\n\nInput: unselfishness\nOutput: selfishness\n\nInput: mobilization\nOutput: demobilization\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: deviate\nOutput: conform\n\nInput: noninstitutional\nOutput: institutional\n\nInput: second\nOutput: first\n\nInput: unselfishness\nOutput: selfishness\n\nInput: mobilization\nOutput: demobilization"
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stubborn\nOutput: docile\n\nInput: complete\nOutput: incomplete\n\nInput: comedy\nOutput: tragedy\n\nInput: disprove\nOutput: prove\n\nInput: perfection\nOutput: imperfection\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: stubborn\nOutput: docile\n\nInput: complete\nOutput: incomplete\n\nInput: comedy\nOutput: tragedy\n\nInput: disprove\nOutput: prove\n\nInput: perfection\nOutput: imperfection"
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: noncurrent\nOutput: current\n\nInput: intangible\nOutput: tangible\n\nInput: untapped\nOutput: tapped\n\nInput: dissociate\nOutput: associate\n\nInput: nourished\nOutput: malnourished\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: noncurrent\nOutput: current\n\nInput: intangible\nOutput: tangible\n\nInput: untapped\nOutput: tapped\n\nInput: dissociate\nOutput: associate\n\nInput: nourished\nOutput: malnourished"
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: amateur\nOutput: professional\n\nInput: headed\nOutput: headless\n\nInput: likelihood\nOutput: unlikelihood\n\nInput: fractional\nOutput: whole\n\nInput: asymmetry\nOutput: symmetry\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: amateur\nOutput: professional\n\nInput: headed\nOutput: headless\n\nInput: likelihood\nOutput: unlikelihood\n\nInput: fractional\nOutput: whole\n\nInput: asymmetry\nOutput: symmetry"
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: unimpressive\nOutput: impressive\n\nInput: imperceptibly\nOutput: perceptibly\n\nInput: wet\nOutput: dry\n\nInput: fast\nOutput: slow\n\nInput: sympathetic\nOutput: unsympathetic\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: unimpressive\nOutput: impressive\n\nInput: imperceptibly\nOutput: perceptibly\n\nInput: wet\nOutput: dry\n\nInput: fast\nOutput: slow\n\nInput: sympathetic\nOutput: unsympathetic"
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: lighted\nOutput: unlighted\n\nInput: outwardly\nOutput: inwardly\n\nInput: bisexual\nOutput: homosexual\n\nInput: carefully\nOutput: carelessly\n\nInput: queen\nOutput: king\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: lighted\nOutput: unlighted\n\nInput: outwardly\nOutput: inwardly\n\nInput: bisexual\nOutput: homosexual\n\nInput: carefully\nOutput: carelessly\n\nInput: queen\nOutput: king"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: live\nOutput: dead\n\nInput: quickly\nOutput: slowly\n\nInput: committed\nOutput: uncommitted\n\nInput: looseness\nOutput: tightness\n\nInput: insubordinate\nOutput: subordinate\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: live\nOutput: dead\n\nInput: quickly\nOutput: slowly\n\nInput: committed\nOutput: uncommitted\n\nInput: looseness\nOutput: tightness\n\nInput: insubordinate\nOutput: subordinate"
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: fewest\nOutput: most\n\nInput: superficial\nOutput: profound\n\nInput: biennial\nOutput: annual\n\nInput: unassisted\nOutput: assisted\n\nInput: unclothed\nOutput: clothed\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: fewest\nOutput: most\n\nInput: superficial\nOutput: profound\n\nInput: biennial\nOutput: annual\n\nInput: unassisted\nOutput: assisted\n\nInput: unclothed\nOutput: clothed"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: concise\nOutput: prolix\n\nInput: digital\nOutput: analogue\n\nInput: uncreative\nOutput: creative\n\nInput: topless\nOutput: topped\n\nInput: unkind\nOutput: kind\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: concise\nOutput: prolix\n\nInput: digital\nOutput: analogue\n\nInput: uncreative\nOutput: creative\n\nInput: topless\nOutput: topped\n\nInput: unkind\nOutput: kind"
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: untroubled\nOutput: troubled\n\nInput: winged\nOutput: wingless\n\nInput: local\nOutput: general\n\nInput: extension\nOutput: flexion\n\nInput: impermeable\nOutput: permeable\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: untroubled\nOutput: troubled\n\nInput: winged\nOutput: wingless\n\nInput: local\nOutput: general\n\nInput: extension\nOutput: flexion\n\nInput: impermeable\nOutput: permeable"
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: contraction\nOutput: expansion\n\nInput: depression\nOutput: elation\n\nInput: uninterested\nOutput: interested\n\nInput: arming\nOutput: disarming\n\nInput: pretentious\nOutput: unpretentious\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: contraction\nOutput: expansion\n\nInput: depression\nOutput: elation\n\nInput: uninterested\nOutput: interested\n\nInput: arming\nOutput: disarming\n\nInput: pretentious\nOutput: unpretentious"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: leading\nOutput: following\n\nInput: enrich\nOutput: deprive\n\nInput: unbind\nOutput: bind\n\nInput: negate\nOutput: affirm\n\nInput: nontaxable\nOutput: taxable\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: leading\nOutput: following\n\nInput: enrich\nOutput: deprive\n\nInput: unbind\nOutput: bind\n\nInput: negate\nOutput: affirm\n\nInput: nontaxable\nOutput: taxable"
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: minimize\nOutput: maximize\n\nInput: specialist\nOutput: generalist\n\nInput: humane\nOutput: inhumane\n\nInput: accuracy\nOutput: inaccuracy\n\nInput: beauty\nOutput: ugliness\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: minimize\nOutput: maximize\n\nInput: specialist\nOutput: generalist\n\nInput: humane\nOutput: inhumane\n\nInput: accuracy\nOutput: inaccuracy\n\nInput: beauty\nOutput: ugliness"
+      }
+    }
+  }
+}

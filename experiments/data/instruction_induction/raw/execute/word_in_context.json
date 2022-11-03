@@ -1,0 +1,907 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "Sentence 1: Hyenas scavenge. Sentence 2: She scavenged the garbage cans for food. Word: scavenge",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "2": {
+      "input": "Sentence 1: There are three synagogues in the Jewish section. Sentence 2: Sections from the left ventricle showed diseased tissue. Word: section",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "3": {
+      "input": "Sentence 1: She ordered some wine for the meal. Sentence 2: Wine is stronger than beer. Word: wine",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "4": {
+      "input": "Sentence 1: A thing of the spirit. Sentence 2: Things of the heart. Word: thing",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "5": {
+      "input": "Sentence 1: He tripled to the rightfield corner. Sentence 2: The southeastern corner of the Mediterranean. Word: corner",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "6": {
+      "input": "Sentence 1: Belabor the obvious. Sentence 2: She was belabored by her fellow students. Word: belabor",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "7": {
+      "input": "Sentence 1: Be careful crossing the street. Sentence 2: The whole street protested the absence of lights. Word: street",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "8": {
+      "input": "Sentence 1: Youth everywhere rises in revolt. Sentence 2: Her youth and beauty is what attracted him to her. Word: youth",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "9": {
+      "input": "Sentence 1: Engrave a letter. Sentence 2: Engrave a pen. Word: engrave",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "10": {
+      "input": "Sentence 1: To command an army or a ship. Sentence 2: Command the military forces. Word: command",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "11": {
+      "input": "Sentence 1: The invaders spread their language all over the country. Sentence 2: A big oil spot spread across the water. Word: spread",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "12": {
+      "input": "Sentence 1: Tap a keg of beer. Sentence 2: Tap a maple tree for its syrup. Word: tap",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "13": {
+      "input": "Sentence 1: Flood the market with tennis shoes. Sentence 2: The swollen river flooded the village. Word: flood",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "14": {
+      "input": "Sentence 1: English is a cognate of Greek, German, Russian and Persian. Sentence 2: English and, Russian, Icelandic and Irish are all cognates. Word: cognate",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "15": {
+      "input": "Sentence 1: His success in the marathon was unexpected. Sentence 2: The election was a remarkable success for the Whigs. Word: success",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "16": {
+      "input": "Sentence 1: The relief pitcher got credit for a save. Sentence 2: The goalie made a brilliant save. Word: save",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "17": {
+      "input": "Sentence 1: The stick does not bend. Sentence 2: Bend your knees. Word: bend",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "18": {
+      "input": "Sentence 1: Heel a golf ball. Sentence 2: Heel that dance. Word: heel",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "19": {
+      "input": "Sentence 1: The whole body filed out of the auditorium. Sentence 2: The student body. Word: body",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "20": {
+      "input": "Sentence 1: Indent the documents. Sentence 2: Indent the paragraphs of a letter. Word: indent",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "21": {
+      "input": "Sentence 1: Direct your anger towards others, not towards yourself. Sentence 2: He directed all his energies into his dissertation. Word: direct",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "22": {
+      "input": "Sentence 1: She wanted to aim a pun. Sentence 2: He aimed his fists towards his opponent's face. Word: aim",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "23": {
+      "input": "Sentence 1: The aptness of men to follow example. Sentence 2: The aptness of iron to rust. Word: aptness",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "24": {
+      "input": "Sentence 1: The embodiment of hope. Sentence 2: A circle was the embodiment of his concept of life. Word: embodiment",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "25": {
+      "input": "Sentence 1: In the middle of the marathon, David collapsed from fatigue. Sentence 2: Rain during the middle of April. Word: middle",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "26": {
+      "input": "Sentence 1: They gave full play to the artist's talent. Sentence 2: It was all done in play. Word: play",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "27": {
+      "input": "Sentence 1: Rise to the occasion. Sentence 2: Her spirits rose when she heard the good news. Word: rise",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "28": {
+      "input": "Sentence 1: I am trying to contact my sister. Sentence 2: He never contacted his children after he emigrated to Australia. Word: contact",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "29": {
+      "input": "Sentence 1: There was an art exhibition on in the town hall. Sentence 2: A boat exhibition. Word: exhibition",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "30": {
+      "input": "Sentence 1: I need him to be nice. Sentence 2: I needed him to go. Word: need",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "31": {
+      "input": "Sentence 1: An assurance of help when needed. Sentence 2: His assurance in his superiority did not make him popular. Word: assurance",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "32": {
+      "input": "Sentence 1: Fold up the newspaper. Sentence 2: Tony folded the flaps open. Word: fold",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "33": {
+      "input": "Sentence 1: The engineer marvelled at his construction. Sentence 2: Construction is underway on the new bridge. Word: construction",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "34": {
+      "input": "Sentence 1: Dip the brush into the paint. Sentence 2: She dipped her knee. Word: dip",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "35": {
+      "input": "Sentence 1: The government must do its part. Sentence 2: Religions in all parts of the world. Word: part",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "36": {
+      "input": "Sentence 1: This shall not relieve either Party of any obligations. Sentence 2: The thief relieved me of $100. Word: relieve",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "37": {
+      "input": "Sentence 1: A string of islands. Sentence 2: The strings played superlatively well. Word: string",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "38": {
+      "input": "Sentence 1: To moderate a synod. Sentence 2: John moderated the discussion. Word: moderate",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "39": {
+      "input": "Sentence 1: Strike an arc. Sentence 2: The clock struck midnight. Word: strike",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "40": {
+      "input": "Sentence 1: I promise you my best effort. Sentence 2: I promised somebody my time. Word: promise",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "41": {
+      "input": "Sentence 1: All that bowing and scraping did not impress him. Sentence 2: They collected blood scrapings for analysis. Word: scraping",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "42": {
+      "input": "Sentence 1: It was the deliberation of his act that was insulting. Sentence 2: The deliberations of the jury. Word: deliberation",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "43": {
+      "input": "Sentence 1: He published an unexpected attack on my work. Sentence 2: An attack of diarrhea. Word: attack",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "44": {
+      "input": "Sentence 1: Collapse the music stand. Sentence 2: The school system is collapsing. Word: collapse",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "45": {
+      "input": "Sentence 1: An invasion of locusts. Sentence 2: An invasion of tourists. Word: invasion",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "46": {
+      "input": "Sentence 1: Printing at higher resolution will cause a reduction in performance. Sentence 2: They never did achieve a final resolution of their differences. Word: resolution",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "47": {
+      "input": "Sentence 1: Don't handle the merchandise. Sentence 2: About his altar, handling holy things -- John Milton. Word: handle",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "48": {
+      "input": "Sentence 1: The operator couldn't get Kobe because of the earthquake. Sentence 2: I'll get this finished by lunchtime. Word: get",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "49": {
+      "input": "Sentence 1: Circulate a rumor. Sentence 2: This letter is being circulated among the faculty. Word: circulate",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "50": {
+      "input": "Sentence 1: Inject heroin. Sentence 2: He injected new life into the performance. Word: inject",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "51": {
+      "input": "Sentence 1: Catalytic activity. Sentence 2: They avoided all recreational activity. Word: activity",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "52": {
+      "input": "Sentence 1: Juvenile offenses often reflect an inadequacy in the parents. Sentence 2: The inadequacy of unemployment benefits. Word: inadequacy",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "53": {
+      "input": "Sentence 1: Load a car. Sentence 2: Load the truck with hay. Word: load",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "54": {
+      "input": "Sentence 1: I love French food. Sentence 2: I loved to write. Word: love",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "55": {
+      "input": "Sentence 1: He used terror to make them confess. Sentence 2: He was the terror of the neighborhood. Word: terror",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "56": {
+      "input": "Sentence 1: Bell cows. Sentence 2: Who will bell the cat? Word: bell",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "57": {
+      "input": "Sentence 1: Students receive instruction in the arts and sciences. Sentence 2: Instruction will be provided on how to handle difficult customers. Word: instruction",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "58": {
+      "input": "Sentence 1: The files will erase quickly. Sentence 2: The chalkboard erased easily. Word: erase",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "59": {
+      "input": "Sentence 1: He beat his breast in anger. Sentence 2: The robin has a red breast. Word: breast",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "60": {
+      "input": "Sentence 1: He got a bang on the head. Sentence 2: They got a great bang out of it. Word: bang",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "61": {
+      "input": "Sentence 1: The plane's operation in high winds. Sentence 2: The power of its engine determines its operation. Word: operation",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "62": {
+      "input": "Sentence 1: His work established a new department of literature. Sentence 2: Baking is not my department. Word: department",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "63": {
+      "input": "Sentence 1: The child's acquisition of language. Sentence 2: That graphite tennis racquet is quite an acquisition. Word: acquisition",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "64": {
+      "input": "Sentence 1: A branch of Congress. Sentence 2: We have branches in all major suburbs. Word: branch",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "65": {
+      "input": "Sentence 1: The publisher wants to distribute the book in Asia. Sentence 2: The function distributes the values evenly. Word: distribute",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "66": {
+      "input": "Sentence 1: Make a break for it. Sentence 2: He finally got his big break. Word: break",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "67": {
+      "input": "Sentence 1: She can not conceive. Sentence 2: Assisted procreation can help those trying to conceive. Word: conceive",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "68": {
+      "input": "Sentence 1: Pioneers had to cross the continent on foot. Sentence 2: There are seven continents. Word: continent",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "69": {
+      "input": "Sentence 1: The woman charged that her jailer was a fondler. Sentence 2: Not all fondlers are sexual perverts. Word: fondler",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "70": {
+      "input": "Sentence 1: Injustice is a heinous wrong. Sentence 2: He feels that you are in the wrong. Word: wrong",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "71": {
+      "input": "Sentence 1: Lie down on the bed until you feel better. Sentence 2: She lied when she told me she was only 29. Word: lie",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "72": {
+      "input": "Sentence 1: A look of triumph. Sentence 2: His look was fixed on her eyes. Word: look",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "73": {
+      "input": "Sentence 1: A profession of disagreement. Sentence 2: My father was a barrister by profession. Word: profession",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "74": {
+      "input": "Sentence 1: There's too much shadiness to take good photographs. Sentence 2: The shadiness of their transactions. Word: shadiness",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "75": {
+      "input": "Sentence 1: The breeze rustled the papers on her desk. Sentence 2: The breeze was cooled by the lake. Word: breeze",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "76": {
+      "input": "Sentence 1: He made a great maneuver. Sentence 2: Parallel parking can be a difficult maneuver. Word: maneuver",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "77": {
+      "input": "Sentence 1: State your name. Sentence 2: State your opinion. Word: state",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "78": {
+      "input": "Sentence 1: Glaze the bread with eggwhite. Sentence 2: The potter glazed the dishes. Word: glaze",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "79": {
+      "input": "Sentence 1: The last bastion of communism. Sentence 2: A bastion against corruption. Word: bastion",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "80": {
+      "input": "Sentence 1: Force socialization rarely creates strong friendships, but there are exceptions. Sentence 2: There was too much socialization with the enlisted men. Word: socialization",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "81": {
+      "input": "Sentence 1: The locks pound the water of the canal. Sentence 2: Pound the roots with a heavy flat stone. Word: pound",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "82": {
+      "input": "Sentence 1: Grind lenses for glasses and cameras. Sentence 2: Grind an axe. Word: grind",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "83": {
+      "input": "Sentence 1: For recreation he wrote poetry and solved crossword puzzles. Sentence 2: Drug abuse is often regarded as a form of recreation. Word: recreation",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "84": {
+      "input": "Sentence 1: He's my best mate. Sentence 2: I'm going to the pub with a few mates. Word: mate",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "85": {
+      "input": "Sentence 1: The assembly plant is an enormous facility. Sentence 2: Educational facilities. Word: facility",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "86": {
+      "input": "Sentence 1: The book tells the story of two roommates. Sentence 2: Disney's stories entertain adults as well as children. Word: story",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "87": {
+      "input": "Sentence 1: His claim to the property has come under question. Sentence 2: He obeyed without question. Word: question",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "88": {
+      "input": "Sentence 1: Students making aliyah. Sentence 2: He was called on for an aliyah. Word: aliyah",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "89": {
+      "input": "Sentence 1: These shoes cost $100. Sentence 2: The bill will cost them 500 million dollars. Word: cost",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "90": {
+      "input": "Sentence 1: Let's eliminate the course on Akkadian hieroglyphics. Sentence 2: This possibility can be eliminated from our consideration. Word: eliminate",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "91": {
+      "input": "Sentence 1: Post a warning at the dump. Sentence 2: The newspaper posted him in Timbuktu. Word: post",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "92": {
+      "input": "Sentence 1: Pinnacle a pediment. Sentence 2: He did not want to be pinnacled. Word: pinnacle",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "93": {
+      "input": "Sentence 1: Choke a carburetor. Sentence 2: This neckband is choking the cat. Word: choke",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "94": {
+      "input": "Sentence 1: Threw down the gauntlet. Sentence 2: Took up the gauntlet. Word: gauntlet",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "95": {
+      "input": "Sentence 1: They had to consult before arriving at a decision. Sentence 2: Consult your local broker. Word: consult",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "96": {
+      "input": "Sentence 1: He put the cup back in the saucer. Sentence 2: The handle of the cup was missing. Word: cup",
+      "output": "same",
+      "possible_outputs": [
+        "same",
+        "yes",
+        "true"
+      ]
+    },
+    "97": {
+      "input": "Sentence 1: His treatment of the race question is badly biased. Sentence 2: His treatment of space borrows from Italian architecture. Word: treatment",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "98": {
+      "input": "Sentence 1: Please bracket this remark. Sentence 2: Bracket bookshelves. Word: bracket",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "99": {
+      "input": "Sentence 1: Violate the sanctity of the church. Sentence 2: This sentence violates the rules of syntax. Word: violate",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    },
+    "100": {
+      "input": "Sentence 1: I appreciate your efforts. Sentence 2: The yen appreciated again! Word: appreciate",
+      "output": "not the same",
+      "possible_outputs": [
+        "not the same",
+        "no",
+        "false"
+      ]
+    }
+  }
+}

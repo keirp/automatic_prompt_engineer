@@ -1,0 +1,13 @@
+{
+  "annotations": [
+    "Each input consists of two sentences, where one is the cause and the other is the outcome. Write The cause sentence",
+    "The input consists of two sentences. One is the cause of the other. Write the cause sentence",
+    "The input is a cause and effect. Write the cause.",
+    "The input is a cause and effect, write the cause",
+    "Find the cause in the following cause and effect pair",
+    "Output the sentence describing the cause (the other sentence is what happened as a result).",
+    "Output the cause (other sentence describes what happened as a result)",
+    "Which of the following sentences is the cause?",
+    "Which of the two events is the cause?"
+  ]
+}

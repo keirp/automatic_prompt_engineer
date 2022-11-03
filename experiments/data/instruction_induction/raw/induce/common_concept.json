@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "num_examples": 17
+  },
+  "examples": {
+    "1": {
+      "concept": "involve oscillations.",
+      "items": [
+        "guitars",
+        "pendulums",
+        "neutrinos"
+      ],
+      "all_common_concepts": [
+        "involve oscillations."
+      ]
+    },
+    "2": {
+      "concept": "can help repair something.",
+      "items": [
+        "sewing",
+        "wrenches",
+        "glue",
+        "surgery"
+      ],
+      "all_common_concepts": [
+        "can help repair something.",
+        "can be used for repairs."
+      ]
+    },
+    "3": {
+      "concept": "can be used for repairs.",
+      "items": [
+        "sewing",
+        "wrenches",
+        "glue",
+        "surgery"
+      ],
+      "all_common_concepts": [
+        "can help repair something.",
+        "can be used for repairs."
+      ]
+    },
+    "4": {
+      "concept": "involve spins.",
+      "items": [
+        "magnetic resonance imaging",
+        "propaganda",
+        "figure skating"
+      ],
+      "all_common_concepts": [
+        "involve spins."
+      ]
+    },
+    "5": {
+      "concept": "involve flushes.",
+      "items": [
+        "poker",
+        "displays of embarrassment",
+        "toilets"
+      ],
+      "all_common_concepts": [
+        "involve flushes."
+      ]
+    },
+    "6": {
+      "concept": "involve tumbling.",
+      "items": [
+        "avalanches",
+        "rock polishing",
+        "gymnastics"
+      ],
+      "all_common_concepts": [
+        "involve tumbling."
+      ]
+    },
+    "7": {
+      "concept": "involve frames.",
+      "items": [
+        "picture",
+        "issue",
+        "reference"
+      ],
+      "all_common_concepts": [
+        "involve frames."
+      ]
+    },
+    "8": {
+      "concept": "go on top of something.",
+      "items": [
+        "boats",
+        "tablecloths",
+        "crowns"
+      ],
+      "all_common_concepts": [
+        "go on top of something."
+      ]
+    },
+    "9": {
+      "concept": "types of house.",
+      "items": [
+        "green",
+        "light",
+        "dog",
+        "ware"
+      ],
+      "all_common_concepts": [
+        "types of house."
+      ]
+    },
+    "10": {
+      "concept": "involve drilling.",
+      "items": [
+        "dentistry",
+        "construction",
+        "oil"
+      ],
+      "all_common_concepts": [
+        "involve drilling."
+      ]
+    },
+    "11": {
+      "concept": "the largest of their kind.",
+      "items": [
+        "blue whales",
+        "Jupiter",
+        "top quarks",
+        "Mt. Everest"
+      ],
+      "all_common_concepts": [
+        "the largest of their kind."
+      ]
+    },
+    "12": {
+      "concept": "have segments.",
+      "items": [
+        "bamboo",
+        "memory",
+        "lines"
+      ],
+      "all_common_concepts": [
+        "have segments."
+      ]
+    },
+    "13": {
+      "concept": "use specialized shoes.",
+      "items": [
+        "ballet",
+        "snow",
+        "running",
+        "snorkeling"
+      ],
+      "all_common_concepts": [
+        "use specialized shoes."
+      ]
+    },
+    "14": {
+      "concept": "types of chairs.",
+      "items": [
+        "folding",
+        "committee",
+        "lounge"
+      ],
+      "all_common_concepts": [
+        "types of chairs."
+      ]
+    },
+    "15": {
+      "concept": "involve caching.",
+      "items": [
+        "squirrel foraging",
+        "memoization",
+        "web browsers"
+      ],
+      "all_common_concepts": [
+        "involve caching."
+      ]
+    },
+    "16": {
+      "concept": "inanimate, but made to imitate something animate.",
+      "items": [
+        "snowman",
+        "marzipan fruit",
+        "rubber plant"
+      ],
+      "all_common_concepts": [
+        "inanimate, but made to imitate something animate."
+      ]
+    },
+    "17": {
+      "concept": "relate to bells.",
+      "items": [
+        "normal distribution",
+        "Pavlov",
+        "carillon"
+      ],
+      "all_common_concepts": [
+        "relate to bells."
+      ]
+    }
+  }
+}

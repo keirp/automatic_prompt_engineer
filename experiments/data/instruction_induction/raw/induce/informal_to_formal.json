@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "num_examples": 15
+  },
+  "examples": {
+    "1": {
+      "input": "I think that this is interesting.",
+      "output": "It is my opinion that this is interesting."
+    },
+    "2": {
+      "input": "Please call once you get there.",
+      "output": "Please call upon your arrival."
+    },
+    "3": {
+      "input": "The lawyer I met yesterday was helpful. ",
+      "output": "The lawyer whom I met yesterday was helpful."
+    },
+    "4": {
+      "input": "I considered many approaches.",
+      "output": "Various approaches were considered."
+    },
+    "5": {
+      "input": "I can't stand his temper.",
+      "output": "I cannot tolerate his temper."
+    },
+    "6": {
+      "input": "She looks like her sister.",
+      "output": "She resembles her sister."
+    },
+    "7": {
+      "input": "Can you do all these tasks?",
+      "output": "Would you be able to accomplish all these tasks?"
+    },
+    "8": {
+      "input": "This song is fire.",
+      "output": "This song is incredibly good."
+    },
+    "9": {
+      "input": "Do you want me to go with you?",
+      "output": "Shall I accompany you?"
+    },
+    "10": {
+      "input": "I can't tell the difference between these two.",
+      "output": "I find it hard to distinguish between them."
+    },
+    "11": {
+      "input": "I got what you said.",
+      "output": "I understood you."
+    },
+    "12": {
+      "input": "Thanks for your help.",
+      "output": "Your assistance is much appreciated."
+    },
+    "13": {
+      "input": "We don't think it's a good idea to do anything right now.",
+      "output": "It is suggested that no action should be taken at this stage."
+    },
+    "14": {
+      "input": "The whole story was made up.",
+      "output": "The entire story was fabricated."
+    },
+    "15": {
+      "input": "See you tonight.",
+      "output": "I look forward to meeting you tonight."
+    }
+  }
+}

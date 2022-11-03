@@ -1,0 +1,607 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "mirror carp, alligator",
+      "output": "alligator",
+      "small": "mirror carp",
+      "large": "alligator"
+    },
+    "2": {
+      "input": "baboons, hamster",
+      "output": "baboons",
+      "small": "hamster",
+      "large": "baboons"
+    },
+    "3": {
+      "input": "shih tzu, ant",
+      "output": "shih tzu",
+      "small": "ant",
+      "large": "shih tzu"
+    },
+    "4": {
+      "input": "hamster, salmon",
+      "output": "salmon",
+      "small": "hamster",
+      "large": "salmon"
+    },
+    "5": {
+      "input": "cod, bobcat",
+      "output": "cod",
+      "small": "bobcat",
+      "large": "cod"
+    },
+    "6": {
+      "input": "baboons, ant",
+      "output": "baboons",
+      "small": "ant",
+      "large": "baboons"
+    },
+    "7": {
+      "input": "giant squid, baboons",
+      "output": "giant squid",
+      "small": "baboons",
+      "large": "giant squid"
+    },
+    "8": {
+      "input": "reindeer, cod",
+      "output": "reindeer",
+      "small": "cod",
+      "large": "reindeer"
+    },
+    "9": {
+      "input": "hamster, owl",
+      "output": "owl",
+      "small": "hamster",
+      "large": "owl"
+    },
+    "10": {
+      "input": "hamster, penguin",
+      "output": "penguin",
+      "small": "hamster",
+      "large": "penguin"
+    },
+    "11": {
+      "input": "shih tzu, walrus",
+      "output": "walrus",
+      "small": "shih tzu",
+      "large": "walrus"
+    },
+    "12": {
+      "input": "pomeranian, blue whale",
+      "output": "blue whale",
+      "small": "pomeranian",
+      "large": "blue whale"
+    },
+    "13": {
+      "input": "penguin, ant",
+      "output": "penguin",
+      "small": "ant",
+      "large": "penguin"
+    },
+    "14": {
+      "input": "border collie, ant",
+      "output": "border collie",
+      "small": "ant",
+      "large": "border collie"
+    },
+    "15": {
+      "input": "walrus, baboons",
+      "output": "walrus",
+      "small": "baboons",
+      "large": "walrus"
+    },
+    "16": {
+      "input": "blue whale, shih tzu",
+      "output": "blue whale",
+      "small": "shih tzu",
+      "large": "blue whale"
+    },
+    "17": {
+      "input": "border collie, brown bear",
+      "output": "brown bear",
+      "small": "border collie",
+      "large": "brown bear"
+    },
+    "18": {
+      "input": "bobcat, humpback whale",
+      "output": "humpback whale",
+      "small": "bobcat",
+      "large": "humpback whale"
+    },
+    "19": {
+      "input": "penguin, german shepherd",
+      "output": "german shepherd",
+      "small": "penguin",
+      "large": "german shepherd"
+    },
+    "20": {
+      "input": "bobcat, brown bear",
+      "output": "brown bear",
+      "small": "bobcat",
+      "large": "brown bear"
+    },
+    "21": {
+      "input": "mirror carp, walrus",
+      "output": "walrus",
+      "small": "mirror carp",
+      "large": "walrus"
+    },
+    "22": {
+      "input": "hamster, brown bear",
+      "output": "brown bear",
+      "small": "hamster",
+      "large": "brown bear"
+    },
+    "23": {
+      "input": "reindeer, sheep",
+      "output": "reindeer",
+      "small": "sheep",
+      "large": "reindeer"
+    },
+    "24": {
+      "input": "pomeranian, penguin",
+      "output": "penguin",
+      "small": "pomeranian",
+      "large": "penguin"
+    },
+    "25": {
+      "input": "sheep, giant squid",
+      "output": "giant squid",
+      "small": "sheep",
+      "large": "giant squid"
+    },
+    "26": {
+      "input": "ant, mirror carp",
+      "output": "mirror carp",
+      "small": "ant",
+      "large": "mirror carp"
+    },
+    "27": {
+      "input": "penguin, anaconda",
+      "output": "anaconda",
+      "small": "penguin",
+      "large": "anaconda"
+    },
+    "28": {
+      "input": "rottweiler, penguin",
+      "output": "rottweiler",
+      "small": "penguin",
+      "large": "rottweiler"
+    },
+    "29": {
+      "input": "owl, border collie",
+      "output": "border collie",
+      "small": "owl",
+      "large": "border collie"
+    },
+    "30": {
+      "input": "anaconda, ant",
+      "output": "anaconda",
+      "small": "ant",
+      "large": "anaconda"
+    },
+    "31": {
+      "input": "northern pike, rottweiler",
+      "output": "rottweiler",
+      "small": "northern pike",
+      "large": "rottweiler"
+    },
+    "32": {
+      "input": "border collie, penguin",
+      "output": "border collie",
+      "small": "penguin",
+      "large": "border collie"
+    },
+    "33": {
+      "input": "ant, brown bear",
+      "output": "brown bear",
+      "small": "ant",
+      "large": "brown bear"
+    },
+    "34": {
+      "input": "bobcat, reindeer",
+      "output": "reindeer",
+      "small": "bobcat",
+      "large": "reindeer"
+    },
+    "35": {
+      "input": "hamster, shih tzu",
+      "output": "shih tzu",
+      "small": "hamster",
+      "large": "shih tzu"
+    },
+    "36": {
+      "input": "penguin, humpback whale",
+      "output": "humpback whale",
+      "small": "penguin",
+      "large": "humpback whale"
+    },
+    "37": {
+      "input": "bobcat, baboons",
+      "output": "baboons",
+      "small": "bobcat",
+      "large": "baboons"
+    },
+    "38": {
+      "input": "german shepherd, ant",
+      "output": "german shepherd",
+      "small": "ant",
+      "large": "german shepherd"
+    },
+    "39": {
+      "input": "owl, reindeer",
+      "output": "reindeer",
+      "small": "owl",
+      "large": "reindeer"
+    },
+    "40": {
+      "input": "anaconda, northern pike",
+      "output": "anaconda",
+      "small": "northern pike",
+      "large": "anaconda"
+    },
+    "41": {
+      "input": "blue whale, cod",
+      "output": "blue whale",
+      "small": "cod",
+      "large": "blue whale"
+    },
+    "42": {
+      "input": "border collie, shih tzu",
+      "output": "border collie",
+      "small": "shih tzu",
+      "large": "border collie"
+    },
+    "43": {
+      "input": "baboons, alligator",
+      "output": "alligator",
+      "small": "baboons",
+      "large": "alligator"
+    },
+    "44": {
+      "input": "cod, alligator",
+      "output": "alligator",
+      "small": "cod",
+      "large": "alligator"
+    },
+    "45": {
+      "input": "owl, rottweiler",
+      "output": "rottweiler",
+      "small": "owl",
+      "large": "rottweiler"
+    },
+    "46": {
+      "input": "walrus, bobcat",
+      "output": "walrus",
+      "small": "bobcat",
+      "large": "walrus"
+    },
+    "47": {
+      "input": "cod, pomeranian",
+      "output": "cod",
+      "small": "pomeranian",
+      "large": "cod"
+    },
+    "48": {
+      "input": "mirror carp, blue whale",
+      "output": "blue whale",
+      "small": "mirror carp",
+      "large": "blue whale"
+    },
+    "49": {
+      "input": "northern pike, cod",
+      "output": "cod",
+      "small": "northern pike",
+      "large": "cod"
+    },
+    "50": {
+      "input": "blue whale, baboons",
+      "output": "blue whale",
+      "small": "baboons",
+      "large": "blue whale"
+    },
+    "51": {
+      "input": "blue whale, penguin",
+      "output": "blue whale",
+      "small": "penguin",
+      "large": "blue whale"
+    },
+    "52": {
+      "input": "blue whale, ant",
+      "output": "blue whale",
+      "small": "ant",
+      "large": "blue whale"
+    },
+    "53": {
+      "input": "sheep, alligator",
+      "output": "alligator",
+      "small": "sheep",
+      "large": "alligator"
+    },
+    "54": {
+      "input": "giant squid, shih tzu",
+      "output": "giant squid",
+      "small": "shih tzu",
+      "large": "giant squid"
+    },
+    "55": {
+      "input": "giant squid, hamster",
+      "output": "giant squid",
+      "small": "hamster",
+      "large": "giant squid"
+    },
+    "56": {
+      "input": "cod, penguin",
+      "output": "cod",
+      "small": "penguin",
+      "large": "cod"
+    },
+    "57": {
+      "input": "salmon, rottweiler",
+      "output": "rottweiler",
+      "small": "salmon",
+      "large": "rottweiler"
+    },
+    "58": {
+      "input": "pomeranian, owl",
+      "output": "owl",
+      "small": "pomeranian",
+      "large": "owl"
+    },
+    "59": {
+      "input": "ant, reindeer",
+      "output": "reindeer",
+      "small": "ant",
+      "large": "reindeer"
+    },
+    "60": {
+      "input": "ant, humpback whale",
+      "output": "humpback whale",
+      "small": "ant",
+      "large": "humpback whale"
+    },
+    "61": {
+      "input": "penguin, giant squid",
+      "output": "giant squid",
+      "small": "penguin",
+      "large": "giant squid"
+    },
+    "62": {
+      "input": "walrus, hamster",
+      "output": "walrus",
+      "small": "hamster",
+      "large": "walrus"
+    },
+    "63": {
+      "input": "cod, ant",
+      "output": "cod",
+      "small": "ant",
+      "large": "cod"
+    },
+    "64": {
+      "input": "giant squid, owl",
+      "output": "giant squid",
+      "small": "owl",
+      "large": "giant squid"
+    },
+    "65": {
+      "input": "hamster, bobcat",
+      "output": "bobcat",
+      "small": "hamster",
+      "large": "bobcat"
+    },
+    "66": {
+      "input": "german shepherd, northern pike",
+      "output": "german shepherd",
+      "small": "northern pike",
+      "large": "german shepherd"
+    },
+    "67": {
+      "input": "giant squid, border collie",
+      "output": "giant squid",
+      "small": "border collie",
+      "large": "giant squid"
+    },
+    "68": {
+      "input": "reindeer, baboons",
+      "output": "reindeer",
+      "small": "baboons",
+      "large": "reindeer"
+    },
+    "69": {
+      "input": "salmon, pomeranian",
+      "output": "salmon",
+      "small": "pomeranian",
+      "large": "salmon"
+    },
+    "70": {
+      "input": "salmon, alligator",
+      "output": "alligator",
+      "small": "salmon",
+      "large": "alligator"
+    },
+    "71": {
+      "input": "ant, alligator",
+      "output": "alligator",
+      "small": "ant",
+      "large": "alligator"
+    },
+    "72": {
+      "input": "owl, german shepherd",
+      "output": "german shepherd",
+      "small": "owl",
+      "large": "german shepherd"
+    },
+    "73": {
+      "input": "northern pike, walrus",
+      "output": "walrus",
+      "small": "northern pike",
+      "large": "walrus"
+    },
+    "74": {
+      "input": "alligator, northern pike",
+      "output": "alligator",
+      "small": "northern pike",
+      "large": "alligator"
+    },
+    "75": {
+      "input": "blue whale, hamster",
+      "output": "blue whale",
+      "small": "hamster",
+      "large": "blue whale"
+    },
+    "76": {
+      "input": "anaconda, pomeranian",
+      "output": "anaconda",
+      "small": "pomeranian",
+      "large": "anaconda"
+    },
+    "77": {
+      "input": "ant, northern pike",
+      "output": "northern pike",
+      "small": "ant",
+      "large": "northern pike"
+    },
+    "78": {
+      "input": "german shepherd, pomeranian",
+      "output": "german shepherd",
+      "small": "pomeranian",
+      "large": "german shepherd"
+    },
+    "79": {
+      "input": "hamster, alligator",
+      "output": "alligator",
+      "small": "hamster",
+      "large": "alligator"
+    },
+    "80": {
+      "input": "alligator, shih tzu",
+      "output": "alligator",
+      "small": "shih tzu",
+      "large": "alligator"
+    },
+    "81": {
+      "input": "humpback whale, salmon",
+      "output": "humpback whale",
+      "small": "salmon",
+      "large": "humpback whale"
+    },
+    "82": {
+      "input": "sheep, anaconda",
+      "output": "anaconda",
+      "small": "sheep",
+      "large": "anaconda"
+    },
+    "83": {
+      "input": "alligator, bobcat",
+      "output": "alligator",
+      "small": "bobcat",
+      "large": "alligator"
+    },
+    "84": {
+      "input": "hamster, reindeer",
+      "output": "reindeer",
+      "small": "hamster",
+      "large": "reindeer"
+    },
+    "85": {
+      "input": "penguin, brown bear",
+      "output": "brown bear",
+      "small": "penguin",
+      "large": "brown bear"
+    },
+    "86": {
+      "input": "humpback whale, border collie",
+      "output": "humpback whale",
+      "small": "border collie",
+      "large": "humpback whale"
+    },
+    "87": {
+      "input": "walrus, salmon",
+      "output": "walrus",
+      "small": "salmon",
+      "large": "walrus"
+    },
+    "88": {
+      "input": "giant squid, salmon",
+      "output": "giant squid",
+      "small": "salmon",
+      "large": "giant squid"
+    },
+    "89": {
+      "input": "pomeranian, brown bear",
+      "output": "brown bear",
+      "small": "pomeranian",
+      "large": "brown bear"
+    },
+    "90": {
+      "input": "cod, mirror carp",
+      "output": "cod",
+      "small": "mirror carp",
+      "large": "cod"
+    },
+    "91": {
+      "input": "anaconda, owl",
+      "output": "anaconda",
+      "small": "owl",
+      "large": "anaconda"
+    },
+    "92": {
+      "input": "border collie, pomeranian",
+      "output": "border collie",
+      "small": "pomeranian",
+      "large": "border collie"
+    },
+    "93": {
+      "input": "baboons, penguin",
+      "output": "baboons",
+      "small": "penguin",
+      "large": "baboons"
+    },
+    "94": {
+      "input": "northern pike, brown bear",
+      "output": "brown bear",
+      "small": "northern pike",
+      "large": "brown bear"
+    },
+    "95": {
+      "input": "pomeranian, shih tzu",
+      "output": "shih tzu",
+      "small": "pomeranian",
+      "large": "shih tzu"
+    },
+    "96": {
+      "input": "owl, blue whale",
+      "output": "blue whale",
+      "small": "owl",
+      "large": "blue whale"
+    },
+    "97": {
+      "input": "salmon, anaconda",
+      "output": "anaconda",
+      "small": "salmon",
+      "large": "anaconda"
+    },
+    "98": {
+      "input": "brown bear, cod",
+      "output": "brown bear",
+      "small": "cod",
+      "large": "brown bear"
+    },
+    "99": {
+      "input": "brown bear, salmon",
+      "output": "brown bear",
+      "small": "salmon",
+      "large": "brown bear"
+    },
+    "100": {
+      "input": "border collie, salmon",
+      "output": "border collie",
+      "small": "salmon",
+      "large": "border collie"
+    }
+  }
+}

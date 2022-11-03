@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "num_examples": 15
+  },
+  "examples": {
+    "1": {
+      "input": "What's up?",
+      "output": "How are you doing?"
+    },
+    "2": {
+      "input": "It was nice to meet you.",
+      "output": "It was a pleasure to meet you."
+    },
+    "3": {
+      "input": "As soon as you can.",
+      "output": "At your earliest convenience."
+    },
+    "4": {
+      "input": "She can do this.",
+      "output": "She has the ability to do this."
+    },
+    "5": {
+      "input": "How about a different approach?",
+      "output": "Might I suggest a different approach?"
+    },
+    "6": {
+      "input": "He read tons of papers on the subject. ",
+      "output": "He read numerous papers on the subject. "
+    },
+    "7": {
+      "input": "This gameplay slaps.",
+      "output": "This gameplay is well designed."
+    },
+    "8": {
+      "input": "She wants to help him.",
+      "output": "She would like to assist him."
+    },
+    "9": {
+      "input": "Would you like a drink?",
+      "output": "May I offer you a beverage?"
+    },
+    "10": {
+      "input": "Tell Jane I said hello.",
+      "output": "Send Jane my regards."
+    },
+    "11": {
+      "input": "The company will change its policy.",
+      "output": "The company will revise its policy."
+    },
+    "12": {
+      "input": "The gas prices went up.",
+      "output": "The gas prices increased."
+    },
+    "13": {
+      "input": "I can't make it.",
+      "output": "I am afraid I will not be able to attend."
+    },
+    "14": {
+      "input": "Sorry I messed up.",
+      "output": "I apologise for my wrongdoings."
+    },
+    "15": {
+      "input": "I'm sorry to tell you that your application was rejected.",
+      "output": "I regret to inform you that your application had been declined."
+    }
+  }
+}

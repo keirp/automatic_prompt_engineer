@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blood\nOutput: b l o o d\n\nInput: intake\nOutput: i n t a k e\n\nInput: disk\nOutput: d i s k\n\nInput: machine\nOutput: m a c h i n e\n\nInput: lacrosse\nOutput: l a c r o s s e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blood\nOutput: b l o o d\n\nInput: intake\nOutput: i n t a k e\n\nInput: disk\nOutput: d i s k\n\nInput: machine\nOutput: m a c h i n e\n\nInput: lacrosse\nOutput: l a c r o s s e"
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pace\nOutput: p a c e\n\nInput: highlight\nOutput: h i g h l i g h t\n\nInput: name\nOutput: n a m e\n\nInput: abortion\nOutput: a b o r t i o n\n\nInput: reprise\nOutput: r e p r i s e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pace\nOutput: p a c e\n\nInput: highlight\nOutput: h i g h l i g h t\n\nInput: name\nOutput: n a m e\n\nInput: abortion\nOutput: a b o r t i o n\n\nInput: reprise\nOutput: r e p r i s e"
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: particle\nOutput: p a r t i c l e\n\nInput: medicine\nOutput: m e d i c i n e\n\nInput: chain\nOutput: c h a i n\n\nInput: neutrality\nOutput: n e u t r a l i t y\n\nInput: boy\nOutput: b o y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: particle\nOutput: p a r t i c l e\n\nInput: medicine\nOutput: m e d i c i n e\n\nInput: chain\nOutput: c h a i n\n\nInput: neutrality\nOutput: n e u t r a l i t y\n\nInput: boy\nOutput: b o y"
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: teaser\nOutput: t e a s e r\n\nInput: experiment\nOutput: e x p e r i m e n t\n\nInput: synth\nOutput: s y n t h\n\nInput: discretion\nOutput: d i s c r e t i o n\n\nInput: disagreement\nOutput: d i s a g r e e m e n t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: teaser\nOutput: t e a s e r\n\nInput: experiment\nOutput: e x p e r i m e n t\n\nInput: synth\nOutput: s y n t h\n\nInput: discretion\nOutput: d i s c r e t i o n\n\nInput: disagreement\nOutput: d i s a g r e e m e n t"
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: channel\nOutput: c h a n n e l\n\nInput: proclamation\nOutput: p r o c l a m a t i o n\n\nInput: annexation\nOutput: a n n e x a t i o n\n\nInput: depiction\nOutput: d e p i c t i o n\n\nInput: anticipation\nOutput: a n t i c i p a t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: channel\nOutput: c h a n n e l\n\nInput: proclamation\nOutput: p r o c l a m a t i o n\n\nInput: annexation\nOutput: a n n e x a t i o n\n\nInput: depiction\nOutput: d e p i c t i o n\n\nInput: anticipation\nOutput: a n t i c i p a t i o n"
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: warfare\nOutput: w a r f a r e\n\nInput: experimentation\nOutput: e x p e r i m e n t a t i o n\n\nInput: struggle\nOutput: s t r u g g l e\n\nInput: progression\nOutput: p r o g r e s s i o n\n\nInput: routine\nOutput: r o u t i n e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: warfare\nOutput: w a r f a r e\n\nInput: experimentation\nOutput: e x p e r i m e n t a t i o n\n\nInput: struggle\nOutput: s t r u g g l e\n\nInput: progression\nOutput: p r o g r e s s i o n\n\nInput: routine\nOutput: r o u t i n e"
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: minute\nOutput: m i n u t e\n\nInput: choir\nOutput: c h o i r\n\nInput: geology\nOutput: g e o l o g y\n\nInput: coal\nOutput: c o a l\n\nInput: airing\nOutput: a i r i n g\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: minute\nOutput: m i n u t e\n\nInput: choir\nOutput: c h o i r\n\nInput: geology\nOutput: g e o l o g y\n\nInput: coal\nOutput: c o a l\n\nInput: airing\nOutput: a i r i n g"
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: transportation\nOutput: t r a n s p o r t a t i o n\n\nInput: conquest\nOutput: c o n q u e s t\n\nInput: commence\nOutput: c o m m e n c e\n\nInput: curve\nOutput: c u r v e\n\nInput: software\nOutput: s o f t w a r e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: transportation\nOutput: t r a n s p o r t a t i o n\n\nInput: conquest\nOutput: c o n q u e s t\n\nInput: commence\nOutput: c o m m e n c e\n\nInput: curve\nOutput: c u r v e\n\nInput: software\nOutput: s o f t w a r e"
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: replay\nOutput: r e p l a y\n\nInput: bowl\nOutput: b o w l\n\nInput: abolition\nOutput: a b o l i t i o n\n\nInput: stripe\nOutput: s t r i p e\n\nInput: musician\nOutput: m u s i c i a n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: replay\nOutput: r e p l a y\n\nInput: bowl\nOutput: b o w l\n\nInput: abolition\nOutput: a b o l i t i o n\n\nInput: stripe\nOutput: s t r i p e\n\nInput: musician\nOutput: m u s i c i a n"
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: net\nOutput: n e t\n\nInput: gravel\nOutput: g r a v e l\n\nInput: metre\nOutput: m e t r e\n\nInput: budget\nOutput: b u d g e t\n\nInput: cook\nOutput: c o o k\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: net\nOutput: n e t\n\nInput: gravel\nOutput: g r a v e l\n\nInput: metre\nOutput: m e t r e\n\nInput: budget\nOutput: b u d g e t\n\nInput: cook\nOutput: c o o k"
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: executive\nOutput: e x e c u t i v e\n\nInput: front\nOutput: f r o n t\n\nInput: station\nOutput: s t a t i o n\n\nInput: magnitude\nOutput: m a g n i t u d e\n\nInput: hand\nOutput: h a n d\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: executive\nOutput: e x e c u t i v e\n\nInput: front\nOutput: f r o n t\n\nInput: station\nOutput: s t a t i o n\n\nInput: magnitude\nOutput: m a g n i t u d e\n\nInput: hand\nOutput: h a n d"
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: steam\nOutput: s t e a m\n\nInput: equipment\nOutput: e q u i p m e n t\n\nInput: incarnation\nOutput: i n c a r n a t i o n\n\nInput: tackle\nOutput: t a c k l e\n\nInput: resentment\nOutput: r e s e n t m e n t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: steam\nOutput: s t e a m\n\nInput: equipment\nOutput: e q u i p m e n t\n\nInput: incarnation\nOutput: i n c a r n a t i o n\n\nInput: tackle\nOutput: t a c k l e\n\nInput: resentment\nOutput: r e s e n t m e n t"
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: drinking\nOutput: d r i n k i n g\n\nInput: country\nOutput: c o u n t r y\n\nInput: elbow\nOutput: e l b o w\n\nInput: broadcaster\nOutput: b r o a d c a s t e r\n\nInput: participation\nOutput: p a r t i c i p a t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: drinking\nOutput: d r i n k i n g\n\nInput: country\nOutput: c o u n t r y\n\nInput: elbow\nOutput: e l b o w\n\nInput: broadcaster\nOutput: b r o a d c a s t e r\n\nInput: participation\nOutput: p a r t i c i p a t i o n"
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dynasty\nOutput: d y n a s t y\n\nInput: invitation\nOutput: i n v i t a t i o n\n\nInput: reputation\nOutput: r e p u t a t i o n\n\nInput: behavior\nOutput: b e h a v i o r\n\nInput: lion\nOutput: l i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dynasty\nOutput: d y n a s t y\n\nInput: invitation\nOutput: i n v i t a t i o n\n\nInput: reputation\nOutput: r e p u t a t i o n\n\nInput: behavior\nOutput: b e h a v i o r\n\nInput: lion\nOutput: l i o n"
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bowler\nOutput: b o w l e r\n\nInput: fit\nOutput: f i t\n\nInput: delegate\nOutput: d e l e g a t e\n\nInput: moisture\nOutput: m o i s t u r e\n\nInput: midway\nOutput: m i d w a y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bowler\nOutput: b o w l e r\n\nInput: fit\nOutput: f i t\n\nInput: delegate\nOutput: d e l e g a t e\n\nInput: moisture\nOutput: m o i s t u r e\n\nInput: midway\nOutput: m i d w a y"
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stuff\nOutput: s t u f f\n\nInput: airing\nOutput: a i r i n g\n\nInput: technique\nOutput: t e c h n i q u e\n\nInput: simulate\nOutput: s i m u l a t e\n\nInput: deck\nOutput: d e c k\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: stuff\nOutput: s t u f f\n\nInput: airing\nOutput: a i r i n g\n\nInput: technique\nOutput: t e c h n i q u e\n\nInput: simulate\nOutput: s i m u l a t e\n\nInput: deck\nOutput: d e c k"
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: confession\nOutput: c o n f e s s i o n\n\nInput: securing\nOutput: s e c u r i n g\n\nInput: navigation\nOutput: n a v i g a t i o n\n\nInput: pub\nOutput: p u b\n\nInput: contractor\nOutput: c o n t r a c t o r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: confession\nOutput: c o n f e s s i o n\n\nInput: securing\nOutput: s e c u r i n g\n\nInput: navigation\nOutput: n a v i g a t i o n\n\nInput: pub\nOutput: p u b\n\nInput: contractor\nOutput: c o n t r a c t o r"
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: backdrop\nOutput: b a c k d r o p\n\nInput: handle\nOutput: h a n d l e\n\nInput: coal\nOutput: c o a l\n\nInput: pointing\nOutput: p o i n t i n g\n\nInput: wrestler\nOutput: w r e s t l e r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: backdrop\nOutput: b a c k d r o p\n\nInput: handle\nOutput: h a n d l e\n\nInput: coal\nOutput: c o a l\n\nInput: pointing\nOutput: p o i n t i n g\n\nInput: wrestler\nOutput: w r e s t l e r"
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: installation\nOutput: i n s t a l l a t i o n\n\nInput: festival\nOutput: f e s t i v a l\n\nInput: intersection\nOutput: i n t e r s e c t i o n\n\nInput: achievement\nOutput: a c h i e v e m e n t\n\nInput: employment\nOutput: e m p l o y m e n t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: installation\nOutput: i n s t a l l a t i o n\n\nInput: festival\nOutput: f e s t i v a l\n\nInput: intersection\nOutput: i n t e r s e c t i o n\n\nInput: achievement\nOutput: a c h i e v e m e n t\n\nInput: employment\nOutput: e m p l o y m e n t"
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: protest\nOutput: p r o t e s t\n\nInput: viewer\nOutput: v i e w e r\n\nInput: membrane\nOutput: m e m b r a n e\n\nInput: possibility\nOutput: p o s s i b i l i t y\n\nInput: skating\nOutput: s k a t i n g\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: protest\nOutput: p r o t e s t\n\nInput: viewer\nOutput: v i e w e r\n\nInput: membrane\nOutput: m e m b r a n e\n\nInput: possibility\nOutput: p o s s i b i l i t y\n\nInput: skating\nOutput: s k a t i n g"
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: delay\nOutput: d e l a y\n\nInput: reservoir\nOutput: r e s e r v o i r\n\nInput: visibility\nOutput: v i s i b i l i t y\n\nInput: possibility\nOutput: p o s s i b i l i t y\n\nInput: opposition\nOutput: o p p o s i t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: delay\nOutput: d e l a y\n\nInput: reservoir\nOutput: r e s e r v o i r\n\nInput: visibility\nOutput: v i s i b i l i t y\n\nInput: possibility\nOutput: p o s s i b i l i t y\n\nInput: opposition\nOutput: o p p o s i t i o n"
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pipe\nOutput: p i p e\n\nInput: home\nOutput: h o m e\n\nInput: excellence\nOutput: e x c e l l e n c e\n\nInput: infrastructure\nOutput: i n f r a s t r u c t u r e\n\nInput: removal\nOutput: r e m o v a l\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pipe\nOutput: p i p e\n\nInput: home\nOutput: h o m e\n\nInput: excellence\nOutput: e x c e l l e n c e\n\nInput: infrastructure\nOutput: i n f r a s t r u c t u r e\n\nInput: removal\nOutput: r e m o v a l"
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: admit\nOutput: a d m i t\n\nInput: software\nOutput: s o f t w a r e\n\nInput: household\nOutput: h o u s e h o l d\n\nInput: sanctuary\nOutput: s a n c t u a r y\n\nInput: literature\nOutput: l i t e r a t u r e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: admit\nOutput: a d m i t\n\nInput: software\nOutput: s o f t w a r e\n\nInput: household\nOutput: h o u s e h o l d\n\nInput: sanctuary\nOutput: s a n c t u a r y\n\nInput: literature\nOutput: l i t e r a t u r e"
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: interchange\nOutput: i n t e r c h a n g e\n\nInput: vaccine\nOutput: v a c c i n e\n\nInput: rest\nOutput: r e s t\n\nInput: soundtrack\nOutput: s o u n d t r a c k\n\nInput: numbering\nOutput: n u m b e r i n g\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: interchange\nOutput: i n t e r c h a n g e\n\nInput: vaccine\nOutput: v a c c i n e\n\nInput: rest\nOutput: r e s t\n\nInput: soundtrack\nOutput: s o u n d t r a c k\n\nInput: numbering\nOutput: n u m b e r i n g"
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: territory\nOutput: t e r r i t o r y\n\nInput: feedback\nOutput: f e e d b a c k\n\nInput: afternoon\nOutput: a f t e r n o o n\n\nInput: ride\nOutput: r i d e\n\nInput: volunteer\nOutput: v o l u n t e e r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: territory\nOutput: t e r r i t o r y\n\nInput: feedback\nOutput: f e e d b a c k\n\nInput: afternoon\nOutput: a f t e r n o o n\n\nInput: ride\nOutput: r i d e\n\nInput: volunteer\nOutput: v o l u n t e e r"
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: livestock\nOutput: l i v e s t o c k\n\nInput: velocity\nOutput: v e l o c i t y\n\nInput: opinion\nOutput: o p i n i o n\n\nInput: case\nOutput: c a s e\n\nInput: stroke\nOutput: s t r o k e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: livestock\nOutput: l i v e s t o c k\n\nInput: velocity\nOutput: v e l o c i t y\n\nInput: opinion\nOutput: o p i n i o n\n\nInput: case\nOutput: c a s e\n\nInput: stroke\nOutput: s t r o k e"
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: output\nOutput: o u t p u t\n\nInput: bone\nOutput: b o n e\n\nInput: convention\nOutput: c o n v e n t i o n\n\nInput: unemployment\nOutput: u n e m p l o y m e n t\n\nInput: withdrawal\nOutput: w i t h d r a w a l\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: output\nOutput: o u t p u t\n\nInput: bone\nOutput: b o n e\n\nInput: convention\nOutput: c o n v e n t i o n\n\nInput: unemployment\nOutput: u n e m p l o y m e n t\n\nInput: withdrawal\nOutput: w i t h d r a w a l"
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: attack\nOutput: a t t a c k\n\nInput: mixture\nOutput: m i x t u r e\n\nInput: agenda\nOutput: a g e n d a\n\nInput: affection\nOutput: a f f e c t i o n\n\nInput: antagonist\nOutput: a n t a g o n i s t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: attack\nOutput: a t t a c k\n\nInput: mixture\nOutput: m i x t u r e\n\nInput: agenda\nOutput: a g e n d a\n\nInput: affection\nOutput: a f f e c t i o n\n\nInput: antagonist\nOutput: a n t a g o n i s t"
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mainstream\nOutput: m a i n s t r e a m\n\nInput: cathedral\nOutput: c a t h e d r a l\n\nInput: midway\nOutput: m i d w a y\n\nInput: obstacle\nOutput: o b s t a c l e\n\nInput: sensitivity\nOutput: s e n s i t i v i t y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mainstream\nOutput: m a i n s t r e a m\n\nInput: cathedral\nOutput: c a t h e d r a l\n\nInput: midway\nOutput: m i d w a y\n\nInput: obstacle\nOutput: o b s t a c l e\n\nInput: sensitivity\nOutput: s e n s i t i v i t y"
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: scope\nOutput: s c o p e\n\nInput: trail\nOutput: t r a i l\n\nInput: rehabilitation\nOutput: r e h a b i l i t a t i o n\n\nInput: bar\nOutput: b a r\n\nInput: consequence\nOutput: c o n s e q u e n c e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: scope\nOutput: s c o p e\n\nInput: trail\nOutput: t r a i l\n\nInput: rehabilitation\nOutput: r e h a b i l i t a t i o n\n\nInput: bar\nOutput: b a r\n\nInput: consequence\nOutput: c o n s e q u e n c e"
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: decision\nOutput: d e c i s i o n\n\nInput: harbour\nOutput: h a r b o u r\n\nInput: sale\nOutput: s a l e\n\nInput: mortality\nOutput: m o r t a l i t y\n\nInput: bravery\nOutput: b r a v e r y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: decision\nOutput: d e c i s i o n\n\nInput: harbour\nOutput: h a r b o u r\n\nInput: sale\nOutput: s a l e\n\nInput: mortality\nOutput: m o r t a l i t y\n\nInput: bravery\nOutput: b r a v e r y"
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: appeal\nOutput: a p p e a l\n\nInput: intricate\nOutput: i n t r i c a t e\n\nInput: dimension\nOutput: d i m e n s i o n\n\nInput: desk\nOutput: d e s k\n\nInput: salmon\nOutput: s a l m o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: appeal\nOutput: a p p e a l\n\nInput: intricate\nOutput: i n t r i c a t e\n\nInput: dimension\nOutput: d i m e n s i o n\n\nInput: desk\nOutput: d e s k\n\nInput: salmon\nOutput: s a l m o n"
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: seating\nOutput: s e a t i n g\n\nInput: voice\nOutput: v o i c e\n\nInput: synagogue\nOutput: s y n a g o g u e\n\nInput: pile\nOutput: p i l e\n\nInput: clip\nOutput: c l i p\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: seating\nOutput: s e a t i n g\n\nInput: voice\nOutput: v o i c e\n\nInput: synagogue\nOutput: s y n a g o g u e\n\nInput: pile\nOutput: p i l e\n\nInput: clip\nOutput: c l i p"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: decade\nOutput: d e c a d e\n\nInput: certainty\nOutput: c e r t a i n t y\n\nInput: analysis\nOutput: a n a l y s i s\n\nInput: resupply\nOutput: r e s u p p l y\n\nInput: symbol\nOutput: s y m b o l\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: decade\nOutput: d e c a d e\n\nInput: certainty\nOutput: c e r t a i n t y\n\nInput: analysis\nOutput: a n a l y s i s\n\nInput: resupply\nOutput: r e s u p p l y\n\nInput: symbol\nOutput: s y m b o l"
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: localization\nOutput: l o c a l i z a t i o n\n\nInput: menu\nOutput: m e n u\n\nInput: crane\nOutput: c r a n e\n\nInput: assignment\nOutput: a s s i g n m e n t\n\nInput: critic\nOutput: c r i t i c\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: localization\nOutput: l o c a l i z a t i o n\n\nInput: menu\nOutput: m e n u\n\nInput: crane\nOutput: c r a n e\n\nInput: assignment\nOutput: a s s i g n m e n t\n\nInput: critic\nOutput: c r i t i c"
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: shark\nOutput: s h a r k\n\nInput: dose\nOutput: d o s e\n\nInput: measurement\nOutput: m e a s u r e m e n t\n\nInput: installation\nOutput: i n s t a l l a t i o n\n\nInput: excuse\nOutput: e x c u s e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: shark\nOutput: s h a r k\n\nInput: dose\nOutput: d o s e\n\nInput: measurement\nOutput: m e a s u r e m e n t\n\nInput: installation\nOutput: i n s t a l l a t i o n\n\nInput: excuse\nOutput: e x c u s e"
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tube\nOutput: t u b e\n\nInput: outcome\nOutput: o u t c o m e\n\nInput: comment\nOutput: c o m m e n t\n\nInput: house\nOutput: h o u s e\n\nInput: pride\nOutput: p r i d e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tube\nOutput: t u b e\n\nInput: outcome\nOutput: o u t c o m e\n\nInput: comment\nOutput: c o m m e n t\n\nInput: house\nOutput: h o u s e\n\nInput: pride\nOutput: p r i d e"
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: particle\nOutput: p a r t i c l e\n\nInput: masterpiece\nOutput: m a s t e r p i e c e\n\nInput: pectoral\nOutput: p e c t o r a l\n\nInput: pneumonia\nOutput: p n e u m o n i a\n\nInput: mention\nOutput: m e n t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: particle\nOutput: p a r t i c l e\n\nInput: masterpiece\nOutput: m a s t e r p i e c e\n\nInput: pectoral\nOutput: p e c t o r a l\n\nInput: pneumonia\nOutput: p n e u m o n i a\n\nInput: mention\nOutput: m e n t i o n"
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: moisture\nOutput: m o i s t u r e\n\nInput: creator\nOutput: c r e a t o r\n\nInput: grammar\nOutput: g r a m m a r\n\nInput: behaviour\nOutput: b e h a v i o u r\n\nInput: corporation\nOutput: c o r p o r a t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: moisture\nOutput: m o i s t u r e\n\nInput: creator\nOutput: c r e a t o r\n\nInput: grammar\nOutput: g r a m m a r\n\nInput: behaviour\nOutput: b e h a v i o u r\n\nInput: corporation\nOutput: c o r p o r a t i o n"
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mainline\nOutput: m a i n l i n e\n\nInput: phenomenon\nOutput: p h e n o m e n o n\n\nInput: transition\nOutput: t r a n s i t i o n\n\nInput: trumpet\nOutput: t r u m p e t\n\nInput: coverage\nOutput: c o v e r a g e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mainline\nOutput: m a i n l i n e\n\nInput: phenomenon\nOutput: p h e n o m e n o n\n\nInput: transition\nOutput: t r a n s i t i o n\n\nInput: trumpet\nOutput: t r u m p e t\n\nInput: coverage\nOutput: c o v e r a g e"
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: temperature\nOutput: t e m p e r a t u r e\n\nInput: realism\nOutput: r e a l i s m\n\nInput: button\nOutput: b u t t o n\n\nInput: paperback\nOutput: p a p e r b a c k\n\nInput: enclosure\nOutput: e n c l o s u r e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: temperature\nOutput: t e m p e r a t u r e\n\nInput: realism\nOutput: r e a l i s m\n\nInput: button\nOutput: b u t t o n\n\nInput: paperback\nOutput: p a p e r b a c k\n\nInput: enclosure\nOutput: e n c l o s u r e"
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: control\nOutput: c o n t r o l\n\nInput: declaration\nOutput: d e c l a r a t i o n\n\nInput: castle\nOutput: c a s t l e\n\nInput: restaurant\nOutput: r e s t a u r a n t\n\nInput: predecessor\nOutput: p r e d e c e s s o r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: control\nOutput: c o n t r o l\n\nInput: declaration\nOutput: d e c l a r a t i o n\n\nInput: castle\nOutput: c a s t l e\n\nInput: restaurant\nOutput: r e s t a u r a n t\n\nInput: predecessor\nOutput: p r e d e c e s s o r"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: destination\nOutput: d e s t i n a t i o n\n\nInput: process\nOutput: p r o c e s s\n\nInput: halftime\nOutput: h a l f t i m e\n\nInput: referee\nOutput: r e f e r e e\n\nInput: strength\nOutput: s t r e n g t h\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: destination\nOutput: d e s t i n a t i o n\n\nInput: process\nOutput: p r o c e s s\n\nInput: halftime\nOutput: h a l f t i m e\n\nInput: referee\nOutput: r e f e r e e\n\nInput: strength\nOutput: s t r e n g t h"
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: generator\nOutput: g e n e r a t o r\n\nInput: property\nOutput: p r o p e r t y\n\nInput: accommodate\nOutput: a c c o m m o d a t e\n\nInput: stake\nOutput: s t a k e\n\nInput: morning\nOutput: m o r n i n g\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: generator\nOutput: g e n e r a t o r\n\nInput: property\nOutput: p r o p e r t y\n\nInput: accommodate\nOutput: a c c o m m o d a t e\n\nInput: stake\nOutput: s t a k e\n\nInput: morning\nOutput: m o r n i n g"
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mate\nOutput: m a t e\n\nInput: lunch\nOutput: l u n c h\n\nInput: west\nOutput: w e s t\n\nInput: community\nOutput: c o m m u n i t y\n\nInput: aggregator\nOutput: a g g r e g a t o r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mate\nOutput: m a t e\n\nInput: lunch\nOutput: l u n c h\n\nInput: west\nOutput: w e s t\n\nInput: community\nOutput: c o m m u n i t y\n\nInput: aggregator\nOutput: a g g r e g a t o r"
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: jumping\nOutput: j u m p i n g\n\nInput: numbering\nOutput: n u m b e r i n g\n\nInput: privilege\nOutput: p r i v i l e g e\n\nInput: reputation\nOutput: r e p u t a t i o n\n\nInput: autonomy\nOutput: a u t o n o m y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: jumping\nOutput: j u m p i n g\n\nInput: numbering\nOutput: n u m b e r i n g\n\nInput: privilege\nOutput: p r i v i l e g e\n\nInput: reputation\nOutput: r e p u t a t i o n\n\nInput: autonomy\nOutput: a u t o n o m y"
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: church\nOutput: c h u r c h\n\nInput: scouting\nOutput: s c o u t i n g\n\nInput: luminosity\nOutput: l u m i n o s i t y\n\nInput: forehead\nOutput: f o r e h e a d\n\nInput: body\nOutput: b o d y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: church\nOutput: c h u r c h\n\nInput: scouting\nOutput: s c o u t i n g\n\nInput: luminosity\nOutput: l u m i n o s i t y\n\nInput: forehead\nOutput: f o r e h e a d\n\nInput: body\nOutput: b o d y"
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: quest\nOutput: q u e s t\n\nInput: award\nOutput: a w a r d\n\nInput: importance\nOutput: i m p o r t a n c e\n\nInput: monastery\nOutput: m o n a s t e r y\n\nInput: business\nOutput: b u s i n e s s\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: quest\nOutput: q u e s t\n\nInput: award\nOutput: a w a r d\n\nInput: importance\nOutput: i m p o r t a n c e\n\nInput: monastery\nOutput: m o n a s t e r y\n\nInput: business\nOutput: b u s i n e s s"
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: platform\nOutput: p l a t f o r m\n\nInput: exhibition\nOutput: e x h i b i t i o n\n\nInput: cassette\nOutput: c a s s e t t e\n\nInput: supervision\nOutput: s u p e r v i s i o n\n\nInput: exclusion\nOutput: e x c l u s i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: platform\nOutput: p l a t f o r m\n\nInput: exhibition\nOutput: e x h i b i t i o n\n\nInput: cassette\nOutput: c a s s e t t e\n\nInput: supervision\nOutput: s u p e r v i s i o n\n\nInput: exclusion\nOutput: e x c l u s i o n"
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: glee\nOutput: g l e e\n\nInput: unrest\nOutput: u n r e s t\n\nInput: posture\nOutput: p o s t u r e\n\nInput: privilege\nOutput: p r i v i l e g e\n\nInput: commuter\nOutput: c o m m u t e r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: glee\nOutput: g l e e\n\nInput: unrest\nOutput: u n r e s t\n\nInput: posture\nOutput: p o s t u r e\n\nInput: privilege\nOutput: p r i v i l e g e\n\nInput: commuter\nOutput: c o m m u t e r"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: messenger\nOutput: m e s s e n g e r\n\nInput: martial\nOutput: m a r t i a l\n\nInput: dynasty\nOutput: d y n a s t y\n\nInput: wrist\nOutput: w r i s t\n\nInput: association\nOutput: a s s o c i a t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: messenger\nOutput: m e s s e n g e r\n\nInput: martial\nOutput: m a r t i a l\n\nInput: dynasty\nOutput: d y n a s t y\n\nInput: wrist\nOutput: w r i s t\n\nInput: association\nOutput: a s s o c i a t i o n"
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: acceleration\nOutput: a c c e l e r a t i o n\n\nInput: surname\nOutput: s u r n a m e\n\nInput: planning\nOutput: p l a n n i n g\n\nInput: margin\nOutput: m a r g i n\n\nInput: reliability\nOutput: r e l i a b i l i t y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: acceleration\nOutput: a c c e l e r a t i o n\n\nInput: surname\nOutput: s u r n a m e\n\nInput: planning\nOutput: p l a n n i n g\n\nInput: margin\nOutput: m a r g i n\n\nInput: reliability\nOutput: r e l i a b i l i t y"
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: plant\nOutput: p l a n t\n\nInput: period\nOutput: p e r i o d\n\nInput: interaction\nOutput: i n t e r a c t i o n\n\nInput: viewer\nOutput: v i e w e r\n\nInput: concentrate\nOutput: c o n c e n t r a t e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: plant\nOutput: p l a n t\n\nInput: period\nOutput: p e r i o d\n\nInput: interaction\nOutput: i n t e r a c t i o n\n\nInput: viewer\nOutput: v i e w e r\n\nInput: concentrate\nOutput: c o n c e n t r a t e"
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: university\nOutput: u n i v e r s i t y\n\nInput: dancer\nOutput: d a n c e r\n\nInput: molecule\nOutput: m o l e c u l e\n\nInput: cash\nOutput: c a s h\n\nInput: flank\nOutput: f l a n k\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: university\nOutput: u n i v e r s i t y\n\nInput: dancer\nOutput: d a n c e r\n\nInput: molecule\nOutput: m o l e c u l e\n\nInput: cash\nOutput: c a s h\n\nInput: flank\nOutput: f l a n k"
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: trip\nOutput: t r i p\n\nInput: martial\nOutput: m a r t i a l\n\nInput: communist\nOutput: c o m m u n i s t\n\nInput: concurrency\nOutput: c o n c u r r e n c y\n\nInput: chairman\nOutput: c h a i r m a n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: trip\nOutput: t r i p\n\nInput: martial\nOutput: m a r t i a l\n\nInput: communist\nOutput: c o m m u n i s t\n\nInput: concurrency\nOutput: c o n c u r r e n c y\n\nInput: chairman\nOutput: c h a i r m a n"
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: base\nOutput: b a s e\n\nInput: cannon\nOutput: c a n n o n\n\nInput: memoir\nOutput: m e m o i r\n\nInput: wage\nOutput: w a g e\n\nInput: silent\nOutput: s i l e n t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: base\nOutput: b a s e\n\nInput: cannon\nOutput: c a n n o n\n\nInput: memoir\nOutput: m e m o i r\n\nInput: wage\nOutput: w a g e\n\nInput: silent\nOutput: s i l e n t"
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: compare\nOutput: c o m p a r e\n\nInput: peninsula\nOutput: p e n i n s u l a\n\nInput: spray\nOutput: s p r a y\n\nInput: landfall\nOutput: l a n d f a l l\n\nInput: biology\nOutput: b i o l o g y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: compare\nOutput: c o m p a r e\n\nInput: peninsula\nOutput: p e n i n s u l a\n\nInput: spray\nOutput: s p r a y\n\nInput: landfall\nOutput: l a n d f a l l\n\nInput: biology\nOutput: b i o l o g y"
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: baseball\nOutput: b a s e b a l l\n\nInput: retirement\nOutput: r e t i r e m e n t\n\nInput: globe\nOutput: g l o b e\n\nInput: insignia\nOutput: i n s i g n i a\n\nInput: homage\nOutput: h o m a g e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: baseball\nOutput: b a s e b a l l\n\nInput: retirement\nOutput: r e t i r e m e n t\n\nInput: globe\nOutput: g l o b e\n\nInput: insignia\nOutput: i n s i g n i a\n\nInput: homage\nOutput: h o m a g e"
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: outlet\nOutput: o u t l e t\n\nInput: manufacture\nOutput: m a n u f a c t u r e\n\nInput: output\nOutput: o u t p u t\n\nInput: egg\nOutput: e g g\n\nInput: gradient\nOutput: g r a d i e n t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: outlet\nOutput: o u t l e t\n\nInput: manufacture\nOutput: m a n u f a c t u r e\n\nInput: output\nOutput: o u t p u t\n\nInput: egg\nOutput: e g g\n\nInput: gradient\nOutput: g r a d i e n t"
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: stomach\nOutput: s t o m a c h\n\nInput: labour\nOutput: l a b o u r\n\nInput: brass\nOutput: b r a s s\n\nInput: illness\nOutput: i l l n e s s\n\nInput: shortstop\nOutput: s h o r t s t o p\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: stomach\nOutput: s t o m a c h\n\nInput: labour\nOutput: l a b o u r\n\nInput: brass\nOutput: b r a s s\n\nInput: illness\nOutput: i l l n e s s\n\nInput: shortstop\nOutput: s h o r t s t o p"
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rate\nOutput: r a t e\n\nInput: destiny\nOutput: d e s t i n y\n\nInput: element\nOutput: e l e m e n t\n\nInput: drink\nOutput: d r i n k\n\nInput: tip\nOutput: t i p\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rate\nOutput: r a t e\n\nInput: destiny\nOutput: d e s t i n y\n\nInput: element\nOutput: e l e m e n t\n\nInput: drink\nOutput: d r i n k\n\nInput: tip\nOutput: t i p"
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: reactor\nOutput: r e a c t o r\n\nInput: militant\nOutput: m i l i t a n t\n\nInput: abortion\nOutput: a b o r t i o n\n\nInput: chance\nOutput: c h a n c e\n\nInput: electricity\nOutput: e l e c t r i c i t y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: reactor\nOutput: r e a c t o r\n\nInput: militant\nOutput: m i l i t a n t\n\nInput: abortion\nOutput: a b o r t i o n\n\nInput: chance\nOutput: c h a n c e\n\nInput: electricity\nOutput: e l e c t r i c i t y"
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: enhance\nOutput: e n h a n c e\n\nInput: documentation\nOutput: d o c u m e n t a t i o n\n\nInput: dopamine\nOutput: d o p a m i n e\n\nInput: merchant\nOutput: m e r c h a n t\n\nInput: fundraising\nOutput: f u n d r a i s i n g\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: enhance\nOutput: e n h a n c e\n\nInput: documentation\nOutput: d o c u m e n t a t i o n\n\nInput: dopamine\nOutput: d o p a m i n e\n\nInput: merchant\nOutput: m e r c h a n t\n\nInput: fundraising\nOutput: f u n d r a i s i n g"
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: country\nOutput: c o u n t r y\n\nInput: mascot\nOutput: m a s c o t\n\nInput: prevention\nOutput: p r e v e n t i o n\n\nInput: poster\nOutput: p o s t e r\n\nInput: delay\nOutput: d e l a y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: country\nOutput: c o u n t r y\n\nInput: mascot\nOutput: m a s c o t\n\nInput: prevention\nOutput: p r e v e n t i o n\n\nInput: poster\nOutput: p o s t e r\n\nInput: delay\nOutput: d e l a y"
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: basketball\nOutput: b a s k e t b a l l\n\nInput: pose\nOutput: p o s e\n\nInput: availability\nOutput: a v a i l a b i l i t y\n\nInput: monsoon\nOutput: m o n s o o n\n\nInput: kid\nOutput: k i d\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: basketball\nOutput: b a s k e t b a l l\n\nInput: pose\nOutput: p o s e\n\nInput: availability\nOutput: a v a i l a b i l i t y\n\nInput: monsoon\nOutput: m o n s o o n\n\nInput: kid\nOutput: k i d"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: incident\nOutput: i n c i d e n t\n\nInput: coronation\nOutput: c o r o n a t i o n\n\nInput: exclusion\nOutput: e x c l u s i o n\n\nInput: label\nOutput: l a b e l\n\nInput: sink\nOutput: s i n k\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: incident\nOutput: i n c i d e n t\n\nInput: coronation\nOutput: c o r o n a t i o n\n\nInput: exclusion\nOutput: e x c l u s i o n\n\nInput: label\nOutput: l a b e l\n\nInput: sink\nOutput: s i n k"
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: breast\nOutput: b r e a s t\n\nInput: strip\nOutput: s t r i p\n\nInput: hotel\nOutput: h o t e l\n\nInput: display\nOutput: d i s p l a y\n\nInput: release\nOutput: r e l e a s e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: breast\nOutput: b r e a s t\n\nInput: strip\nOutput: s t r i p\n\nInput: hotel\nOutput: h o t e l\n\nInput: display\nOutput: d i s p l a y\n\nInput: release\nOutput: r e l e a s e"
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: custody\nOutput: c u s t o d y\n\nInput: recognition\nOutput: r e c o g n i t i o n\n\nInput: future\nOutput: f u t u r e\n\nInput: asylum\nOutput: a s y l u m\n\nInput: scenario\nOutput: s c e n a r i o\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: custody\nOutput: c u s t o d y\n\nInput: recognition\nOutput: r e c o g n i t i o n\n\nInput: future\nOutput: f u t u r e\n\nInput: asylum\nOutput: a s y l u m\n\nInput: scenario\nOutput: s c e n a r i o"
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: devotion\nOutput: d e v o t i o n\n\nInput: tunnel\nOutput: t u n n e l\n\nInput: habitat\nOutput: h a b i t a t\n\nInput: trough\nOutput: t r o u g h\n\nInput: helium\nOutput: h e l i u m\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: devotion\nOutput: d e v o t i o n\n\nInput: tunnel\nOutput: t u n n e l\n\nInput: habitat\nOutput: h a b i t a t\n\nInput: trough\nOutput: t r o u g h\n\nInput: helium\nOutput: h e l i u m"
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: lover\nOutput: l o v e r\n\nInput: call\nOutput: c a l l\n\nInput: survivor\nOutput: s u r v i v o r\n\nInput: parrot\nOutput: p a r r o t\n\nInput: novel\nOutput: n o v e l\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: lover\nOutput: l o v e r\n\nInput: call\nOutput: c a l l\n\nInput: survivor\nOutput: s u r v i v o r\n\nInput: parrot\nOutput: p a r r o t\n\nInput: novel\nOutput: n o v e l"
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: molecule\nOutput: m o l e c u l e\n\nInput: experience\nOutput: e x p e r i e n c e\n\nInput: consort\nOutput: c o n s o r t\n\nInput: shopping\nOutput: s h o p p i n g\n\nInput: emblem\nOutput: e m b l e m\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: molecule\nOutput: m o l e c u l e\n\nInput: experience\nOutput: e x p e r i e n c e\n\nInput: consort\nOutput: c o n s o r t\n\nInput: shopping\nOutput: s h o p p i n g\n\nInput: emblem\nOutput: e m b l e m"
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: eye\nOutput: e y e\n\nInput: employer\nOutput: e m p l o y e r\n\nInput: showcase\nOutput: s h o w c a s e\n\nInput: wreck\nOutput: w r e c k\n\nInput: gut\nOutput: g u t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: eye\nOutput: e y e\n\nInput: employer\nOutput: e m p l o y e r\n\nInput: showcase\nOutput: s h o w c a s e\n\nInput: wreck\nOutput: w r e c k\n\nInput: gut\nOutput: g u t"
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hunt\nOutput: h u n t\n\nInput: compensation\nOutput: c o m p e n s a t i o n\n\nInput: aesthetic\nOutput: a e s t h e t i c\n\nInput: wire\nOutput: w i r e\n\nInput: disruption\nOutput: d i s r u p t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hunt\nOutput: h u n t\n\nInput: compensation\nOutput: c o m p e n s a t i o n\n\nInput: aesthetic\nOutput: a e s t h e t i c\n\nInput: wire\nOutput: w i r e\n\nInput: disruption\nOutput: d i s r u p t i o n"
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: livestock\nOutput: l i v e s t o c k\n\nInput: tax\nOutput: t a x\n\nInput: eligibility\nOutput: e l i g i b i l i t y\n\nInput: expand\nOutput: e x p a n d\n\nInput: demo\nOutput: d e m o\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: livestock\nOutput: l i v e s t o c k\n\nInput: tax\nOutput: t a x\n\nInput: eligibility\nOutput: e l i g i b i l i t y\n\nInput: expand\nOutput: e x p a n d\n\nInput: demo\nOutput: d e m o"
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: consort\nOutput: c o n s o r t\n\nInput: bomb\nOutput: b o m b\n\nInput: dozen\nOutput: d o z e n\n\nInput: group\nOutput: g r o u p\n\nInput: bread\nOutput: b r e a d\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: consort\nOutput: c o n s o r t\n\nInput: bomb\nOutput: b o m b\n\nInput: dozen\nOutput: d o z e n\n\nInput: group\nOutput: g r o u p\n\nInput: bread\nOutput: b r e a d"
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: freshwater\nOutput: f r e s h w a t e r\n\nInput: simulate\nOutput: s i m u l a t e\n\nInput: comment\nOutput: c o m m e n t\n\nInput: gut\nOutput: g u t\n\nInput: defense\nOutput: d e f e n s e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: freshwater\nOutput: f r e s h w a t e r\n\nInput: simulate\nOutput: s i m u l a t e\n\nInput: comment\nOutput: c o m m e n t\n\nInput: gut\nOutput: g u t\n\nInput: defense\nOutput: d e f e n s e"
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: nesting\nOutput: n e s t i n g\n\nInput: premise\nOutput: p r e m i s e\n\nInput: source\nOutput: s o u r c e\n\nInput: talk\nOutput: t a l k\n\nInput: turmoil\nOutput: t u r m o i l\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: nesting\nOutput: n e s t i n g\n\nInput: premise\nOutput: p r e m i s e\n\nInput: source\nOutput: s o u r c e\n\nInput: talk\nOutput: t a l k\n\nInput: turmoil\nOutput: t u r m o i l"
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: touchdown\nOutput: t o u c h d o w n\n\nInput: courtesy\nOutput: c o u r t e s y\n\nInput: defeat\nOutput: d e f e a t\n\nInput: opinion\nOutput: o p i n i o n\n\nInput: escape\nOutput: e s c a p e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: touchdown\nOutput: t o u c h d o w n\n\nInput: courtesy\nOutput: c o u r t e s y\n\nInput: defeat\nOutput: d e f e a t\n\nInput: opinion\nOutput: o p i n i o n\n\nInput: escape\nOutput: e s c a p e"
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: earth\nOutput: e a r t h\n\nInput: membership\nOutput: m e m b e r s h i p\n\nInput: permission\nOutput: p e r m i s s i o n\n\nInput: peace\nOutput: p e a c e\n\nInput: granite\nOutput: g r a n i t e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: earth\nOutput: e a r t h\n\nInput: membership\nOutput: m e m b e r s h i p\n\nInput: permission\nOutput: p e r m i s s i o n\n\nInput: peace\nOutput: p e a c e\n\nInput: granite\nOutput: g r a n i t e"
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: focus\nOutput: f o c u s\n\nInput: assemble\nOutput: a s s e m b l e\n\nInput: gate\nOutput: g a t e\n\nInput: liquor\nOutput: l i q u o r\n\nInput: cassette\nOutput: c a s s e t t e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: focus\nOutput: f o c u s\n\nInput: assemble\nOutput: a s s e m b l e\n\nInput: gate\nOutput: g a t e\n\nInput: liquor\nOutput: l i q u o r\n\nInput: cassette\nOutput: c a s s e t t e"
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: referee\nOutput: r e f e r e e\n\nInput: battalion\nOutput: b a t t a l i o n\n\nInput: coordination\nOutput: c o o r d i n a t i o n\n\nInput: icon\nOutput: i c o n\n\nInput: acquaintance\nOutput: a c q u a i n t a n c e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: referee\nOutput: r e f e r e e\n\nInput: battalion\nOutput: b a t t a l i o n\n\nInput: coordination\nOutput: c o o r d i n a t i o n\n\nInput: icon\nOutput: i c o n\n\nInput: acquaintance\nOutput: a c q u a i n t a n c e"
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: foraging\nOutput: f o r a g i n g\n\nInput: remix\nOutput: r e m i x\n\nInput: chair\nOutput: c h a i r\n\nInput: consultant\nOutput: c o n s u l t a n t\n\nInput: chocolate\nOutput: c h o c o l a t e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: foraging\nOutput: f o r a g i n g\n\nInput: remix\nOutput: r e m i x\n\nInput: chair\nOutput: c h a i r\n\nInput: consultant\nOutput: c o n s u l t a n t\n\nInput: chocolate\nOutput: c h o c o l a t e"
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: baseball\nOutput: b a s e b a l l\n\nInput: citadel\nOutput: c i t a d e l\n\nInput: puck\nOutput: p u c k\n\nInput: mission\nOutput: m i s s i o n\n\nInput: ministry\nOutput: m i n i s t r y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: baseball\nOutput: b a s e b a l l\n\nInput: citadel\nOutput: c i t a d e l\n\nInput: puck\nOutput: p u c k\n\nInput: mission\nOutput: m i s s i o n\n\nInput: ministry\nOutput: m i n i s t r y"
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dissatisfaction\nOutput: d i s s a t i s f a c t i o n\n\nInput: load\nOutput: l o a d\n\nInput: soundtrack\nOutput: s o u n d t r a c k\n\nInput: gesture\nOutput: g e s t u r e\n\nInput: variation\nOutput: v a r i a t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dissatisfaction\nOutput: d i s s a t i s f a c t i o n\n\nInput: load\nOutput: l o a d\n\nInput: soundtrack\nOutput: s o u n d t r a c k\n\nInput: gesture\nOutput: g e s t u r e\n\nInput: variation\nOutput: v a r i a t i o n"
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: frontman\nOutput: f r o n t m a n\n\nInput: threat\nOutput: t h r e a t\n\nInput: stiff\nOutput: s t i f f\n\nInput: resort\nOutput: r e s o r t\n\nInput: population\nOutput: p o p u l a t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: frontman\nOutput: f r o n t m a n\n\nInput: threat\nOutput: t h r e a t\n\nInput: stiff\nOutput: s t i f f\n\nInput: resort\nOutput: r e s o r t\n\nInput: population\nOutput: p o p u l a t i o n"
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: vegetation\nOutput: v e g e t a t i o n\n\nInput: none\nOutput: n o n e\n\nInput: pension\nOutput: p e n s i o n\n\nInput: simulation\nOutput: s i m u l a t i o n\n\nInput: trailer\nOutput: t r a i l e r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: vegetation\nOutput: v e g e t a t i o n\n\nInput: none\nOutput: n o n e\n\nInput: pension\nOutput: p e n s i o n\n\nInput: simulation\nOutput: s i m u l a t i o n\n\nInput: trailer\nOutput: t r a i l e r"
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: jurisdiction\nOutput: j u r i s d i c t i o n\n\nInput: exploration\nOutput: e x p l o r a t i o n\n\nInput: apology\nOutput: a p o l o g y\n\nInput: acre\nOutput: a c r e\n\nInput: masterpiece\nOutput: m a s t e r p i e c e\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: jurisdiction\nOutput: j u r i s d i c t i o n\n\nInput: exploration\nOutput: e x p l o r a t i o n\n\nInput: apology\nOutput: a p o l o g y\n\nInput: acre\nOutput: a c r e\n\nInput: masterpiece\nOutput: m a s t e r p i e c e"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: modeling\nOutput: m o d e l i n g\n\nInput: exposure\nOutput: e x p o s u r e\n\nInput: screenwriter\nOutput: s c r e e n w r i t e r\n\nInput: chance\nOutput: c h a n c e\n\nInput: doorway\nOutput: d o o r w a y\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: modeling\nOutput: m o d e l i n g\n\nInput: exposure\nOutput: e x p o s u r e\n\nInput: screenwriter\nOutput: s c r e e n w r i t e r\n\nInput: chance\nOutput: c h a n c e\n\nInput: doorway\nOutput: d o o r w a y"
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: detention\nOutput: d e t e n t i o n\n\nInput: word\nOutput: w o r d\n\nInput: baseball\nOutput: b a s e b a l l\n\nInput: homosexuality\nOutput: h o m o s e x u a l i t y\n\nInput: shooting\nOutput: s h o o t i n g\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: detention\nOutput: d e t e n t i o n\n\nInput: word\nOutput: w o r d\n\nInput: baseball\nOutput: b a s e b a l l\n\nInput: homosexuality\nOutput: h o m o s e x u a l i t y\n\nInput: shooting\nOutput: s h o o t i n g"
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: weight\nOutput: w e i g h t\n\nInput: quest\nOutput: q u e s t\n\nInput: theater\nOutput: t h e a t e r\n\nInput: copy\nOutput: c o p y\n\nInput: lent\nOutput: l e n t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: weight\nOutput: w e i g h t\n\nInput: quest\nOutput: q u e s t\n\nInput: theater\nOutput: t h e a t e r\n\nInput: copy\nOutput: c o p y\n\nInput: lent\nOutput: l e n t"
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: planet\nOutput: p l a n e t\n\nInput: theater\nOutput: t h e a t e r\n\nInput: tube\nOutput: t u b e\n\nInput: disability\nOutput: d i s a b i l i t y\n\nInput: filming\nOutput: f i l m i n g\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: planet\nOutput: p l a n e t\n\nInput: theater\nOutput: t h e a t e r\n\nInput: tube\nOutput: t u b e\n\nInput: disability\nOutput: d i s a b i l i t y\n\nInput: filming\nOutput: f i l m i n g"
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bore\nOutput: b o r e\n\nInput: barrage\nOutput: b a r r a g e\n\nInput: dish\nOutput: d i s h\n\nInput: parent\nOutput: p a r e n t\n\nInput: exit\nOutput: e x i t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bore\nOutput: b o r e\n\nInput: barrage\nOutput: b a r r a g e\n\nInput: dish\nOutput: d i s h\n\nInput: parent\nOutput: p a r e n t\n\nInput: exit\nOutput: e x i t"
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: assertion\nOutput: a s s e r t i o n\n\nInput: diameter\nOutput: d i a m e t e r\n\nInput: populace\nOutput: p o p u l a c e\n\nInput: whale\nOutput: w h a l e\n\nInput: songwriter\nOutput: s o n g w r i t e r\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: assertion\nOutput: a s s e r t i o n\n\nInput: diameter\nOutput: d i a m e t e r\n\nInput: populace\nOutput: p o p u l a c e\n\nInput: whale\nOutput: w h a l e\n\nInput: songwriter\nOutput: s o n g w r i t e r"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dissolution\nOutput: d i s s o l u t i o n\n\nInput: terrorist\nOutput: t e r r o r i s t\n\nInput: viewer\nOutput: v i e w e r\n\nInput: privacy\nOutput: p r i v a c y\n\nInput: contact\nOutput: c o n t a c t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dissolution\nOutput: d i s s o l u t i o n\n\nInput: terrorist\nOutput: t e r r o r i s t\n\nInput: viewer\nOutput: v i e w e r\n\nInput: privacy\nOutput: p r i v a c y\n\nInput: contact\nOutput: c o n t a c t"
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: barrage\nOutput: b a r r a g e\n\nInput: bench\nOutput: b e n c h\n\nInput: cross\nOutput: c r o s s\n\nInput: result\nOutput: r e s u l t\n\nInput: phenomena\nOutput: p h e n o m e n a\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: barrage\nOutput: b a r r a g e\n\nInput: bench\nOutput: b e n c h\n\nInput: cross\nOutput: c r o s s\n\nInput: result\nOutput: r e s u l t\n\nInput: phenomena\nOutput: p h e n o m e n a"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: height\nOutput: h e i g h t\n\nInput: pipe\nOutput: p i p e\n\nInput: battlefield\nOutput: b a t t l e f i e l d\n\nInput: plateau\nOutput: p l a t e a u\n\nInput: regard\nOutput: r e g a r d\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: height\nOutput: h e i g h t\n\nInput: pipe\nOutput: p i p e\n\nInput: battlefield\nOutput: b a t t l e f i e l d\n\nInput: plateau\nOutput: p l a t e a u\n\nInput: regard\nOutput: r e g a r d"
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: gasoline\nOutput: g a s o l i n e\n\nInput: scouting\nOutput: s c o u t i n g\n\nInput: exhibition\nOutput: e x h i b i t i o n\n\nInput: farmer\nOutput: f a r m e r\n\nInput: emission\nOutput: e m i s s i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: gasoline\nOutput: g a s o l i n e\n\nInput: scouting\nOutput: s c o u t i n g\n\nInput: exhibition\nOutput: e x h i b i t i o n\n\nInput: farmer\nOutput: f a r m e r\n\nInput: emission\nOutput: e m i s s i o n"
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: fortress\nOutput: f o r t r e s s\n\nInput: routine\nOutput: r o u t i n e\n\nInput: inauguration\nOutput: i n a u g u r a t i o n\n\nInput: complement\nOutput: c o m p l e m e n t\n\nInput: resort\nOutput: r e s o r t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: fortress\nOutput: f o r t r e s s\n\nInput: routine\nOutput: r o u t i n e\n\nInput: inauguration\nOutput: i n a u g u r a t i o n\n\nInput: complement\nOutput: c o m p l e m e n t\n\nInput: resort\nOutput: r e s o r t"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: respiratory\nOutput: r e s p i r a t o r y\n\nInput: war\nOutput: w a r\n\nInput: equality\nOutput: e q u a l i t y\n\nInput: aluminium\nOutput: a l u m i n i u m\n\nInput: placement\nOutput: p l a c e m e n t\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: respiratory\nOutput: r e s p i r a t o r y\n\nInput: war\nOutput: w a r\n\nInput: equality\nOutput: e q u a l i t y\n\nInput: aluminium\nOutput: a l u m i n i u m\n\nInput: placement\nOutput: p l a c e m e n t"
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: specialist\nOutput: s p e c i a l i s t\n\nInput: product\nOutput: p r o d u c t\n\nInput: group\nOutput: g r o u p\n\nInput: intention\nOutput: i n t e n t i o n\n\nInput: faction\nOutput: f a c t i o n\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: specialist\nOutput: s p e c i a l i s t\n\nInput: product\nOutput: p r o d u c t\n\nInput: group\nOutput: g r o u p\n\nInput: intention\nOutput: i n t e n t i o n\n\nInput: faction\nOutput: f a c t i o n"
+      }
+    }
+  }
+}

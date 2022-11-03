@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "Newton played as quarterback during Super Bowl 50.",
+      "output": "Newton did not play as quarterback during Super Bowl 50.",
+      "orig_id": "56bf41013aeaaa14008c959e_0"
+    },
+    "2": {
+      "input": "Tucker plays as kicker with the Ravens.",
+      "output": "Tucker does not play as kicker with the Ravens.",
+      "orig_id": "56bf467d3aeaaa14008c95a6_0"
+    },
+    "3": {
+      "input": "During Super Bowl 50 the Nintendo gaming company debuted their ad for the first time.",
+      "output": "During Super Bowl 50 the Nintendo gaming company did not debut their ad for the first time.",
+      "orig_id": "56bf717d3aeaaa14008c9639_0"
+    },
+    "4": {
+      "input": "The ad shown during the Super Bowl with the trailer of X-Men: Apocalypse was paid by Fox.",
+      "output": "The ad shown during the Super Bowl with the trailer of X-Men: Apocalypse was not paid by Fox.",
+      "orig_id": "56d9bf70dc89441400fdb77d_0"
+    },
+    "5": {
+      "input": "the Super Bowl in England will be carried by BBC.",
+      "output": "the Super Bowl in England will not be carried by BBC.",
+      "orig_id": "56d724ea0d65d214001983c8_0"
+    },
+    "6": {
+      "input": "Manning's top receiver for Super Bowl 50 was Sanders.",
+      "output": "Manning's top receiver for Super Bowl 50 was not Sanders.",
+      "orig_id": "56d9ccacdc89441400fdb842_0"
+    },
+    "7": {
+      "input": "Nathan Alterman was a poet.",
+      "output": "Nathan Alterman was not a poet.",
+      "orig_id": "5733a6ac4776f41900660f5b_0"
+    },
+    "8": {
+      "input": "The French spread along with their imperialism spread the Catholic religion.",
+      "output": "The French spread along with their imperialism did not spread the Catholic religion.",
+      "orig_id": "5730a4d02461fd1900a9cf2d_0"
+    },
+    "9": {
+      "input": "Wales differs from other areas in the United Kingdom regarding education.",
+      "output": "Wales does not differ from other areas in the United Kingdom regarding education.",
+      "orig_id": "56e777e500c9c71400d77176_0"
+    },
+    "10": {
+      "input": "Norman architecture has rounded arches.",
+      "output": "Norman architecture has not rounded arches.",
+      "orig_id": "56de4a89cffd8e1900b4b7be_0"
+    },
+    "11": {
+      "input": "At Westinghouse, Tesla's position was consultant.",
+      "output": "At Westinghouse, Tesla's position was not consultant.",
+      "orig_id": "56e05900231d4119001ac051_0"
+    },
+    "12": {
+      "input": "In 1915, Edison received a bid.",
+      "output": "In 1915, Edison did not receive a bid.",
+      "orig_id": "56e10aa5cd28a01900c674b4_0"
+    },
+    "13": {
+      "input": "In a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers the input would need to remain constant.",
+      "output": "In a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers the input would not need to remain constant.",
+      "orig_id": "56e1cbe2cd28a01900c67baf_0"
+    },
+    "14": {
+      "input": "A teacher is most likely teaching at a school.",
+      "output": "A teacher is not most likely teaching at a school.",
+      "orig_id": "56e7477700c9c71400d76f27_0"
+    },
+    "15": {
+      "input": "Teachers might be responsible for student discipline.",
+      "output": "Teachers might not be responsible for student discipline.",
+      "orig_id": "56e74d1f00c9c71400d76f71_0"
+    },
+    "16": {
+      "input": "If a teacher is only teaching one person, they are called a tutor.",
+      "output": "If a teacher is only teaching one person, they are not called a tutor.",
+      "orig_id": "56e7504437bdd419002c3e5c_0"
+    },
+    "17": {
+      "input": "The youngest student a teacher might have are infants.",
+      "output": "The youngest student a teacher might have are not infants.",
+      "orig_id": "56e7535037bdd419002c3e72_0"
+    },
+    "18": {
+      "input": "Teachers likely follow standardized curricula.",
+      "output": "Teachers likely do not follow standardized curricula.",
+      "orig_id": "56e7535037bdd419002c3e73_0"
+    },
+    "19": {
+      "input": "A teacher needs to be enthusiastic with regards to their subject matter.",
+      "output": "A teacher does not need to be enthusiastic with regards to their subject matter.",
+      "orig_id": "56e7667e37bdd419002c3f4a_0"
+    },
+    "20": {
+      "input": "The general religious belief of nations that received Huguenot refugees is Protestant.",
+      "output": "The general religious belief of nations that received Huguenot refugees is not Protestant.",
+      "orig_id": "5711119cb654c5140001fae4_0"
+    },
+    "21": {
+      "input": "The LDS Church focuses on spiritual mentorship.",
+      "output": "The LDS Church does not focuse on spiritual mentorship.",
+      "orig_id": "56e77c6737bdd419002c401f_0"
+    },
+    "22": {
+      "input": "To impact German culture, Martin Luther translated the Bible.",
+      "output": "To impact German culture, Martin Luther did not translate the Bible.",
+      "orig_id": "56f7cb10a6d7ea1400e17284_0"
+    },
+    "23": {
+      "input": "Lurther was declared to be an outlaw by Edict of Works presented by Emperor.",
+      "output": "Lurther was declared to be an outlaw by Edict of Works not presented by Emperor.",
+      "orig_id": "56f827caa6d7ea1400e1743b_0"
+    },
+    "24": {
+      "input": "California used to be ruled by Mexico.",
+      "output": "California was never ruled by Mexico.",
+      "orig_id": "5705eee952bb8914006896de_0"
+    },
+    "25": {
+      "input": "California Institute of Technology is a private university.",
+      "output": "California Institute of Technology is not a private university.",
+      "orig_id": "5706139252bb891400689866_0"
+    },
+    "26": {
+      "input": "BSkyB was having issues with Thomson.",
+      "output": "BSkyB was not having issues with Thomson.",
+      "orig_id": "5709686c200fba1400367f79_0"
+    },
+    "27": {
+      "input": "Gasoline and heating gas was rationed by Sweden.",
+      "output": "Gasoline and heating gas was not rationed by Sweden.",
+      "orig_id": "572649d8f1498d1400e8db3a_0"
+    },
+    "28": {
+      "input": "Non-condensing direct-drive locomotives  for fast passenger trains were notably used in Britain.",
+      "output": "Non-condensing direct-drive locomotives  for fast passenger trains were not used in Britain.",
+      "orig_id": "571166352419e314009555f5_0"
+    },
+    "29": {
+      "input": "An early clue that philogiston theory was wrong was metals weight gain during rusting.",
+      "output": "An early clue that philogiston theory was wrong was not metals weight gain during rusting.",
+      "orig_id": "571c8198dd7acb1400e4c0d1_0"
+    },
+    "30": {
+      "input": "The majority of the amazon forest is in Brazil.",
+      "output": "The majority of the amazon forest is not in Brazil.",
+      "orig_id": "5729e2316aef0514001550c7_0"
+    },
+    "31": {
+      "input": "Scientists think all of the plagues originated from China.",
+      "output": "Scientists think all of the plagues did not originate from China.",
+      "orig_id": "572647935951b619008f6ecb_0"
+    },
+    "32": {
+      "input": "Walt Disney was approached about producing color broadcasts of his anthology series by NBC.",
+      "output": "Walt Disney was not approached about producing color broadcasts of his anthology series by NBC.",
+      "orig_id": "5726f0865951b619008f82e6_0"
+    },
+    "33": {
+      "input": "The perception of Genghis Khan in Mongolia brightened in the 1990s.",
+      "output": "The perception of Genghis Khan in Mongolia did not brighten in the 1990s.",
+      "orig_id": "5727404b708984140094db59_0"
+    },
+    "34": {
+      "input": "The denomination associated with Saint Kentigern College is Presbyterian.",
+      "output": "The denomination associated with Saint Kentigern College is not Presbyterian.",
+      "orig_id": "57274f49f1498d1400e8f620_0"
+    },
+    "35": {
+      "input": "The usual form of the government's wealth redistribution is taxation.",
+      "output": "The usual form of the government's wealth redistribution is not taxation.",
+      "orig_id": "572a20816aef0514001552e5_0"
+    },
+    "36": {
+      "input": "The second largest contrubtor to Kenyas GDP is Agriculture.",
+      "output": "The second largest contrubtor to Kenyas GDP is not Agriculture.",
+      "orig_id": "572918bd3f37b31900478015_0"
+    },
+    "37": {
+      "input": "The first month when Parliament takes a two week vacation is April.",
+      "output": "The first month when Parliament takes a two week vacation is not April.",
+      "orig_id": "572fbfa504bcaa1900d76c73_0"
+    },
+    "38": {
+      "input": "The month where, every four years, the ordinary general elections are held on is May.",
+      "output": "The month where, every four years, the ordinary general elections are held on is not May.",
+      "orig_id": "572fd6aa04bcaa1900d76da0_0"
+    },
+    "39": {
+      "input": "Thomas Godfrey Faussett was born in Oxford.",
+      "output": "Thomas Godfrey Faussett was not born in Oxford.",
+      "orig_id": "a58a5e49-e3bc-4723-b29d-606dc3220f36"
+    },
+    "40": {
+      "input": "Taavi Vartia was born in Helsinki.",
+      "output": "Taavi Vartia was not born in Helsinki.",
+      "orig_id": "7f764f18-f779-4c96-a71a-b59c1299aa59"
+    },
+    "41": {
+      "input": "Jonathan Wilkins was born in London.",
+      "output": "Jonathan Wilkins was not born in London.",
+      "orig_id": "f68d65be-4233-4cac-bf56-57f347ab8ad0"
+    },
+    "42": {
+      "input": "Tazewell Ellett was born in Richmond.",
+      "output": "Tazewell Ellett was not born in Richmond.",
+      "orig_id": "116c941a-ff12-4f2e-93bb-ba7dd6940b37"
+    },
+    "43": {
+      "input": "Robert Moss was born in Melbourne.",
+      "output": "Robert Moss was not born in Melbourne.",
+      "orig_id": "7af8476c-2c2b-4585-bdbe-27b474896f9b"
+    },
+    "44": {
+      "input": "Parvaz Mirza was born in Birmingham.",
+      "output": "Parvaz Mirza was not born in Birmingham.",
+      "orig_id": "1e145408-69f8-469a-80b4-127720e2d1a3"
+    },
+    "45": {
+      "input": "Jim Chapin died in Florida.",
+      "output": "Jim Chapin did not die in Florida.",
+      "orig_id": "44556830-fba0-4cb9-9b75-2bd51b0badf3"
+    },
+    "46": {
+      "input": "William %22Rip%22 Robertson died in Laos.",
+      "output": "William %22Rip%22 Robertson did not die in Laos.",
+      "orig_id": "03e7c443-ee44-4dc7-9bf0-9238723e5c61"
+    },
+    "47": {
+      "input": "William Cumin died in Bath.",
+      "output": "William Cumin did not die in Bath.",
+      "orig_id": "1fe1254a-97cb-4450-b46b-83c535d41dab"
+    },
+    "48": {
+      "input": "Gotthard Deutsch died in Cincinnati.",
+      "output": "Gotthard Deutsch did not die in Cincinnati.",
+      "orig_id": "dc4d2b13-7f12-4417-b730-9ab89d4b1187"
+    },
+    "49": {
+      "input": "Jorge Noceda Sanchez died in Miami.",
+      "output": "Jorge Noceda Sanchez did not die in Miami.",
+      "orig_id": "0e35a7ea-e94c-4904-826d-efa38a32cf27"
+    },
+    "50": {
+      "input": "John Joseph Cotman died in Norwich.",
+      "output": "John Joseph Cotman did not die in Norwich.",
+      "orig_id": "6ed70e84-5097-4acc-b724-998e2e1e387b"
+    },
+    "51": {
+      "input": "Mira Ashby died in Toronto.",
+      "output": "Mira Ashby did not die in Toronto.",
+      "orig_id": "ed7483d9-2ebb-467d-98d0-7d66911ab6b0"
+    },
+    "52": {
+      "input": "Diego de Arroyo died in Madrid.",
+      "output": "Diego de Arroyo did not die in Madrid.",
+      "orig_id": "97483332-dd08-45d5-8181-a4438756c351"
+    },
+    "53": {
+      "input": "Robert Cryan died in Dublin.",
+      "output": "Robert Cryan did not die in Dublin.",
+      "orig_id": "34932ccf-a060-4350-8a6b-6f16e757e062"
+    },
+    "54": {
+      "input": "John Bonser died in Portland.",
+      "output": "John Bonser did not die in Portland.",
+      "orig_id": "5e57e99b-2e68-4f6e-8e43-bcf5eb91376b"
+    },
+    "55": {
+      "input": "Time is absolute.",
+      "output": "Time is not absolute.",
+      "orig_id": "765a8c632f9fc2e12b10b386d4cad05b"
+    },
+    "56": {
+      "input": "Some clubs are exclusive.",
+      "output": "Some clubs are not exclusive.",
+      "orig_id": "3c5fdb642a861d629bf55fc14bfed2c3"
+    },
+    "57": {
+      "input": "Some plants are carniverous.",
+      "output": "Some plants are not carniverous.",
+      "orig_id": "fa38535b67319c2b446eae6b8991d8c2"
+    },
+    "58": {
+      "input": "Monkeys are funny.",
+      "output": "Monkeys are not funny.",
+      "orig_id": "d7b09c1020b868282747c86cb6cf0455"
+    },
+    "59": {
+      "input": "Hydrgen is flammable.",
+      "output": "Hydrgen is not flammable.",
+      "orig_id": "e4a9cabdfdd8306f18e96c5621eb7fc6"
+    },
+    "60": {
+      "input": "Celebrating requires food.",
+      "output": "Celebrating does not require food.",
+      "orig_id": "cd6947a4d083e31934310dab7ab93b27"
+    },
+    "61": {
+      "input": "Soccer is competitive.",
+      "output": "Soccer is not competitive.",
+      "orig_id": "2176c123bd4da38b6a646d01557c2e9d"
+    },
+    "62": {
+      "input": "Vodka is generally colourless.",
+      "output": "Vodka is not generally colourless.",
+      "orig_id": "b3becc6c146b97b3e4b18e3d9bf11f66"
+    },
+    "63": {
+      "input": "Weddings can be boring.",
+      "output": "Weddings cannot be boring.",
+      "orig_id": "33b71b94722cadb5dd86d67d5c9af747"
+    },
+    "64": {
+      "input": "Zork is a game.",
+      "output": "Zork is not a game.",
+      "orig_id": "76f7f1fd8955287ea8faa4dfcf4034f9"
+    },
+    "65": {
+      "input": "Some tea contains caffeine.",
+      "output": "Some tea does not contain caffeine.",
+      "orig_id": "968b57eef27e9793e2540829248db8e1"
+    },
+    "66": {
+      "input": "Businesses like to succeed.",
+      "output": "Businesses do not like to succeed.",
+      "orig_id": "7800e5f89d90fb941820cd37c0157edb"
+    },
+    "67": {
+      "input": "Love is contagious.",
+      "output": "Love is not contagious.",
+      "orig_id": "12b0b524f4f95d921655fa41a1102173"
+    },
+    "68": {
+      "input": "Life is a journey.",
+      "output": "Life is not a journey.",
+      "orig_id": "9781694c022e743e636c598dbf6120d6"
+    },
+    "69": {
+      "input": "Exercising requires motivation.",
+      "output": "Exercising does not require motivation.",
+      "orig_id": "379b33b9839fabc67df35c486881e05c"
+    },
+    "70": {
+      "input": "Integrity is good.",
+      "output": "Integrity is not good.",
+      "orig_id": "fdf4c3a11de4816321ab48edba01e4e3"
+    },
+    "71": {
+      "input": "Beef can be marinated.",
+      "output": "Beef cannot be marinated.",
+      "orig_id": "c4760a59533b32db95b3951652a60af7"
+    },
+    "72": {
+      "input": "Pretending requires creativity.",
+      "output": "Pretending does not require creativity.",
+      "orig_id": "84851006718246d06ea3b687c00327ab"
+    },
+    "73": {
+      "input": "Porcelain is white.",
+      "output": "Porcelain is not white.",
+      "orig_id": "270089d301ba88b7c6df00a49f5ecd06"
+    },
+    "74": {
+      "input": "Rubies can be polished.",
+      "output": "Rubies cannot be polished.",
+      "orig_id": "b02e2de11a677ab4b5a4df368cdb51b1"
+    },
+    "75": {
+      "input": "Investing is risky.",
+      "output": "Investing is not risky.",
+      "orig_id": "58f7fc9fb0931660ac654e225e9d4b95"
+    },
+    "76": {
+      "input": "Writing requires patience.",
+      "output": "Writing does not require patience.",
+      "orig_id": "28661f57da65b9e9d55a7a6a7dceec5d"
+    },
+    "77": {
+      "input": "Janice was a pediatrician.",
+      "output": "Janice was not a pediatrician.",
+      "orig_id": "90c25ec2b11882535945ef4b9eb8680c"
+    },
+    "78": {
+      "input": "We like to camp.",
+      "output": "We do not like to camp.",
+      "orig_id": "073b7bf84c625f268af3352db6fa0532"
+    },
+    "79": {
+      "input": "Marmite is delicious.",
+      "output": "Marmite is not delicious.",
+      "orig_id": "1f75a7a70bccbd474fb3087f7359e9f6"
+    },
+    "80": {
+      "input": "Chocolate is yummy.",
+      "output": "Chocolate is not yummy.",
+      "orig_id": "54ffceaa2c93650fab25465eaee855d4"
+    },
+    "81": {
+      "input": "Genova is part of Italy.",
+      "output": "Genova is not part of Italy.",
+      "orig_id": "138f284979dfde15156cc76ce61d1d1a"
+    },
+    "82": {
+      "input": "Music can be beautifull.",
+      "output": "Music cannot be beautifull.",
+      "orig_id": "f15bf5741410275e3b025283aa2e7a51"
+    },
+    "83": {
+      "input": "Romance is generally complicated.",
+      "output": "Romance is not generally complicated.",
+      "orig_id": "337f125191b055bd000947827c8438a2"
+    },
+    "84": {
+      "input": "The official language of Bhopal is Hindi.",
+      "output": "The official language of Bhopal is not Hindi.",
+      "orig_id": "84215e60-553c-4f14-9ec7-0795fd37e9ba"
+    },
+    "85": {
+      "input": "Jarama is a river.",
+      "output": "Jarama is not a river.",
+      "orig_id": "0ca4f5be-2a10-4453-82f2-4cb9476631e3"
+    },
+    "86": {
+      "input": "Sonic X was created in Japan.",
+      "output": "Sonic X was not created in Japan.",
+      "orig_id": "d4eec7ee-f1cf-4f5d-88bd-62e226b17f30"
+    },
+    "87": {
+      "input": "Kosovo maintains diplomatic relations with Italy.",
+      "output": "Kosovo does not maintain diplomatic relations with Italy.",
+      "orig_id": "494490ba-283b-4a80-aeac-a027cc1b2779"
+    },
+    "88": {
+      "input": "Portugal maintains diplomatic relations with Germany.",
+      "output": "Portugal does not maintain diplomatic relations with Germany.",
+      "orig_id": "0882595a-a3a2-4657-9552-04130ff3441d"
+    },
+    "89": {
+      "input": "Mexico maintains diplomatic relations with Italy.",
+      "output": "Mexico does not maintain diplomatic relations with Italy.",
+      "orig_id": "bbb3d916-c599-4675-8c64-ba2884b86a86"
+    },
+    "90": {
+      "input": "Dacia Duster is produced by Renault.",
+      "output": "Dacia Duster is not produced by Renault.",
+      "orig_id": "8d51970e-e4eb-4849-ad8f-a58333f911e7"
+    },
+    "91": {
+      "input": "The capital of Bohemia is Prague.",
+      "output": "The capital of Bohemia is not Prague.",
+      "orig_id": "669632a7-16d3-4168-b1da-1af84e791e57"
+    },
+    "92": {
+      "input": "Wiener Schnitzel was created in Austria.",
+      "output": "Wiener Schnitzel was not created in Austria.",
+      "orig_id": "786b6eff-cc7a-496e-97e8-af387b754868"
+    },
+    "93": {
+      "input": "Great Performances was originally aired on PBS.",
+      "output": "Great Performances was not originally aired on PBS.",
+      "orig_id": "c203ff16-1c41-4b63-8c0f-f3fd07b5656e"
+    },
+    "94": {
+      "input": "Vevo is owned by Google.",
+      "output": "Vevo is not owned by Google.",
+      "orig_id": "c9cc5a5f-6af3-4f0a-8ae5-fa3ab2eeda0e"
+    },
+    "95": {
+      "input": "Dennis Rowland plays jazz music.",
+      "output": "Dennis Rowland does not play jazz music.",
+      "orig_id": "54c574c6-5e97-4536-a4c3-15cf257865c6"
+    },
+    "96": {
+      "input": "The Two Babylons was created in Scotland.",
+      "output": "The Two Babylons was not created in Scotland.",
+      "orig_id": "843db91c-db14-481f-81c5-fa4be0992823"
+    },
+    "97": {
+      "input": "The original language of Sadratnamala is Sanskrit.",
+      "output": "The original language of Sadratnamala is not Sanskrit.",
+      "orig_id": "b4af1f1b-9387-4926-9992-af75068aff65"
+    },
+    "98": {
+      "input": "Hempstead Washburne died in Chicago.",
+      "output": "Hempstead Washburne did not die in Chicago.",
+      "orig_id": "7a5d5129-a6fb-4558-9576-44ae90cdefa0"
+    },
+    "99": {
+      "input": "The official language of Posio is Finnish.",
+      "output": "The official language of Posio is not Finnish.",
+      "orig_id": "ae702cd0-2b5c-42d3-a885-702e46fa6938"
+    },
+    "100": {
+      "input": "Kerch Strait is located in Russia.",
+      "output": "Kerch Strait is not located in Russia.",
+      "orig_id": "bd768ff1-1543-4580-82f9-e3b0a2306a58"
+    }
+  }
+}

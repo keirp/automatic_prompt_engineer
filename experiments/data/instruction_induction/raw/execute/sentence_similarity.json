@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "Sentence 1: the man is catching a ball Sentence 2: A man is kicking a ball.",
+      "output": "3 - probably"
+    },
+    "2": {
+      "input": "Sentence 1: A man is cutting a potato. Sentence 2: A woman plays an electric guitar.",
+      "output": "0 - definitely not"
+    },
+    "3": {
+      "input": "Sentence 1: A woman is carrying a boy. Sentence 2: A woman is carrying her baby.",
+      "output": "2 - possibly"
+    },
+    "4": {
+      "input": "Sentence 1: A woman is riding a horse along a perimeter. Sentence 2: A dog is riding a skateboard.",
+      "output": "1 - probably not"
+    },
+    "5": {
+      "input": "Sentence 1: At least 38 Morsi supporters die in clashes Sentence 2: Dozens of Morsi supporters killed in Egypt clashes",
+      "output": "4 - almost perfectly"
+    },
+    "6": {
+      "input": "Sentence 1: A man plays the violin. Sentence 2: A man is playing violin.",
+      "output": "5 - perfectly"
+    },
+    "7": {
+      "input": "Sentence 1: A girl is riding a horse. Sentence 2: The girl trotted the horse.",
+      "output": "4 - almost perfectly"
+    },
+    "8": {
+      "input": "Sentence 1: A man and a woman walk through the woods. Sentence 2: The man and woman are walking.",
+      "output": "3 - probably"
+    },
+    "9": {
+      "input": "Sentence 1: This dog is jumping through the water. Sentence 2: Two dogs running through the water on a beach.",
+      "output": "2 - possibly"
+    },
+    "10": {
+      "input": "Sentence 1: A smiling woman holding a small baby. Sentence 2: Two smiling women holding a baby.",
+      "output": "3 - probably"
+    },
+    "11": {
+      "input": "Sentence 1: A man is climbing a rope. Sentence 2: A man climbs a rope.",
+      "output": "5 - perfectly"
+    },
+    "12": {
+      "input": "Sentence 1: A band is performing on a stage. Sentence 2: A band is playing onstage.",
+      "output": "5 - perfectly"
+    },
+    "13": {
+      "input": "Sentence 1: The girl sang into a microphone. Sentence 2: The lady sang into the microphone.",
+      "output": "2 - possibly"
+    },
+    "14": {
+      "input": "Sentence 1: A dog and a red ball in the air. Sentence 2: A dog digs a hole in a yard.",
+      "output": "1 - probably not"
+    },
+    "15": {
+      "input": "Sentence 1: House blaze kills 7 in northern Pakistan Sentence 2: US drone strike kills 8 in NW Pakistan",
+      "output": "1 - probably not"
+    },
+    "16": {
+      "input": "Sentence 1: Australia cuts rates to record low Sentence 2: Australia cuts interest rates to record low",
+      "output": "5 - perfectly"
+    },
+    "17": {
+      "input": "Sentence 1: Spanish jobless rate soars past 25 per cent Sentence 2: US jobless rate seen rising, offering Obama no relief",
+      "output": "1 - probably not"
+    },
+    "18": {
+      "input": "Sentence 1: Attack kills 12 in Afghanistan Sentence 2: NATO: 3 troops killed in Afghanistan attack",
+      "output": "2 - possibly"
+    },
+    "19": {
+      "input": "Sentence 1: Colorado shooting suspect was in therapy Sentence 2: Lawyers: Colo. shooting suspect is mentally ill",
+      "output": "4 - almost perfectly"
+    },
+    "20": {
+      "input": "Sentence 1: A man is playing the drums. Sentence 2: A man is playing guitar.",
+      "output": "2 - possibly"
+    },
+    "21": {
+      "input": "Sentence 1: A woman is putting her baby in a waste bin. Sentence 2: The woman is poking holes in the potato.",
+      "output": "0 - definitely not"
+    },
+    "22": {
+      "input": "Sentence 1: A puppy is trying to come out from the sink. Sentence 2: The puppy tried to get out of the tub.",
+      "output": "3 - probably"
+    },
+    "23": {
+      "input": "Sentence 1: A woman is peeling an orange. Sentence 2: A woman cuts off a small piece of lemon rind.",
+      "output": "2 - possibly"
+    },
+    "24": {
+      "input": "Sentence 1: The man is playing the guitar. Sentence 2: A man is playing a guitar.",
+      "output": "5 - perfectly"
+    },
+    "25": {
+      "input": "Sentence 1: Breivik complains of 'ridicule' Sentence 2: Breivik: Jail term 'ridiculous'",
+      "output": "2 - possibly"
+    },
+    "26": {
+      "input": "Sentence 1: Five dead in Pakistan suicide blast Sentence 2: Over 120 dead in Pakistan factory blaze",
+      "output": "1 - probably not"
+    },
+    "27": {
+      "input": "Sentence 1: Two people sitting on a large motorcycle. Sentence 2: Two eagles sitting on a long branch.",
+      "output": "0 - definitely not"
+    },
+    "28": {
+      "input": "Sentence 1: A plane rides on a road. Sentence 2: An airplane moves along a runway.",
+      "output": "3 - probably"
+    },
+    "29": {
+      "input": "Sentence 1: Motorists killed after Japanese tunnel collapses Sentence 2: Cars trapped in tunnel collapse outside Tokyo",
+      "output": "2 - possibly"
+    },
+    "30": {
+      "input": "Sentence 1: South Africa train crash kills at least 19 Sentence 2: South Africa train crash kills 26",
+      "output": "4 - almost perfectly"
+    },
+    "31": {
+      "input": "Sentence 1: One man is breaking cement on another man's chest. Sentence 2: A man breaks cinder blocks on another man.",
+      "output": "4 - almost perfectly"
+    },
+    "32": {
+      "input": "Sentence 1: Libya asks UN Security Council for help Sentence 2: Kerry Calls On UN Security Council to Act on Syria",
+      "output": "2 - possibly"
+    },
+    "33": {
+      "input": "Sentence 1: The cook is kneading the flour. Sentence 2: A woman is kneading tortilla dough.",
+      "output": "3 - probably"
+    },
+    "34": {
+      "input": "Sentence 1: Roadside bomb kills 10 Afghan civilians: police Sentence 2: Roadside bomb kills 5 Afghan policemen",
+      "output": "3 - probably"
+    },
+    "35": {
+      "input": "Sentence 1: Nelson Mandela undergoes surgery Sentence 2: ‘Nelson Mandela is recovering’",
+      "output": "2 - possibly"
+    },
+    "36": {
+      "input": "Sentence 1: A man is drilling a hole in a board. Sentence 2: Someone is drilling a hole in a piece of wood.",
+      "output": "4 - almost perfectly"
+    },
+    "37": {
+      "input": "Sentence 1: A woman equestrian riding a horse. Sentence 2: The woman is riding on the brown horse.",
+      "output": "4 - almost perfectly"
+    },
+    "38": {
+      "input": "Sentence 1: The Note's Must-Reads for Friday, December 6, 2013 Sentence 2: The Note's Must-Reads for Friday, July 12, 2013",
+      "output": "2 - possibly"
+    },
+    "39": {
+      "input": "Sentence 1: A man plays a keyboard. Sentence 2: A person is playing the keyboard.",
+      "output": "4 - almost perfectly"
+    },
+    "40": {
+      "input": "Sentence 1: Two dogs are running in a grassy field Sentence 2: Two dogs running through a grassy field.",
+      "output": "5 - perfectly"
+    },
+    "41": {
+      "input": "Sentence 1: Barack Obama's personal evolution on same-sex marriage Sentence 2: Obama backs same-sex marriage",
+      "output": "3 - probably"
+    },
+    "42": {
+      "input": "Sentence 1: New UN peacekeeping chief named for Central African Republic Sentence 2: UN takes over peacekeeping in Central African Republic",
+      "output": "2 - possibly"
+    },
+    "43": {
+      "input": "Sentence 1: Four children looking at barn animals. Sentence 2: Children looking a sheep.",
+      "output": "3 - probably"
+    },
+    "44": {
+      "input": "Sentence 1: Pakistani Taliban chief Hakimullah Mehsud killed in drone strike Sentence 2: Pakistani Taliban 'elect new chief', vow 'unprecedented' revenge",
+      "output": "1 - probably not"
+    },
+    "45": {
+      "input": "Sentence 1: A baby eats his food. Sentence 2: A baby is being fed peas.",
+      "output": "3 - probably"
+    },
+    "46": {
+      "input": "Sentence 1: Coty launches $10 billion bid for rival Avon Sentence 2: Coty bids $10 billion for Avon",
+      "output": "5 - perfectly"
+    },
+    "47": {
+      "input": "Sentence 1: 2 dead in Bangladesh clashes over Jamaat leader’s execution Sentence 2: Bangladesh Islamist leader executed",
+      "output": "2 - possibly"
+    },
+    "48": {
+      "input": "Sentence 1: A man is speaking. Sentence 2: A man is spitting.",
+      "output": "1 - probably not"
+    },
+    "49": {
+      "input": "Sentence 1: Juror: Sandusky appeared to accept his fate Sentence 2: Jerry Sandusky convicted of child sexual abuse",
+      "output": "2 - possibly"
+    },
+    "50": {
+      "input": "Sentence 1: The woman is dicing onions. Sentence 2: A woman is dancing in railway station.",
+      "output": "0 - definitely not"
+    },
+    "51": {
+      "input": "Sentence 1: A woman is cutting an onion. Sentence 2: A man is cutting onions.",
+      "output": "3 - probably"
+    },
+    "52": {
+      "input": "Sentence 1: Three dogs playing in the snow. Sentence 2: Three dogs run in the snow.",
+      "output": "4 - almost perfectly"
+    },
+    "53": {
+      "input": "Sentence 1: A woman is hitting a man. Sentence 2: A woman is taking a bath.",
+      "output": "0 - definitely not"
+    },
+    "54": {
+      "input": "Sentence 1: Syrian troops kill 35 in Damascus suburb Sentence 2: Activists: Syrian troops kill dozens near Damascus",
+      "output": "4 - almost perfectly"
+    },
+    "55": {
+      "input": "Sentence 1: A woman is bungee jumping. Sentence 2: A girl is bungee jumping.",
+      "output": "4 - almost perfectly"
+    },
+    "56": {
+      "input": "Sentence 1: The man is playing the keyboards. Sentence 2: A man is playing guitar.",
+      "output": "2 - possibly"
+    },
+    "57": {
+      "input": "Sentence 1: A man is playing a guitar. Sentence 2: A man is eating a banana.",
+      "output": "1 - probably not"
+    },
+    "58": {
+      "input": "Sentence 1: A woman is slicing some tuna. Sentence 2: A woman is cutting raw fish.",
+      "output": "3 - probably"
+    },
+    "59": {
+      "input": "Sentence 1: US Senator McCain meets opposition leaders in Ukraine Sentence 2: SFG meeting reviews situation in Mali",
+      "output": "0 - definitely not"
+    },
+    "60": {
+      "input": "Sentence 1: EU Set for New Sanctions on Iran Sentence 2: EU plans major new sanctions against Iran",
+      "output": "4 - almost perfectly"
+    },
+    "61": {
+      "input": "Sentence 1: A woman is slicing a big pepper. Sentence 2: A person is cutting a green pepper.",
+      "output": "3 - probably"
+    },
+    "62": {
+      "input": "Sentence 1: Five kittens are eating out of five dishes. Sentence 2: Kittens are eating food on trays.",
+      "output": "3 - probably"
+    },
+    "63": {
+      "input": "Sentence 1: North Korea Nuclear Test Sparks Worry Sentence 2: North Korea nuclear test",
+      "output": "2 - possibly"
+    },
+    "64": {
+      "input": "Sentence 1: The baby laughed in his car seat. Sentence 2: A baby is laughing.",
+      "output": "3 - probably"
+    },
+    "65": {
+      "input": "Sentence 1: Israel 'bombs' Syria as envoy presses peace talks bid Sentence 2: Fierce clashes in east Syria as US pushes peace talks",
+      "output": "2 - possibly"
+    },
+    "66": {
+      "input": "Sentence 1: An animal is biting a persons finger. Sentence 2: A slow loris is biting a persons finger.",
+      "output": "3 - probably"
+    },
+    "67": {
+      "input": "Sentence 1: Maldives begins to vote in controversy-ridden presidential poll Sentence 2: Crisis-hit Maldives holds new presidential poll",
+      "output": "3 - probably"
+    },
+    "68": {
+      "input": "Sentence 1: The lady stirred up raw eggs in the bowl. Sentence 2: A woman is pouring eyes into a bowl.",
+      "output": "1 - probably not"
+    },
+    "69": {
+      "input": "Sentence 1: Fire in Russian psychiatric hospital kills 38 Sentence 2: 38 feared dead in Russian psychiatric hospital fire",
+      "output": "4 - almost perfectly"
+    },
+    "70": {
+      "input": "Sentence 1: A man is eating a pizza. Sentence 2: A man is eating a food.",
+      "output": "4 - almost perfectly"
+    },
+    "71": {
+      "input": "Sentence 1: A man eating an apple, sitting in public. Sentence 2: A man sits in a public place eating an apple.",
+      "output": "5 - perfectly"
+    },
+    "72": {
+      "input": "Sentence 1: Greece votes in crucial election Sentence 2: Greece looks set for repeat election",
+      "output": "2 - possibly"
+    },
+    "73": {
+      "input": "Sentence 1: A plane is landing. Sentence 2: A animated airplane is landing.",
+      "output": "3 - probably"
+    },
+    "74": {
+      "input": "Sentence 1: The man and woman are resting on a couch. Sentence 2: A man and woman are asleep on the couch.",
+      "output": "4 - almost perfectly"
+    },
+    "75": {
+      "input": "Sentence 1: An AeroMexico jet taxing along a runway. Sentence 2: A silver AreoMexico Jet Liner sitting on the tarmac.",
+      "output": "3 - probably"
+    },
+    "76": {
+      "input": "Sentence 1: A panda is climbing. Sentence 2: A man is climbing a rope.",
+      "output": "2 - possibly"
+    },
+    "77": {
+      "input": "Sentence 1: A man is playing the piano. Sentence 2: A man is playing a wooden flute.",
+      "output": "1 - probably not"
+    },
+    "78": {
+      "input": "Sentence 1: A white plane on the runway. Sentence 2: A white Swiss airplane approaches the runway.",
+      "output": "4 - almost perfectly"
+    },
+    "79": {
+      "input": "Sentence 1: A man is playing a guitar. Sentence 2: The girl is playing the guitar.",
+      "output": "2 - possibly"
+    },
+    "80": {
+      "input": "Sentence 1: A blue scooter parked on a sidewalk. Sentence 2: A blue moped parked on the sidewalk.",
+      "output": "4 - almost perfectly"
+    },
+    "81": {
+      "input": "Sentence 1: Brooks pleads not guilty to hacking charges Sentence 2: Dave Lee Travis pleads not guilty to all charges",
+      "output": "1 - probably not"
+    },
+    "82": {
+      "input": "Sentence 1: Suicide bomber kills 4 near NATO's Afghan HQ Sentence 2: Suicide bomber kills 23 at Afghan wedding",
+      "output": "2 - possibly"
+    },
+    "83": {
+      "input": "Sentence 1: Kids are dancing on stage. Sentence 2: Some people are dancing on stage.",
+      "output": "3 - probably"
+    },
+    "84": {
+      "input": "Sentence 1: Queen pays tribute to Nelson Mandela Sentence 2: US presidents pay tribute to Mandela",
+      "output": "2 - possibly"
+    },
+    "85": {
+      "input": "Sentence 1: man on steps Sentence 2: A man sits on steps.",
+      "output": "4 - almost perfectly"
+    },
+    "86": {
+      "input": "Sentence 1: A family is playing on the beach with their dog. Sentence 2: A naked little girl being thrown into the air.",
+      "output": "0 - definitely not"
+    },
+    "87": {
+      "input": "Sentence 1: Egypt's Coptic Pope Shenuda III dies Sentence 2: Egypt prepares to bury Coptic Pope Shenuda III",
+      "output": "4 - almost perfectly"
+    },
+    "88": {
+      "input": "Sentence 1: A man is riding a bicycle on a dirt path. Sentence 2: Two dogs running along dirt path.",
+      "output": "2 - possibly"
+    },
+    "89": {
+      "input": "Sentence 1: Scientists prove there is water on Mars Sentence 2: Has Nasa discovered water on Mars?",
+      "output": "2 - possibly"
+    },
+    "90": {
+      "input": "Sentence 1: Syrians trade blame over blasts Sentence 2: Israel braces for Arab protests",
+      "output": "0 - definitely not"
+    },
+    "91": {
+      "input": "Sentence 1: US drone strike kills 8 militants Sentence 2: US drone strike kills four in NWA: officials",
+      "output": "2 - possibly"
+    },
+    "92": {
+      "input": "Sentence 1: The man is riding a horse. Sentence 2: A woman is using a hoe.",
+      "output": "0 - definitely not"
+    },
+    "93": {
+      "input": "Sentence 1: Egyptian president moves into Mubarak's old office Sentence 2: Egypt's President-Elect Morsi Starts to Form Government",
+      "output": "2 - possibly"
+    },
+    "94": {
+      "input": "Sentence 1: A man is riding on a horse. Sentence 2: A woman is riding an elephant.",
+      "output": "2 - possibly"
+    },
+    "95": {
+      "input": "Sentence 1: Blond woman in a tunnel. Sentence 2: The couple kissing is near a blond woman.",
+      "output": "2 - possibly"
+    },
+    "96": {
+      "input": "Sentence 1: Residents near Gaza instructed to stay near shelter Sentence 2: Best’s great day brings West Indies cheer",
+      "output": "0 - definitely not"
+    },
+    "97": {
+      "input": "Sentence 1: The gate is blue. Sentence 2: The gate is yellow.",
+      "output": "2 - possibly"
+    },
+    "98": {
+      "input": "Sentence 1: A grey house with a red door. Sentence 2: House with a red door.",
+      "output": "3 - probably"
+    },
+    "99": {
+      "input": "Sentence 1: A man jumping his dirt bike. Sentence 2: A man on a bike jumping through the air.",
+      "output": "4 - almost perfectly"
+    },
+    "100": {
+      "input": "Sentence 1: A small dog laying on the bed. Sentence 2: A small dog is laying on a bed.",
+      "output": "5 - perfectly"
+    }
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 1486\nOutput: one thousand, four hundred and eighty-six\n\nInput: 7708\nOutput: seven thousand, seven hundred and eight\n\nInput: 1630\nOutput: one thousand, six hundred and thirty\n\nInput: 9451\nOutput: nine thousand, four hundred and fifty-one\n\nInput: 4013\nOutput: four thousand and thirteen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 1486\nOutput: one thousand, four hundred and eighty-six\n\nInput: 7708\nOutput: seven thousand, seven hundred and eight\n\nInput: 1630\nOutput: one thousand, six hundred and thirty\n\nInput: 9451\nOutput: nine thousand, four hundred and fifty-one\n\nInput: 4013\nOutput: four thousand and thirteen"
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 108\nOutput: one hundred and eight\n\nInput: 8923\nOutput: eight thousand, nine hundred and twenty-three\n\nInput: 1453\nOutput: one thousand, four hundred and fifty-three\n\nInput: 8011\nOutput: eight thousand and eleven\n\nInput: 4970\nOutput: four thousand, nine hundred and seventy\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 108\nOutput: one hundred and eight\n\nInput: 8923\nOutput: eight thousand, nine hundred and twenty-three\n\nInput: 1453\nOutput: one thousand, four hundred and fifty-three\n\nInput: 8011\nOutput: eight thousand and eleven\n\nInput: 4970\nOutput: four thousand, nine hundred and seventy"
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2467\nOutput: two thousand, four hundred and sixty-seven\n\nInput: 4958\nOutput: four thousand, nine hundred and fifty-eight\n\nInput: 9407\nOutput: nine thousand, four hundred and seven\n\nInput: 3558\nOutput: three thousand, five hundred and fifty-eight\n\nInput: 6020\nOutput: six thousand and twenty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2467\nOutput: two thousand, four hundred and sixty-seven\n\nInput: 4958\nOutput: four thousand, nine hundred and fifty-eight\n\nInput: 9407\nOutput: nine thousand, four hundred and seven\n\nInput: 3558\nOutput: three thousand, five hundred and fifty-eight\n\nInput: 6020\nOutput: six thousand and twenty"
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4933\nOutput: four thousand, nine hundred and thirty-three\n\nInput: 3674\nOutput: three thousand, six hundred and seventy-four\n\nInput: 6747\nOutput: six thousand, seven hundred and forty-seven\n\nInput: 6031\nOutput: six thousand and thirty-one\n\nInput: 971\nOutput: nine hundred and seventy-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4933\nOutput: four thousand, nine hundred and thirty-three\n\nInput: 3674\nOutput: three thousand, six hundred and seventy-four\n\nInput: 6747\nOutput: six thousand, seven hundred and forty-seven\n\nInput: 6031\nOutput: six thousand and thirty-one\n\nInput: 971\nOutput: nine hundred and seventy-one"
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2408\nOutput: two thousand, four hundred and eight\n\nInput: 4941\nOutput: four thousand, nine hundred and forty-one\n\nInput: 487\nOutput: four hundred and eighty-seven\n\nInput: 4984\nOutput: four thousand, nine hundred and eighty-four\n\nInput: 5587\nOutput: five thousand, five hundred and eighty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2408\nOutput: two thousand, four hundred and eight\n\nInput: 4941\nOutput: four thousand, nine hundred and forty-one\n\nInput: 487\nOutput: four hundred and eighty-seven\n\nInput: 4984\nOutput: four thousand, nine hundred and eighty-four\n\nInput: 5587\nOutput: five thousand, five hundred and eighty-seven"
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4586\nOutput: four thousand, five hundred and eighty-six\n\nInput: 9325\nOutput: nine thousand, three hundred and twenty-five\n\nInput: 9941\nOutput: nine thousand, nine hundred and forty-one\n\nInput: 5687\nOutput: five thousand, six hundred and eighty-seven\n\nInput: 4304\nOutput: four thousand, three hundred and four\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4586\nOutput: four thousand, five hundred and eighty-six\n\nInput: 9325\nOutput: nine thousand, three hundred and twenty-five\n\nInput: 9941\nOutput: nine thousand, nine hundred and forty-one\n\nInput: 5687\nOutput: five thousand, six hundred and eighty-seven\n\nInput: 4304\nOutput: four thousand, three hundred and four"
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8517\nOutput: eight thousand, five hundred and seventeen\n\nInput: 5634\nOutput: five thousand, six hundred and thirty-four\n\nInput: 1977\nOutput: one thousand, nine hundred and seventy-seven\n\nInput: 4389\nOutput: four thousand, three hundred and eighty-nine\n\nInput: 1507\nOutput: one thousand, five hundred and seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8517\nOutput: eight thousand, five hundred and seventeen\n\nInput: 5634\nOutput: five thousand, six hundred and thirty-four\n\nInput: 1977\nOutput: one thousand, nine hundred and seventy-seven\n\nInput: 4389\nOutput: four thousand, three hundred and eighty-nine\n\nInput: 1507\nOutput: one thousand, five hundred and seven"
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 424\nOutput: four hundred and twenty-four\n\nInput: 4901\nOutput: four thousand, nine hundred and one\n\nInput: 678\nOutput: six hundred and seventy-eight\n\nInput: 2003\nOutput: two thousand and three\n\nInput: 2556\nOutput: two thousand, five hundred and fifty-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 424\nOutput: four hundred and twenty-four\n\nInput: 4901\nOutput: four thousand, nine hundred and one\n\nInput: 678\nOutput: six hundred and seventy-eight\n\nInput: 2003\nOutput: two thousand and three\n\nInput: 2556\nOutput: two thousand, five hundred and fifty-six"
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7917\nOutput: seven thousand, nine hundred and seventeen\n\nInput: 4589\nOutput: four thousand, five hundred and eighty-nine\n\nInput: 267\nOutput: two hundred and sixty-seven\n\nInput: 4976\nOutput: four thousand, nine hundred and seventy-six\n\nInput: 7841\nOutput: seven thousand, eight hundred and forty-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7917\nOutput: seven thousand, nine hundred and seventeen\n\nInput: 4589\nOutput: four thousand, five hundred and eighty-nine\n\nInput: 267\nOutput: two hundred and sixty-seven\n\nInput: 4976\nOutput: four thousand, nine hundred and seventy-six\n\nInput: 7841\nOutput: seven thousand, eight hundred and forty-one"
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6898\nOutput: six thousand, eight hundred and ninety-eight\n\nInput: 2235\nOutput: two thousand, two hundred and thirty-five\n\nInput: 3118\nOutput: three thousand, one hundred and eighteen\n\nInput: 7504\nOutput: seven thousand, five hundred and four\n\nInput: 7496\nOutput: seven thousand, four hundred and ninety-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6898\nOutput: six thousand, eight hundred and ninety-eight\n\nInput: 2235\nOutput: two thousand, two hundred and thirty-five\n\nInput: 3118\nOutput: three thousand, one hundred and eighteen\n\nInput: 7504\nOutput: seven thousand, five hundred and four\n\nInput: 7496\nOutput: seven thousand, four hundred and ninety-six"
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8812\nOutput: eight thousand, eight hundred and twelve\n\nInput: 7696\nOutput: seven thousand, six hundred and ninety-six\n\nInput: 5861\nOutput: five thousand, eight hundred and sixty-one\n\nInput: 4943\nOutput: four thousand, nine hundred and forty-three\n\nInput: 3464\nOutput: three thousand, four hundred and sixty-four\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8812\nOutput: eight thousand, eight hundred and twelve\n\nInput: 7696\nOutput: seven thousand, six hundred and ninety-six\n\nInput: 5861\nOutput: five thousand, eight hundred and sixty-one\n\nInput: 4943\nOutput: four thousand, nine hundred and forty-three\n\nInput: 3464\nOutput: three thousand, four hundred and sixty-four"
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3273\nOutput: three thousand, two hundred and seventy-three\n\nInput: 6828\nOutput: six thousand, eight hundred and twenty-eight\n\nInput: 6238\nOutput: six thousand, two hundred and thirty-eight\n\nInput: 9759\nOutput: nine thousand, seven hundred and fifty-nine\n\nInput: 3911\nOutput: three thousand, nine hundred and eleven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3273\nOutput: three thousand, two hundred and seventy-three\n\nInput: 6828\nOutput: six thousand, eight hundred and twenty-eight\n\nInput: 6238\nOutput: six thousand, two hundred and thirty-eight\n\nInput: 9759\nOutput: nine thousand, seven hundred and fifty-nine\n\nInput: 3911\nOutput: three thousand, nine hundred and eleven"
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5513\nOutput: five thousand, five hundred and thirteen\n\nInput: 2405\nOutput: two thousand, four hundred and five\n\nInput: 7150\nOutput: seven thousand, one hundred and fifty\n\nInput: 8079\nOutput: eight thousand and seventy-nine\n\nInput: 2672\nOutput: two thousand, six hundred and seventy-two\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5513\nOutput: five thousand, five hundred and thirteen\n\nInput: 2405\nOutput: two thousand, four hundred and five\n\nInput: 7150\nOutput: seven thousand, one hundred and fifty\n\nInput: 8079\nOutput: eight thousand and seventy-nine\n\nInput: 2672\nOutput: two thousand, six hundred and seventy-two"
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3253\nOutput: three thousand, two hundred and fifty-three\n\nInput: 2147\nOutput: two thousand, one hundred and forty-seven\n\nInput: 6064\nOutput: six thousand and sixty-four\n\nInput: 4570\nOutput: four thousand, five hundred and seventy\n\nInput: 2987\nOutput: two thousand, nine hundred and eighty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3253\nOutput: three thousand, two hundred and fifty-three\n\nInput: 2147\nOutput: two thousand, one hundred and forty-seven\n\nInput: 6064\nOutput: six thousand and sixty-four\n\nInput: 4570\nOutput: four thousand, five hundred and seventy\n\nInput: 2987\nOutput: two thousand, nine hundred and eighty-seven"
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7702\nOutput: seven thousand, seven hundred and two\n\nInput: 8524\nOutput: eight thousand, five hundred and twenty-four\n\nInput: 2743\nOutput: two thousand, seven hundred and forty-three\n\nInput: 2401\nOutput: two thousand, four hundred and one\n\nInput: 4563\nOutput: four thousand, five hundred and sixty-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7702\nOutput: seven thousand, seven hundred and two\n\nInput: 8524\nOutput: eight thousand, five hundred and twenty-four\n\nInput: 2743\nOutput: two thousand, seven hundred and forty-three\n\nInput: 2401\nOutput: two thousand, four hundred and one\n\nInput: 4563\nOutput: four thousand, five hundred and sixty-three"
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8655\nOutput: eight thousand, six hundred and fifty-five\n\nInput: 2742\nOutput: two thousand, seven hundred and forty-two\n\nInput: 1729\nOutput: one thousand, seven hundred and twenty-nine\n\nInput: 9055\nOutput: nine thousand and fifty-five\n\nInput: 8755\nOutput: eight thousand, seven hundred and fifty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8655\nOutput: eight thousand, six hundred and fifty-five\n\nInput: 2742\nOutput: two thousand, seven hundred and forty-two\n\nInput: 1729\nOutput: one thousand, seven hundred and twenty-nine\n\nInput: 9055\nOutput: nine thousand and fifty-five\n\nInput: 8755\nOutput: eight thousand, seven hundred and fifty-five"
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5255\nOutput: five thousand, two hundred and fifty-five\n\nInput: 4353\nOutput: four thousand, three hundred and fifty-three\n\nInput: 3564\nOutput: three thousand, five hundred and sixty-four\n\nInput: 9686\nOutput: nine thousand, six hundred and eighty-six\n\nInput: 4585\nOutput: four thousand, five hundred and eighty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5255\nOutput: five thousand, two hundred and fifty-five\n\nInput: 4353\nOutput: four thousand, three hundred and fifty-three\n\nInput: 3564\nOutput: three thousand, five hundred and sixty-four\n\nInput: 9686\nOutput: nine thousand, six hundred and eighty-six\n\nInput: 4585\nOutput: four thousand, five hundred and eighty-five"
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2175\nOutput: two thousand, one hundred and seventy-five\n\nInput: 2853\nOutput: two thousand, eight hundred and fifty-three\n\nInput: 1922\nOutput: one thousand, nine hundred and twenty-two\n\nInput: 503\nOutput: five hundred and three\n\nInput: 1655\nOutput: one thousand, six hundred and fifty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2175\nOutput: two thousand, one hundred and seventy-five\n\nInput: 2853\nOutput: two thousand, eight hundred and fifty-three\n\nInput: 1922\nOutput: one thousand, nine hundred and twenty-two\n\nInput: 503\nOutput: five hundred and three\n\nInput: 1655\nOutput: one thousand, six hundred and fifty-five"
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6200\nOutput: six thousand, two hundred\n\nInput: 1602\nOutput: one thousand, six hundred and two\n\nInput: 8022\nOutput: eight thousand and twenty-two\n\nInput: 3398\nOutput: three thousand, three hundred and ninety-eight\n\nInput: 3306\nOutput: three thousand, three hundred and six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6200\nOutput: six thousand, two hundred\n\nInput: 1602\nOutput: one thousand, six hundred and two\n\nInput: 8022\nOutput: eight thousand and twenty-two\n\nInput: 3398\nOutput: three thousand, three hundred and ninety-eight\n\nInput: 3306\nOutput: three thousand, three hundred and six"
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7985\nOutput: seven thousand, nine hundred and eighty-five\n\nInput: 5392\nOutput: five thousand, three hundred and ninety-two\n\nInput: 2265\nOutput: two thousand, two hundred and sixty-five\n\nInput: 447\nOutput: four hundred and forty-seven\n\nInput: 6466\nOutput: six thousand, four hundred and sixty-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7985\nOutput: seven thousand, nine hundred and eighty-five\n\nInput: 5392\nOutput: five thousand, three hundred and ninety-two\n\nInput: 2265\nOutput: two thousand, two hundred and sixty-five\n\nInput: 447\nOutput: four hundred and forty-seven\n\nInput: 6466\nOutput: six thousand, four hundred and sixty-six"
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4653\nOutput: four thousand, six hundred and fifty-three\n\nInput: 3425\nOutput: three thousand, four hundred and twenty-five\n\nInput: 8774\nOutput: eight thousand, seven hundred and seventy-four\n\nInput: 4437\nOutput: four thousand, four hundred and thirty-seven\n\nInput: 6125\nOutput: six thousand, one hundred and twenty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4653\nOutput: four thousand, six hundred and fifty-three\n\nInput: 3425\nOutput: three thousand, four hundred and twenty-five\n\nInput: 8774\nOutput: eight thousand, seven hundred and seventy-four\n\nInput: 4437\nOutput: four thousand, four hundred and thirty-seven\n\nInput: 6125\nOutput: six thousand, one hundred and twenty-five"
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5384\nOutput: five thousand, three hundred and eighty-four\n\nInput: 9338\nOutput: nine thousand, three hundred and thirty-eight\n\nInput: 8125\nOutput: eight thousand, one hundred and twenty-five\n\nInput: 4101\nOutput: four thousand, one hundred and one\n\nInput: 3538\nOutput: three thousand, five hundred and thirty-eight\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5384\nOutput: five thousand, three hundred and eighty-four\n\nInput: 9338\nOutput: nine thousand, three hundred and thirty-eight\n\nInput: 8125\nOutput: eight thousand, one hundred and twenty-five\n\nInput: 4101\nOutput: four thousand, one hundred and one\n\nInput: 3538\nOutput: three thousand, five hundred and thirty-eight"
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6884\nOutput: six thousand, eight hundred and eighty-four\n\nInput: 7117\nOutput: seven thousand, one hundred and seventeen\n\nInput: 4817\nOutput: four thousand, eight hundred and seventeen\n\nInput: 9447\nOutput: nine thousand, four hundred and forty-seven\n\nInput: 2919\nOutput: two thousand, nine hundred and nineteen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6884\nOutput: six thousand, eight hundred and eighty-four\n\nInput: 7117\nOutput: seven thousand, one hundred and seventeen\n\nInput: 4817\nOutput: four thousand, eight hundred and seventeen\n\nInput: 9447\nOutput: nine thousand, four hundred and forty-seven\n\nInput: 2919\nOutput: two thousand, nine hundred and nineteen"
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 695\nOutput: six hundred and ninety-five\n\nInput: 5519\nOutput: five thousand, five hundred and nineteen\n\nInput: 3062\nOutput: three thousand and sixty-two\n\nInput: 7822\nOutput: seven thousand, eight hundred and twenty-two\n\nInput: 7725\nOutput: seven thousand, seven hundred and twenty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 695\nOutput: six hundred and ninety-five\n\nInput: 5519\nOutput: five thousand, five hundred and nineteen\n\nInput: 3062\nOutput: three thousand and sixty-two\n\nInput: 7822\nOutput: seven thousand, eight hundred and twenty-two\n\nInput: 7725\nOutput: seven thousand, seven hundred and twenty-five"
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 83\nOutput: eighty-three\n\nInput: 8238\nOutput: eight thousand, two hundred and thirty-eight\n\nInput: 911\nOutput: nine hundred and eleven\n\nInput: 6362\nOutput: six thousand, three hundred and sixty-two\n\nInput: 5612\nOutput: five thousand, six hundred and twelve\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 83\nOutput: eighty-three\n\nInput: 8238\nOutput: eight thousand, two hundred and thirty-eight\n\nInput: 911\nOutput: nine hundred and eleven\n\nInput: 6362\nOutput: six thousand, three hundred and sixty-two\n\nInput: 5612\nOutput: five thousand, six hundred and twelve"
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2075\nOutput: two thousand and seventy-five\n\nInput: 3594\nOutput: three thousand, five hundred and ninety-four\n\nInput: 8966\nOutput: eight thousand, nine hundred and sixty-six\n\nInput: 6970\nOutput: six thousand, nine hundred and seventy\n\nInput: 1967\nOutput: one thousand, nine hundred and sixty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2075\nOutput: two thousand and seventy-five\n\nInput: 3594\nOutput: three thousand, five hundred and ninety-four\n\nInput: 8966\nOutput: eight thousand, nine hundred and sixty-six\n\nInput: 6970\nOutput: six thousand, nine hundred and seventy\n\nInput: 1967\nOutput: one thousand, nine hundred and sixty-seven"
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3251\nOutput: three thousand, two hundred and fifty-one\n\nInput: 9925\nOutput: nine thousand, nine hundred and twenty-five\n\nInput: 6543\nOutput: six thousand, five hundred and forty-three\n\nInput: 6794\nOutput: six thousand, seven hundred and ninety-four\n\nInput: 4700\nOutput: four thousand, seven hundred\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3251\nOutput: three thousand, two hundred and fifty-one\n\nInput: 9925\nOutput: nine thousand, nine hundred and twenty-five\n\nInput: 6543\nOutput: six thousand, five hundred and forty-three\n\nInput: 6794\nOutput: six thousand, seven hundred and ninety-four\n\nInput: 4700\nOutput: four thousand, seven hundred"
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5813\nOutput: five thousand, eight hundred and thirteen\n\nInput: 327\nOutput: three hundred and twenty-seven\n\nInput: 8349\nOutput: eight thousand, three hundred and forty-nine\n\nInput: 8011\nOutput: eight thousand and eleven\n\nInput: 9557\nOutput: nine thousand, five hundred and fifty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5813\nOutput: five thousand, eight hundred and thirteen\n\nInput: 327\nOutput: three hundred and twenty-seven\n\nInput: 8349\nOutput: eight thousand, three hundred and forty-nine\n\nInput: 8011\nOutput: eight thousand and eleven\n\nInput: 9557\nOutput: nine thousand, five hundred and fifty-seven"
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8813\nOutput: eight thousand, eight hundred and thirteen\n\nInput: 3589\nOutput: three thousand, five hundred and eighty-nine\n\nInput: 9754\nOutput: nine thousand, seven hundred and fifty-four\n\nInput: 4411\nOutput: four thousand, four hundred and eleven\n\nInput: 8060\nOutput: eight thousand and sixty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8813\nOutput: eight thousand, eight hundred and thirteen\n\nInput: 3589\nOutput: three thousand, five hundred and eighty-nine\n\nInput: 9754\nOutput: nine thousand, seven hundred and fifty-four\n\nInput: 4411\nOutput: four thousand, four hundred and eleven\n\nInput: 8060\nOutput: eight thousand and sixty"
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6087\nOutput: six thousand and eighty-seven\n\nInput: 3931\nOutput: three thousand, nine hundred and thirty-one\n\nInput: 3894\nOutput: three thousand, eight hundred and ninety-four\n\nInput: 1812\nOutput: one thousand, eight hundred and twelve\n\nInput: 2133\nOutput: two thousand, one hundred and thirty-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6087\nOutput: six thousand and eighty-seven\n\nInput: 3931\nOutput: three thousand, nine hundred and thirty-one\n\nInput: 3894\nOutput: three thousand, eight hundred and ninety-four\n\nInput: 1812\nOutput: one thousand, eight hundred and twelve\n\nInput: 2133\nOutput: two thousand, one hundred and thirty-three"
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8381\nOutput: eight thousand, three hundred and eighty-one\n\nInput: 1594\nOutput: one thousand, five hundred and ninety-four\n\nInput: 292\nOutput: two hundred and ninety-two\n\nInput: 6380\nOutput: six thousand, three hundred and eighty\n\nInput: 1297\nOutput: one thousand, two hundred and ninety-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8381\nOutput: eight thousand, three hundred and eighty-one\n\nInput: 1594\nOutput: one thousand, five hundred and ninety-four\n\nInput: 292\nOutput: two hundred and ninety-two\n\nInput: 6380\nOutput: six thousand, three hundred and eighty\n\nInput: 1297\nOutput: one thousand, two hundred and ninety-seven"
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4053\nOutput: four thousand and fifty-three\n\nInput: 423\nOutput: four hundred and twenty-three\n\nInput: 6943\nOutput: six thousand, nine hundred and forty-three\n\nInput: 526\nOutput: five hundred and twenty-six\n\nInput: 6379\nOutput: six thousand, three hundred and seventy-nine\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4053\nOutput: four thousand and fifty-three\n\nInput: 423\nOutput: four hundred and twenty-three\n\nInput: 6943\nOutput: six thousand, nine hundred and forty-three\n\nInput: 526\nOutput: five hundred and twenty-six\n\nInput: 6379\nOutput: six thousand, three hundred and seventy-nine"
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6206\nOutput: six thousand, two hundred and six\n\nInput: 1301\nOutput: one thousand, three hundred and one\n\nInput: 5125\nOutput: five thousand, one hundred and twenty-five\n\nInput: 8325\nOutput: eight thousand, three hundred and twenty-five\n\nInput: 1204\nOutput: one thousand, two hundred and four\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6206\nOutput: six thousand, two hundred and six\n\nInput: 1301\nOutput: one thousand, three hundred and one\n\nInput: 5125\nOutput: five thousand, one hundred and twenty-five\n\nInput: 8325\nOutput: eight thousand, three hundred and twenty-five\n\nInput: 1204\nOutput: one thousand, two hundred and four"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8157\nOutput: eight thousand, one hundred and fifty-seven\n\nInput: 270\nOutput: two hundred and seventy\n\nInput: 727\nOutput: seven hundred and twenty-seven\n\nInput: 6619\nOutput: six thousand, six hundred and nineteen\n\nInput: 9323\nOutput: nine thousand, three hundred and twenty-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8157\nOutput: eight thousand, one hundred and fifty-seven\n\nInput: 270\nOutput: two hundred and seventy\n\nInput: 727\nOutput: seven hundred and twenty-seven\n\nInput: 6619\nOutput: six thousand, six hundred and nineteen\n\nInput: 9323\nOutput: nine thousand, three hundred and twenty-three"
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9159\nOutput: nine thousand, one hundred and fifty-nine\n\nInput: 579\nOutput: five hundred and seventy-nine\n\nInput: 400\nOutput: four hundred\n\nInput: 2759\nOutput: two thousand, seven hundred and fifty-nine\n\nInput: 7271\nOutput: seven thousand, two hundred and seventy-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9159\nOutput: nine thousand, one hundred and fifty-nine\n\nInput: 579\nOutput: five hundred and seventy-nine\n\nInput: 400\nOutput: four hundred\n\nInput: 2759\nOutput: two thousand, seven hundred and fifty-nine\n\nInput: 7271\nOutput: seven thousand, two hundred and seventy-one"
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2542\nOutput: two thousand, five hundred and forty-two\n\nInput: 5879\nOutput: five thousand, eight hundred and seventy-nine\n\nInput: 752\nOutput: seven hundred and fifty-two\n\nInput: 2314\nOutput: two thousand, three hundred and fourteen\n\nInput: 4047\nOutput: four thousand and forty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2542\nOutput: two thousand, five hundred and forty-two\n\nInput: 5879\nOutput: five thousand, eight hundred and seventy-nine\n\nInput: 752\nOutput: seven hundred and fifty-two\n\nInput: 2314\nOutput: two thousand, three hundred and fourteen\n\nInput: 4047\nOutput: four thousand and forty-seven"
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5510\nOutput: five thousand, five hundred and ten\n\nInput: 8275\nOutput: eight thousand, two hundred and seventy-five\n\nInput: 7937\nOutput: seven thousand, nine hundred and thirty-seven\n\nInput: 6198\nOutput: six thousand, one hundred and ninety-eight\n\nInput: 3570\nOutput: three thousand, five hundred and seventy\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5510\nOutput: five thousand, five hundred and ten\n\nInput: 8275\nOutput: eight thousand, two hundred and seventy-five\n\nInput: 7937\nOutput: seven thousand, nine hundred and thirty-seven\n\nInput: 6198\nOutput: six thousand, one hundred and ninety-eight\n\nInput: 3570\nOutput: three thousand, five hundred and seventy"
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2996\nOutput: two thousand, nine hundred and ninety-six\n\nInput: 9848\nOutput: nine thousand, eight hundred and forty-eight\n\nInput: 2272\nOutput: two thousand, two hundred and seventy-two\n\nInput: 4446\nOutput: four thousand, four hundred and forty-six\n\nInput: 1709\nOutput: one thousand, seven hundred and nine\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2996\nOutput: two thousand, nine hundred and ninety-six\n\nInput: 9848\nOutput: nine thousand, eight hundred and forty-eight\n\nInput: 2272\nOutput: two thousand, two hundred and seventy-two\n\nInput: 4446\nOutput: four thousand, four hundred and forty-six\n\nInput: 1709\nOutput: one thousand, seven hundred and nine"
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 222\nOutput: two hundred and twenty-two\n\nInput: 5218\nOutput: five thousand, two hundred and eighteen\n\nInput: 7701\nOutput: seven thousand, seven hundred and one\n\nInput: 7775\nOutput: seven thousand, seven hundred and seventy-five\n\nInput: 1629\nOutput: one thousand, six hundred and twenty-nine\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 222\nOutput: two hundred and twenty-two\n\nInput: 5218\nOutput: five thousand, two hundred and eighteen\n\nInput: 7701\nOutput: seven thousand, seven hundred and one\n\nInput: 7775\nOutput: seven thousand, seven hundred and seventy-five\n\nInput: 1629\nOutput: one thousand, six hundred and twenty-nine"
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5837\nOutput: five thousand, eight hundred and thirty-seven\n\nInput: 4043\nOutput: four thousand and forty-three\n\nInput: 767\nOutput: seven hundred and sixty-seven\n\nInput: 2491\nOutput: two thousand, four hundred and ninety-one\n\nInput: 6195\nOutput: six thousand, one hundred and ninety-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5837\nOutput: five thousand, eight hundred and thirty-seven\n\nInput: 4043\nOutput: four thousand and forty-three\n\nInput: 767\nOutput: seven hundred and sixty-seven\n\nInput: 2491\nOutput: two thousand, four hundred and ninety-one\n\nInput: 6195\nOutput: six thousand, one hundred and ninety-five"
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8580\nOutput: eight thousand, five hundred and eighty\n\nInput: 3205\nOutput: three thousand, two hundred and five\n\nInput: 4245\nOutput: four thousand, two hundred and forty-five\n\nInput: 598\nOutput: five hundred and ninety-eight\n\nInput: 4786\nOutput: four thousand, seven hundred and eighty-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8580\nOutput: eight thousand, five hundred and eighty\n\nInput: 3205\nOutput: three thousand, two hundred and five\n\nInput: 4245\nOutput: four thousand, two hundred and forty-five\n\nInput: 598\nOutput: five hundred and ninety-eight\n\nInput: 4786\nOutput: four thousand, seven hundred and eighty-six"
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6095\nOutput: six thousand and ninety-five\n\nInput: 169\nOutput: one hundred and sixty-nine\n\nInput: 5665\nOutput: five thousand, six hundred and sixty-five\n\nInput: 2456\nOutput: two thousand, four hundred and fifty-six\n\nInput: 8252\nOutput: eight thousand, two hundred and fifty-two\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6095\nOutput: six thousand and ninety-five\n\nInput: 169\nOutput: one hundred and sixty-nine\n\nInput: 5665\nOutput: five thousand, six hundred and sixty-five\n\nInput: 2456\nOutput: two thousand, four hundred and fifty-six\n\nInput: 8252\nOutput: eight thousand, two hundred and fifty-two"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2306\nOutput: two thousand, three hundred and six\n\nInput: 3141\nOutput: three thousand, one hundred and forty-one\n\nInput: 9684\nOutput: nine thousand, six hundred and eighty-four\n\nInput: 7290\nOutput: seven thousand, two hundred and ninety\n\nInput: 517\nOutput: five hundred and seventeen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2306\nOutput: two thousand, three hundred and six\n\nInput: 3141\nOutput: three thousand, one hundred and forty-one\n\nInput: 9684\nOutput: nine thousand, six hundred and eighty-four\n\nInput: 7290\nOutput: seven thousand, two hundred and ninety\n\nInput: 517\nOutput: five hundred and seventeen"
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4800\nOutput: four thousand, eight hundred\n\nInput: 5899\nOutput: five thousand, eight hundred and ninety-nine\n\nInput: 5599\nOutput: five thousand, five hundred and ninety-nine\n\nInput: 7347\nOutput: seven thousand, three hundred and forty-seven\n\nInput: 5932\nOutput: five thousand, nine hundred and thirty-two\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4800\nOutput: four thousand, eight hundred\n\nInput: 5899\nOutput: five thousand, eight hundred and ninety-nine\n\nInput: 5599\nOutput: five thousand, five hundred and ninety-nine\n\nInput: 7347\nOutput: seven thousand, three hundred and forty-seven\n\nInput: 5932\nOutput: five thousand, nine hundred and thirty-two"
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4150\nOutput: four thousand, one hundred and fifty\n\nInput: 1907\nOutput: one thousand, nine hundred and seven\n\nInput: 1085\nOutput: one thousand and eighty-five\n\nInput: 2166\nOutput: two thousand, one hundred and sixty-six\n\nInput: 5785\nOutput: five thousand, seven hundred and eighty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4150\nOutput: four thousand, one hundred and fifty\n\nInput: 1907\nOutput: one thousand, nine hundred and seven\n\nInput: 1085\nOutput: one thousand and eighty-five\n\nInput: 2166\nOutput: two thousand, one hundred and sixty-six\n\nInput: 5785\nOutput: five thousand, seven hundred and eighty-five"
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8405\nOutput: eight thousand, four hundred and five\n\nInput: 8926\nOutput: eight thousand, nine hundred and twenty-six\n\nInput: 2154\nOutput: two thousand, one hundred and fifty-four\n\nInput: 4629\nOutput: four thousand, six hundred and twenty-nine\n\nInput: 9155\nOutput: nine thousand, one hundred and fifty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8405\nOutput: eight thousand, four hundred and five\n\nInput: 8926\nOutput: eight thousand, nine hundred and twenty-six\n\nInput: 2154\nOutput: two thousand, one hundred and fifty-four\n\nInput: 4629\nOutput: four thousand, six hundred and twenty-nine\n\nInput: 9155\nOutput: nine thousand, one hundred and fifty-five"
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9104\nOutput: nine thousand, one hundred and four\n\nInput: 266\nOutput: two hundred and sixty-six\n\nInput: 8189\nOutput: eight thousand, one hundred and eighty-nine\n\nInput: 4566\nOutput: four thousand, five hundred and sixty-six\n\nInput: 9215\nOutput: nine thousand, two hundred and fifteen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9104\nOutput: nine thousand, one hundred and four\n\nInput: 266\nOutput: two hundred and sixty-six\n\nInput: 8189\nOutput: eight thousand, one hundred and eighty-nine\n\nInput: 4566\nOutput: four thousand, five hundred and sixty-six\n\nInput: 9215\nOutput: nine thousand, two hundred and fifteen"
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9181\nOutput: nine thousand, one hundred and eighty-one\n\nInput: 7249\nOutput: seven thousand, two hundred and forty-nine\n\nInput: 8510\nOutput: eight thousand, five hundred and ten\n\nInput: 9755\nOutput: nine thousand, seven hundred and fifty-five\n\nInput: 3184\nOutput: three thousand, one hundred and eighty-four\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9181\nOutput: nine thousand, one hundred and eighty-one\n\nInput: 7249\nOutput: seven thousand, two hundred and forty-nine\n\nInput: 8510\nOutput: eight thousand, five hundred and ten\n\nInput: 9755\nOutput: nine thousand, seven hundred and fifty-five\n\nInput: 3184\nOutput: three thousand, one hundred and eighty-four"
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 8355\nOutput: eight thousand, three hundred and fifty-five\n\nInput: 2160\nOutput: two thousand, one hundred and sixty\n\nInput: 8712\nOutput: eight thousand, seven hundred and twelve\n\nInput: 2605\nOutput: two thousand, six hundred and five\n\nInput: 7773\nOutput: seven thousand, seven hundred and seventy-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 8355\nOutput: eight thousand, three hundred and fifty-five\n\nInput: 2160\nOutput: two thousand, one hundred and sixty\n\nInput: 8712\nOutput: eight thousand, seven hundred and twelve\n\nInput: 2605\nOutput: two thousand, six hundred and five\n\nInput: 7773\nOutput: seven thousand, seven hundred and seventy-three"
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2640\nOutput: two thousand, six hundred and forty\n\nInput: 2083\nOutput: two thousand and eighty-three\n\nInput: 142\nOutput: one hundred and forty-two\n\nInput: 1008\nOutput: one thousand and eight\n\nInput: 6470\nOutput: six thousand, four hundred and seventy\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2640\nOutput: two thousand, six hundred and forty\n\nInput: 2083\nOutput: two thousand and eighty-three\n\nInput: 142\nOutput: one hundred and forty-two\n\nInput: 1008\nOutput: one thousand and eight\n\nInput: 6470\nOutput: six thousand, four hundred and seventy"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 618\nOutput: six hundred and eighteen\n\nInput: 9780\nOutput: nine thousand, seven hundred and eighty\n\nInput: 6709\nOutput: six thousand, seven hundred and nine\n\nInput: 9344\nOutput: nine thousand, three hundred and forty-four\n\nInput: 3853\nOutput: three thousand, eight hundred and fifty-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 618\nOutput: six hundred and eighteen\n\nInput: 9780\nOutput: nine thousand, seven hundred and eighty\n\nInput: 6709\nOutput: six thousand, seven hundred and nine\n\nInput: 9344\nOutput: nine thousand, three hundred and forty-four\n\nInput: 3853\nOutput: three thousand, eight hundred and fifty-three"
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4789\nOutput: four thousand, seven hundred and eighty-nine\n\nInput: 7898\nOutput: seven thousand, eight hundred and ninety-eight\n\nInput: 9242\nOutput: nine thousand, two hundred and forty-two\n\nInput: 5697\nOutput: five thousand, six hundred and ninety-seven\n\nInput: 1320\nOutput: one thousand, three hundred and twenty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4789\nOutput: four thousand, seven hundred and eighty-nine\n\nInput: 7898\nOutput: seven thousand, eight hundred and ninety-eight\n\nInput: 9242\nOutput: nine thousand, two hundred and forty-two\n\nInput: 5697\nOutput: five thousand, six hundred and ninety-seven\n\nInput: 1320\nOutput: one thousand, three hundred and twenty"
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9666\nOutput: nine thousand, six hundred and sixty-six\n\nInput: 871\nOutput: eight hundred and seventy-one\n\nInput: 6473\nOutput: six thousand, four hundred and seventy-three\n\nInput: 5888\nOutput: five thousand, eight hundred and eighty-eight\n\nInput: 1758\nOutput: one thousand, seven hundred and fifty-eight\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9666\nOutput: nine thousand, six hundred and sixty-six\n\nInput: 871\nOutput: eight hundred and seventy-one\n\nInput: 6473\nOutput: six thousand, four hundred and seventy-three\n\nInput: 5888\nOutput: five thousand, eight hundred and eighty-eight\n\nInput: 1758\nOutput: one thousand, seven hundred and fifty-eight"
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9805\nOutput: nine thousand, eight hundred and five\n\nInput: 6843\nOutput: six thousand, eight hundred and forty-three\n\nInput: 1537\nOutput: one thousand, five hundred and thirty-seven\n\nInput: 6476\nOutput: six thousand, four hundred and seventy-six\n\nInput: 6893\nOutput: six thousand, eight hundred and ninety-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9805\nOutput: nine thousand, eight hundred and five\n\nInput: 6843\nOutput: six thousand, eight hundred and forty-three\n\nInput: 1537\nOutput: one thousand, five hundred and thirty-seven\n\nInput: 6476\nOutput: six thousand, four hundred and seventy-six\n\nInput: 6893\nOutput: six thousand, eight hundred and ninety-three"
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6345\nOutput: six thousand, three hundred and forty-five\n\nInput: 5279\nOutput: five thousand, two hundred and seventy-nine\n\nInput: 7985\nOutput: seven thousand, nine hundred and eighty-five\n\nInput: 2218\nOutput: two thousand, two hundred and eighteen\n\nInput: 4337\nOutput: four thousand, three hundred and thirty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6345\nOutput: six thousand, three hundred and forty-five\n\nInput: 5279\nOutput: five thousand, two hundred and seventy-nine\n\nInput: 7985\nOutput: seven thousand, nine hundred and eighty-five\n\nInput: 2218\nOutput: two thousand, two hundred and eighteen\n\nInput: 4337\nOutput: four thousand, three hundred and thirty-seven"
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2505\nOutput: two thousand, five hundred and five\n\nInput: 5472\nOutput: five thousand, four hundred and seventy-two\n\nInput: 96\nOutput: ninety-six\n\nInput: 8817\nOutput: eight thousand, eight hundred and seventeen\n\nInput: 9771\nOutput: nine thousand, seven hundred and seventy-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2505\nOutput: two thousand, five hundred and five\n\nInput: 5472\nOutput: five thousand, four hundred and seventy-two\n\nInput: 96\nOutput: ninety-six\n\nInput: 8817\nOutput: eight thousand, eight hundred and seventeen\n\nInput: 9771\nOutput: nine thousand, seven hundred and seventy-one"
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 1493\nOutput: one thousand, four hundred and ninety-three\n\nInput: 8778\nOutput: eight thousand, seven hundred and seventy-eight\n\nInput: 7829\nOutput: seven thousand, eight hundred and twenty-nine\n\nInput: 7925\nOutput: seven thousand, nine hundred and twenty-five\n\nInput: 1227\nOutput: one thousand, two hundred and twenty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 1493\nOutput: one thousand, four hundred and ninety-three\n\nInput: 8778\nOutput: eight thousand, seven hundred and seventy-eight\n\nInput: 7829\nOutput: seven thousand, eight hundred and twenty-nine\n\nInput: 7925\nOutput: seven thousand, nine hundred and twenty-five\n\nInput: 1227\nOutput: one thousand, two hundred and twenty-seven"
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9339\nOutput: nine thousand, three hundred and thirty-nine\n\nInput: 2926\nOutput: two thousand, nine hundred and twenty-six\n\nInput: 998\nOutput: nine hundred and ninety-eight\n\nInput: 2262\nOutput: two thousand, two hundred and sixty-two\n\nInput: 1704\nOutput: one thousand, seven hundred and four\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9339\nOutput: nine thousand, three hundred and thirty-nine\n\nInput: 2926\nOutput: two thousand, nine hundred and twenty-six\n\nInput: 998\nOutput: nine hundred and ninety-eight\n\nInput: 2262\nOutput: two thousand, two hundred and sixty-two\n\nInput: 1704\nOutput: one thousand, seven hundred and four"
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3720\nOutput: three thousand, seven hundred and twenty\n\nInput: 4492\nOutput: four thousand, four hundred and ninety-two\n\nInput: 3487\nOutput: three thousand, four hundred and eighty-seven\n\nInput: 2065\nOutput: two thousand and sixty-five\n\nInput: 8951\nOutput: eight thousand, nine hundred and fifty-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3720\nOutput: three thousand, seven hundred and twenty\n\nInput: 4492\nOutput: four thousand, four hundred and ninety-two\n\nInput: 3487\nOutput: three thousand, four hundred and eighty-seven\n\nInput: 2065\nOutput: two thousand and sixty-five\n\nInput: 8951\nOutput: eight thousand, nine hundred and fifty-one"
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 1481\nOutput: one thousand, four hundred and eighty-one\n\nInput: 5345\nOutput: five thousand, three hundred and forty-five\n\nInput: 2767\nOutput: two thousand, seven hundred and sixty-seven\n\nInput: 6378\nOutput: six thousand, three hundred and seventy-eight\n\nInput: 1953\nOutput: one thousand, nine hundred and fifty-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 1481\nOutput: one thousand, four hundred and eighty-one\n\nInput: 5345\nOutput: five thousand, three hundred and forty-five\n\nInput: 2767\nOutput: two thousand, seven hundred and sixty-seven\n\nInput: 6378\nOutput: six thousand, three hundred and seventy-eight\n\nInput: 1953\nOutput: one thousand, nine hundred and fifty-three"
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9583\nOutput: nine thousand, five hundred and eighty-three\n\nInput: 9742\nOutput: nine thousand, seven hundred and forty-two\n\nInput: 4375\nOutput: four thousand, three hundred and seventy-five\n\nInput: 4926\nOutput: four thousand, nine hundred and twenty-six\n\nInput: 8485\nOutput: eight thousand, four hundred and eighty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9583\nOutput: nine thousand, five hundred and eighty-three\n\nInput: 9742\nOutput: nine thousand, seven hundred and forty-two\n\nInput: 4375\nOutput: four thousand, three hundred and seventy-five\n\nInput: 4926\nOutput: four thousand, nine hundred and twenty-six\n\nInput: 8485\nOutput: eight thousand, four hundred and eighty-five"
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2308\nOutput: two thousand, three hundred and eight\n\nInput: 1286\nOutput: one thousand, two hundred and eighty-six\n\nInput: 8750\nOutput: eight thousand, seven hundred and fifty\n\nInput: 1404\nOutput: one thousand, four hundred and four\n\nInput: 3631\nOutput: three thousand, six hundred and thirty-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2308\nOutput: two thousand, three hundred and eight\n\nInput: 1286\nOutput: one thousand, two hundred and eighty-six\n\nInput: 8750\nOutput: eight thousand, seven hundred and fifty\n\nInput: 1404\nOutput: one thousand, four hundred and four\n\nInput: 3631\nOutput: three thousand, six hundred and thirty-one"
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5272\nOutput: five thousand, two hundred and seventy-two\n\nInput: 3166\nOutput: three thousand, one hundred and sixty-six\n\nInput: 1764\nOutput: one thousand, seven hundred and sixty-four\n\nInput: 7136\nOutput: seven thousand, one hundred and thirty-six\n\nInput: 411\nOutput: four hundred and eleven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5272\nOutput: five thousand, two hundred and seventy-two\n\nInput: 3166\nOutput: three thousand, one hundred and sixty-six\n\nInput: 1764\nOutput: one thousand, seven hundred and sixty-four\n\nInput: 7136\nOutput: seven thousand, one hundred and thirty-six\n\nInput: 411\nOutput: four hundred and eleven"
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6006\nOutput: six thousand and six\n\nInput: 3021\nOutput: three thousand and twenty-one\n\nInput: 5404\nOutput: five thousand, four hundred and four\n\nInput: 5451\nOutput: five thousand, four hundred and fifty-one\n\nInput: 5206\nOutput: five thousand, two hundred and six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6006\nOutput: six thousand and six\n\nInput: 3021\nOutput: three thousand and twenty-one\n\nInput: 5404\nOutput: five thousand, four hundred and four\n\nInput: 5451\nOutput: five thousand, four hundred and fifty-one\n\nInput: 5206\nOutput: five thousand, two hundred and six"
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5661\nOutput: five thousand, six hundred and sixty-one\n\nInput: 9558\nOutput: nine thousand, five hundred and fifty-eight\n\nInput: 8302\nOutput: eight thousand, three hundred and two\n\nInput: 4459\nOutput: four thousand, four hundred and fifty-nine\n\nInput: 2155\nOutput: two thousand, one hundred and fifty-five\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5661\nOutput: five thousand, six hundred and sixty-one\n\nInput: 9558\nOutput: nine thousand, five hundred and fifty-eight\n\nInput: 8302\nOutput: eight thousand, three hundred and two\n\nInput: 4459\nOutput: four thousand, four hundred and fifty-nine\n\nInput: 2155\nOutput: two thousand, one hundred and fifty-five"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9718\nOutput: nine thousand, seven hundred and eighteen\n\nInput: 1152\nOutput: one thousand, one hundred and fifty-two\n\nInput: 2306\nOutput: two thousand, three hundred and six\n\nInput: 9400\nOutput: nine thousand, four hundred\n\nInput: 2081\nOutput: two thousand and eighty-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9718\nOutput: nine thousand, seven hundred and eighteen\n\nInput: 1152\nOutput: one thousand, one hundred and fifty-two\n\nInput: 2306\nOutput: two thousand, three hundred and six\n\nInput: 9400\nOutput: nine thousand, four hundred\n\nInput: 2081\nOutput: two thousand and eighty-one"
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 1724\nOutput: one thousand, seven hundred and twenty-four\n\nInput: 7273\nOutput: seven thousand, two hundred and seventy-three\n\nInput: 4240\nOutput: four thousand, two hundred and forty\n\nInput: 3754\nOutput: three thousand, seven hundred and fifty-four\n\nInput: 2126\nOutput: two thousand, one hundred and twenty-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 1724\nOutput: one thousand, seven hundred and twenty-four\n\nInput: 7273\nOutput: seven thousand, two hundred and seventy-three\n\nInput: 4240\nOutput: four thousand, two hundred and forty\n\nInput: 3754\nOutput: three thousand, seven hundred and fifty-four\n\nInput: 2126\nOutput: two thousand, one hundred and twenty-six"
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4240\nOutput: four thousand, two hundred and forty\n\nInput: 4702\nOutput: four thousand, seven hundred and two\n\nInput: 1698\nOutput: one thousand, six hundred and ninety-eight\n\nInput: 6493\nOutput: six thousand, four hundred and ninety-three\n\nInput: 9611\nOutput: nine thousand, six hundred and eleven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4240\nOutput: four thousand, two hundred and forty\n\nInput: 4702\nOutput: four thousand, seven hundred and two\n\nInput: 1698\nOutput: one thousand, six hundred and ninety-eight\n\nInput: 6493\nOutput: six thousand, four hundred and ninety-three\n\nInput: 9611\nOutput: nine thousand, six hundred and eleven"
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4994\nOutput: four thousand, nine hundred and ninety-four\n\nInput: 3822\nOutput: three thousand, eight hundred and twenty-two\n\nInput: 766\nOutput: seven hundred and sixty-six\n\nInput: 3420\nOutput: three thousand, four hundred and twenty\n\nInput: 6497\nOutput: six thousand, four hundred and ninety-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4994\nOutput: four thousand, nine hundred and ninety-four\n\nInput: 3822\nOutput: three thousand, eight hundred and twenty-two\n\nInput: 766\nOutput: seven hundred and sixty-six\n\nInput: 3420\nOutput: three thousand, four hundred and twenty\n\nInput: 6497\nOutput: six thousand, four hundred and ninety-seven"
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2537\nOutput: two thousand, five hundred and thirty-seven\n\nInput: 9032\nOutput: nine thousand and thirty-two\n\nInput: 8401\nOutput: eight thousand, four hundred and one\n\nInput: 7702\nOutput: seven thousand, seven hundred and two\n\nInput: 1848\nOutput: one thousand, eight hundred and forty-eight\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2537\nOutput: two thousand, five hundred and thirty-seven\n\nInput: 9032\nOutput: nine thousand and thirty-two\n\nInput: 8401\nOutput: eight thousand, four hundred and one\n\nInput: 7702\nOutput: seven thousand, seven hundred and two\n\nInput: 1848\nOutput: one thousand, eight hundred and forty-eight"
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9612\nOutput: nine thousand, six hundred and twelve\n\nInput: 7048\nOutput: seven thousand and forty-eight\n\nInput: 1417\nOutput: one thousand, four hundred and seventeen\n\nInput: 299\nOutput: two hundred and ninety-nine\n\nInput: 9454\nOutput: nine thousand, four hundred and fifty-four\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9612\nOutput: nine thousand, six hundred and twelve\n\nInput: 7048\nOutput: seven thousand and forty-eight\n\nInput: 1417\nOutput: one thousand, four hundred and seventeen\n\nInput: 299\nOutput: two hundred and ninety-nine\n\nInput: 9454\nOutput: nine thousand, four hundred and fifty-four"
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2251\nOutput: two thousand, two hundred and fifty-one\n\nInput: 8755\nOutput: eight thousand, seven hundred and fifty-five\n\nInput: 6313\nOutput: six thousand, three hundred and thirteen\n\nInput: 9873\nOutput: nine thousand, eight hundred and seventy-three\n\nInput: 4804\nOutput: four thousand, eight hundred and four\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2251\nOutput: two thousand, two hundred and fifty-one\n\nInput: 8755\nOutput: eight thousand, seven hundred and fifty-five\n\nInput: 6313\nOutput: six thousand, three hundred and thirteen\n\nInput: 9873\nOutput: nine thousand, eight hundred and seventy-three\n\nInput: 4804\nOutput: four thousand, eight hundred and four"
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4047\nOutput: four thousand and forty-seven\n\nInput: 8785\nOutput: eight thousand, seven hundred and eighty-five\n\nInput: 9572\nOutput: nine thousand, five hundred and seventy-two\n\nInput: 5334\nOutput: five thousand, three hundred and thirty-four\n\nInput: 6030\nOutput: six thousand and thirty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4047\nOutput: four thousand and forty-seven\n\nInput: 8785\nOutput: eight thousand, seven hundred and eighty-five\n\nInput: 9572\nOutput: nine thousand, five hundred and seventy-two\n\nInput: 5334\nOutput: five thousand, three hundred and thirty-four\n\nInput: 6030\nOutput: six thousand and thirty"
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7135\nOutput: seven thousand, one hundred and thirty-five\n\nInput: 7059\nOutput: seven thousand and fifty-nine\n\nInput: 91\nOutput: ninety-one\n\nInput: 8919\nOutput: eight thousand, nine hundred and nineteen\n\nInput: 7289\nOutput: seven thousand, two hundred and eighty-nine\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7135\nOutput: seven thousand, one hundred and thirty-five\n\nInput: 7059\nOutput: seven thousand and fifty-nine\n\nInput: 91\nOutput: ninety-one\n\nInput: 8919\nOutput: eight thousand, nine hundred and nineteen\n\nInput: 7289\nOutput: seven thousand, two hundred and eighty-nine"
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2294\nOutput: two thousand, two hundred and ninety-four\n\nInput: 92\nOutput: ninety-two\n\nInput: 3585\nOutput: three thousand, five hundred and eighty-five\n\nInput: 6266\nOutput: six thousand, two hundred and sixty-six\n\nInput: 6452\nOutput: six thousand, four hundred and fifty-two\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2294\nOutput: two thousand, two hundred and ninety-four\n\nInput: 92\nOutput: ninety-two\n\nInput: 3585\nOutput: three thousand, five hundred and eighty-five\n\nInput: 6266\nOutput: six thousand, two hundred and sixty-six\n\nInput: 6452\nOutput: six thousand, four hundred and fifty-two"
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 321\nOutput: three hundred and twenty-one\n\nInput: 6397\nOutput: six thousand, three hundred and ninety-seven\n\nInput: 9040\nOutput: nine thousand and forty\n\nInput: 5656\nOutput: five thousand, six hundred and fifty-six\n\nInput: 9038\nOutput: nine thousand and thirty-eight\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 321\nOutput: three hundred and twenty-one\n\nInput: 6397\nOutput: six thousand, three hundred and ninety-seven\n\nInput: 9040\nOutput: nine thousand and forty\n\nInput: 5656\nOutput: five thousand, six hundred and fifty-six\n\nInput: 9038\nOutput: nine thousand and thirty-eight"
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3263\nOutput: three thousand, two hundred and sixty-three\n\nInput: 2549\nOutput: two thousand, five hundred and forty-nine\n\nInput: 6344\nOutput: six thousand, three hundred and forty-four\n\nInput: 318\nOutput: three hundred and eighteen\n\nInput: 6861\nOutput: six thousand, eight hundred and sixty-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3263\nOutput: three thousand, two hundred and sixty-three\n\nInput: 2549\nOutput: two thousand, five hundred and forty-nine\n\nInput: 6344\nOutput: six thousand, three hundred and forty-four\n\nInput: 318\nOutput: three hundred and eighteen\n\nInput: 6861\nOutput: six thousand, eight hundred and sixty-one"
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3119\nOutput: three thousand, one hundred and nineteen\n\nInput: 3358\nOutput: three thousand, three hundred and fifty-eight\n\nInput: 9452\nOutput: nine thousand, four hundred and fifty-two\n\nInput: 6740\nOutput: six thousand, seven hundred and forty\n\nInput: 8728\nOutput: eight thousand, seven hundred and twenty-eight\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3119\nOutput: three thousand, one hundred and nineteen\n\nInput: 3358\nOutput: three thousand, three hundred and fifty-eight\n\nInput: 9452\nOutput: nine thousand, four hundred and fifty-two\n\nInput: 6740\nOutput: six thousand, seven hundred and forty\n\nInput: 8728\nOutput: eight thousand, seven hundred and twenty-eight"
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2061\nOutput: two thousand and sixty-one\n\nInput: 8893\nOutput: eight thousand, eight hundred and ninety-three\n\nInput: 2249\nOutput: two thousand, two hundred and forty-nine\n\nInput: 7554\nOutput: seven thousand, five hundred and fifty-four\n\nInput: 4156\nOutput: four thousand, one hundred and fifty-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2061\nOutput: two thousand and sixty-one\n\nInput: 8893\nOutput: eight thousand, eight hundred and ninety-three\n\nInput: 2249\nOutput: two thousand, two hundred and forty-nine\n\nInput: 7554\nOutput: seven thousand, five hundred and fifty-four\n\nInput: 4156\nOutput: four thousand, one hundred and fifty-six"
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7017\nOutput: seven thousand and seventeen\n\nInput: 5939\nOutput: five thousand, nine hundred and thirty-nine\n\nInput: 1852\nOutput: one thousand, eight hundred and fifty-two\n\nInput: 52\nOutput: fifty-two\n\nInput: 4140\nOutput: four thousand, one hundred and forty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7017\nOutput: seven thousand and seventeen\n\nInput: 5939\nOutput: five thousand, nine hundred and thirty-nine\n\nInput: 1852\nOutput: one thousand, eight hundred and fifty-two\n\nInput: 52\nOutput: fifty-two\n\nInput: 4140\nOutput: four thousand, one hundred and forty"
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5922\nOutput: five thousand, nine hundred and twenty-two\n\nInput: 1151\nOutput: one thousand, one hundred and fifty-one\n\nInput: 5896\nOutput: five thousand, eight hundred and ninety-six\n\nInput: 9761\nOutput: nine thousand, seven hundred and sixty-one\n\nInput: 7108\nOutput: seven thousand, one hundred and eight\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5922\nOutput: five thousand, nine hundred and twenty-two\n\nInput: 1151\nOutput: one thousand, one hundred and fifty-one\n\nInput: 5896\nOutput: five thousand, eight hundred and ninety-six\n\nInput: 9761\nOutput: nine thousand, seven hundred and sixty-one\n\nInput: 7108\nOutput: seven thousand, one hundred and eight"
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9067\nOutput: nine thousand and sixty-seven\n\nInput: 5087\nOutput: five thousand and eighty-seven\n\nInput: 853\nOutput: eight hundred and fifty-three\n\nInput: 1277\nOutput: one thousand, two hundred and seventy-seven\n\nInput: 7520\nOutput: seven thousand, five hundred and twenty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9067\nOutput: nine thousand and sixty-seven\n\nInput: 5087\nOutput: five thousand and eighty-seven\n\nInput: 853\nOutput: eight hundred and fifty-three\n\nInput: 1277\nOutput: one thousand, two hundred and seventy-seven\n\nInput: 7520\nOutput: seven thousand, five hundred and twenty"
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2233\nOutput: two thousand, two hundred and thirty-three\n\nInput: 7758\nOutput: seven thousand, seven hundred and fifty-eight\n\nInput: 3003\nOutput: three thousand and three\n\nInput: 1017\nOutput: one thousand and seventeen\n\nInput: 8941\nOutput: eight thousand, nine hundred and forty-one\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2233\nOutput: two thousand, two hundred and thirty-three\n\nInput: 7758\nOutput: seven thousand, seven hundred and fifty-eight\n\nInput: 3003\nOutput: three thousand and three\n\nInput: 1017\nOutput: one thousand and seventeen\n\nInput: 8941\nOutput: eight thousand, nine hundred and forty-one"
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5442\nOutput: five thousand, four hundred and forty-two\n\nInput: 3594\nOutput: three thousand, five hundred and ninety-four\n\nInput: 6768\nOutput: six thousand, seven hundred and sixty-eight\n\nInput: 3829\nOutput: three thousand, eight hundred and twenty-nine\n\nInput: 5077\nOutput: five thousand and seventy-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5442\nOutput: five thousand, four hundred and forty-two\n\nInput: 3594\nOutput: three thousand, five hundred and ninety-four\n\nInput: 6768\nOutput: six thousand, seven hundred and sixty-eight\n\nInput: 3829\nOutput: three thousand, eight hundred and twenty-nine\n\nInput: 5077\nOutput: five thousand and seventy-seven"
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3121\nOutput: three thousand, one hundred and twenty-one\n\nInput: 8446\nOutput: eight thousand, four hundred and forty-six\n\nInput: 7864\nOutput: seven thousand, eight hundred and sixty-four\n\nInput: 8873\nOutput: eight thousand, eight hundred and seventy-three\n\nInput: 8366\nOutput: eight thousand, three hundred and sixty-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3121\nOutput: three thousand, one hundred and twenty-one\n\nInput: 8446\nOutput: eight thousand, four hundred and forty-six\n\nInput: 7864\nOutput: seven thousand, eight hundred and sixty-four\n\nInput: 8873\nOutput: eight thousand, eight hundred and seventy-three\n\nInput: 8366\nOutput: eight thousand, three hundred and sixty-six"
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3958\nOutput: three thousand, nine hundred and fifty-eight\n\nInput: 4839\nOutput: four thousand, eight hundred and thirty-nine\n\nInput: 7380\nOutput: seven thousand, three hundred and eighty\n\nInput: 8597\nOutput: eight thousand, five hundred and ninety-seven\n\nInput: 3419\nOutput: three thousand, four hundred and nineteen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3958\nOutput: three thousand, nine hundred and fifty-eight\n\nInput: 4839\nOutput: four thousand, eight hundred and thirty-nine\n\nInput: 7380\nOutput: seven thousand, three hundred and eighty\n\nInput: 8597\nOutput: eight thousand, five hundred and ninety-seven\n\nInput: 3419\nOutput: three thousand, four hundred and nineteen"
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 540\nOutput: five hundred and forty\n\nInput: 5403\nOutput: five thousand, four hundred and three\n\nInput: 2764\nOutput: two thousand, seven hundred and sixty-four\n\nInput: 276\nOutput: two hundred and seventy-six\n\nInput: 6980\nOutput: six thousand, nine hundred and eighty\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 540\nOutput: five hundred and forty\n\nInput: 5403\nOutput: five thousand, four hundred and three\n\nInput: 2764\nOutput: two thousand, seven hundred and sixty-four\n\nInput: 276\nOutput: two hundred and seventy-six\n\nInput: 6980\nOutput: six thousand, nine hundred and eighty"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7560\nOutput: seven thousand, five hundred and sixty\n\nInput: 2077\nOutput: two thousand and seventy-seven\n\nInput: 6988\nOutput: six thousand, nine hundred and eighty-eight\n\nInput: 4811\nOutput: four thousand, eight hundred and eleven\n\nInput: 2928\nOutput: two thousand, nine hundred and twenty-eight\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7560\nOutput: seven thousand, five hundred and sixty\n\nInput: 2077\nOutput: two thousand and seventy-seven\n\nInput: 6988\nOutput: six thousand, nine hundred and eighty-eight\n\nInput: 4811\nOutput: four thousand, eight hundred and eleven\n\nInput: 2928\nOutput: two thousand, nine hundred and twenty-eight"
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4517\nOutput: four thousand, five hundred and seventeen\n\nInput: 8991\nOutput: eight thousand, nine hundred and ninety-one\n\nInput: 1356\nOutput: one thousand, three hundred and fifty-six\n\nInput: 8161\nOutput: eight thousand, one hundred and sixty-one\n\nInput: 7022\nOutput: seven thousand and twenty-two\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4517\nOutput: four thousand, five hundred and seventeen\n\nInput: 8991\nOutput: eight thousand, nine hundred and ninety-one\n\nInput: 1356\nOutput: one thousand, three hundred and fifty-six\n\nInput: 8161\nOutput: eight thousand, one hundred and sixty-one\n\nInput: 7022\nOutput: seven thousand and twenty-two"
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4003\nOutput: four thousand and three\n\nInput: 9640\nOutput: nine thousand, six hundred and forty\n\nInput: 7115\nOutput: seven thousand, one hundred and fifteen\n\nInput: 1643\nOutput: one thousand, six hundred and forty-three\n\nInput: 6689\nOutput: six thousand, six hundred and eighty-nine\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4003\nOutput: four thousand and three\n\nInput: 9640\nOutput: nine thousand, six hundred and forty\n\nInput: 7115\nOutput: seven thousand, one hundred and fifteen\n\nInput: 1643\nOutput: one thousand, six hundred and forty-three\n\nInput: 6689\nOutput: six thousand, six hundred and eighty-nine"
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 7414\nOutput: seven thousand, four hundred and fourteen\n\nInput: 9072\nOutput: nine thousand and seventy-two\n\nInput: 1034\nOutput: one thousand and thirty-four\n\nInput: 1876\nOutput: one thousand, eight hundred and seventy-six\n\nInput: 863\nOutput: eight hundred and sixty-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 7414\nOutput: seven thousand, four hundred and fourteen\n\nInput: 9072\nOutput: nine thousand and seventy-two\n\nInput: 1034\nOutput: one thousand and thirty-four\n\nInput: 1876\nOutput: one thousand, eight hundred and seventy-six\n\nInput: 863\nOutput: eight hundred and sixty-three"
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9858\nOutput: nine thousand, eight hundred and fifty-eight\n\nInput: 8682\nOutput: eight thousand, six hundred and eighty-two\n\nInput: 3349\nOutput: three thousand, three hundred and forty-nine\n\nInput: 891\nOutput: eight hundred and ninety-one\n\nInput: 6352\nOutput: six thousand, three hundred and fifty-two\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9858\nOutput: nine thousand, eight hundred and fifty-eight\n\nInput: 8682\nOutput: eight thousand, six hundred and eighty-two\n\nInput: 3349\nOutput: three thousand, three hundred and forty-nine\n\nInput: 891\nOutput: eight hundred and ninety-one\n\nInput: 6352\nOutput: six thousand, three hundred and fifty-two"
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 4260\nOutput: four thousand, two hundred and sixty\n\nInput: 130\nOutput: one hundred and thirty\n\nInput: 1995\nOutput: one thousand, nine hundred and ninety-five\n\nInput: 9208\nOutput: nine thousand, two hundred and eight\n\nInput: 3923\nOutput: three thousand, nine hundred and twenty-three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 4260\nOutput: four thousand, two hundred and sixty\n\nInput: 130\nOutput: one hundred and thirty\n\nInput: 1995\nOutput: one thousand, nine hundred and ninety-five\n\nInput: 9208\nOutput: nine thousand, two hundred and eight\n\nInput: 3923\nOutput: three thousand, nine hundred and twenty-three"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 5362\nOutput: five thousand, three hundred and sixty-two\n\nInput: 851\nOutput: eight hundred and fifty-one\n\nInput: 5893\nOutput: five thousand, eight hundred and ninety-three\n\nInput: 8884\nOutput: eight thousand, eight hundred and eighty-four\n\nInput: 1413\nOutput: one thousand, four hundred and thirteen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 5362\nOutput: five thousand, three hundred and sixty-two\n\nInput: 851\nOutput: eight hundred and fifty-one\n\nInput: 5893\nOutput: five thousand, eight hundred and ninety-three\n\nInput: 8884\nOutput: eight thousand, eight hundred and eighty-four\n\nInput: 1413\nOutput: one thousand, four hundred and thirteen"
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3826\nOutput: three thousand, eight hundred and twenty-six\n\nInput: 7959\nOutput: seven thousand, nine hundred and fifty-nine\n\nInput: 6507\nOutput: six thousand, five hundred and seven\n\nInput: 8491\nOutput: eight thousand, four hundred and ninety-one\n\nInput: 1047\nOutput: one thousand and forty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3826\nOutput: three thousand, eight hundred and twenty-six\n\nInput: 7959\nOutput: seven thousand, nine hundred and fifty-nine\n\nInput: 6507\nOutput: six thousand, five hundred and seven\n\nInput: 8491\nOutput: eight thousand, four hundred and ninety-one\n\nInput: 1047\nOutput: one thousand and forty-seven"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 3433\nOutput: three thousand, four hundred and thirty-three\n\nInput: 895\nOutput: eight hundred and ninety-five\n\nInput: 3605\nOutput: three thousand, six hundred and five\n\nInput: 2729\nOutput: two thousand, seven hundred and twenty-nine\n\nInput: 5376\nOutput: five thousand, three hundred and seventy-six\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 3433\nOutput: three thousand, four hundred and thirty-three\n\nInput: 895\nOutput: eight hundred and ninety-five\n\nInput: 3605\nOutput: three thousand, six hundred and five\n\nInput: 2729\nOutput: two thousand, seven hundred and twenty-nine\n\nInput: 5376\nOutput: five thousand, three hundred and seventy-six"
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9979\nOutput: nine thousand, nine hundred and seventy-nine\n\nInput: 1839\nOutput: one thousand, eight hundred and thirty-nine\n\nInput: 5720\nOutput: five thousand, seven hundred and twenty\n\nInput: 6314\nOutput: six thousand, three hundred and fourteen\n\nInput: 8587\nOutput: eight thousand, five hundred and eighty-seven\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9979\nOutput: nine thousand, nine hundred and seventy-nine\n\nInput: 1839\nOutput: one thousand, eight hundred and thirty-nine\n\nInput: 5720\nOutput: five thousand, seven hundred and twenty\n\nInput: 6314\nOutput: six thousand, three hundred and fourteen\n\nInput: 8587\nOutput: eight thousand, five hundred and eighty-seven"
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 6407\nOutput: six thousand, four hundred and seven\n\nInput: 7186\nOutput: seven thousand, one hundred and eighty-six\n\nInput: 4076\nOutput: four thousand and seventy-six\n\nInput: 5271\nOutput: five thousand, two hundred and seventy-one\n\nInput: 8403\nOutput: eight thousand, four hundred and three\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 6407\nOutput: six thousand, four hundred and seven\n\nInput: 7186\nOutput: seven thousand, one hundred and eighty-six\n\nInput: 4076\nOutput: four thousand and seventy-six\n\nInput: 5271\nOutput: five thousand, two hundred and seventy-one\n\nInput: 8403\nOutput: eight thousand, four hundred and three"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 2838\nOutput: two thousand, eight hundred and thirty-eight\n\nInput: 7339\nOutput: seven thousand, three hundred and thirty-nine\n\nInput: 5718\nOutput: five thousand, seven hundred and eighteen\n\nInput: 4198\nOutput: four thousand, one hundred and ninety-eight\n\nInput: 6913\nOutput: six thousand, nine hundred and thirteen\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 2838\nOutput: two thousand, eight hundred and thirty-eight\n\nInput: 7339\nOutput: seven thousand, three hundred and thirty-nine\n\nInput: 5718\nOutput: five thousand, seven hundred and eighteen\n\nInput: 4198\nOutput: four thousand, one hundred and ninety-eight\n\nInput: 6913\nOutput: six thousand, nine hundred and thirteen"
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: 9153\nOutput: nine thousand, one hundred and fifty-three\n\nInput: 9050\nOutput: nine thousand and fifty\n\nInput: 6134\nOutput: six thousand, one hundred and thirty-four\n\nInput: 1977\nOutput: one thousand, nine hundred and seventy-seven\n\nInput: 8279\nOutput: eight thousand, two hundred and seventy-nine\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: 9153\nOutput: nine thousand, one hundred and fifty-three\n\nInput: 9050\nOutput: nine thousand and fifty\n\nInput: 6134\nOutput: six thousand, one hundred and thirty-four\n\nInput: 1977\nOutput: one thousand, nine hundred and seventy-seven\n\nInput: 8279\nOutput: eight thousand, two hundred and seventy-nine"
+      }
+    }
+  }
+}

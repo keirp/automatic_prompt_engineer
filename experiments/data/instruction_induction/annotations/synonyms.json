@@ -1,0 +1,12 @@
+{
+  "annotations": [
+    "provide a synonym",
+    "output a word that is similar to the input",
+    "Write a word with similar meaning to the input",
+    "Write a word with a similar meaning",
+    "Write a word with close, but not exactly the same, meaning to each word in the following inputs",
+    "Write a synonym of the following word:",
+    "You will be given a word as input and need to output a word that is semantically similar. ",
+    "Write a synonym of the input word."
+  ]
+}

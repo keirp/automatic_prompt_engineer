@@ -1,0 +1,13 @@
+{
+  "annotations": [
+    "write the result of the first number in the input minus the second one",
+    "output the result of taking the first number in the input and subtracting the second number",
+    "Subtract the second number of the input from the first number of the input",
+    "Write the result of subtracting the second number from the first number",
+    "For each input of two numbers subtract the second number from the first and write the result.",
+    "For each input, subtract the second number from the first number and write the results.",
+    "Subtract the second number from the first number:",
+    "You will be given two numbers as input, and you need to output the result of subtracting the second number from the first one.",
+    "Subtract the second number from the first one:"
+  ]
+}

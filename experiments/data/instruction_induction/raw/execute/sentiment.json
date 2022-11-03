@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "...routine, harmless diversion and little else.",
+      "output": "positive"
+    },
+    "2": {
+      "input": "An occasionally funny, but overall limp, fish-out-of-water story.",
+      "output": "negative"
+    },
+    "3": {
+      "input": "Unflinchingly bleak and desperate",
+      "output": "negative"
+    },
+    "4": {
+      "input": "A woman's pic directed with resonance by Ilya Chaiken.",
+      "output": "positive"
+    },
+    "5": {
+      "input": "A tender, heartfelt family drama.",
+      "output": "positive"
+    },
+    "6": {
+      "input": "Like Leon, it's frustrating and still oddly likable.",
+      "output": "positive"
+    },
+    "7": {
+      "input": "The film's performances are thrilling.",
+      "output": "positive"
+    },
+    "8": {
+      "input": "A coarse and stupid gross-out.",
+      "output": "negative"
+    },
+    "9": {
+      "input": "An overemphatic, would-be wacky, ultimately tedious sex farce.",
+      "output": "negative"
+    },
+    "10": {
+      "input": "Holden Caulfield did it better.",
+      "output": "negative"
+    },
+    "11": {
+      "input": "Holm ... embodies the character with an effortlessly regal charisma.",
+      "output": "positive"
+    },
+    "12": {
+      "input": "A quiet treasure -- a film to be savored.",
+      "output": "positive"
+    },
+    "13": {
+      "input": "Do not see this film.",
+      "output": "negative"
+    },
+    "14": {
+      "input": "Crackerjack entertainment -- nonstop romance, music, suspense and action.",
+      "output": "positive"
+    },
+    "15": {
+      "input": "An exquisitely crafted and acted tale.",
+      "output": "positive"
+    },
+    "16": {
+      "input": "It all adds up to good fun.",
+      "output": "positive"
+    },
+    "17": {
+      "input": "Detox is ultimately a pointless endeavor.",
+      "output": "negative"
+    },
+    "18": {
+      "input": "It's a remarkably solid and subtly satirical tour de force.",
+      "output": "positive"
+    },
+    "19": {
+      "input": "Overall very good for what it's trying to do.",
+      "output": "positive"
+    },
+    "20": {
+      "input": "A fast, funny, highly enjoyable movie.",
+      "output": "positive"
+    },
+    "21": {
+      "input": "An absurdist comedy about alienation, separation and loss.",
+      "output": "negative"
+    },
+    "22": {
+      "input": "It treats women like idiots.",
+      "output": "negative"
+    },
+    "23": {
+      "input": "Among the year's most intriguing explorations of alientation.",
+      "output": "positive"
+    },
+    "24": {
+      "input": "A smart, witty follow-up.",
+      "output": "positive"
+    },
+    "25": {
+      "input": "Dull, lifeless, and amateurishly assembled.",
+      "output": "negative"
+    },
+    "26": {
+      "input": "More whiny downer than corruscating commentary.",
+      "output": "negative"
+    },
+    "27": {
+      "input": "A very well-made, funny and entertaining picture.",
+      "output": "positive"
+    },
+    "28": {
+      "input": "A movie with a real anarchic flair.",
+      "output": "positive"
+    },
+    "29": {
+      "input": "Rarely has so much money delivered so little entertainment.",
+      "output": "negative"
+    },
+    "30": {
+      "input": "A wildly inconsistent emotional experience.",
+      "output": "negative"
+    },
+    "31": {
+      "input": "It has all the excitement of eating oatmeal.",
+      "output": "negative"
+    },
+    "32": {
+      "input": "Coughs and sputters on its own postmodern conceit.",
+      "output": "negative"
+    },
+    "33": {
+      "input": "One of the most significant moviegoing pleasures of the year.",
+      "output": "positive"
+    },
+    "34": {
+      "input": "Verbinski implements every hack-artist trick to give us the ooky-spookies.",
+      "output": "negative"
+    },
+    "35": {
+      "input": "Funny but perilously slight.",
+      "output": "positive"
+    },
+    "36": {
+      "input": "I just loved every minute of this film.",
+      "output": "positive"
+    },
+    "37": {
+      "input": "One long string of cliches.",
+      "output": "negative"
+    },
+    "38": {
+      "input": "I'm just too bored to care.",
+      "output": "negative"
+    },
+    "39": {
+      "input": "Reggio's continual visual barrage is absorbing as well as thought-provoking.",
+      "output": "positive"
+    },
+    "40": {
+      "input": "A gorgeous, witty, seductive movie.",
+      "output": "positive"
+    },
+    "41": {
+      "input": "As unseemly as its title suggests.",
+      "output": "positive"
+    },
+    "42": {
+      "input": "A marvel like none you've seen.",
+      "output": "positive"
+    },
+    "43": {
+      "input": "So much facile technique, such cute ideas, so little movie.",
+      "output": "positive"
+    },
+    "44": {
+      "input": "Just as moving, uplifting and funny as ever.",
+      "output": "positive"
+    },
+    "45": {
+      "input": "Directed in a paint-by-numbers manner.",
+      "output": "negative"
+    },
+    "46": {
+      "input": "At once half-baked and overheated.",
+      "output": "negative"
+    },
+    "47": {
+      "input": "Complete lack of originality, cleverness or even visible effort",
+      "output": "negative"
+    },
+    "48": {
+      "input": "Nervous breakdowns are not entertaining.",
+      "output": "negative"
+    },
+    "49": {
+      "input": "Slick piece of cross-promotion.",
+      "output": "positive"
+    },
+    "50": {
+      "input": "Plays like a volatile and overlong W magazine fashion spread.",
+      "output": "negative"
+    },
+    "51": {
+      "input": "Collateral Damage finally delivers the goods for Schwarzenegger fans.",
+      "output": "positive"
+    },
+    "52": {
+      "input": "A warm but realistic meditation on friendship, family and affection.",
+      "output": "positive"
+    },
+    "53": {
+      "input": "Beautifully observed, miraculously unsentimental comedy-drama.",
+      "output": "positive"
+    },
+    "54": {
+      "input": "There's not enough here to justify the almost two hours.",
+      "output": "negative"
+    },
+    "55": {
+      "input": "A sometimes tedious film.",
+      "output": "negative"
+    },
+    "56": {
+      "input": "The piquant story needs more dramatic meat on its bones.",
+      "output": "negative"
+    },
+    "57": {
+      "input": "The Cold Turkey would've been a far better title.",
+      "output": "negative"
+    },
+    "58": {
+      "input": "It's a charming and often affecting journey.",
+      "output": "positive"
+    },
+    "59": {
+      "input": "The Wild Thornberrys Movie is a jolly surprise.",
+      "output": "positive"
+    },
+    "60": {
+      "input": "A solid film...but more conscientious than it is truly stirring.",
+      "output": "positive"
+    },
+    "61": {
+      "input": "Teen movies have really hit the skids.",
+      "output": "negative"
+    },
+    "62": {
+      "input": "A painfully funny ode to bad behavior.",
+      "output": "positive"
+    },
+    "63": {
+      "input": "Will amuse and provoke adventurous adults in specialty venues.",
+      "output": "positive"
+    },
+    "64": {
+      "input": "A sequence of ridiculous shoot-'em-up scenes.",
+      "output": "negative"
+    },
+    "65": {
+      "input": "It's made with deftly unsettling genre flair.",
+      "output": "positive"
+    },
+    "66": {
+      "input": "As vulgar as it is banal.",
+      "output": "negative"
+    },
+    "67": {
+      "input": "A solid examination of the male midlife crisis.",
+      "output": "positive"
+    },
+    "68": {
+      "input": "It's a stunning lyrical work of considerable force and truth.",
+      "output": "positive"
+    },
+    "69": {
+      "input": "It is amusing, and that's all it needs to be.",
+      "output": "positive"
+    },
+    "70": {
+      "input": "Falls neatly into the category of Good Stupid Fun.",
+      "output": "positive"
+    },
+    "71": {
+      "input": "This is so bad.",
+      "output": "negative"
+    },
+    "72": {
+      "input": "... the movie is just a plain old monster.",
+      "output": "negative"
+    },
+    "73": {
+      "input": "A warm, funny, engaging film.",
+      "output": "positive"
+    },
+    "74": {
+      "input": "...a magnificent drama well worth tracking down.",
+      "output": "positive"
+    },
+    "75": {
+      "input": "It's everything you don't go to the movies for.",
+      "output": "negative"
+    },
+    "76": {
+      "input": "Jones ... does offer a brutal form of charisma.",
+      "output": "positive"
+    },
+    "77": {
+      "input": "Enormously entertaining for moviegoers of any age.",
+      "output": "positive"
+    },
+    "78": {
+      "input": "Too much of the humor falls flat.",
+      "output": "negative"
+    },
+    "79": {
+      "input": "The lower your expectations, the more you'll enjoy it.",
+      "output": "negative"
+    },
+    "80": {
+      "input": "Forced, familiar and thoroughly condescending.",
+      "output": "negative"
+    },
+    "81": {
+      "input": "A sequel that's much too big for its britches.",
+      "output": "negative"
+    },
+    "82": {
+      "input": "No way I can believe this load of junk.",
+      "output": "negative"
+    },
+    "83": {
+      "input": "No telegraphing is too obvious or simplistic for this movie.",
+      "output": "negative"
+    },
+    "84": {
+      "input": "Indifferently implausible popcorn programmer of a movie.",
+      "output": "negative"
+    },
+    "85": {
+      "input": "Very psychoanalytical -- provocatively so -- and also refreshingly literary.",
+      "output": "positive"
+    },
+    "86": {
+      "input": "Trite, banal, cliched, mostly inoffensive.",
+      "output": "negative"
+    },
+    "87": {
+      "input": "Movie fans, get ready to take off...the other direction.",
+      "output": "negative"
+    },
+    "88": {
+      "input": "The film is quiet, threatening and unforgettable.",
+      "output": "positive"
+    },
+    "89": {
+      "input": "It proves quite compelling as an intense, brooding character study.",
+      "output": "positive"
+    },
+    "90": {
+      "input": "Has all the depth of a wading pool.",
+      "output": "negative"
+    },
+    "91": {
+      "input": "Nothing is sacred in this gut-buster.",
+      "output": "negative"
+    },
+    "92": {
+      "input": "An entertaining, colorful, action-filled crime story with an intimate heart.",
+      "output": "positive"
+    },
+    "93": {
+      "input": "Rarely has leukemia looked so shimmering and benign.",
+      "output": "negative"
+    },
+    "94": {
+      "input": "Not exactly the Bees Knees",
+      "output": "negative"
+    },
+    "95": {
+      "input": "One from the heart.",
+      "output": "positive"
+    },
+    "96": {
+      "input": "It's dumb, but more importantly, it's just not scary.",
+      "output": "negative"
+    },
+    "97": {
+      "input": "Chokes on its own depiction of upper-crust decorum.",
+      "output": "negative"
+    },
+    "98": {
+      "input": "An unwise amalgam of Broadcast News and Vibes.",
+      "output": "negative"
+    },
+    "99": {
+      "input": "Blanchett's performance confirms her power once again.",
+      "output": "positive"
+    },
+    "100": {
+      "input": "Burns never really harnesses to full effect the energetic cast.",
+      "output": "negative"
+    }
+  }
+}

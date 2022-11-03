@@ -1,0 +1,12 @@
+{
+  "annotations": [
+    "sum the numbers in the input",
+    "Write the result of adding the two numbers",
+    "Write the sum of the two numbers",
+    "Write the sum of the pair of numbers for each input",
+    "For each input, write the sum of the two numbers that appears there.",
+    "Add the following numbers:",
+    "You are given two numbers as input. Apply the + operator to them and output the answer:",
+    "Apply the + operator on the two numbers."
+  ]
+}

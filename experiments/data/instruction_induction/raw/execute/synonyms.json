@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "procedure",
+      "output": "process"
+    },
+    "2": {
+      "input": "drag",
+      "output": "trail"
+    },
+    "3": {
+      "input": "permit",
+      "output": "let"
+    },
+    "4": {
+      "input": "decide",
+      "output": "determine"
+    },
+    "5": {
+      "input": "blueprint",
+      "output": "design"
+    },
+    "6": {
+      "input": "help",
+      "output": "aid"
+    },
+    "7": {
+      "input": "learn",
+      "output": "see"
+    },
+    "8": {
+      "input": "keystone",
+      "output": "key"
+    },
+    "9": {
+      "input": "young",
+      "output": "youth"
+    },
+    "10": {
+      "input": "spare",
+      "output": "free"
+    },
+    "11": {
+      "input": "arm",
+      "output": "branch"
+    },
+    "12": {
+      "input": "amino",
+      "output": "aminic"
+    },
+    "13": {
+      "input": "distinguished",
+      "output": "grand"
+    },
+    "14": {
+      "input": "tongue",
+      "output": "knife"
+    },
+    "15": {
+      "input": "strange",
+      "output": "unknown"
+    },
+    "16": {
+      "input": "tap",
+      "output": "tip"
+    },
+    "17": {
+      "input": "dollar",
+      "output": "buck"
+    },
+    "18": {
+      "input": "overt",
+      "output": "open"
+    },
+    "19": {
+      "input": "mood",
+      "output": "mode"
+    },
+    "20": {
+      "input": "defeated",
+      "output": "discomfited"
+    },
+    "21": {
+      "input": "boundary",
+      "output": "bound"
+    },
+    "22": {
+      "input": "alive",
+      "output": "live"
+    },
+    "23": {
+      "input": "risk",
+      "output": "danger"
+    },
+    "24": {
+      "input": "distinct",
+      "output": "decided"
+    },
+    "25": {
+      "input": "besides",
+      "output": "also"
+    },
+    "26": {
+      "input": "appropriate",
+      "output": "capture"
+    },
+    "27": {
+      "input": "frequent",
+      "output": "haunt"
+    },
+    "28": {
+      "input": "skill",
+      "output": "science"
+    },
+    "29": {
+      "input": "step",
+      "output": "tread"
+    },
+    "30": {
+      "input": "perplex",
+      "output": "get"
+    },
+    "31": {
+      "input": "spill",
+      "output": "fall"
+    },
+    "32": {
+      "input": "yea",
+      "output": "yeah"
+    },
+    "33": {
+      "input": "batch",
+      "output": "plenty"
+    },
+    "34": {
+      "input": "alteration",
+      "output": "adjustment"
+    },
+    "35": {
+      "input": "mother",
+      "output": "fuss"
+    },
+    "36": {
+      "input": "offer",
+      "output": "offering"
+    },
+    "37": {
+      "input": "career",
+      "output": "calling"
+    },
+    "38": {
+      "input": "closure",
+      "output": "closing"
+    },
+    "39": {
+      "input": "result",
+      "output": "outcome"
+    },
+    "40": {
+      "input": "king",
+      "output": "queen"
+    },
+    "41": {
+      "input": "strain",
+      "output": "extend"
+    },
+    "42": {
+      "input": "here",
+      "output": "hither"
+    },
+    "43": {
+      "input": "ranking",
+      "output": "superior"
+    },
+    "44": {
+      "input": "telegram",
+      "output": "wire"
+    },
+    "45": {
+      "input": "locomotive",
+      "output": "engine"
+    },
+    "46": {
+      "input": "market",
+      "output": "marketplace"
+    },
+    "47": {
+      "input": "justify",
+      "output": "warrant"
+    },
+    "48": {
+      "input": "hammer",
+      "output": "pound"
+    },
+    "49": {
+      "input": "yellow",
+      "output": "yellowish"
+    },
+    "50": {
+      "input": "nation",
+      "output": "country"
+    },
+    "51": {
+      "input": "repair",
+      "output": "doctor"
+    },
+    "52": {
+      "input": "confidence",
+      "output": "trust"
+    },
+    "53": {
+      "input": "sociable",
+      "output": "social"
+    },
+    "54": {
+      "input": "tramp",
+      "output": "bum"
+    },
+    "55": {
+      "input": "bias",
+      "output": "prejudice"
+    },
+    "56": {
+      "input": "pour",
+      "output": "stream"
+    },
+    "57": {
+      "input": "why",
+      "output": "wherefore"
+    },
+    "58": {
+      "input": "behind",
+      "output": "slow"
+    },
+    "59": {
+      "input": "hard",
+      "output": "strong"
+    },
+    "60": {
+      "input": "penny",
+      "output": "cent"
+    },
+    "61": {
+      "input": "foil",
+      "output": "transparency"
+    },
+    "62": {
+      "input": "citation",
+      "output": "reference"
+    },
+    "63": {
+      "input": "self",
+      "output": "ego"
+    },
+    "64": {
+      "input": "improbable",
+      "output": "tall"
+    },
+    "65": {
+      "input": "agrarian",
+      "output": "agricultural"
+    },
+    "66": {
+      "input": "provision",
+      "output": "supply"
+    },
+    "67": {
+      "input": "radical",
+      "output": "basal"
+    },
+    "68": {
+      "input": "message",
+      "output": "content"
+    },
+    "69": {
+      "input": "crying",
+      "output": "tears"
+    },
+    "70": {
+      "input": "pierce",
+      "output": "thrust"
+    },
+    "71": {
+      "input": "bank",
+      "output": "cant"
+    },
+    "72": {
+      "input": "eye",
+      "output": "optic"
+    },
+    "73": {
+      "input": "pure",
+      "output": "virgin"
+    },
+    "74": {
+      "input": "sure",
+      "output": "trusted"
+    },
+    "75": {
+      "input": "management",
+      "output": "direction"
+    },
+    "76": {
+      "input": "advanced",
+      "output": "modern"
+    },
+    "77": {
+      "input": "atom",
+      "output": "particle"
+    },
+    "78": {
+      "input": "prevention",
+      "output": "bar"
+    },
+    "79": {
+      "input": "being",
+      "output": "existence"
+    },
+    "80": {
+      "input": "source",
+      "output": "seed"
+    },
+    "81": {
+      "input": "garrison",
+      "output": "fort"
+    },
+    "82": {
+      "input": "soonest",
+      "output": "earliest"
+    },
+    "83": {
+      "input": "brilliantly",
+      "output": "bright"
+    },
+    "84": {
+      "input": "affecting",
+      "output": "touching"
+    },
+    "85": {
+      "input": "hail",
+      "output": "come"
+    },
+    "86": {
+      "input": "mystery",
+      "output": "secret"
+    },
+    "87": {
+      "input": "significant",
+      "output": "important"
+    },
+    "88": {
+      "input": "system",
+      "output": "scheme"
+    },
+    "89": {
+      "input": "hazard",
+      "output": "risk"
+    },
+    "90": {
+      "input": "functional",
+      "output": "operational"
+    },
+    "91": {
+      "input": "multitude",
+      "output": "people"
+    },
+    "92": {
+      "input": "hale",
+      "output": "whole"
+    },
+    "93": {
+      "input": "overture",
+      "output": "approach"
+    },
+    "94": {
+      "input": "ancestor",
+      "output": "root"
+    },
+    "95": {
+      "input": "possibly",
+      "output": "perhaps"
+    },
+    "96": {
+      "input": "moisture",
+      "output": "wet"
+    },
+    "97": {
+      "input": "completion",
+      "output": "closing"
+    },
+    "98": {
+      "input": "infantry",
+      "output": "foot"
+    },
+    "99": {
+      "input": "dose",
+      "output": "dosage"
+    },
+    "100": {
+      "input": "marketplace",
+      "output": "market"
+    }
+  }
+}

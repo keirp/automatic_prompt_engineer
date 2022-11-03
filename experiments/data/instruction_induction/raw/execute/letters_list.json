@@ -1,0 +1,1303 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "place",
+      "output": "p l a c e",
+      "word_letters_list": [
+        "p",
+        "l",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    "2": {
+      "input": "family",
+      "output": "f a m i l y",
+      "word_letters_list": [
+        "f",
+        "a",
+        "m",
+        "i",
+        "l",
+        "y"
+      ]
+    },
+    "3": {
+      "input": "point",
+      "output": "p o i n t",
+      "word_letters_list": [
+        "p",
+        "o",
+        "i",
+        "n",
+        "t"
+      ]
+    },
+    "4": {
+      "input": "east",
+      "output": "e a s t",
+      "word_letters_list": [
+        "e",
+        "a",
+        "s",
+        "t"
+      ]
+    },
+    "5": {
+      "input": "service",
+      "output": "s e r v i c e",
+      "word_letters_list": [
+        "s",
+        "e",
+        "r",
+        "v",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    "6": {
+      "input": "run",
+      "output": "r u n",
+      "word_letters_list": [
+        "r",
+        "u",
+        "n"
+      ]
+    },
+    "7": {
+      "input": "site",
+      "output": "s i t e",
+      "word_letters_list": [
+        "s",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    "8": {
+      "input": "wife",
+      "output": "w i f e",
+      "word_letters_list": [
+        "w",
+        "i",
+        "f",
+        "e"
+      ]
+    },
+    "9": {
+      "input": "hurricane",
+      "output": "h u r r i c a n e",
+      "word_letters_list": [
+        "h",
+        "u",
+        "r",
+        "r",
+        "i",
+        "c",
+        "a",
+        "n",
+        "e"
+      ]
+    },
+    "10": {
+      "input": "league",
+      "output": "l e a g u e",
+      "word_letters_list": [
+        "l",
+        "e",
+        "a",
+        "g",
+        "u",
+        "e"
+      ]
+    },
+    "11": {
+      "input": "section",
+      "output": "s e c t i o n",
+      "word_letters_list": [
+        "s",
+        "e",
+        "c",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "12": {
+      "input": "surface",
+      "output": "s u r f a c e",
+      "word_letters_list": [
+        "s",
+        "u",
+        "r",
+        "f",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    "13": {
+      "input": "contract",
+      "output": "c o n t r a c t",
+      "word_letters_list": [
+        "c",
+        "o",
+        "n",
+        "t",
+        "r",
+        "a",
+        "c",
+        "t"
+      ]
+    },
+    "14": {
+      "input": "fight",
+      "output": "f i g h t",
+      "word_letters_list": [
+        "f",
+        "i",
+        "g",
+        "h",
+        "t"
+      ]
+    },
+    "15": {
+      "input": "guitar",
+      "output": "g u i t a r",
+      "word_letters_list": [
+        "g",
+        "u",
+        "i",
+        "t",
+        "a",
+        "r"
+      ]
+    },
+    "16": {
+      "input": "ball",
+      "output": "b a l l",
+      "word_letters_list": [
+        "b",
+        "a",
+        "l",
+        "l"
+      ]
+    },
+    "17": {
+      "input": "model",
+      "output": "m o d e l",
+      "word_letters_list": [
+        "m",
+        "o",
+        "d",
+        "e",
+        "l"
+      ]
+    },
+    "18": {
+      "input": "press",
+      "output": "p r e s s",
+      "word_letters_list": [
+        "p",
+        "r",
+        "e",
+        "s",
+        "s"
+      ]
+    },
+    "19": {
+      "input": "culture",
+      "output": "c u l t u r e",
+      "word_letters_list": [
+        "c",
+        "u",
+        "l",
+        "t",
+        "u",
+        "r",
+        "e"
+      ]
+    },
+    "20": {
+      "input": "collection",
+      "output": "c o l l e c t i o n",
+      "word_letters_list": [
+        "c",
+        "o",
+        "l",
+        "l",
+        "e",
+        "c",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "21": {
+      "input": "foot",
+      "output": "f o o t",
+      "word_letters_list": [
+        "f",
+        "o",
+        "o",
+        "t"
+      ]
+    },
+    "22": {
+      "input": "theory",
+      "output": "t h e o r y",
+      "word_letters_list": [
+        "t",
+        "h",
+        "e",
+        "o",
+        "r",
+        "y"
+      ]
+    },
+    "23": {
+      "input": "invasion",
+      "output": "i n v a s i o n",
+      "word_letters_list": [
+        "i",
+        "n",
+        "v",
+        "a",
+        "s",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "24": {
+      "input": "quarter",
+      "output": "q u a r t e r",
+      "word_letters_list": [
+        "q",
+        "u",
+        "a",
+        "r",
+        "t",
+        "e",
+        "r"
+      ]
+    },
+    "25": {
+      "input": "agreement",
+      "output": "a g r e e m e n t",
+      "word_letters_list": [
+        "a",
+        "g",
+        "r",
+        "e",
+        "e",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    "26": {
+      "input": "personnel",
+      "output": "p e r s o n n e l",
+      "word_letters_list": [
+        "p",
+        "e",
+        "r",
+        "s",
+        "o",
+        "n",
+        "n",
+        "e",
+        "l"
+      ]
+    },
+    "27": {
+      "input": "northwest",
+      "output": "n o r t h w e s t",
+      "word_letters_list": [
+        "n",
+        "o",
+        "r",
+        "t",
+        "h",
+        "w",
+        "e",
+        "s",
+        "t"
+      ]
+    },
+    "28": {
+      "input": "editor",
+      "output": "e d i t o r",
+      "word_letters_list": [
+        "e",
+        "d",
+        "i",
+        "t",
+        "o",
+        "r"
+      ]
+    },
+    "29": {
+      "input": "cricket",
+      "output": "c r i c k e t",
+      "word_letters_list": [
+        "c",
+        "r",
+        "i",
+        "c",
+        "k",
+        "e",
+        "t"
+      ]
+    },
+    "30": {
+      "input": "lap",
+      "output": "l a p",
+      "word_letters_list": [
+        "l",
+        "a",
+        "p"
+      ]
+    },
+    "31": {
+      "input": "description",
+      "output": "d e s c r i p t i o n",
+      "word_letters_list": [
+        "d",
+        "e",
+        "s",
+        "c",
+        "r",
+        "i",
+        "p",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "32": {
+      "input": "camera",
+      "output": "c a m e r a",
+      "word_letters_list": [
+        "c",
+        "a",
+        "m",
+        "e",
+        "r",
+        "a"
+      ]
+    },
+    "33": {
+      "input": "mountain",
+      "output": "m o u n t a i n",
+      "word_letters_list": [
+        "m",
+        "o",
+        "u",
+        "n",
+        "t",
+        "a",
+        "i",
+        "n"
+      ]
+    },
+    "34": {
+      "input": "principal",
+      "output": "p r i n c i p a l",
+      "word_letters_list": [
+        "p",
+        "r",
+        "i",
+        "n",
+        "c",
+        "i",
+        "p",
+        "a",
+        "l"
+      ]
+    },
+    "35": {
+      "input": "regiment",
+      "output": "r e g i m e n t",
+      "word_letters_list": [
+        "r",
+        "e",
+        "g",
+        "i",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    "36": {
+      "input": "corner",
+      "output": "c o r n e r",
+      "word_letters_list": [
+        "c",
+        "o",
+        "r",
+        "n",
+        "e",
+        "r"
+      ]
+    },
+    "37": {
+      "input": "credit",
+      "output": "c r e d i t",
+      "word_letters_list": [
+        "c",
+        "r",
+        "e",
+        "d",
+        "i",
+        "t"
+      ]
+    },
+    "38": {
+      "input": "suit",
+      "output": "s u i t",
+      "word_letters_list": [
+        "s",
+        "u",
+        "i",
+        "t"
+      ]
+    },
+    "39": {
+      "input": "closing",
+      "output": "c l o s i n g",
+      "word_letters_list": [
+        "c",
+        "l",
+        "o",
+        "s",
+        "i",
+        "n",
+        "g"
+      ]
+    },
+    "40": {
+      "input": "boundary",
+      "output": "b o u n d a r y",
+      "word_letters_list": [
+        "b",
+        "o",
+        "u",
+        "n",
+        "d",
+        "a",
+        "r",
+        "y"
+      ]
+    },
+    "41": {
+      "input": "armament",
+      "output": "a r m a m e n t",
+      "word_letters_list": [
+        "a",
+        "r",
+        "m",
+        "a",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    "42": {
+      "input": "signal",
+      "output": "s i g n a l",
+      "word_letters_list": [
+        "s",
+        "i",
+        "g",
+        "n",
+        "a",
+        "l"
+      ]
+    },
+    "43": {
+      "input": "affect",
+      "output": "a f f e c t",
+      "word_letters_list": [
+        "a",
+        "f",
+        "f",
+        "e",
+        "c",
+        "t"
+      ]
+    },
+    "44": {
+      "input": "baby",
+      "output": "b a b y",
+      "word_letters_list": [
+        "b",
+        "a",
+        "b",
+        "y"
+      ]
+    },
+    "45": {
+      "input": "fantasy",
+      "output": "f a n t a s y",
+      "word_letters_list": [
+        "f",
+        "a",
+        "n",
+        "t",
+        "a",
+        "s",
+        "y"
+      ]
+    },
+    "46": {
+      "input": "voting",
+      "output": "v o t i n g",
+      "word_letters_list": [
+        "v",
+        "o",
+        "t",
+        "i",
+        "n",
+        "g"
+      ]
+    },
+    "47": {
+      "input": "reduction",
+      "output": "r e d u c t i o n",
+      "word_letters_list": [
+        "r",
+        "e",
+        "d",
+        "u",
+        "c",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "48": {
+      "input": "document",
+      "output": "d o c u m e n t",
+      "word_letters_list": [
+        "d",
+        "o",
+        "c",
+        "u",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    "49": {
+      "input": "inning",
+      "output": "i n n i n g",
+      "word_letters_list": [
+        "i",
+        "n",
+        "n",
+        "i",
+        "n",
+        "g"
+      ]
+    },
+    "50": {
+      "input": "lighter",
+      "output": "l i g h t e r",
+      "word_letters_list": [
+        "l",
+        "i",
+        "g",
+        "h",
+        "t",
+        "e",
+        "r"
+      ]
+    },
+    "51": {
+      "input": "moon",
+      "output": "m o o n",
+      "word_letters_list": [
+        "m",
+        "o",
+        "o",
+        "n"
+      ]
+    },
+    "52": {
+      "input": "explanation",
+      "output": "e x p l a n a t i o n",
+      "word_letters_list": [
+        "e",
+        "x",
+        "p",
+        "l",
+        "a",
+        "n",
+        "a",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "53": {
+      "input": "diamond",
+      "output": "d i a m o n d",
+      "word_letters_list": [
+        "d",
+        "i",
+        "a",
+        "m",
+        "o",
+        "n",
+        "d"
+      ]
+    },
+    "54": {
+      "input": "custom",
+      "output": "c u s t o m",
+      "word_letters_list": [
+        "c",
+        "u",
+        "s",
+        "t",
+        "o",
+        "m"
+      ]
+    },
+    "55": {
+      "input": "photograph",
+      "output": "p h o t o g r a p h",
+      "word_letters_list": [
+        "p",
+        "h",
+        "o",
+        "t",
+        "o",
+        "g",
+        "r",
+        "a",
+        "p",
+        "h"
+      ]
+    },
+    "56": {
+      "input": "accordance",
+      "output": "a c c o r d a n c e",
+      "word_letters_list": [
+        "a",
+        "c",
+        "c",
+        "o",
+        "r",
+        "d",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    "57": {
+      "input": "trap",
+      "output": "t r a p",
+      "word_letters_list": [
+        "t",
+        "r",
+        "a",
+        "p"
+      ]
+    },
+    "58": {
+      "input": "performer",
+      "output": "p e r f o r m e r",
+      "word_letters_list": [
+        "p",
+        "e",
+        "r",
+        "f",
+        "o",
+        "r",
+        "m",
+        "e",
+        "r"
+      ]
+    },
+    "59": {
+      "input": "morale",
+      "output": "m o r a l e",
+      "word_letters_list": [
+        "m",
+        "o",
+        "r",
+        "a",
+        "l",
+        "e"
+      ]
+    },
+    "60": {
+      "input": "calm",
+      "output": "c a l m",
+      "word_letters_list": [
+        "c",
+        "a",
+        "l",
+        "m"
+      ]
+    },
+    "61": {
+      "input": "boom",
+      "output": "b o o m",
+      "word_letters_list": [
+        "b",
+        "o",
+        "o",
+        "m"
+      ]
+    },
+    "62": {
+      "input": "afford",
+      "output": "a f f o r d",
+      "word_letters_list": [
+        "a",
+        "f",
+        "f",
+        "o",
+        "r",
+        "d"
+      ]
+    },
+    "63": {
+      "input": "admission",
+      "output": "a d m i s s i o n",
+      "word_letters_list": [
+        "a",
+        "d",
+        "m",
+        "i",
+        "s",
+        "s",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "64": {
+      "input": "timing",
+      "output": "t i m i n g",
+      "word_letters_list": [
+        "t",
+        "i",
+        "m",
+        "i",
+        "n",
+        "g"
+      ]
+    },
+    "65": {
+      "input": "rendition",
+      "output": "r e n d i t i o n",
+      "word_letters_list": [
+        "r",
+        "e",
+        "n",
+        "d",
+        "i",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "66": {
+      "input": "breach",
+      "output": "b r e a c h",
+      "word_letters_list": [
+        "b",
+        "r",
+        "e",
+        "a",
+        "c",
+        "h"
+      ]
+    },
+    "67": {
+      "input": "servant",
+      "output": "s e r v a n t",
+      "word_letters_list": [
+        "s",
+        "e",
+        "r",
+        "v",
+        "a",
+        "n",
+        "t"
+      ]
+    },
+    "68": {
+      "input": "counterpart",
+      "output": "c o u n t e r p a r t",
+      "word_letters_list": [
+        "c",
+        "o",
+        "u",
+        "n",
+        "t",
+        "e",
+        "r",
+        "p",
+        "a",
+        "r",
+        "t"
+      ]
+    },
+    "69": {
+      "input": "drag",
+      "output": "d r a g",
+      "word_letters_list": [
+        "d",
+        "r",
+        "a",
+        "g"
+      ]
+    },
+    "70": {
+      "input": "shed",
+      "output": "s h e d",
+      "word_letters_list": [
+        "s",
+        "h",
+        "e",
+        "d"
+      ]
+    },
+    "71": {
+      "input": "cantata",
+      "output": "c a n t a t a",
+      "word_letters_list": [
+        "c",
+        "a",
+        "n",
+        "t",
+        "a",
+        "t",
+        "a"
+      ]
+    },
+    "72": {
+      "input": "choreography",
+      "output": "c h o r e o g r a p h y",
+      "word_letters_list": [
+        "c",
+        "h",
+        "o",
+        "r",
+        "e",
+        "o",
+        "g",
+        "r",
+        "a",
+        "p",
+        "h",
+        "y"
+      ]
+    },
+    "73": {
+      "input": "rejection",
+      "output": "r e j e c t i o n",
+      "word_letters_list": [
+        "r",
+        "e",
+        "j",
+        "e",
+        "c",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "74": {
+      "input": "vector",
+      "output": "v e c t o r",
+      "word_letters_list": [
+        "v",
+        "e",
+        "c",
+        "t",
+        "o",
+        "r"
+      ]
+    },
+    "75": {
+      "input": "bite",
+      "output": "b i t e",
+      "word_letters_list": [
+        "b",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    "76": {
+      "input": "fare",
+      "output": "f a r e",
+      "word_letters_list": [
+        "f",
+        "a",
+        "r",
+        "e"
+      ]
+    },
+    "77": {
+      "input": "groove",
+      "output": "g r o o v e",
+      "word_letters_list": [
+        "g",
+        "r",
+        "o",
+        "o",
+        "v",
+        "e"
+      ]
+    },
+    "78": {
+      "input": "clearance",
+      "output": "c l e a r a n c e",
+      "word_letters_list": [
+        "c",
+        "l",
+        "e",
+        "a",
+        "r",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    "79": {
+      "input": "precision",
+      "output": "p r e c i s i o n",
+      "word_letters_list": [
+        "p",
+        "r",
+        "e",
+        "c",
+        "i",
+        "s",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "80": {
+      "input": "simplicity",
+      "output": "s i m p l i c i t y",
+      "word_letters_list": [
+        "s",
+        "i",
+        "m",
+        "p",
+        "l",
+        "i",
+        "c",
+        "i",
+        "t",
+        "y"
+      ]
+    },
+    "81": {
+      "input": "characterization",
+      "output": "c h a r a c t e r i z a t i o n",
+      "word_letters_list": [
+        "c",
+        "h",
+        "a",
+        "r",
+        "a",
+        "c",
+        "t",
+        "e",
+        "r",
+        "i",
+        "z",
+        "a",
+        "t",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "82": {
+      "input": "glory",
+      "output": "g l o r y",
+      "word_letters_list": [
+        "g",
+        "l",
+        "o",
+        "r",
+        "y"
+      ]
+    },
+    "83": {
+      "input": "leisure",
+      "output": "l e i s u r e",
+      "word_letters_list": [
+        "l",
+        "e",
+        "i",
+        "s",
+        "u",
+        "r",
+        "e"
+      ]
+    },
+    "84": {
+      "input": "simpler",
+      "output": "s i m p l e r",
+      "word_letters_list": [
+        "s",
+        "i",
+        "m",
+        "p",
+        "l",
+        "e",
+        "r"
+      ]
+    },
+    "85": {
+      "input": "prequel",
+      "output": "p r e q u e l",
+      "word_letters_list": [
+        "p",
+        "r",
+        "e",
+        "q",
+        "u",
+        "e",
+        "l"
+      ]
+    },
+    "86": {
+      "input": "baseman",
+      "output": "b a s e m a n",
+      "word_letters_list": [
+        "b",
+        "a",
+        "s",
+        "e",
+        "m",
+        "a",
+        "n"
+      ]
+    },
+    "87": {
+      "input": "geography",
+      "output": "g e o g r a p h y",
+      "word_letters_list": [
+        "g",
+        "e",
+        "o",
+        "g",
+        "r",
+        "a",
+        "p",
+        "h",
+        "y"
+      ]
+    },
+    "88": {
+      "input": "flu",
+      "output": "f l u",
+      "word_letters_list": [
+        "f",
+        "l",
+        "u"
+      ]
+    },
+    "89": {
+      "input": "symbolism",
+      "output": "s y m b o l i s m",
+      "word_letters_list": [
+        "s",
+        "y",
+        "m",
+        "b",
+        "o",
+        "l",
+        "i",
+        "s",
+        "m"
+      ]
+    },
+    "90": {
+      "input": "distributor",
+      "output": "d i s t r i b u t o r",
+      "word_letters_list": [
+        "d",
+        "i",
+        "s",
+        "t",
+        "r",
+        "i",
+        "b",
+        "u",
+        "t",
+        "o",
+        "r"
+      ]
+    },
+    "91": {
+      "input": "judgement",
+      "output": "j u d g e m e n t",
+      "word_letters_list": [
+        "j",
+        "u",
+        "d",
+        "g",
+        "e",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    "92": {
+      "input": "conquer",
+      "output": "c o n q u e r",
+      "word_letters_list": [
+        "c",
+        "o",
+        "n",
+        "q",
+        "u",
+        "e",
+        "r"
+      ]
+    },
+    "93": {
+      "input": "strand",
+      "output": "s t r a n d",
+      "word_letters_list": [
+        "s",
+        "t",
+        "r",
+        "a",
+        "n",
+        "d"
+      ]
+    },
+    "94": {
+      "input": "diversion",
+      "output": "d i v e r s i o n",
+      "word_letters_list": [
+        "d",
+        "i",
+        "v",
+        "e",
+        "r",
+        "s",
+        "i",
+        "o",
+        "n"
+      ]
+    },
+    "95": {
+      "input": "gateway",
+      "output": "g a t e w a y",
+      "word_letters_list": [
+        "g",
+        "a",
+        "t",
+        "e",
+        "w",
+        "a",
+        "y"
+      ]
+    },
+    "96": {
+      "input": "rhetoric",
+      "output": "r h e t o r i c",
+      "word_letters_list": [
+        "r",
+        "h",
+        "e",
+        "t",
+        "o",
+        "r",
+        "i",
+        "c"
+      ]
+    },
+    "97": {
+      "input": "phosphate",
+      "output": "p h o s p h a t e",
+      "word_letters_list": [
+        "p",
+        "h",
+        "o",
+        "s",
+        "p",
+        "h",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    "98": {
+      "input": "cheating",
+      "output": "c h e a t i n g",
+      "word_letters_list": [
+        "c",
+        "h",
+        "e",
+        "a",
+        "t",
+        "i",
+        "n",
+        "g"
+      ]
+    },
+    "99": {
+      "input": "fumble",
+      "output": "f u m b l e",
+      "word_letters_list": [
+        "f",
+        "u",
+        "m",
+        "b",
+        "l",
+        "e"
+      ]
+    },
+    "100": {
+      "input": "promoter",
+      "output": "p r o m o t e r",
+      "word_letters_list": [
+        "p",
+        "r",
+        "o",
+        "m",
+        "o",
+        "t",
+        "e",
+        "r"
+      ]
+    }
+  }
+}

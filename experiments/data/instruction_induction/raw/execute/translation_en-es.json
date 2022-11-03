@@ -1,0 +1,892 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "place",
+      "output": "lugar",
+      "possible_translations": [
+        "asiento",
+        "apostar",
+        "casa",
+        "colocar",
+        "posición",
+        "puesto",
+        "entonar",
+        "colocarse",
+        "poner",
+        "situar",
+        "lugar",
+        "contratar",
+        "sitio",
+        "clasificarse",
+        "plaza"
+      ]
+    },
+    "2": {
+      "input": "family",
+      "output": "familia",
+      "possible_translations": [
+        "familia",
+        "familiar"
+      ]
+    },
+    "3": {
+      "input": "point",
+      "output": "punto",
+      "possible_translations": [
+        "indicar",
+        "momento",
+        "punta",
+        "punto",
+        "apuntar"
+      ]
+    },
+    "4": {
+      "input": "east",
+      "output": "este",
+      "possible_translations": [
+        "levante",
+        "hacia oriente",
+        "oriental",
+        "hacia el este",
+        "oriente",
+        "rumbo al este",
+        "al este",
+        "este",
+        "rumbo este",
+        "oriente."
+      ]
+    },
+    "5": {
+      "input": "aircraft",
+      "output": "aeronave",
+      "possible_translations": [
+        "aeronave"
+      ]
+    },
+    "6": {
+      "input": "title",
+      "output": "título",
+      "possible_translations": [
+        "tutela",
+        "título"
+      ]
+    },
+    "7": {
+      "input": "party",
+      "output": "partido",
+      "possible_translations": [
+        "divertirse",
+        "parte contratante",
+        "carrete",
+        "fiestar",
+        "partido",
+        "pachanga",
+        "reventón",
+        "fiesta"
+      ]
+    },
+    "8": {
+      "input": "victory",
+      "output": "victoria",
+      "possible_translations": [
+        "victoria"
+      ]
+    },
+    "9": {
+      "input": "list",
+      "output": "tira",
+      "possible_translations": [
+        "escora",
+        "hacer una lista",
+        "tira",
+        "lista",
+        "escorar",
+        "leer una lista"
+      ]
+    },
+    "10": {
+      "input": "evidence",
+      "output": "evidencia",
+      "possible_translations": [
+        "prueba",
+        "evidencia",
+        "evidenciar"
+      ]
+    },
+    "11": {
+      "input": "brother",
+      "output": "hermano",
+      "possible_translations": [
+        "par",
+        "hermano"
+      ]
+    },
+    "12": {
+      "input": "novel",
+      "output": "novela",
+      "possible_translations": [
+        "novela",
+        "novedoso",
+        "novedosa"
+      ]
+    },
+    "13": {
+      "input": "turn",
+      "output": "turno",
+      "possible_translations": [
+        "turno",
+        "rebelar",
+        "girar",
+        "volver",
+        "doblar"
+      ]
+    },
+    "14": {
+      "input": "king",
+      "output": "rey",
+      "possible_translations": [
+        "rey",
+        "coronar"
+      ]
+    },
+    "15": {
+      "input": "staff",
+      "output": "personal",
+      "possible_translations": [
+        "empleado",
+        "varas",
+        "personal",
+        "pentagrama",
+        "equipo",
+        "plantilla",
+        "báculo",
+        "pauta",
+        "bastón"
+      ]
+    },
+    "16": {
+      "input": "broadcast",
+      "output": "programa",
+      "possible_translations": [
+        "programa",
+        "emisión"
+      ]
+    },
+    "17": {
+      "input": "trade",
+      "output": "comercio",
+      "possible_translations": [
+        "comerciar",
+        "comercio",
+        "gremio"
+      ]
+    },
+    "18": {
+      "input": "unit",
+      "output": "unidad",
+      "possible_translations": [
+        "unidad"
+      ]
+    },
+    "19": {
+      "input": "letter",
+      "output": "letra",
+      "possible_translations": [
+        "carta",
+        "letra",
+        "carácter"
+      ]
+    },
+    "20": {
+      "input": "morning",
+      "output": "mañana",
+      "possible_translations": [
+        "madrugada",
+        "mañana",
+        "AM"
+      ]
+    },
+    "21": {
+      "input": "coach",
+      "output": "coche",
+      "possible_translations": [
+        "entrenadora",
+        "vagón",
+        "entrenar",
+        "entrenador",
+        "autocar",
+        "coche"
+      ]
+    },
+    "22": {
+      "input": "inch",
+      "output": "pulgada",
+      "possible_translations": [
+        "pulgada"
+      ]
+    },
+    "23": {
+      "input": "invasion",
+      "output": "invasión",
+      "possible_translations": [
+        "invasión"
+      ]
+    },
+    "24": {
+      "input": "sense",
+      "output": "sentido",
+      "possible_translations": [
+        "significación",
+        "significado",
+        "sentir",
+        "sentido",
+        "sensación",
+        "acepción",
+        "dar sentido"
+      ]
+    },
+    "25": {
+      "input": "ice",
+      "output": "hielo",
+      "possible_translations": [
+        "helado",
+        "congelar",
+        "hielo"
+      ]
+    },
+    "26": {
+      "input": "floor",
+      "output": "palabra",
+      "possible_translations": [
+        "palabra"
+      ]
+    },
+    "27": {
+      "input": "boat",
+      "output": "barca",
+      "possible_translations": [
+        "barco",
+        "bote",
+        "barca"
+      ]
+    },
+    "28": {
+      "input": "seat",
+      "output": "asiento",
+      "possible_translations": [
+        "asiento",
+        "sede"
+      ]
+    },
+    "29": {
+      "input": "transport",
+      "output": "transporte",
+      "possible_translations": [
+        "exiliar",
+        "deportado",
+        "transportar",
+        "transporte"
+      ]
+    },
+    "30": {
+      "input": "platform",
+      "output": "plataforma",
+      "possible_translations": [
+        "plataforma",
+        "andén"
+      ]
+    },
+    "31": {
+      "input": "environment",
+      "output": "ambiente",
+      "possible_translations": [
+        "sistema operativo",
+        "ecosistema",
+        "medio ambiente",
+        "medio",
+        "programa",
+        "clima",
+        "medioambiente",
+        "naturaleza",
+        "entorno",
+        "ambiente"
+      ]
+    },
+    "32": {
+      "input": "genre",
+      "output": "género",
+      "possible_translations": [
+        "género"
+      ]
+    },
+    "33": {
+      "input": "combination",
+      "output": "combinación",
+      "possible_translations": [
+        "combinación"
+      ]
+    },
+    "34": {
+      "input": "importance",
+      "output": "importancia",
+      "possible_translations": [
+        "importancia"
+      ]
+    },
+    "35": {
+      "input": "department",
+      "output": "departamento",
+      "possible_translations": [
+        "sección",
+        "departamento"
+      ]
+    },
+    "36": {
+      "input": "assistance",
+      "output": "asistencia",
+      "possible_translations": [
+        "asistencia"
+      ]
+    },
+    "37": {
+      "input": "anniversary",
+      "output": "aniversario",
+      "possible_translations": [
+        "aniversario"
+      ]
+    },
+    "38": {
+      "input": "fighter",
+      "output": "guerrero",
+      "possible_translations": [
+        "caza",
+        "combatiente",
+        "guerrero"
+      ]
+    },
+    "39": {
+      "input": "instance",
+      "output": "instancia",
+      "possible_translations": [
+        "caso",
+        "instancia"
+      ]
+    },
+    "40": {
+      "input": "occupation",
+      "output": "ocupación",
+      "possible_translations": [
+        "ocupación"
+      ]
+    },
+    "41": {
+      "input": "satellite",
+      "output": "satélite",
+      "possible_translations": [
+        "satélite"
+      ]
+    },
+    "42": {
+      "input": "strip",
+      "output": "tira",
+      "possible_translations": [
+        "remover",
+        "tira",
+        "sacarse la ropa",
+        "desvestir"
+      ]
+    },
+    "43": {
+      "input": "triple",
+      "output": "triple",
+      "possible_translations": [
+        "triple",
+        "triplicar"
+      ]
+    },
+    "44": {
+      "input": "duration",
+      "output": "duración",
+      "possible_translations": [
+        "duración"
+      ]
+    },
+    "45": {
+      "input": "slavery",
+      "output": "esclavitud",
+      "possible_translations": [
+        "esclavitud"
+      ]
+    },
+    "46": {
+      "input": "ticket",
+      "output": "boleto",
+      "possible_translations": [
+        "billete",
+        "multa",
+        "pasaje",
+        "parte",
+        "boleto",
+        "tique",
+        "tiquete",
+        "entrada"
+      ]
+    },
+    "47": {
+      "input": "confidence",
+      "output": "confidencia",
+      "possible_translations": [
+        "certeza propia",
+        "certeza",
+        "certidumbre",
+        "confidencia"
+      ]
+    },
+    "48": {
+      "input": "principle",
+      "output": "principio",
+      "possible_translations": [
+        "principio"
+      ]
+    },
+    "49": {
+      "input": "tag",
+      "output": "pilla pilla",
+      "possible_translations": [
+        "etiquetar",
+        "el pillarse",
+        "etiqueta marbete",
+        "pilla pilla"
+      ]
+    },
+    "50": {
+      "input": "dinner",
+      "output": "cena",
+      "possible_translations": [
+        "cena"
+      ]
+    },
+    "51": {
+      "input": "creature",
+      "output": "criatura",
+      "possible_translations": [
+        "criatura"
+      ]
+    },
+    "52": {
+      "input": "propaganda",
+      "output": "propaganda",
+      "possible_translations": [
+        "propaganda"
+      ]
+    },
+    "53": {
+      "input": "consciousness",
+      "output": "conciencia",
+      "possible_translations": [
+        "conciencia"
+      ]
+    },
+    "54": {
+      "input": "priority",
+      "output": "prioridad",
+      "possible_translations": [
+        "prioridad"
+      ]
+    },
+    "55": {
+      "input": "scientist",
+      "output": "científico",
+      "possible_translations": [
+        "científico"
+      ]
+    },
+    "56": {
+      "input": "mood",
+      "output": "mal humor",
+      "possible_translations": [
+        "humor",
+        "mal humor",
+        "mal genio",
+        "ánimos",
+        "ánimo"
+      ]
+    },
+    "57": {
+      "input": "eruption",
+      "output": "erupción",
+      "possible_translations": [
+        "erupción"
+      ]
+    },
+    "58": {
+      "input": "diving",
+      "output": "buceo",
+      "possible_translations": [
+        "buceo",
+        "submarinismo"
+      ]
+    },
+    "59": {
+      "input": "notion",
+      "output": "ganas",
+      "possible_translations": [
+        "intención",
+        "ganas",
+        "noción"
+      ]
+    },
+    "60": {
+      "input": "fever",
+      "output": "fiebre",
+      "possible_translations": [
+        "fiebre"
+      ]
+    },
+    "61": {
+      "input": "kit",
+      "output": "juego",
+      "possible_translations": [
+        "juego",
+        "kit",
+        "equipo",
+        "ensello"
+      ]
+    },
+    "62": {
+      "input": "shipyard",
+      "output": "astillero",
+      "possible_translations": [
+        "astillero"
+      ]
+    },
+    "63": {
+      "input": "deadline",
+      "output": "fecha límite",
+      "possible_translations": [
+        "compromiso",
+        "fecha límite",
+        "requisito"
+      ]
+    },
+    "64": {
+      "input": "framework",
+      "output": "infraestructura",
+      "possible_translations": [
+        "marco",
+        "infraestructura"
+      ]
+    },
+    "65": {
+      "input": "client",
+      "output": "cliente",
+      "possible_translations": [
+        "cliente"
+      ]
+    },
+    "66": {
+      "input": "drag",
+      "output": "bocanada",
+      "possible_translations": [
+        "arrastrar",
+        "bocanada",
+        "resistencia"
+      ]
+    },
+    "67": {
+      "input": "membrane",
+      "output": "membrana",
+      "possible_translations": [
+        "membrana"
+      ]
+    },
+    "68": {
+      "input": "profession",
+      "output": "profesión",
+      "possible_translations": [
+        "profesión"
+      ]
+    },
+    "69": {
+      "input": "liberty",
+      "output": "libertad",
+      "possible_translations": [
+        "libertad"
+      ]
+    },
+    "70": {
+      "input": "morality",
+      "output": "moralidad",
+      "possible_translations": [
+        "moralidad"
+      ]
+    },
+    "71": {
+      "input": "equality",
+      "output": "igualdad",
+      "possible_translations": [
+        "equidad",
+        "paridad",
+        "igualdad"
+      ]
+    },
+    "72": {
+      "input": "menu",
+      "output": "menú",
+      "possible_translations": [
+        "menú",
+        "carta"
+      ]
+    },
+    "73": {
+      "input": "autonomy",
+      "output": "autonomía",
+      "possible_translations": [
+        "autonomía"
+      ]
+    },
+    "74": {
+      "input": "certification",
+      "output": "certificación",
+      "possible_translations": [
+        "certificación"
+      ]
+    },
+    "75": {
+      "input": "conception",
+      "output": "concepción",
+      "possible_translations": [
+        "concepción"
+      ]
+    },
+    "76": {
+      "input": "sympathy",
+      "output": "compasión",
+      "possible_translations": [
+        "empatía",
+        "compasión"
+      ]
+    },
+    "77": {
+      "input": "emission",
+      "output": "emisión",
+      "possible_translations": [
+        "emisión"
+      ]
+    },
+    "78": {
+      "input": "clearance",
+      "output": "despeje",
+      "possible_translations": [
+        "oferta",
+        "espacio",
+        "limpieza",
+        "barata",
+        "permiso",
+        "liquidación",
+        "acceso",
+        "claro",
+        "remate",
+        "ganga",
+        "despeje",
+        "compensación"
+      ]
+    },
+    "79": {
+      "input": "belly",
+      "output": "barriga",
+      "possible_translations": [
+        "barriga",
+        "panza",
+        "vientre"
+      ]
+    },
+    "80": {
+      "input": "innocence",
+      "output": "inocencia",
+      "possible_translations": [
+        "inocencia"
+      ]
+    },
+    "81": {
+      "input": "expressway",
+      "output": "autopista",
+      "possible_translations": [
+        "autopista"
+      ]
+    },
+    "82": {
+      "input": "enterprise",
+      "output": "empresa",
+      "possible_translations": [
+        "empuje",
+        "emprendimiento",
+        "empresa",
+        "iniciativa"
+      ]
+    },
+    "83": {
+      "input": "millennium",
+      "output": "milenio",
+      "possible_translations": [
+        "milenio"
+      ]
+    },
+    "84": {
+      "input": "casino",
+      "output": "casino",
+      "possible_translations": [
+        "casino"
+      ]
+    },
+    "85": {
+      "input": "relocation",
+      "output": "mudanza",
+      "possible_translations": [
+        "mudanza",
+        "traslado"
+      ]
+    },
+    "86": {
+      "input": "curse",
+      "output": "maldición",
+      "possible_translations": [
+        "maldición",
+        "mala palabra",
+        "regla",
+        "maldecir",
+        "menstruación"
+      ]
+    },
+    "87": {
+      "input": "disguise",
+      "output": "disfraz",
+      "possible_translations": [
+        "pantalla",
+        "disfrazar",
+        "tapadera",
+        "disfraz"
+      ]
+    },
+    "88": {
+      "input": "lithium",
+      "output": "litio",
+      "possible_translations": [
+        "litio"
+      ]
+    },
+    "89": {
+      "input": "gamma",
+      "output": "gamma",
+      "possible_translations": [
+        "gama",
+        "gamma"
+      ]
+    },
+    "90": {
+      "input": "thread",
+      "output": "tema",
+      "possible_translations": [
+        "subproceso",
+        "argumento",
+        "hilo",
+        "pasar",
+        "filete",
+        "tema",
+        "enhebrar",
+        "rosca",
+        "proceso ligero",
+        "tópico"
+      ]
+    },
+    "91": {
+      "input": "posture",
+      "output": "postura",
+      "possible_translations": [
+        "postura"
+      ]
+    },
+    "92": {
+      "input": "echo",
+      "output": "eco",
+      "possible_translations": [
+        "eco",
+        "repercutir",
+        "repetir"
+      ]
+    },
+    "93": {
+      "input": "vernacular",
+      "output": "idioma",
+      "possible_translations": [
+        "dialecto",
+        "idioma",
+        "vernáculo"
+      ]
+    },
+    "94": {
+      "input": "builder",
+      "output": "constructor",
+      "possible_translations": [
+        "constructor civil",
+        "constructor"
+      ]
+    },
+    "95": {
+      "input": "chip",
+      "output": "patata frita",
+      "possible_translations": [
+        "ficha",
+        "desconcharse",
+        "papa frita",
+        "desconchado",
+        "patata frita",
+        "astillar",
+        "astilla",
+        "desconchar",
+        "chip"
+      ]
+    },
+    "96": {
+      "input": "juice",
+      "output": "zumo",
+      "possible_translations": [
+        "zumo",
+        "jugo"
+      ]
+    },
+    "97": {
+      "input": "apple",
+      "output": "manzana",
+      "possible_translations": [
+        "manzana"
+      ]
+    },
+    "98": {
+      "input": "casualty",
+      "output": "baja",
+      "possible_translations": [
+        "baja",
+        "víctima"
+      ]
+    },
+    "99": {
+      "input": "turf",
+      "output": "césped",
+      "possible_translations": [
+        "hipódromo",
+        "césped"
+      ]
+    },
+    "100": {
+      "input": "doctorate",
+      "output": "doctorado",
+      "possible_translations": [
+        "doctorado"
+      ]
+    }
+  }
+}

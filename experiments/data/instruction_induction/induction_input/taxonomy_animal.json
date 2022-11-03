@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mechanic, elephant, sausage, swan, bat, sheep\nOutput: elephant, sheep, swan, bat\n\nInput: duck, journalist, camel, chicken, horse, trousers\nOutput: camel, chicken, horse, duck\n\nInput: pasta, donkey, hippo, pea, mouse, sheep, doctor\nOutput: hippo, sheep, mouse, donkey\n\nInput: yellow, blue, spider, octopus, shirt, monkey, mouse\nOutput: spider, monkey, mouse, octopus\n\nInput: pink, hippo, chicken, actor, car, monkey\nOutput: chicken, monkey, hippo\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mechanic, elephant, sausage, swan, bat, sheep\nOutput: elephant, sheep, swan, bat\n\nInput: duck, journalist, camel, chicken, horse, trousers\nOutput: camel, chicken, horse, duck\n\nInput: pasta, donkey, hippo, pea, mouse, sheep, doctor\nOutput: hippo, sheep, mouse, donkey\n\nInput: yellow, blue, spider, octopus, shirt, monkey, mouse\nOutput: spider, monkey, mouse, octopus\n\nInput: pink, hippo, chicken, actor, car, monkey\nOutput: chicken, monkey, hippo"
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: yellow, fly, bee, monkey, businesswoman, donkey\nOutput: fly, monkey, donkey, bee\n\nInput: penguin, dolphin, monkey, sweater, jellyfish, purple, honey\nOutput: jellyfish, monkey, penguin, dolphin\n\nInput: bat, businessman, designer, sheep, hippo, mango\nOutput: bat, sheep, hippo\n\nInput: tiger, candy, jellyfish, red, cat\nOutput: jellyfish, tiger, cat\n\nInput: milk, octopus, lizard, monkey, horse, sandwich\nOutput: lizard, horse, monkey, octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: yellow, fly, bee, monkey, businesswoman, donkey\nOutput: fly, monkey, donkey, bee\n\nInput: penguin, dolphin, monkey, sweater, jellyfish, purple, honey\nOutput: jellyfish, monkey, penguin, dolphin\n\nInput: bat, businessman, designer, sheep, hippo, mango\nOutput: bat, sheep, hippo\n\nInput: tiger, candy, jellyfish, red, cat\nOutput: jellyfish, tiger, cat\n\nInput: milk, octopus, lizard, monkey, horse, sandwich\nOutput: lizard, horse, monkey, octopus"
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: orange, truck, sheep, snail, parrot\nOutput: snail, sheep, parrot\n\nInput: sock, snail, dolphin, gray, giraffe\nOutput: giraffe, snail, dolphin\n\nInput: tortoise, camel, bee, blue, sweater, glove\nOutput: tortoise, camel, bee\n\nInput: cat, helicopter, car, rabbit, chicken, octopus\nOutput: chicken, octopus, cat, rabbit\n\nInput: chicken, lion, snail, spaceship, zebra, cookie, swimsuit\nOutput: snail, zebra, lion, chicken\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: orange, truck, sheep, snail, parrot\nOutput: snail, sheep, parrot\n\nInput: sock, snail, dolphin, gray, giraffe\nOutput: giraffe, snail, dolphin\n\nInput: tortoise, camel, bee, blue, sweater, glove\nOutput: tortoise, camel, bee\n\nInput: cat, helicopter, car, rabbit, chicken, octopus\nOutput: chicken, octopus, cat, rabbit\n\nInput: chicken, lion, snail, spaceship, zebra, cookie, swimsuit\nOutput: snail, zebra, lion, chicken"
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: panda, vegetable, designer, lizard, taxi, monkey, octopus\nOutput: monkey, panda, lizard, octopus\n\nInput: helicopter, dolphin, photographer, hippo, fly, tortoise\nOutput: dolphin, tortoise, hippo, fly\n\nInput: jellyfish, zebra, cat, sausage, onion\nOutput: cat, zebra, jellyfish\n\nInput: nurse, lion, cat, yoghurt, tortoise\nOutput: lion, cat, tortoise\n\nInput: bee, butterfly, horse, cookie, teacher, hippo\nOutput: butterfly, horse, bee, hippo\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: panda, vegetable, designer, lizard, taxi, monkey, octopus\nOutput: monkey, panda, lizard, octopus\n\nInput: helicopter, dolphin, photographer, hippo, fly, tortoise\nOutput: dolphin, tortoise, hippo, fly\n\nInput: jellyfish, zebra, cat, sausage, onion\nOutput: cat, zebra, jellyfish\n\nInput: nurse, lion, cat, yoghurt, tortoise\nOutput: lion, cat, tortoise\n\nInput: bee, butterfly, horse, cookie, teacher, hippo\nOutput: butterfly, horse, bee, hippo"
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bee, yellow, jacket, shark, mouse, camel, belt\nOutput: camel, shark, mouse, bee\n\nInput: giraffe, bee, pajamas, spaceship, tiger, taxi, octopus\nOutput: giraffe, bee, octopus, tiger\n\nInput: goat, sweater, sausage, bus, spider, zebra\nOutput: goat, zebra, spider\n\nInput: swimsuit, shark, pink, bat, frog\nOutput: shark, bat, frog\n\nInput: rabbit, jacket, fly, hippo, jellyfish, nurse\nOutput: fly, hippo, jellyfish, rabbit\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bee, yellow, jacket, shark, mouse, camel, belt\nOutput: camel, shark, mouse, bee\n\nInput: giraffe, bee, pajamas, spaceship, tiger, taxi, octopus\nOutput: giraffe, bee, octopus, tiger\n\nInput: goat, sweater, sausage, bus, spider, zebra\nOutput: goat, zebra, spider\n\nInput: swimsuit, shark, pink, bat, frog\nOutput: shark, bat, frog\n\nInput: rabbit, jacket, fly, hippo, jellyfish, nurse\nOutput: fly, hippo, jellyfish, rabbit"
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mango, hat, snail, pineapple, fly, horse\nOutput: horse, fly, snail\n\nInput: monkey, elephant, scarf, giraffe, pink\nOutput: elephant, giraffe, monkey\n\nInput: bee, sandwich, hippo, yellow, lizard, snake\nOutput: lizard, snake, bee, hippo\n\nInput: businesswoman, bee, white, sweater, cat, elephant, jellyfish\nOutput: elephant, cat, bee, jellyfish\n\nInput: bee, duck, fly, pink, cat, orange, plane\nOutput: duck, bee, cat, fly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mango, hat, snail, pineapple, fly, horse\nOutput: horse, fly, snail\n\nInput: monkey, elephant, scarf, giraffe, pink\nOutput: elephant, giraffe, monkey\n\nInput: bee, sandwich, hippo, yellow, lizard, snake\nOutput: lizard, snake, bee, hippo\n\nInput: businesswoman, bee, white, sweater, cat, elephant, jellyfish\nOutput: elephant, cat, bee, jellyfish\n\nInput: bee, duck, fly, pink, cat, orange, plane\nOutput: duck, bee, cat, fly"
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sweater, butterfly, hippo, swimsuit, train, monkey\nOutput: monkey, hippo, butterfly\n\nInput: panda, yellow, duck, egg, goat\nOutput: goat, duck, panda\n\nInput: spaceship, sweater, designer, fly, shark, bat\nOutput: fly, shark, bat\n\nInput: train, spider, sheep, yellow, snail, butterfly\nOutput: sheep, butterfly, spider, snail\n\nInput: honey, hippo, elephant, milk, sheep, ship\nOutput: sheep, elephant, hippo\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sweater, butterfly, hippo, swimsuit, train, monkey\nOutput: monkey, hippo, butterfly\n\nInput: panda, yellow, duck, egg, goat\nOutput: goat, duck, panda\n\nInput: spaceship, sweater, designer, fly, shark, bat\nOutput: fly, shark, bat\n\nInput: train, spider, sheep, yellow, snail, butterfly\nOutput: sheep, butterfly, spider, snail\n\nInput: honey, hippo, elephant, milk, sheep, ship\nOutput: sheep, elephant, hippo"
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sheep, monkey, businessman, shark, dolphin, waiter\nOutput: sheep, shark, dolphin, monkey\n\nInput: shark, belt, lion, spider, ambulance\nOutput: lion, shark, spider\n\nInput: scarf, goat, rabbit, duck, blue\nOutput: rabbit, duck, goat\n\nInput: bat, chicken, designer, soup, fly, horse\nOutput: chicken, horse, bat, fly\n\nInput: bee, giraffe, skirt, elephant, brown, donkey\nOutput: giraffe, elephant, donkey, bee\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sheep, monkey, businessman, shark, dolphin, waiter\nOutput: sheep, shark, dolphin, monkey\n\nInput: shark, belt, lion, spider, ambulance\nOutput: lion, shark, spider\n\nInput: scarf, goat, rabbit, duck, blue\nOutput: rabbit, duck, goat\n\nInput: bat, chicken, designer, soup, fly, horse\nOutput: chicken, horse, bat, fly\n\nInput: bee, giraffe, skirt, elephant, brown, donkey\nOutput: giraffe, elephant, donkey, bee"
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: skirt, sausage, giraffe, goat, donkey\nOutput: goat, donkey, giraffe\n\nInput: rabbit, penguin, taxi, red, sweater, frog\nOutput: rabbit, penguin, frog\n\nInput: bat, nurse, lizard, yellow, rabbit, jellyfish\nOutput: jellyfish, rabbit, bat, lizard\n\nInput: pink, glove, giraffe, mouse, frog\nOutput: mouse, giraffe, frog\n\nInput: purple, mouse, panda, tiger, yellow\nOutput: panda, mouse, tiger\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: skirt, sausage, giraffe, goat, donkey\nOutput: goat, donkey, giraffe\n\nInput: rabbit, penguin, taxi, red, sweater, frog\nOutput: rabbit, penguin, frog\n\nInput: bat, nurse, lizard, yellow, rabbit, jellyfish\nOutput: jellyfish, rabbit, bat, lizard\n\nInput: pink, glove, giraffe, mouse, frog\nOutput: mouse, giraffe, frog\n\nInput: purple, mouse, panda, tiger, yellow\nOutput: panda, mouse, tiger"
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cook, horse, burger, goat, snail\nOutput: goat, horse, snail\n\nInput: elephant, ship, cook, tortoise, spider, waiter, sheep\nOutput: sheep, elephant, spider, tortoise\n\nInput: penguin, shark, parrot, lizard, bread, cook\nOutput: lizard, penguin, parrot, shark\n\nInput: spider, potato, pear, tiger, hippo\nOutput: spider, tiger, hippo\n\nInput: frog, donkey, mango, zebra, trousers, tortoise\nOutput: frog, zebra, tortoise, donkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: cook, horse, burger, goat, snail\nOutput: goat, horse, snail\n\nInput: elephant, ship, cook, tortoise, spider, waiter, sheep\nOutput: sheep, elephant, spider, tortoise\n\nInput: penguin, shark, parrot, lizard, bread, cook\nOutput: lizard, penguin, parrot, shark\n\nInput: spider, potato, pear, tiger, hippo\nOutput: spider, tiger, hippo\n\nInput: frog, donkey, mango, zebra, trousers, tortoise\nOutput: frog, zebra, tortoise, donkey"
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: car, watermelon, spider, parrot, fly\nOutput: fly, parrot, spider\n\nInput: purple, sandwich, parrot, elephant, dolphin\nOutput: parrot, elephant, dolphin\n\nInput: sandwich, parrot, nurse, ship, chicken, sheep\nOutput: chicken, parrot, sheep\n\nInput: engineer, jellyfish, butterfly, designer, octopus, pineapple, lion\nOutput: jellyfish, octopus, butterfly, lion\n\nInput: panda, purple, rabbit, cat, engineer\nOutput: rabbit, panda, cat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: car, watermelon, spider, parrot, fly\nOutput: fly, parrot, spider\n\nInput: purple, sandwich, parrot, elephant, dolphin\nOutput: parrot, elephant, dolphin\n\nInput: sandwich, parrot, nurse, ship, chicken, sheep\nOutput: chicken, parrot, sheep\n\nInput: engineer, jellyfish, butterfly, designer, octopus, pineapple, lion\nOutput: jellyfish, octopus, butterfly, lion\n\nInput: panda, purple, rabbit, cat, engineer\nOutput: rabbit, panda, cat"
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: yellow, brown, businessman, parrot, whale, giraffe\nOutput: parrot, giraffe, whale\n\nInput: journalist, truck, penguin, octopus, lizard, swan\nOutput: octopus, lizard, swan, penguin\n\nInput: whale, goat, pear, rabbit, pink\nOutput: whale, rabbit, goat\n\nInput: skirt, jellyfish, swimsuit, octopus, mechanic, snake\nOutput: jellyfish, snake, octopus\n\nInput: glove, giraffe, jacket, dolphin, whale\nOutput: dolphin, giraffe, whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: yellow, brown, businessman, parrot, whale, giraffe\nOutput: parrot, giraffe, whale\n\nInput: journalist, truck, penguin, octopus, lizard, swan\nOutput: octopus, lizard, swan, penguin\n\nInput: whale, goat, pear, rabbit, pink\nOutput: whale, rabbit, goat\n\nInput: skirt, jellyfish, swimsuit, octopus, mechanic, snake\nOutput: jellyfish, snake, octopus\n\nInput: glove, giraffe, jacket, dolphin, whale\nOutput: dolphin, giraffe, whale"
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: waiter, giraffe, octopus, candy, butterfly, frog, pancake\nOutput: frog, butterfly, octopus, giraffe\n\nInput: camel, frog, tractor, actor, panda\nOutput: panda, frog, camel\n\nInput: photographer, pink, snake, duck, whale\nOutput: snake, duck, whale\n\nInput: donkey, panda, parrot, chocolate, ambulance, milk\nOutput: parrot, donkey, panda\n\nInput: bee, sausage, motorway, tiger, cook, snake, giraffe\nOutput: snake, bee, tiger, giraffe\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: waiter, giraffe, octopus, candy, butterfly, frog, pancake\nOutput: frog, butterfly, octopus, giraffe\n\nInput: camel, frog, tractor, actor, panda\nOutput: panda, frog, camel\n\nInput: photographer, pink, snake, duck, whale\nOutput: snake, duck, whale\n\nInput: donkey, panda, parrot, chocolate, ambulance, milk\nOutput: parrot, donkey, panda\n\nInput: bee, sausage, motorway, tiger, cook, snake, giraffe\nOutput: snake, bee, tiger, giraffe"
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hat, motorway, parrot, duck, hippo, chicken\nOutput: parrot, duck, hippo, chicken\n\nInput: shark, parrot, onion, green, whale\nOutput: shark, parrot, whale\n\nInput: cat, lizard, fly, plane, bat, brown, sandwich\nOutput: lizard, cat, bat, fly\n\nInput: ship, white, brown, snake, giraffe, zebra\nOutput: giraffe, snake, zebra\n\nInput: whale, elephant, donkey, businessman, tortoise, green\nOutput: tortoise, whale, donkey, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hat, motorway, parrot, duck, hippo, chicken\nOutput: parrot, duck, hippo, chicken\n\nInput: shark, parrot, onion, green, whale\nOutput: shark, parrot, whale\n\nInput: cat, lizard, fly, plane, bat, brown, sandwich\nOutput: lizard, cat, bat, fly\n\nInput: ship, white, brown, snake, giraffe, zebra\nOutput: giraffe, snake, zebra\n\nInput: whale, elephant, donkey, businessman, tortoise, green\nOutput: tortoise, whale, donkey, elephant"
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pancake, whale, car, frog, tortoise, chicken, scarf\nOutput: chicken, whale, tortoise, frog\n\nInput: sock, hippo, fly, white, swan\nOutput: swan, hippo, fly\n\nInput: train, spider, sheep, yellow, snail, butterfly\nOutput: sheep, butterfly, spider, snail\n\nInput: tiger, octopus, penguin, sandwich, scarf, jacket, horse\nOutput: penguin, horse, octopus, tiger\n\nInput: rabbit, glove, donkey, orange, duck, belt, fly\nOutput: duck, donkey, rabbit, fly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pancake, whale, car, frog, tortoise, chicken, scarf\nOutput: chicken, whale, tortoise, frog\n\nInput: sock, hippo, fly, white, swan\nOutput: swan, hippo, fly\n\nInput: train, spider, sheep, yellow, snail, butterfly\nOutput: sheep, butterfly, spider, snail\n\nInput: tiger, octopus, penguin, sandwich, scarf, jacket, horse\nOutput: penguin, horse, octopus, tiger\n\nInput: rabbit, glove, donkey, orange, duck, belt, fly\nOutput: duck, donkey, rabbit, fly"
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: horse, yellow, bat, doctor, businessman, fly\nOutput: horse, bat, fly\n\nInput: brown, gray, chicken, shark, businesswoman, sheep\nOutput: sheep, shark, chicken\n\nInput: zebra, lizard, bus, lemon, blue, goat\nOutput: zebra, lizard, goat\n\nInput: onion, pajamas, lion, donkey, giraffe, octopus\nOutput: giraffe, donkey, lion, octopus\n\nInput: elephant, monkey, octopus, gold, panda, ship\nOutput: octopus, panda, monkey, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: horse, yellow, bat, doctor, businessman, fly\nOutput: horse, bat, fly\n\nInput: brown, gray, chicken, shark, businesswoman, sheep\nOutput: sheep, shark, chicken\n\nInput: zebra, lizard, bus, lemon, blue, goat\nOutput: zebra, lizard, goat\n\nInput: onion, pajamas, lion, donkey, giraffe, octopus\nOutput: giraffe, donkey, lion, octopus\n\nInput: elephant, monkey, octopus, gold, panda, ship\nOutput: octopus, panda, monkey, elephant"
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: jacket, tortoise, taxi, sock, panda, swan, whale\nOutput: whale, tortoise, swan, panda\n\nInput: cat, swan, scarf, donkey, dress, mango\nOutput: cat, swan, donkey\n\nInput: spaceship, sweater, designer, fly, shark, bat\nOutput: fly, shark, bat\n\nInput: red, designer, giraffe, donkey, duck\nOutput: duck, giraffe, donkey\n\nInput: designer, journalist, tiger, actor, bee, spider\nOutput: tiger, spider, bee\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: jacket, tortoise, taxi, sock, panda, swan, whale\nOutput: whale, tortoise, swan, panda\n\nInput: cat, swan, scarf, donkey, dress, mango\nOutput: cat, swan, donkey\n\nInput: spaceship, sweater, designer, fly, shark, bat\nOutput: fly, shark, bat\n\nInput: red, designer, giraffe, donkey, duck\nOutput: duck, giraffe, donkey\n\nInput: designer, journalist, tiger, actor, bee, spider\nOutput: tiger, spider, bee"
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hippo, car, waiter, chicken, bee, snail\nOutput: hippo, bee, chicken, snail\n\nInput: shirt, elephant, cat, shark, brown\nOutput: shark, elephant, cat\n\nInput: panda, actor, sandwich, donkey, lizard\nOutput: lizard, panda, donkey\n\nInput: tortoise, bean, green, sheep, bee, taxi, jellyfish\nOutput: bee, jellyfish, sheep, tortoise\n\nInput: elephant, red, hippo, camel, helicopter\nOutput: hippo, camel, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hippo, car, waiter, chicken, bee, snail\nOutput: hippo, bee, chicken, snail\n\nInput: shirt, elephant, cat, shark, brown\nOutput: shark, elephant, cat\n\nInput: panda, actor, sandwich, donkey, lizard\nOutput: lizard, panda, donkey\n\nInput: tortoise, bean, green, sheep, bee, taxi, jellyfish\nOutput: bee, jellyfish, sheep, tortoise\n\nInput: elephant, red, hippo, camel, helicopter\nOutput: hippo, camel, elephant"
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: octopus, ambulance, swan, blue, frog, gold\nOutput: frog, octopus, swan\n\nInput: blue, hat, tiger, whale, frog, zebra\nOutput: zebra, frog, whale, tiger\n\nInput: pineapple, giraffe, skirt, sheep, parrot, motorway, fly\nOutput: sheep, fly, parrot, giraffe\n\nInput: lion, zebra, glove, octopus, sausage\nOutput: lion, zebra, octopus\n\nInput: cat, penguin, camel, white, journalist\nOutput: camel, penguin, cat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: octopus, ambulance, swan, blue, frog, gold\nOutput: frog, octopus, swan\n\nInput: blue, hat, tiger, whale, frog, zebra\nOutput: zebra, frog, whale, tiger\n\nInput: pineapple, giraffe, skirt, sheep, parrot, motorway, fly\nOutput: sheep, fly, parrot, giraffe\n\nInput: lion, zebra, glove, octopus, sausage\nOutput: lion, zebra, octopus\n\nInput: cat, penguin, camel, white, journalist\nOutput: camel, penguin, cat"
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: swan, rabbit, soup, octopus, fly, artist\nOutput: swan, rabbit, octopus, fly\n\nInput: dolphin, belt, parrot, dress, zebra, egg\nOutput: parrot, dolphin, zebra\n\nInput: snake, mechanic, rabbit, shark, white\nOutput: snake, shark, rabbit\n\nInput: lion, zebra, glove, octopus, sausage\nOutput: lion, zebra, octopus\n\nInput: bat, lion, belt, jeans, monkey, blue\nOutput: bat, lion, monkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: swan, rabbit, soup, octopus, fly, artist\nOutput: swan, rabbit, octopus, fly\n\nInput: dolphin, belt, parrot, dress, zebra, egg\nOutput: parrot, dolphin, zebra\n\nInput: snake, mechanic, rabbit, shark, white\nOutput: snake, shark, rabbit\n\nInput: lion, zebra, glove, octopus, sausage\nOutput: lion, zebra, octopus\n\nInput: bat, lion, belt, jeans, monkey, blue\nOutput: bat, lion, monkey"
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, hippo, orange, tortoise, bee, frog\nOutput: bee, hippo, tortoise, frog\n\nInput: hippo, jellyfish, panda, artist, hat, businesswoman\nOutput: jellyfish, hippo, panda\n\nInput: bee, bat, cat, jacket, onion\nOutput: bat, cat, bee\n\nInput: hat, train, yoghurt, tortoise, parrot, snake\nOutput: parrot, snake, tortoise\n\nInput: bee, zebra, dress, helicopter, butterfly, fly\nOutput: bee, zebra, fly, butterfly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, hippo, orange, tortoise, bee, frog\nOutput: bee, hippo, tortoise, frog\n\nInput: hippo, jellyfish, panda, artist, hat, businesswoman\nOutput: jellyfish, hippo, panda\n\nInput: bee, bat, cat, jacket, onion\nOutput: bat, cat, bee\n\nInput: hat, train, yoghurt, tortoise, parrot, snake\nOutput: parrot, snake, tortoise\n\nInput: bee, zebra, dress, helicopter, butterfly, fly\nOutput: bee, zebra, fly, butterfly"
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: scarf, goat, rabbit, duck, blue\nOutput: rabbit, duck, goat\n\nInput: butterfly, dolphin, jellyfish, car, cook, yoghurt, horse\nOutput: dolphin, butterfly, horse, jellyfish\n\nInput: tortoise, rabbit, swimsuit, hat, parrot\nOutput: rabbit, tortoise, parrot\n\nInput: businessman, white, whale, pink, butterfly, octopus\nOutput: whale, butterfly, octopus\n\nInput: horse, monkey, truck, lion, car\nOutput: monkey, horse, lion\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: scarf, goat, rabbit, duck, blue\nOutput: rabbit, duck, goat\n\nInput: butterfly, dolphin, jellyfish, car, cook, yoghurt, horse\nOutput: dolphin, butterfly, horse, jellyfish\n\nInput: tortoise, rabbit, swimsuit, hat, parrot\nOutput: rabbit, tortoise, parrot\n\nInput: businessman, white, whale, pink, butterfly, octopus\nOutput: whale, butterfly, octopus\n\nInput: horse, monkey, truck, lion, car\nOutput: monkey, horse, lion"
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: fly, duck, cat, journalist, doctor, green\nOutput: fly, duck, cat\n\nInput: shirt, sheep, snake, penguin, ambulance\nOutput: snake, sheep, penguin\n\nInput: butterfly, engineer, monkey, dolphin, helicopter, duck\nOutput: duck, butterfly, dolphin, monkey\n\nInput: bat, chicken, designer, soup, fly, horse\nOutput: chicken, horse, bat, fly\n\nInput: bean, swan, camel, lizard, waiter, cat\nOutput: lizard, swan, cat, camel\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: fly, duck, cat, journalist, doctor, green\nOutput: fly, duck, cat\n\nInput: shirt, sheep, snake, penguin, ambulance\nOutput: snake, sheep, penguin\n\nInput: butterfly, engineer, monkey, dolphin, helicopter, duck\nOutput: duck, butterfly, dolphin, monkey\n\nInput: bat, chicken, designer, soup, fly, horse\nOutput: chicken, horse, bat, fly\n\nInput: bean, swan, camel, lizard, waiter, cat\nOutput: lizard, swan, cat, camel"
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: monkey, vegetable, parrot, jellyfish, sweater, mechanic\nOutput: monkey, parrot, jellyfish\n\nInput: jellyfish, brown, ambulance, mouse, parrot, octopus\nOutput: octopus, mouse, parrot, jellyfish\n\nInput: monkey, rabbit, potato, lion, engineer, yellow\nOutput: monkey, rabbit, lion\n\nInput: sheep, snake, parrot, white, pasta, gold\nOutput: sheep, parrot, snake\n\nInput: snake, businessman, hippo, actor, panda\nOutput: panda, hippo, snake\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: monkey, vegetable, parrot, jellyfish, sweater, mechanic\nOutput: monkey, parrot, jellyfish\n\nInput: jellyfish, brown, ambulance, mouse, parrot, octopus\nOutput: octopus, mouse, parrot, jellyfish\n\nInput: monkey, rabbit, potato, lion, engineer, yellow\nOutput: monkey, rabbit, lion\n\nInput: sheep, snake, parrot, white, pasta, gold\nOutput: sheep, parrot, snake\n\nInput: snake, businessman, hippo, actor, panda\nOutput: panda, hippo, snake"
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: burger, butterfly, goat, glove, jacket, rabbit\nOutput: butterfly, goat, rabbit\n\nInput: designer, helicopter, rabbit, zebra, bee\nOutput: bee, zebra, rabbit\n\nInput: lion, donkey, spaceship, plane, elephant, hippo\nOutput: elephant, lion, donkey, hippo\n\nInput: frog, giraffe, penguin, gray, green, butterfly, meatballs\nOutput: penguin, giraffe, frog, butterfly\n\nInput: snake, engineer, panda, horse, sock, scarf, bat\nOutput: panda, horse, snake, bat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: burger, butterfly, goat, glove, jacket, rabbit\nOutput: butterfly, goat, rabbit\n\nInput: designer, helicopter, rabbit, zebra, bee\nOutput: bee, zebra, rabbit\n\nInput: lion, donkey, spaceship, plane, elephant, hippo\nOutput: elephant, lion, donkey, hippo\n\nInput: frog, giraffe, penguin, gray, green, butterfly, meatballs\nOutput: penguin, giraffe, frog, butterfly\n\nInput: snake, engineer, panda, horse, sock, scarf, bat\nOutput: panda, horse, snake, bat"
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: soup, red, snake, panda, swan\nOutput: panda, snake, swan\n\nInput: soup, chicken, fly, hippo, snail, orange, red\nOutput: hippo, snail, fly, chicken\n\nInput: teacher, camel, yellow, sheep, blue, zebra\nOutput: camel, zebra, sheep\n\nInput: burger, snail, jellyfish, plane, lizard, bread\nOutput: jellyfish, lizard, snail\n\nInput: businessman, jeans, train, whale, butterfly, horse\nOutput: whale, horse, butterfly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: soup, red, snake, panda, swan\nOutput: panda, snake, swan\n\nInput: soup, chicken, fly, hippo, snail, orange, red\nOutput: hippo, snail, fly, chicken\n\nInput: teacher, camel, yellow, sheep, blue, zebra\nOutput: camel, zebra, sheep\n\nInput: burger, snail, jellyfish, plane, lizard, bread\nOutput: jellyfish, lizard, snail\n\nInput: businessman, jeans, train, whale, butterfly, horse\nOutput: whale, horse, butterfly"
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rabbit, camel, trousers, chicken, white, apple, lion\nOutput: lion, chicken, rabbit, camel\n\nInput: lizard, motorway, artist, horse, designer, bat\nOutput: lizard, bat, horse\n\nInput: mechanic, tiger, duck, goat, hippo, dentist, ship\nOutput: goat, tiger, duck, hippo\n\nInput: goat, giraffe, car, businessman, frog\nOutput: giraffe, goat, frog\n\nInput: donkey, lizard, swan, train, ambulance\nOutput: donkey, lizard, swan\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rabbit, camel, trousers, chicken, white, apple, lion\nOutput: lion, chicken, rabbit, camel\n\nInput: lizard, motorway, artist, horse, designer, bat\nOutput: lizard, bat, horse\n\nInput: mechanic, tiger, duck, goat, hippo, dentist, ship\nOutput: goat, tiger, duck, hippo\n\nInput: goat, giraffe, car, businessman, frog\nOutput: giraffe, goat, frog\n\nInput: donkey, lizard, swan, train, ambulance\nOutput: donkey, lizard, swan"
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: train, cat, goat, hippo, ambulance, engineer\nOutput: cat, hippo, goat\n\nInput: purple, lizard, ship, yellow, whale, fly, donkey\nOutput: fly, donkey, whale, lizard\n\nInput: horse, mouse, brown, lion, frog, gray\nOutput: lion, horse, mouse, frog\n\nInput: doctor, frog, monkey, hippo, mouse, mango\nOutput: frog, mouse, hippo, monkey\n\nInput: whale, taxi, snake, shoe, scarf, parrot\nOutput: whale, snake, parrot\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: train, cat, goat, hippo, ambulance, engineer\nOutput: cat, hippo, goat\n\nInput: purple, lizard, ship, yellow, whale, fly, donkey\nOutput: fly, donkey, whale, lizard\n\nInput: horse, mouse, brown, lion, frog, gray\nOutput: lion, horse, mouse, frog\n\nInput: doctor, frog, monkey, hippo, mouse, mango\nOutput: frog, mouse, hippo, monkey\n\nInput: whale, taxi, snake, shoe, scarf, parrot\nOutput: whale, snake, parrot"
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snail, journalist, bat, gold, hippo\nOutput: hippo, bat, snail\n\nInput: giraffe, businesswoman, spaceship, tiger, whale, frog\nOutput: tiger, frog, giraffe, whale\n\nInput: mouse, teacher, goat, penguin, designer, engineer\nOutput: mouse, goat, penguin\n\nInput: orange, pineapple, duck, octopus, designer, zebra\nOutput: octopus, duck, zebra\n\nInput: lizard, ship, white, honey, whale, goat, cat\nOutput: goat, cat, lizard, whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snail, journalist, bat, gold, hippo\nOutput: hippo, bat, snail\n\nInput: giraffe, businesswoman, spaceship, tiger, whale, frog\nOutput: tiger, frog, giraffe, whale\n\nInput: mouse, teacher, goat, penguin, designer, engineer\nOutput: mouse, goat, penguin\n\nInput: orange, pineapple, duck, octopus, designer, zebra\nOutput: octopus, duck, zebra\n\nInput: lizard, ship, white, honey, whale, goat, cat\nOutput: goat, cat, lizard, whale"
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: shirt, elephant, snail, swan, hat, rabbit\nOutput: elephant, swan, rabbit, snail\n\nInput: jacket, doctor, monkey, penguin, lion, train\nOutput: penguin, monkey, lion\n\nInput: car, tortoise, truck, spider, sheep\nOutput: spider, sheep, tortoise\n\nInput: fly, artist, panda, sheep, zebra, train\nOutput: fly, panda, zebra, sheep\n\nInput: frog, snake, goat, tomato, jeans, parrot, ship\nOutput: goat, snake, parrot, frog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: shirt, elephant, snail, swan, hat, rabbit\nOutput: elephant, swan, rabbit, snail\n\nInput: jacket, doctor, monkey, penguin, lion, train\nOutput: penguin, monkey, lion\n\nInput: car, tortoise, truck, spider, sheep\nOutput: spider, sheep, tortoise\n\nInput: fly, artist, panda, sheep, zebra, train\nOutput: fly, panda, zebra, sheep\n\nInput: frog, snake, goat, tomato, jeans, parrot, ship\nOutput: goat, snake, parrot, frog"
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: butterfly, engineer, whale, blue, bat, snake, ambulance\nOutput: snake, whale, butterfly, bat\n\nInput: elephant, mouse, gold, ship, jellyfish, milk, snake\nOutput: mouse, snake, jellyfish, elephant\n\nInput: shirt, jellyfish, potato, lion, swan, monkey\nOutput: monkey, swan, lion, jellyfish\n\nInput: dolphin, horse, vegetable, belt, chicken, skirt, mouse\nOutput: horse, mouse, chicken, dolphin\n\nInput: yellow, rabbit, mouse, jacket, photographer, donkey\nOutput: mouse, rabbit, donkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: butterfly, engineer, whale, blue, bat, snake, ambulance\nOutput: snake, whale, butterfly, bat\n\nInput: elephant, mouse, gold, ship, jellyfish, milk, snake\nOutput: mouse, snake, jellyfish, elephant\n\nInput: shirt, jellyfish, potato, lion, swan, monkey\nOutput: monkey, swan, lion, jellyfish\n\nInput: dolphin, horse, vegetable, belt, chicken, skirt, mouse\nOutput: horse, mouse, chicken, dolphin\n\nInput: yellow, rabbit, mouse, jacket, photographer, donkey\nOutput: mouse, rabbit, donkey"
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: fly, gold, swan, rabbit, pink\nOutput: rabbit, swan, fly\n\nInput: elephant, swan, duck, helicopter, hat, panda, jacket\nOutput: panda, elephant, duck, swan\n\nInput: frog, monkey, sandwich, duck, swimsuit\nOutput: frog, duck, monkey\n\nInput: snail, horse, green, blue, butterfly, scarf\nOutput: butterfly, horse, snail\n\nInput: skirt, octopus, green, swan, lizard\nOutput: lizard, swan, octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: fly, gold, swan, rabbit, pink\nOutput: rabbit, swan, fly\n\nInput: elephant, swan, duck, helicopter, hat, panda, jacket\nOutput: panda, elephant, duck, swan\n\nInput: frog, monkey, sandwich, duck, swimsuit\nOutput: frog, duck, monkey\n\nInput: snail, horse, green, blue, butterfly, scarf\nOutput: butterfly, horse, snail\n\nInput: skirt, octopus, green, swan, lizard\nOutput: lizard, swan, octopus"
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goat, bat, orange, mechanic, teacher, frog, octopus\nOutput: frog, bat, octopus, goat\n\nInput: tortoise, mouse, apple, journalist, octopus, red\nOutput: octopus, mouse, tortoise\n\nInput: spaceship, cat, swan, gray, dolphin\nOutput: swan, cat, dolphin\n\nInput: yellow, trousers, elephant, dolphin, butterfly, whale\nOutput: whale, elephant, butterfly, dolphin\n\nInput: cat, orange, rabbit, horse, butter, apple\nOutput: cat, horse, rabbit\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goat, bat, orange, mechanic, teacher, frog, octopus\nOutput: frog, bat, octopus, goat\n\nInput: tortoise, mouse, apple, journalist, octopus, red\nOutput: octopus, mouse, tortoise\n\nInput: spaceship, cat, swan, gray, dolphin\nOutput: swan, cat, dolphin\n\nInput: yellow, trousers, elephant, dolphin, butterfly, whale\nOutput: whale, elephant, butterfly, dolphin\n\nInput: cat, orange, rabbit, horse, butter, apple\nOutput: cat, horse, rabbit"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bee, frog, ice cream, scarf, hippo\nOutput: hippo, bee, frog\n\nInput: hippo, car, waiter, chicken, bee, snail\nOutput: hippo, bee, chicken, snail\n\nInput: fly, tortoise, swimsuit, horse, cook, helicopter, frog\nOutput: tortoise, horse, fly, frog\n\nInput: whale, tractor, snail, engineer, bee, shirt, frog\nOutput: bee, whale, frog, snail\n\nInput: cat, fly, sock, pajamas, green, penguin\nOutput: fly, penguin, cat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bee, frog, ice cream, scarf, hippo\nOutput: hippo, bee, frog\n\nInput: hippo, car, waiter, chicken, bee, snail\nOutput: hippo, bee, chicken, snail\n\nInput: fly, tortoise, swimsuit, horse, cook, helicopter, frog\nOutput: tortoise, horse, fly, frog\n\nInput: whale, tractor, snail, engineer, bee, shirt, frog\nOutput: bee, whale, frog, snail\n\nInput: cat, fly, sock, pajamas, green, penguin\nOutput: fly, penguin, cat"
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cat, mouse, spider, cookie, snail, blue\nOutput: spider, snail, mouse, cat\n\nInput: olives, duck, tiger, photographer, mouse\nOutput: tiger, duck, mouse\n\nInput: skirt, green, rabbit, whale, monkey, bee\nOutput: monkey, bee, whale, rabbit\n\nInput: orange, truck, sheep, snail, parrot\nOutput: snail, sheep, parrot\n\nInput: octopus, teacher, designer, zebra, spider, snail\nOutput: spider, snail, octopus, zebra\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: cat, mouse, spider, cookie, snail, blue\nOutput: spider, snail, mouse, cat\n\nInput: olives, duck, tiger, photographer, mouse\nOutput: tiger, duck, mouse\n\nInput: skirt, green, rabbit, whale, monkey, bee\nOutput: monkey, bee, whale, rabbit\n\nInput: orange, truck, sheep, snail, parrot\nOutput: snail, sheep, parrot\n\nInput: octopus, teacher, designer, zebra, spider, snail\nOutput: spider, snail, octopus, zebra"
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: duck, snake, lemon, tortoise, penguin, brown, pink\nOutput: snake, tortoise, penguin, duck\n\nInput: tractor, spaceship, cat, lizard, panda\nOutput: panda, cat, lizard\n\nInput: whale, elephant, donkey, businessman, tortoise, green\nOutput: tortoise, whale, donkey, elephant\n\nInput: orange, butterfly, giraffe, train, sandwich, hippo, chicken\nOutput: chicken, butterfly, giraffe, hippo\n\nInput: donkey, glove, ambulance, panda, sweater, duck\nOutput: duck, donkey, panda\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: duck, snake, lemon, tortoise, penguin, brown, pink\nOutput: snake, tortoise, penguin, duck\n\nInput: tractor, spaceship, cat, lizard, panda\nOutput: panda, cat, lizard\n\nInput: whale, elephant, donkey, businessman, tortoise, green\nOutput: tortoise, whale, donkey, elephant\n\nInput: orange, butterfly, giraffe, train, sandwich, hippo, chicken\nOutput: chicken, butterfly, giraffe, hippo\n\nInput: donkey, glove, ambulance, panda, sweater, duck\nOutput: duck, donkey, panda"
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: spider, glove, panda, chicken, shark, car\nOutput: panda, spider, chicken, shark\n\nInput: yoghurt, donkey, white, frog, trousers, tortoise\nOutput: donkey, tortoise, frog\n\nInput: sweater, shark, whale, bee, snake, yellow\nOutput: bee, snake, whale, shark\n\nInput: green, milk, mouse, frog, zebra\nOutput: zebra, frog, mouse\n\nInput: actor, goat, giraffe, penguin, belt\nOutput: goat, giraffe, penguin\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: spider, glove, panda, chicken, shark, car\nOutput: panda, spider, chicken, shark\n\nInput: yoghurt, donkey, white, frog, trousers, tortoise\nOutput: donkey, tortoise, frog\n\nInput: sweater, shark, whale, bee, snake, yellow\nOutput: bee, snake, whale, shark\n\nInput: green, milk, mouse, frog, zebra\nOutput: zebra, frog, mouse\n\nInput: actor, goat, giraffe, penguin, belt\nOutput: goat, giraffe, penguin"
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: red, bat, octopus, mouse, businesswoman, belt\nOutput: mouse, octopus, bat\n\nInput: duck, fly, butterfly, cookie, pink\nOutput: duck, butterfly, fly\n\nInput: chicken, bat, doctor, teacher, blue, dolphin\nOutput: bat, chicken, dolphin\n\nInput: helicopter, pineapple, shoe, sheep, snail, mouse, whale\nOutput: mouse, whale, sheep, snail\n\nInput: tortoise, artist, zebra, sheep, swimsuit, bat\nOutput: zebra, sheep, tortoise, bat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: red, bat, octopus, mouse, businesswoman, belt\nOutput: mouse, octopus, bat\n\nInput: duck, fly, butterfly, cookie, pink\nOutput: duck, butterfly, fly\n\nInput: chicken, bat, doctor, teacher, blue, dolphin\nOutput: bat, chicken, dolphin\n\nInput: helicopter, pineapple, shoe, sheep, snail, mouse, whale\nOutput: mouse, whale, sheep, snail\n\nInput: tortoise, artist, zebra, sheep, swimsuit, bat\nOutput: zebra, sheep, tortoise, bat"
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mango, panda, doctor, elephant, parrot, lion\nOutput: elephant, lion, parrot, panda\n\nInput: businessman, sheep, zebra, chocolate, elephant, bean\nOutput: sheep, zebra, elephant\n\nInput: pink, pasta, penguin, apple, snail, cat\nOutput: snail, penguin, cat\n\nInput: bee, sausage, panda, motorway, snake\nOutput: panda, snake, bee\n\nInput: glove, rice, yellow, elephant, rabbit, lizard\nOutput: lizard, rabbit, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mango, panda, doctor, elephant, parrot, lion\nOutput: elephant, lion, parrot, panda\n\nInput: businessman, sheep, zebra, chocolate, elephant, bean\nOutput: sheep, zebra, elephant\n\nInput: pink, pasta, penguin, apple, snail, cat\nOutput: snail, penguin, cat\n\nInput: bee, sausage, panda, motorway, snake\nOutput: panda, snake, bee\n\nInput: glove, rice, yellow, elephant, rabbit, lizard\nOutput: lizard, rabbit, elephant"
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sheep, truck, rabbit, dentist, bat, shark\nOutput: rabbit, sheep, shark, bat\n\nInput: jeans, butterfly, businesswoman, panda, teacher, goat\nOutput: goat, butterfly, panda\n\nInput: snake, businessman, hippo, actor, panda\nOutput: panda, hippo, snake\n\nInput: tractor, parrot, panda, penguin, bus, motorway\nOutput: penguin, parrot, panda\n\nInput: jellyfish, potato, frog, hippo, mechanic\nOutput: hippo, frog, jellyfish\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sheep, truck, rabbit, dentist, bat, shark\nOutput: rabbit, sheep, shark, bat\n\nInput: jeans, butterfly, businesswoman, panda, teacher, goat\nOutput: goat, butterfly, panda\n\nInput: snake, businessman, hippo, actor, panda\nOutput: panda, hippo, snake\n\nInput: tractor, parrot, panda, penguin, bus, motorway\nOutput: penguin, parrot, panda\n\nInput: jellyfish, potato, frog, hippo, mechanic\nOutput: hippo, frog, jellyfish"
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: journalist, frog, sweater, tiger, elephant, waiter, panda\nOutput: elephant, frog, panda, tiger\n\nInput: jellyfish, skirt, tortoise, horse, carrot, doctor, butterfly\nOutput: tortoise, butterfly, horse, jellyfish\n\nInput: snake, pajamas, horse, brown, rabbit\nOutput: snake, rabbit, horse\n\nInput: parrot, blue, swan, mouse, penguin, mechanic\nOutput: penguin, swan, parrot, mouse\n\nInput: hippo, red, sock, duck, photographer, frog\nOutput: frog, hippo, duck\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: journalist, frog, sweater, tiger, elephant, waiter, panda\nOutput: elephant, frog, panda, tiger\n\nInput: jellyfish, skirt, tortoise, horse, carrot, doctor, butterfly\nOutput: tortoise, butterfly, horse, jellyfish\n\nInput: snake, pajamas, horse, brown, rabbit\nOutput: snake, rabbit, horse\n\nInput: parrot, blue, swan, mouse, penguin, mechanic\nOutput: penguin, swan, parrot, mouse\n\nInput: hippo, red, sock, duck, photographer, frog\nOutput: frog, hippo, duck"
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snail, giraffe, fly, white, dentist\nOutput: fly, snail, giraffe\n\nInput: giraffe, orange, shirt, parrot, butterfly\nOutput: giraffe, butterfly, parrot\n\nInput: yellow, shoe, fly, cat, penguin, truck\nOutput: fly, penguin, cat\n\nInput: horse, red, cat, swan, white, sheep\nOutput: sheep, cat, swan, horse\n\nInput: bat, chicken, designer, soup, fly, horse\nOutput: chicken, horse, bat, fly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snail, giraffe, fly, white, dentist\nOutput: fly, snail, giraffe\n\nInput: giraffe, orange, shirt, parrot, butterfly\nOutput: giraffe, butterfly, parrot\n\nInput: yellow, shoe, fly, cat, penguin, truck\nOutput: fly, penguin, cat\n\nInput: horse, red, cat, swan, white, sheep\nOutput: sheep, cat, swan, horse\n\nInput: bat, chicken, designer, soup, fly, horse\nOutput: chicken, horse, bat, fly"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: donkey, panda, parrot, chocolate, ambulance, milk\nOutput: parrot, donkey, panda\n\nInput: skirt, yoghurt, spider, fly, duck, octopus\nOutput: octopus, duck, spider, fly\n\nInput: spaceship, lizard, swan, salad, ambulance, chicken\nOutput: lizard, chicken, swan\n\nInput: actor, red, tiger, lizard, horse, brown\nOutput: lizard, horse, tiger\n\nInput: rabbit, fly, monkey, mouse, green, dentist, purple\nOutput: rabbit, mouse, fly, monkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: donkey, panda, parrot, chocolate, ambulance, milk\nOutput: parrot, donkey, panda\n\nInput: skirt, yoghurt, spider, fly, duck, octopus\nOutput: octopus, duck, spider, fly\n\nInput: spaceship, lizard, swan, salad, ambulance, chicken\nOutput: lizard, chicken, swan\n\nInput: actor, red, tiger, lizard, horse, brown\nOutput: lizard, horse, tiger\n\nInput: rabbit, fly, monkey, mouse, green, dentist, purple\nOutput: rabbit, mouse, fly, monkey"
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: panda, lion, whale, tomato, ambulance\nOutput: whale, lion, panda\n\nInput: goat, butterfly, mouse, jeans, tiger, helicopter\nOutput: goat, butterfly, tiger, mouse\n\nInput: ship, octopus, pancake, lion, orange, butterfly\nOutput: lion, butterfly, octopus\n\nInput: penguin, hippo, jellyfish, dolphin, waiter, brown\nOutput: jellyfish, dolphin, penguin, hippo\n\nInput: bus, dress, chicken, elephant, fly, zebra, blue\nOutput: fly, chicken, zebra, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: panda, lion, whale, tomato, ambulance\nOutput: whale, lion, panda\n\nInput: goat, butterfly, mouse, jeans, tiger, helicopter\nOutput: goat, butterfly, tiger, mouse\n\nInput: ship, octopus, pancake, lion, orange, butterfly\nOutput: lion, butterfly, octopus\n\nInput: penguin, hippo, jellyfish, dolphin, waiter, brown\nOutput: jellyfish, dolphin, penguin, hippo\n\nInput: bus, dress, chicken, elephant, fly, zebra, blue\nOutput: fly, chicken, zebra, elephant"
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: panda, ship, plane, tiger, horse, orange\nOutput: tiger, horse, panda\n\nInput: goat, red, frog, zebra, tortoise, honey, orange\nOutput: goat, tortoise, frog, zebra\n\nInput: butterfly, octopus, train, fly, giraffe, dress\nOutput: octopus, giraffe, butterfly, fly\n\nInput: elephant, zebra, engineer, designer, mango, snake\nOutput: zebra, elephant, snake\n\nInput: skirt, cook, horse, spaceship, donkey, octopus\nOutput: octopus, donkey, horse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: panda, ship, plane, tiger, horse, orange\nOutput: tiger, horse, panda\n\nInput: goat, red, frog, zebra, tortoise, honey, orange\nOutput: goat, tortoise, frog, zebra\n\nInput: butterfly, octopus, train, fly, giraffe, dress\nOutput: octopus, giraffe, butterfly, fly\n\nInput: elephant, zebra, engineer, designer, mango, snake\nOutput: zebra, elephant, snake\n\nInput: skirt, cook, horse, spaceship, donkey, octopus\nOutput: octopus, donkey, horse"
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, yellow, lion, milk, hippo\nOutput: hippo, tiger, lion\n\nInput: zebra, jellyfish, elephant, brown, hat, cat, yellow\nOutput: jellyfish, elephant, cat, zebra\n\nInput: goat, panda, parrot, ambulance, businesswoman, gold\nOutput: panda, goat, parrot\n\nInput: businesswoman, rabbit, trousers, camel, teacher, parrot\nOutput: parrot, camel, rabbit\n\nInput: swan, sheep, doctor, parrot, orange, blue\nOutput: sheep, parrot, swan\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, yellow, lion, milk, hippo\nOutput: hippo, tiger, lion\n\nInput: zebra, jellyfish, elephant, brown, hat, cat, yellow\nOutput: jellyfish, elephant, cat, zebra\n\nInput: goat, panda, parrot, ambulance, businesswoman, gold\nOutput: panda, goat, parrot\n\nInput: businesswoman, rabbit, trousers, camel, teacher, parrot\nOutput: parrot, camel, rabbit\n\nInput: swan, sheep, doctor, parrot, orange, blue\nOutput: sheep, parrot, swan"
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: camel, frog, tractor, actor, panda\nOutput: panda, frog, camel\n\nInput: panda, bee, sweater, sheep, tortoise, businessman\nOutput: sheep, bee, panda, tortoise\n\nInput: duck, butterfly, egg, giraffe, designer, goat\nOutput: goat, duck, butterfly, giraffe\n\nInput: donkey, burger, chocolate, scarf, mouse, camel, tiger\nOutput: donkey, camel, tiger, mouse\n\nInput: snake, whale, lizard, actor, pea\nOutput: snake, lizard, whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: camel, frog, tractor, actor, panda\nOutput: panda, frog, camel\n\nInput: panda, bee, sweater, sheep, tortoise, businessman\nOutput: sheep, bee, panda, tortoise\n\nInput: duck, butterfly, egg, giraffe, designer, goat\nOutput: goat, duck, butterfly, giraffe\n\nInput: donkey, burger, chocolate, scarf, mouse, camel, tiger\nOutput: donkey, camel, tiger, mouse\n\nInput: snake, whale, lizard, actor, pea\nOutput: snake, lizard, whale"
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: butter, horse, camel, businessman, shark, honey, giraffe\nOutput: horse, giraffe, shark, camel\n\nInput: brown, elephant, tiger, ice cream, cook, tortoise\nOutput: tiger, tortoise, elephant\n\nInput: red, yellow, goat, parrot, designer, tiger\nOutput: tiger, parrot, goat\n\nInput: mouse, cat, gold, yellow, businesswoman, penguin\nOutput: penguin, cat, mouse\n\nInput: lion, donkey, jacket, yellow, mouse, duck\nOutput: lion, donkey, mouse, duck\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: butter, horse, camel, businessman, shark, honey, giraffe\nOutput: horse, giraffe, shark, camel\n\nInput: brown, elephant, tiger, ice cream, cook, tortoise\nOutput: tiger, tortoise, elephant\n\nInput: red, yellow, goat, parrot, designer, tiger\nOutput: tiger, parrot, goat\n\nInput: mouse, cat, gold, yellow, businesswoman, penguin\nOutput: penguin, cat, mouse\n\nInput: lion, donkey, jacket, yellow, mouse, duck\nOutput: lion, donkey, mouse, duck"
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bus, swan, panda, dentist, chicken\nOutput: swan, chicken, panda\n\nInput: camel, lion, doctor, green, giraffe, elephant\nOutput: camel, giraffe, lion, elephant\n\nInput: vegetable, butter, pink, bee, elephant, monkey, cat\nOutput: monkey, elephant, cat, bee\n\nInput: photographer, parrot, elephant, teacher, kiwi, hippo, whale\nOutput: hippo, parrot, whale, elephant\n\nInput: goat, tortoise, shark, train, ship, hippo\nOutput: goat, hippo, tortoise, shark\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bus, swan, panda, dentist, chicken\nOutput: swan, chicken, panda\n\nInput: camel, lion, doctor, green, giraffe, elephant\nOutput: camel, giraffe, lion, elephant\n\nInput: vegetable, butter, pink, bee, elephant, monkey, cat\nOutput: monkey, elephant, cat, bee\n\nInput: photographer, parrot, elephant, teacher, kiwi, hippo, whale\nOutput: hippo, parrot, whale, elephant\n\nInput: goat, tortoise, shark, train, ship, hippo\nOutput: goat, hippo, tortoise, shark"
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hippo, designer, snail, lion, tiger, hat\nOutput: lion, snail, tiger, hippo\n\nInput: elephant, tractor, panda, zebra, rabbit, train, yellow\nOutput: rabbit, elephant, zebra, panda\n\nInput: duck, train, butterfly, dentist, scarf, bee, zebra\nOutput: butterfly, bee, zebra, duck\n\nInput: sock, cat, hippo, spider, nurse, train\nOutput: hippo, spider, cat\n\nInput: red, white, elephant, jacket, horse, donkey, swan\nOutput: elephant, swan, donkey, horse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hippo, designer, snail, lion, tiger, hat\nOutput: lion, snail, tiger, hippo\n\nInput: elephant, tractor, panda, zebra, rabbit, train, yellow\nOutput: rabbit, elephant, zebra, panda\n\nInput: duck, train, butterfly, dentist, scarf, bee, zebra\nOutput: butterfly, bee, zebra, duck\n\nInput: sock, cat, hippo, spider, nurse, train\nOutput: hippo, spider, cat\n\nInput: red, white, elephant, jacket, horse, donkey, swan\nOutput: elephant, swan, donkey, horse"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: green, helicopter, panda, chicken, butterfly\nOutput: butterfly, chicken, panda\n\nInput: taxi, yellow, giraffe, ice cream, chicken, mouse, donkey\nOutput: donkey, mouse, chicken, giraffe\n\nInput: white, elephant, mouse, sheep, lion, hat\nOutput: elephant, sheep, mouse, lion\n\nInput: white, butterfly, donkey, bee, whale, brown, yellow\nOutput: donkey, bee, butterfly, whale\n\nInput: glove, jeans, zebra, whale, gray, hippo\nOutput: whale, zebra, hippo\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: green, helicopter, panda, chicken, butterfly\nOutput: butterfly, chicken, panda\n\nInput: taxi, yellow, giraffe, ice cream, chicken, mouse, donkey\nOutput: donkey, mouse, chicken, giraffe\n\nInput: white, elephant, mouse, sheep, lion, hat\nOutput: elephant, sheep, mouse, lion\n\nInput: white, butterfly, donkey, bee, whale, brown, yellow\nOutput: donkey, bee, butterfly, whale\n\nInput: glove, jeans, zebra, whale, gray, hippo\nOutput: whale, zebra, hippo"
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sausage, car, cat, parrot, truck, elephant, snail\nOutput: cat, parrot, snail, elephant\n\nInput: orange, frog, pasta, monkey, spider\nOutput: monkey, spider, frog\n\nInput: sock, giraffe, parrot, truck, snail, skirt\nOutput: snail, parrot, giraffe\n\nInput: parrot, pear, pineapple, shark, horse, spider, cook\nOutput: shark, parrot, spider, horse\n\nInput: jellyfish, penguin, tortoise, belt, doctor, spaceship\nOutput: tortoise, penguin, jellyfish\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sausage, car, cat, parrot, truck, elephant, snail\nOutput: cat, parrot, snail, elephant\n\nInput: orange, frog, pasta, monkey, spider\nOutput: monkey, spider, frog\n\nInput: sock, giraffe, parrot, truck, snail, skirt\nOutput: snail, parrot, giraffe\n\nInput: parrot, pear, pineapple, shark, horse, spider, cook\nOutput: shark, parrot, spider, horse\n\nInput: jellyfish, penguin, tortoise, belt, doctor, spaceship\nOutput: tortoise, penguin, jellyfish"
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pajamas, dolphin, shark, tomato, ship, giraffe, whale\nOutput: whale, giraffe, shark, dolphin\n\nInput: tiger, green, hat, zebra, tortoise, lizard\nOutput: zebra, tortoise, tiger, lizard\n\nInput: swan, apple, pink, butterfly, bat, jellyfish\nOutput: butterfly, bat, jellyfish, swan\n\nInput: blue, rabbit, dolphin, sheep, actor, lion\nOutput: dolphin, sheep, lion, rabbit\n\nInput: cook, truck, frog, octopus, gold, bee\nOutput: bee, octopus, frog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pajamas, dolphin, shark, tomato, ship, giraffe, whale\nOutput: whale, giraffe, shark, dolphin\n\nInput: tiger, green, hat, zebra, tortoise, lizard\nOutput: zebra, tortoise, tiger, lizard\n\nInput: swan, apple, pink, butterfly, bat, jellyfish\nOutput: butterfly, bat, jellyfish, swan\n\nInput: blue, rabbit, dolphin, sheep, actor, lion\nOutput: dolphin, sheep, lion, rabbit\n\nInput: cook, truck, frog, octopus, gold, bee\nOutput: bee, octopus, frog"
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: lion, fly, burger, nurse, bat, spaceship\nOutput: lion, fly, bat\n\nInput: pink, engineer, hippo, zebra, snake\nOutput: hippo, zebra, snake\n\nInput: taxi, rabbit, spider, orange, zebra, shark, belt\nOutput: zebra, rabbit, shark, spider\n\nInput: sock, pear, octopus, frog, snake, sheep\nOutput: sheep, snake, frog, octopus\n\nInput: spaceship, white, swan, dolphin, snake, camel\nOutput: dolphin, camel, snake, swan\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: lion, fly, burger, nurse, bat, spaceship\nOutput: lion, fly, bat\n\nInput: pink, engineer, hippo, zebra, snake\nOutput: hippo, zebra, snake\n\nInput: taxi, rabbit, spider, orange, zebra, shark, belt\nOutput: zebra, rabbit, shark, spider\n\nInput: sock, pear, octopus, frog, snake, sheep\nOutput: sheep, snake, frog, octopus\n\nInput: spaceship, white, swan, dolphin, snake, camel\nOutput: dolphin, camel, snake, swan"
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: horse, chicken, bus, shirt, lion, bee\nOutput: bee, chicken, horse, lion\n\nInput: hippo, duck, truck, fly, goat, doctor\nOutput: fly, duck, hippo, goat\n\nInput: zebra, gold, photographer, watermelon, bee, hippo, giraffe\nOutput: hippo, giraffe, zebra, bee\n\nInput: photographer, whale, sweater, hippo, shark\nOutput: whale, shark, hippo\n\nInput: train, octopus, businessman, tortoise, spider\nOutput: tortoise, spider, octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: horse, chicken, bus, shirt, lion, bee\nOutput: bee, chicken, horse, lion\n\nInput: hippo, duck, truck, fly, goat, doctor\nOutput: fly, duck, hippo, goat\n\nInput: zebra, gold, photographer, watermelon, bee, hippo, giraffe\nOutput: hippo, giraffe, zebra, bee\n\nInput: photographer, whale, sweater, hippo, shark\nOutput: whale, shark, hippo\n\nInput: train, octopus, businessman, tortoise, spider\nOutput: tortoise, spider, octopus"
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bat, butterfly, white, glove, chicken, panda, shoe\nOutput: bat, chicken, panda, butterfly\n\nInput: snake, red, goat, lion, engineer, train, jellyfish\nOutput: jellyfish, snake, lion, goat\n\nInput: mouse, train, lemon, tortoise, snail, zebra\nOutput: zebra, snail, mouse, tortoise\n\nInput: tiger, candy, jellyfish, red, cat\nOutput: jellyfish, tiger, cat\n\nInput: nurse, monkey, meatballs, dolphin, sausage, duck\nOutput: duck, dolphin, monkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bat, butterfly, white, glove, chicken, panda, shoe\nOutput: bat, chicken, panda, butterfly\n\nInput: snake, red, goat, lion, engineer, train, jellyfish\nOutput: jellyfish, snake, lion, goat\n\nInput: mouse, train, lemon, tortoise, snail, zebra\nOutput: zebra, snail, mouse, tortoise\n\nInput: tiger, candy, jellyfish, red, cat\nOutput: jellyfish, tiger, cat\n\nInput: nurse, monkey, meatballs, dolphin, sausage, duck\nOutput: duck, dolphin, monkey"
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: jellyfish, zebra, cat, sausage, onion\nOutput: cat, zebra, jellyfish\n\nInput: sheep, whale, swimsuit, bus, lion\nOutput: sheep, lion, whale\n\nInput: rabbit, banana, camel, panda, shirt\nOutput: rabbit, camel, panda\n\nInput: snake, designer, fly, butterfly, truck, monkey\nOutput: butterfly, snake, fly, monkey\n\nInput: chicken, pajamas, designer, zebra, lion\nOutput: lion, chicken, zebra\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: jellyfish, zebra, cat, sausage, onion\nOutput: cat, zebra, jellyfish\n\nInput: sheep, whale, swimsuit, bus, lion\nOutput: sheep, lion, whale\n\nInput: rabbit, banana, camel, panda, shirt\nOutput: rabbit, camel, panda\n\nInput: snake, designer, fly, butterfly, truck, monkey\nOutput: butterfly, snake, fly, monkey\n\nInput: chicken, pajamas, designer, zebra, lion\nOutput: lion, chicken, zebra"
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: skirt, jellyfish, swimsuit, octopus, mechanic, snake\nOutput: jellyfish, snake, octopus\n\nInput: swimsuit, chicken, kiwi, goat, snake\nOutput: snake, chicken, goat\n\nInput: red, duck, lion, zebra, pink, cat, bus\nOutput: duck, lion, cat, zebra\n\nInput: swan, rabbit, soup, octopus, fly, artist\nOutput: swan, rabbit, octopus, fly\n\nInput: watermelon, shark, hippo, swan, motorway, snake, cook\nOutput: swan, hippo, shark, snake\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: skirt, jellyfish, swimsuit, octopus, mechanic, snake\nOutput: jellyfish, snake, octopus\n\nInput: swimsuit, chicken, kiwi, goat, snake\nOutput: snake, chicken, goat\n\nInput: red, duck, lion, zebra, pink, cat, bus\nOutput: duck, lion, cat, zebra\n\nInput: swan, rabbit, soup, octopus, fly, artist\nOutput: swan, rabbit, octopus, fly\n\nInput: watermelon, shark, hippo, swan, motorway, snake, cook\nOutput: swan, hippo, shark, snake"
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chicken, giraffe, snake, orange, actor\nOutput: giraffe, snake, chicken\n\nInput: egg, snake, monkey, banana, donkey, cat, gold\nOutput: cat, snake, donkey, monkey\n\nInput: swan, train, bee, elephant, nurse\nOutput: bee, elephant, swan\n\nInput: engineer, monkey, doctor, penguin, egg, lizard, fly\nOutput: penguin, monkey, lizard, fly\n\nInput: penguin, hippo, whale, ship, goat, trousers\nOutput: whale, goat, penguin, hippo\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chicken, giraffe, snake, orange, actor\nOutput: giraffe, snake, chicken\n\nInput: egg, snake, monkey, banana, donkey, cat, gold\nOutput: cat, snake, donkey, monkey\n\nInput: swan, train, bee, elephant, nurse\nOutput: bee, elephant, swan\n\nInput: engineer, monkey, doctor, penguin, egg, lizard, fly\nOutput: penguin, monkey, lizard, fly\n\nInput: penguin, hippo, whale, ship, goat, trousers\nOutput: whale, goat, penguin, hippo"
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ambulance, ice cream, giraffe, dentist, elephant, shark\nOutput: giraffe, elephant, shark\n\nInput: skirt, cook, horse, spaceship, donkey, octopus\nOutput: octopus, donkey, horse\n\nInput: lizard, red, duck, goat, truck\nOutput: goat, lizard, duck\n\nInput: sheep, shoe, glove, goat, cat\nOutput: sheep, goat, cat\n\nInput: mouse, sweater, honey, cat, sheep\nOutput: sheep, mouse, cat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ambulance, ice cream, giraffe, dentist, elephant, shark\nOutput: giraffe, elephant, shark\n\nInput: skirt, cook, horse, spaceship, donkey, octopus\nOutput: octopus, donkey, horse\n\nInput: lizard, red, duck, goat, truck\nOutput: goat, lizard, duck\n\nInput: sheep, shoe, glove, goat, cat\nOutput: sheep, goat, cat\n\nInput: mouse, sweater, honey, cat, sheep\nOutput: sheep, mouse, cat"
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, elephant, fly, red, actor, penguin\nOutput: elephant, fly, penguin, tiger\n\nInput: camel, gold, mouse, penguin, green, donkey, banana\nOutput: donkey, penguin, mouse, camel\n\nInput: sheep, pear, dress, horse, chicken, monkey\nOutput: monkey, horse, sheep, chicken\n\nInput: cat, penguin, vegetable, teacher, chicken, motorway\nOutput: cat, chicken, penguin\n\nInput: train, ambulance, snail, penguin, tortoise\nOutput: snail, tortoise, penguin\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, elephant, fly, red, actor, penguin\nOutput: elephant, fly, penguin, tiger\n\nInput: camel, gold, mouse, penguin, green, donkey, banana\nOutput: donkey, penguin, mouse, camel\n\nInput: sheep, pear, dress, horse, chicken, monkey\nOutput: monkey, horse, sheep, chicken\n\nInput: cat, penguin, vegetable, teacher, chicken, motorway\nOutput: cat, chicken, penguin\n\nInput: train, ambulance, snail, penguin, tortoise\nOutput: snail, tortoise, penguin"
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: shoe, horse, milk, tiger, bat, green\nOutput: horse, bat, tiger\n\nInput: goat, rabbit, green, penguin, ship\nOutput: goat, rabbit, penguin\n\nInput: bee, milk, dolphin, chicken, potato, camel\nOutput: dolphin, camel, bee, chicken\n\nInput: glove, cat, spaceship, duck, swan, panda, potato\nOutput: panda, duck, swan, cat\n\nInput: bee, elephant, hat, waiter, whale\nOutput: bee, whale, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: shoe, horse, milk, tiger, bat, green\nOutput: horse, bat, tiger\n\nInput: goat, rabbit, green, penguin, ship\nOutput: goat, rabbit, penguin\n\nInput: bee, milk, dolphin, chicken, potato, camel\nOutput: dolphin, camel, bee, chicken\n\nInput: glove, cat, spaceship, duck, swan, panda, potato\nOutput: panda, duck, swan, cat\n\nInput: bee, elephant, hat, waiter, whale\nOutput: bee, whale, elephant"
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bee, bread, tractor, soup, monkey, penguin, mouse\nOutput: bee, mouse, penguin, monkey\n\nInput: blue, lizard, cat, pajamas, olives, tiger, jellyfish\nOutput: lizard, jellyfish, cat, tiger\n\nInput: engineer, butterfly, panda, yellow, bat, cat\nOutput: panda, butterfly, cat, bat\n\nInput: businessman, bat, green, mouse, whale, onion, shark\nOutput: shark, whale, mouse, bat\n\nInput: bee, cookie, truck, horse, cook, tiger\nOutput: tiger, horse, bee\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bee, bread, tractor, soup, monkey, penguin, mouse\nOutput: bee, mouse, penguin, monkey\n\nInput: blue, lizard, cat, pajamas, olives, tiger, jellyfish\nOutput: lizard, jellyfish, cat, tiger\n\nInput: engineer, butterfly, panda, yellow, bat, cat\nOutput: panda, butterfly, cat, bat\n\nInput: businessman, bat, green, mouse, whale, onion, shark\nOutput: shark, whale, mouse, bat\n\nInput: bee, cookie, truck, horse, cook, tiger\nOutput: tiger, horse, bee"
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: spider, penguin, shoe, giraffe, sweater, burger\nOutput: spider, penguin, giraffe\n\nInput: cat, spider, white, car, plane, monkey, lizard\nOutput: monkey, cat, lizard, spider\n\nInput: frog, donkey, horse, pasta, rice, potato\nOutput: donkey, horse, frog\n\nInput: fly, spider, cookie, carrot, panda\nOutput: fly, spider, panda\n\nInput: photographer, parrot, elephant, teacher, kiwi, hippo, whale\nOutput: hippo, parrot, whale, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: spider, penguin, shoe, giraffe, sweater, burger\nOutput: spider, penguin, giraffe\n\nInput: cat, spider, white, car, plane, monkey, lizard\nOutput: monkey, cat, lizard, spider\n\nInput: frog, donkey, horse, pasta, rice, potato\nOutput: donkey, horse, frog\n\nInput: fly, spider, cookie, carrot, panda\nOutput: fly, spider, panda\n\nInput: photographer, parrot, elephant, teacher, kiwi, hippo, whale\nOutput: hippo, parrot, whale, elephant"
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: fly, swan, shark, scarf, hat, purple\nOutput: fly, swan, shark\n\nInput: hat, lizard, jacket, bat, snail, spider\nOutput: snail, bat, lizard, spider\n\nInput: swan, artist, cat, sheep, parrot, nurse, scarf\nOutput: cat, parrot, swan, sheep\n\nInput: salad, orange, parrot, octopus, giraffe, lion\nOutput: giraffe, lion, octopus, parrot\n\nInput: monkey, giraffe, train, bee, elephant, pajamas\nOutput: elephant, bee, giraffe, monkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: fly, swan, shark, scarf, hat, purple\nOutput: fly, swan, shark\n\nInput: hat, lizard, jacket, bat, snail, spider\nOutput: snail, bat, lizard, spider\n\nInput: swan, artist, cat, sheep, parrot, nurse, scarf\nOutput: cat, parrot, swan, sheep\n\nInput: salad, orange, parrot, octopus, giraffe, lion\nOutput: giraffe, lion, octopus, parrot\n\nInput: monkey, giraffe, train, bee, elephant, pajamas\nOutput: elephant, bee, giraffe, monkey"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: whale, gold, penguin, dentist, jellyfish, actor\nOutput: jellyfish, whale, penguin\n\nInput: frog, zebra, doctor, rabbit, plane, waiter, fly\nOutput: zebra, frog, fly, rabbit\n\nInput: camel, chicken, sheep, white, waiter\nOutput: sheep, camel, chicken\n\nInput: bat, taxi, white, sheep, goat, parrot\nOutput: bat, sheep, parrot, goat\n\nInput: truck, dolphin, train, goat, lion\nOutput: dolphin, lion, goat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: whale, gold, penguin, dentist, jellyfish, actor\nOutput: jellyfish, whale, penguin\n\nInput: frog, zebra, doctor, rabbit, plane, waiter, fly\nOutput: zebra, frog, fly, rabbit\n\nInput: camel, chicken, sheep, white, waiter\nOutput: sheep, camel, chicken\n\nInput: bat, taxi, white, sheep, goat, parrot\nOutput: bat, sheep, parrot, goat\n\nInput: truck, dolphin, train, goat, lion\nOutput: dolphin, lion, goat"
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: spider, frog, apple, bat, swimsuit\nOutput: spider, frog, bat\n\nInput: glove, duck, butterfly, truck, penguin, bee\nOutput: butterfly, penguin, duck, bee\n\nInput: zebra, cat, pajamas, artist, rabbit\nOutput: rabbit, zebra, cat\n\nInput: butterfly, horse, businesswoman, duck, green, glove, lizard\nOutput: butterfly, lizard, duck, horse\n\nInput: green, whale, businessman, duck, donkey\nOutput: duck, donkey, whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: spider, frog, apple, bat, swimsuit\nOutput: spider, frog, bat\n\nInput: glove, duck, butterfly, truck, penguin, bee\nOutput: butterfly, penguin, duck, bee\n\nInput: zebra, cat, pajamas, artist, rabbit\nOutput: rabbit, zebra, cat\n\nInput: butterfly, horse, businesswoman, duck, green, glove, lizard\nOutput: butterfly, lizard, duck, horse\n\nInput: green, whale, businessman, duck, donkey\nOutput: duck, donkey, whale"
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: parrot, truck, waiter, bus, tortoise, snake\nOutput: parrot, tortoise, snake\n\nInput: lion, taxi, parrot, green, glove, dolphin\nOutput: dolphin, lion, parrot\n\nInput: engineer, cook, fly, bee, blue, jellyfish\nOutput: fly, jellyfish, bee\n\nInput: fly, swan, shark, scarf, hat, purple\nOutput: fly, swan, shark\n\nInput: hat, lizard, mango, zebra, penguin, taxi, bee\nOutput: zebra, penguin, lizard, bee\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: parrot, truck, waiter, bus, tortoise, snake\nOutput: parrot, tortoise, snake\n\nInput: lion, taxi, parrot, green, glove, dolphin\nOutput: dolphin, lion, parrot\n\nInput: engineer, cook, fly, bee, blue, jellyfish\nOutput: fly, jellyfish, bee\n\nInput: fly, swan, shark, scarf, hat, purple\nOutput: fly, swan, shark\n\nInput: hat, lizard, mango, zebra, penguin, taxi, bee\nOutput: zebra, penguin, lizard, bee"
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tortoise, parrot, yellow, lizard, soup, red\nOutput: parrot, tortoise, lizard\n\nInput: teacher, designer, panda, cat, giraffe, taxi, penguin\nOutput: penguin, giraffe, panda, cat\n\nInput: frog, shark, helicopter, swimsuit, rabbit, horse\nOutput: horse, shark, rabbit, frog\n\nInput: fly, purple, watermelon, cat, donkey, snail\nOutput: snail, cat, fly, donkey\n\nInput: gray, cookie, butterfly, frog, goat\nOutput: goat, butterfly, frog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tortoise, parrot, yellow, lizard, soup, red\nOutput: parrot, tortoise, lizard\n\nInput: teacher, designer, panda, cat, giraffe, taxi, penguin\nOutput: penguin, giraffe, panda, cat\n\nInput: frog, shark, helicopter, swimsuit, rabbit, horse\nOutput: horse, shark, rabbit, frog\n\nInput: fly, purple, watermelon, cat, donkey, snail\nOutput: snail, cat, fly, donkey\n\nInput: gray, cookie, butterfly, frog, goat\nOutput: goat, butterfly, frog"
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: belt, hat, sheep, dolphin, cat, jellyfish\nOutput: jellyfish, dolphin, cat, sheep\n\nInput: ambulance, tortoise, lion, mechanic, shark, doctor\nOutput: tortoise, lion, shark\n\nInput: hippo, bus, gray, panda, parrot\nOutput: hippo, panda, parrot\n\nInput: octopus, hippo, bee, ambulance, bus, jellyfish\nOutput: bee, hippo, octopus, jellyfish\n\nInput: parrot, frog, lizard, white, fly, plane, dentist\nOutput: lizard, parrot, frog, fly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: belt, hat, sheep, dolphin, cat, jellyfish\nOutput: jellyfish, dolphin, cat, sheep\n\nInput: ambulance, tortoise, lion, mechanic, shark, doctor\nOutput: tortoise, lion, shark\n\nInput: hippo, bus, gray, panda, parrot\nOutput: hippo, panda, parrot\n\nInput: octopus, hippo, bee, ambulance, bus, jellyfish\nOutput: bee, hippo, octopus, jellyfish\n\nInput: parrot, frog, lizard, white, fly, plane, dentist\nOutput: lizard, parrot, frog, fly"
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: lizard, motorway, artist, horse, designer, bat\nOutput: lizard, bat, horse\n\nInput: duck, shirt, goat, bat, spaceship, sheep, sausage\nOutput: goat, duck, bat, sheep\n\nInput: zebra, elephant, artist, giraffe, ambulance, hat, whale\nOutput: elephant, zebra, whale, giraffe\n\nInput: designer, helicopter, rabbit, zebra, bee\nOutput: bee, zebra, rabbit\n\nInput: train, sheep, snail, gray, donkey, rabbit\nOutput: sheep, donkey, snail, rabbit\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: lizard, motorway, artist, horse, designer, bat\nOutput: lizard, bat, horse\n\nInput: duck, shirt, goat, bat, spaceship, sheep, sausage\nOutput: goat, duck, bat, sheep\n\nInput: zebra, elephant, artist, giraffe, ambulance, hat, whale\nOutput: elephant, zebra, whale, giraffe\n\nInput: designer, helicopter, rabbit, zebra, bee\nOutput: bee, zebra, rabbit\n\nInput: train, sheep, snail, gray, donkey, rabbit\nOutput: sheep, donkey, snail, rabbit"
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: belt, camel, salad, penguin, fly\nOutput: fly, penguin, camel\n\nInput: mechanic, giraffe, bat, spaceship, hippo\nOutput: bat, giraffe, hippo\n\nInput: lizard, cat, train, bat, pasta, monkey\nOutput: bat, cat, monkey, lizard\n\nInput: swan, belt, donkey, duck, fly, yellow\nOutput: donkey, fly, swan, duck\n\nInput: gray, rabbit, spider, plane, snake, penguin\nOutput: rabbit, spider, penguin, snake\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: belt, camel, salad, penguin, fly\nOutput: fly, penguin, camel\n\nInput: mechanic, giraffe, bat, spaceship, hippo\nOutput: bat, giraffe, hippo\n\nInput: lizard, cat, train, bat, pasta, monkey\nOutput: bat, cat, monkey, lizard\n\nInput: swan, belt, donkey, duck, fly, yellow\nOutput: donkey, fly, swan, duck\n\nInput: gray, rabbit, spider, plane, snake, penguin\nOutput: rabbit, spider, penguin, snake"
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: lizard, swan, goat, elephant, salad, butter\nOutput: lizard, swan, elephant, goat\n\nInput: blue, sheep, octopus, camel, ambulance, doctor\nOutput: sheep, octopus, camel\n\nInput: doctor, tractor, frog, trousers, hippo, panda\nOutput: panda, hippo, frog\n\nInput: butterfly, octopus, train, fly, giraffe, dress\nOutput: octopus, giraffe, butterfly, fly\n\nInput: duck, shirt, bus, gray, hippo, octopus, lion\nOutput: duck, lion, hippo, octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: lizard, swan, goat, elephant, salad, butter\nOutput: lizard, swan, elephant, goat\n\nInput: blue, sheep, octopus, camel, ambulance, doctor\nOutput: sheep, octopus, camel\n\nInput: doctor, tractor, frog, trousers, hippo, panda\nOutput: panda, hippo, frog\n\nInput: butterfly, octopus, train, fly, giraffe, dress\nOutput: octopus, giraffe, butterfly, fly\n\nInput: duck, shirt, bus, gray, hippo, octopus, lion\nOutput: duck, lion, hippo, octopus"
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: frog, businessman, car, zebra, donkey, purple\nOutput: zebra, donkey, frog\n\nInput: cat, lizard, pink, motorway, camel, bat\nOutput: camel, lizard, cat, bat\n\nInput: artist, sheep, camel, bee, businesswoman, butterfly, waiter\nOutput: sheep, bee, butterfly, camel\n\nInput: shark, sheep, tiger, businessman, actor\nOutput: shark, sheep, tiger\n\nInput: olives, ship, donkey, bat, frog\nOutput: bat, frog, donkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: frog, businessman, car, zebra, donkey, purple\nOutput: zebra, donkey, frog\n\nInput: cat, lizard, pink, motorway, camel, bat\nOutput: camel, lizard, cat, bat\n\nInput: artist, sheep, camel, bee, businesswoman, butterfly, waiter\nOutput: sheep, bee, butterfly, camel\n\nInput: shark, sheep, tiger, businessman, actor\nOutput: shark, sheep, tiger\n\nInput: olives, ship, donkey, bat, frog\nOutput: bat, frog, donkey"
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: duck, tortoise, horse, honey, taxi, artist\nOutput: horse, tortoise, duck\n\nInput: goat, teacher, actor, camel, cat, orange, mouse\nOutput: camel, mouse, cat, goat\n\nInput: penguin, rice, camel, mango, brown, octopus\nOutput: camel, penguin, octopus\n\nInput: belt, chicken, helicopter, tiger, rabbit\nOutput: rabbit, chicken, tiger\n\nInput: pajamas, dolphin, shark, tomato, ship, giraffe, whale\nOutput: whale, giraffe, shark, dolphin\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: duck, tortoise, horse, honey, taxi, artist\nOutput: horse, tortoise, duck\n\nInput: goat, teacher, actor, camel, cat, orange, mouse\nOutput: camel, mouse, cat, goat\n\nInput: penguin, rice, camel, mango, brown, octopus\nOutput: camel, penguin, octopus\n\nInput: belt, chicken, helicopter, tiger, rabbit\nOutput: rabbit, chicken, tiger\n\nInput: pajamas, dolphin, shark, tomato, ship, giraffe, whale\nOutput: whale, giraffe, shark, dolphin"
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: teacher, elephant, businesswoman, sheep, shoe, octopus\nOutput: octopus, sheep, elephant\n\nInput: car, bee, helicopter, duck, swimsuit, goat\nOutput: duck, bee, goat\n\nInput: sock, shirt, sweater, swan, elephant, camel, snail\nOutput: camel, elephant, swan, snail\n\nInput: butterfly, shark, dentist, lion, burger\nOutput: shark, butterfly, lion\n\nInput: butterfly, engineer, monkey, dolphin, helicopter, duck\nOutput: duck, butterfly, dolphin, monkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: teacher, elephant, businesswoman, sheep, shoe, octopus\nOutput: octopus, sheep, elephant\n\nInput: car, bee, helicopter, duck, swimsuit, goat\nOutput: duck, bee, goat\n\nInput: sock, shirt, sweater, swan, elephant, camel, snail\nOutput: camel, elephant, swan, snail\n\nInput: butterfly, shark, dentist, lion, burger\nOutput: shark, butterfly, lion\n\nInput: butterfly, engineer, monkey, dolphin, helicopter, duck\nOutput: duck, butterfly, dolphin, monkey"
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pajamas, rabbit, zebra, duck, soup\nOutput: zebra, rabbit, duck\n\nInput: frog, elephant, train, butterfly, whale, motorway\nOutput: butterfly, elephant, whale, frog\n\nInput: cook, bee, jacket, dentist, frog, rabbit\nOutput: rabbit, frog, bee\n\nInput: bee, dentist, motorway, lion, tortoise, octopus\nOutput: tortoise, octopus, lion, bee\n\nInput: tiger, white, lemon, sandwich, mouse, octopus, lion\nOutput: tiger, octopus, lion, mouse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pajamas, rabbit, zebra, duck, soup\nOutput: zebra, rabbit, duck\n\nInput: frog, elephant, train, butterfly, whale, motorway\nOutput: butterfly, elephant, whale, frog\n\nInput: cook, bee, jacket, dentist, frog, rabbit\nOutput: rabbit, frog, bee\n\nInput: bee, dentist, motorway, lion, tortoise, octopus\nOutput: tortoise, octopus, lion, bee\n\nInput: tiger, white, lemon, sandwich, mouse, octopus, lion\nOutput: tiger, octopus, lion, mouse"
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dolphin, gold, dress, spaceship, monkey, bat\nOutput: monkey, bat, dolphin\n\nInput: swimsuit, actor, monkey, donkey, panda, ice cream\nOutput: panda, monkey, donkey\n\nInput: monkey, goat, yellow, donkey, taxi, ambulance\nOutput: donkey, goat, monkey\n\nInput: tortoise, spaceship, sheep, sweater, snail\nOutput: tortoise, snail, sheep\n\nInput: goat, truck, designer, horse, bread, chicken, snail\nOutput: chicken, snail, horse, goat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dolphin, gold, dress, spaceship, monkey, bat\nOutput: monkey, bat, dolphin\n\nInput: swimsuit, actor, monkey, donkey, panda, ice cream\nOutput: panda, monkey, donkey\n\nInput: monkey, goat, yellow, donkey, taxi, ambulance\nOutput: donkey, goat, monkey\n\nInput: tortoise, spaceship, sheep, sweater, snail\nOutput: tortoise, snail, sheep\n\nInput: goat, truck, designer, horse, bread, chicken, snail\nOutput: chicken, snail, horse, goat"
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, car, hippo, bee, sausage\nOutput: hippo, tiger, bee\n\nInput: apple, snake, engineer, yellow, fly, chicken\nOutput: chicken, snake, fly\n\nInput: butterfly, gray, zebra, mouse, whale, kiwi\nOutput: butterfly, mouse, whale, zebra\n\nInput: cookie, camel, butterfly, bee, dress\nOutput: butterfly, camel, bee\n\nInput: horse, rabbit, businesswoman, parrot, soup, jellyfish, dentist\nOutput: jellyfish, parrot, rabbit, horse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, car, hippo, bee, sausage\nOutput: hippo, tiger, bee\n\nInput: apple, snake, engineer, yellow, fly, chicken\nOutput: chicken, snake, fly\n\nInput: butterfly, gray, zebra, mouse, whale, kiwi\nOutput: butterfly, mouse, whale, zebra\n\nInput: cookie, camel, butterfly, bee, dress\nOutput: butterfly, camel, bee\n\nInput: horse, rabbit, businesswoman, parrot, soup, jellyfish, dentist\nOutput: jellyfish, parrot, rabbit, horse"
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: penguin, whale, candy, fly, skirt\nOutput: whale, penguin, fly\n\nInput: frog, photographer, rabbit, bus, goat\nOutput: frog, rabbit, goat\n\nInput: snake, lion, carrot, green, rabbit, penguin\nOutput: lion, penguin, rabbit, snake\n\nInput: nurse, monkey, meatballs, dolphin, sausage, duck\nOutput: duck, dolphin, monkey\n\nInput: shark, belt, lion, spider, ambulance\nOutput: lion, shark, spider\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: penguin, whale, candy, fly, skirt\nOutput: whale, penguin, fly\n\nInput: frog, photographer, rabbit, bus, goat\nOutput: frog, rabbit, goat\n\nInput: snake, lion, carrot, green, rabbit, penguin\nOutput: lion, penguin, rabbit, snake\n\nInput: nurse, monkey, meatballs, dolphin, sausage, duck\nOutput: duck, dolphin, monkey\n\nInput: shark, belt, lion, spider, ambulance\nOutput: lion, shark, spider"
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: panda, hat, purple, sheep, snake\nOutput: panda, sheep, snake\n\nInput: pajamas, dolphin, shark, tomato, ship, giraffe, whale\nOutput: whale, giraffe, shark, dolphin\n\nInput: lion, designer, swimsuit, mouse, tortoise, snake\nOutput: tortoise, mouse, lion, snake\n\nInput: helicopter, glove, chicken, doctor, dolphin, duck, lizard\nOutput: dolphin, duck, lizard, chicken\n\nInput: donkey, white, elephant, green, bat, horse, jeans\nOutput: bat, elephant, donkey, horse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: panda, hat, purple, sheep, snake\nOutput: panda, sheep, snake\n\nInput: pajamas, dolphin, shark, tomato, ship, giraffe, whale\nOutput: whale, giraffe, shark, dolphin\n\nInput: lion, designer, swimsuit, mouse, tortoise, snake\nOutput: tortoise, mouse, lion, snake\n\nInput: helicopter, glove, chicken, doctor, dolphin, duck, lizard\nOutput: dolphin, duck, lizard, chicken\n\nInput: donkey, white, elephant, green, bat, horse, jeans\nOutput: bat, elephant, donkey, horse"
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goat, butterfly, mouse, jeans, tiger, helicopter\nOutput: goat, butterfly, tiger, mouse\n\nInput: horse, jellyfish, goat, green, actor\nOutput: goat, horse, jellyfish\n\nInput: cat, chicken, rabbit, parrot, spaceship, doctor\nOutput: cat, parrot, chicken, rabbit\n\nInput: motorway, pear, jacket, duck, jellyfish, hippo\nOutput: duck, hippo, jellyfish\n\nInput: yellow, jellyfish, sweater, donkey, engineer, camel\nOutput: donkey, jellyfish, camel\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goat, butterfly, mouse, jeans, tiger, helicopter\nOutput: goat, butterfly, tiger, mouse\n\nInput: horse, jellyfish, goat, green, actor\nOutput: goat, horse, jellyfish\n\nInput: cat, chicken, rabbit, parrot, spaceship, doctor\nOutput: cat, parrot, chicken, rabbit\n\nInput: motorway, pear, jacket, duck, jellyfish, hippo\nOutput: duck, hippo, jellyfish\n\nInput: yellow, jellyfish, sweater, donkey, engineer, camel\nOutput: donkey, jellyfish, camel"
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: horse, jellyfish, goat, green, actor\nOutput: goat, horse, jellyfish\n\nInput: whale, tractor, snail, engineer, bee, shirt, frog\nOutput: bee, whale, frog, snail\n\nInput: cookie, parrot, donkey, orange, journalist, tiger\nOutput: donkey, parrot, tiger\n\nInput: tiger, rabbit, blue, fly, scarf, strawberry\nOutput: fly, rabbit, tiger\n\nInput: sock, dolphin, skirt, giraffe, shark, rabbit\nOutput: dolphin, shark, rabbit, giraffe\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: horse, jellyfish, goat, green, actor\nOutput: goat, horse, jellyfish\n\nInput: whale, tractor, snail, engineer, bee, shirt, frog\nOutput: bee, whale, frog, snail\n\nInput: cookie, parrot, donkey, orange, journalist, tiger\nOutput: donkey, parrot, tiger\n\nInput: tiger, rabbit, blue, fly, scarf, strawberry\nOutput: fly, rabbit, tiger\n\nInput: sock, dolphin, skirt, giraffe, shark, rabbit\nOutput: dolphin, shark, rabbit, giraffe"
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mouse, soup, monkey, elephant, donkey, designer\nOutput: monkey, elephant, donkey, mouse\n\nInput: vegetable, jacket, tortoise, bat, chicken, teacher, cat\nOutput: cat, tortoise, chicken, bat\n\nInput: lizard, hippo, taxi, designer, horse, monkey\nOutput: hippo, lizard, horse, monkey\n\nInput: hippo, designer, snail, lion, tiger, hat\nOutput: lion, snail, tiger, hippo\n\nInput: green, snail, octopus, trousers, hat, camel\nOutput: camel, octopus, snail\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mouse, soup, monkey, elephant, donkey, designer\nOutput: monkey, elephant, donkey, mouse\n\nInput: vegetable, jacket, tortoise, bat, chicken, teacher, cat\nOutput: cat, tortoise, chicken, bat\n\nInput: lizard, hippo, taxi, designer, horse, monkey\nOutput: hippo, lizard, horse, monkey\n\nInput: hippo, designer, snail, lion, tiger, hat\nOutput: lion, snail, tiger, hippo\n\nInput: green, snail, octopus, trousers, hat, camel\nOutput: camel, octopus, snail"
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rabbit, hat, spider, lemon, whale\nOutput: spider, rabbit, whale\n\nInput: plane, lizard, purple, penguin, jellyfish\nOutput: lizard, penguin, jellyfish\n\nInput: swan, sheep, lizard, apple, belt, frog, milk\nOutput: frog, sheep, swan, lizard\n\nInput: gray, zebra, camel, hippo, yellow, engineer, lizard\nOutput: hippo, lizard, camel, zebra\n\nInput: brown, penguin, parrot, fly, green\nOutput: parrot, penguin, fly\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rabbit, hat, spider, lemon, whale\nOutput: spider, rabbit, whale\n\nInput: plane, lizard, purple, penguin, jellyfish\nOutput: lizard, penguin, jellyfish\n\nInput: swan, sheep, lizard, apple, belt, frog, milk\nOutput: frog, sheep, swan, lizard\n\nInput: gray, zebra, camel, hippo, yellow, engineer, lizard\nOutput: hippo, lizard, camel, zebra\n\nInput: brown, penguin, parrot, fly, green\nOutput: parrot, penguin, fly"
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: frog, belt, bat, butterfly, helicopter, bee\nOutput: butterfly, bee, frog, bat\n\nInput: hat, snake, jeans, plane, fly, swan, lion\nOutput: fly, swan, snake, lion\n\nInput: sock, lion, sheep, gray, ambulance, cat, snail\nOutput: cat, snail, sheep, lion\n\nInput: white, rabbit, hippo, green, tortoise\nOutput: hippo, rabbit, tortoise\n\nInput: fly, pink, elephant, shirt, snake, bread, bee\nOutput: bee, snake, fly, elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: frog, belt, bat, butterfly, helicopter, bee\nOutput: butterfly, bee, frog, bat\n\nInput: hat, snake, jeans, plane, fly, swan, lion\nOutput: fly, swan, snake, lion\n\nInput: sock, lion, sheep, gray, ambulance, cat, snail\nOutput: cat, snail, sheep, lion\n\nInput: white, rabbit, hippo, green, tortoise\nOutput: hippo, rabbit, tortoise\n\nInput: fly, pink, elephant, shirt, snake, bread, bee\nOutput: bee, snake, fly, elephant"
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: sock, helicopter, dolphin, cat, shirt, lion\nOutput: dolphin, cat, lion\n\nInput: yellow, butterfly, octopus, parrot, spaceship, snake\nOutput: snake, octopus, butterfly, parrot\n\nInput: waiter, giraffe, octopus, candy, butterfly, frog, pancake\nOutput: frog, butterfly, octopus, giraffe\n\nInput: shark, journalist, swan, goat, green\nOutput: swan, shark, goat\n\nInput: green, hippo, orange, tortoise, bee, frog\nOutput: bee, hippo, tortoise, frog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: sock, helicopter, dolphin, cat, shirt, lion\nOutput: dolphin, cat, lion\n\nInput: yellow, butterfly, octopus, parrot, spaceship, snake\nOutput: snake, octopus, butterfly, parrot\n\nInput: waiter, giraffe, octopus, candy, butterfly, frog, pancake\nOutput: frog, butterfly, octopus, giraffe\n\nInput: shark, journalist, swan, goat, green\nOutput: swan, shark, goat\n\nInput: green, hippo, orange, tortoise, bee, frog\nOutput: bee, hippo, tortoise, frog"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, orange, horse, shirt, spider, duck\nOutput: tiger, horse, spider, duck\n\nInput: monkey, hippo, businessman, shark, mango, panda\nOutput: shark, hippo, panda, monkey\n\nInput: shark, bat, whale, blue, glove, monkey\nOutput: monkey, whale, bat, shark\n\nInput: actor, red, tiger, lizard, horse, brown\nOutput: lizard, horse, tiger\n\nInput: goat, red, frog, zebra, tortoise, honey, orange\nOutput: goat, tortoise, frog, zebra\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, orange, horse, shirt, spider, duck\nOutput: tiger, horse, spider, duck\n\nInput: monkey, hippo, businessman, shark, mango, panda\nOutput: shark, hippo, panda, monkey\n\nInput: shark, bat, whale, blue, glove, monkey\nOutput: monkey, whale, bat, shark\n\nInput: actor, red, tiger, lizard, horse, brown\nOutput: lizard, horse, tiger\n\nInput: goat, red, frog, zebra, tortoise, honey, orange\nOutput: goat, tortoise, frog, zebra"
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: shark, jeans, parrot, donkey, sweater\nOutput: shark, parrot, donkey\n\nInput: spaceship, taxi, lizard, bat, camel, car, fly\nOutput: bat, camel, lizard, fly\n\nInput: bat, waiter, dolphin, gold, lizard\nOutput: bat, lizard, dolphin\n\nInput: businesswoman, bee, white, sweater, cat, elephant, jellyfish\nOutput: elephant, cat, bee, jellyfish\n\nInput: spaceship, scarf, horse, jellyfish, parrot, rabbit\nOutput: rabbit, jellyfish, parrot, horse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: shark, jeans, parrot, donkey, sweater\nOutput: shark, parrot, donkey\n\nInput: spaceship, taxi, lizard, bat, camel, car, fly\nOutput: bat, camel, lizard, fly\n\nInput: bat, waiter, dolphin, gold, lizard\nOutput: bat, lizard, dolphin\n\nInput: businesswoman, bee, white, sweater, cat, elephant, jellyfish\nOutput: elephant, cat, bee, jellyfish\n\nInput: spaceship, scarf, horse, jellyfish, parrot, rabbit\nOutput: rabbit, jellyfish, parrot, horse"
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, white, lemon, sandwich, mouse, octopus, lion\nOutput: tiger, octopus, lion, mouse\n\nInput: sandwich, waiter, monkey, penguin, zebra\nOutput: zebra, monkey, penguin\n\nInput: mouse, artist, cook, donkey, apple, octopus, horse\nOutput: octopus, mouse, donkey, horse\n\nInput: goat, carrot, parrot, frog, whale, tractor\nOutput: parrot, goat, frog, whale\n\nInput: chicken, cat, lizard, photographer, white, butter\nOutput: cat, lizard, chicken\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, white, lemon, sandwich, mouse, octopus, lion\nOutput: tiger, octopus, lion, mouse\n\nInput: sandwich, waiter, monkey, penguin, zebra\nOutput: zebra, monkey, penguin\n\nInput: mouse, artist, cook, donkey, apple, octopus, horse\nOutput: octopus, mouse, donkey, horse\n\nInput: goat, carrot, parrot, frog, whale, tractor\nOutput: parrot, goat, frog, whale\n\nInput: chicken, cat, lizard, photographer, white, butter\nOutput: cat, lizard, chicken"
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pineapple, red, hippo, butterfly, chicken\nOutput: butterfly, hippo, chicken\n\nInput: spider, belt, parrot, mango, carrot, snake\nOutput: snake, spider, parrot\n\nInput: tortoise, donkey, shark, gray, designer, dolphin, taxi\nOutput: shark, tortoise, dolphin, donkey\n\nInput: brown, gold, zebra, panda, bee\nOutput: zebra, bee, panda\n\nInput: tortoise, parrot, yellow, lizard, soup, red\nOutput: parrot, tortoise, lizard\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pineapple, red, hippo, butterfly, chicken\nOutput: butterfly, hippo, chicken\n\nInput: spider, belt, parrot, mango, carrot, snake\nOutput: snake, spider, parrot\n\nInput: tortoise, donkey, shark, gray, designer, dolphin, taxi\nOutput: shark, tortoise, dolphin, donkey\n\nInput: brown, gold, zebra, panda, bee\nOutput: zebra, bee, panda\n\nInput: tortoise, parrot, yellow, lizard, soup, red\nOutput: parrot, tortoise, lizard"
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: nurse, swimsuit, mouse, shark, helicopter, octopus, frog\nOutput: frog, mouse, shark, octopus\n\nInput: elephant, helicopter, blue, butterfly, lion, cook, bat\nOutput: elephant, lion, bat, butterfly\n\nInput: photographer, fly, zebra, cat, actor\nOutput: zebra, cat, fly\n\nInput: shark, monkey, cook, spider, plane, parrot\nOutput: monkey, parrot, shark, spider\n\nInput: yoghurt, horse, dolphin, goat, engineer, shoe, butterfly\nOutput: horse, dolphin, butterfly, goat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: nurse, swimsuit, mouse, shark, helicopter, octopus, frog\nOutput: frog, mouse, shark, octopus\n\nInput: elephant, helicopter, blue, butterfly, lion, cook, bat\nOutput: elephant, lion, bat, butterfly\n\nInput: photographer, fly, zebra, cat, actor\nOutput: zebra, cat, fly\n\nInput: shark, monkey, cook, spider, plane, parrot\nOutput: monkey, parrot, shark, spider\n\nInput: yoghurt, horse, dolphin, goat, engineer, shoe, butterfly\nOutput: horse, dolphin, butterfly, goat"
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tractor, butterfly, donkey, panda, waiter, helicopter, chicken\nOutput: donkey, butterfly, chicken, panda\n\nInput: bee, camel, shark, green, bread, glove, panda\nOutput: shark, bee, panda, camel\n\nInput: rabbit, parrot, spaceship, car, lemon, camel, butterfly\nOutput: parrot, rabbit, butterfly, camel\n\nInput: panda, vegetable, ship, sheep, lion, bat, yellow\nOutput: sheep, bat, panda, lion\n\nInput: lion, tiger, gold, bat, photographer, octopus\nOutput: octopus, tiger, lion, bat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tractor, butterfly, donkey, panda, waiter, helicopter, chicken\nOutput: donkey, butterfly, chicken, panda\n\nInput: bee, camel, shark, green, bread, glove, panda\nOutput: shark, bee, panda, camel\n\nInput: rabbit, parrot, spaceship, car, lemon, camel, butterfly\nOutput: parrot, rabbit, butterfly, camel\n\nInput: panda, vegetable, ship, sheep, lion, bat, yellow\nOutput: sheep, bat, panda, lion\n\nInput: lion, tiger, gold, bat, photographer, octopus\nOutput: octopus, tiger, lion, bat"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: spider, frog, apple, bat, swimsuit\nOutput: spider, frog, bat\n\nInput: shark, monkey, cook, spider, plane, parrot\nOutput: monkey, parrot, shark, spider\n\nInput: mango, butterfly, pajamas, cat, frog\nOutput: cat, frog, butterfly\n\nInput: cook, jellyfish, cat, penguin, nurse, white, shark\nOutput: cat, shark, penguin, jellyfish\n\nInput: bee, sausage, motorway, tiger, cook, snake, giraffe\nOutput: snake, bee, tiger, giraffe\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: spider, frog, apple, bat, swimsuit\nOutput: spider, frog, bat\n\nInput: shark, monkey, cook, spider, plane, parrot\nOutput: monkey, parrot, shark, spider\n\nInput: mango, butterfly, pajamas, cat, frog\nOutput: cat, frog, butterfly\n\nInput: cook, jellyfish, cat, penguin, nurse, white, shark\nOutput: cat, shark, penguin, jellyfish\n\nInput: bee, sausage, motorway, tiger, cook, snake, giraffe\nOutput: snake, bee, tiger, giraffe"
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: helicopter, doctor, goat, spider, snail, glove, chicken\nOutput: goat, spider, chicken, snail\n\nInput: dentist, snake, bean, chicken, ambulance, parrot, duck\nOutput: snake, duck, parrot, chicken\n\nInput: jellyfish, waiter, trousers, goat, spider\nOutput: spider, jellyfish, goat\n\nInput: rabbit, parrot, spaceship, car, lemon, camel, butterfly\nOutput: parrot, rabbit, butterfly, camel\n\nInput: swimsuit, dress, zebra, trousers, fly, butterfly\nOutput: butterfly, fly, zebra\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: helicopter, doctor, goat, spider, snail, glove, chicken\nOutput: goat, spider, chicken, snail\n\nInput: dentist, snake, bean, chicken, ambulance, parrot, duck\nOutput: snake, duck, parrot, chicken\n\nInput: jellyfish, waiter, trousers, goat, spider\nOutput: spider, jellyfish, goat\n\nInput: rabbit, parrot, spaceship, car, lemon, camel, butterfly\nOutput: parrot, rabbit, butterfly, camel\n\nInput: swimsuit, dress, zebra, trousers, fly, butterfly\nOutput: butterfly, fly, zebra"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chicken, lion, frog, pajamas, red, swimsuit, hippo\nOutput: frog, chicken, hippo, lion\n\nInput: actor, horse, lion, snake, ice cream\nOutput: horse, lion, snake\n\nInput: doctor, mouse, chicken, mango, spider, hat\nOutput: mouse, chicken, spider\n\nInput: sheep, journalist, monkey, bat, belt, goat\nOutput: monkey, sheep, bat, goat\n\nInput: goat, milk, jellyfish, butterfly, tiger, artist, purple\nOutput: butterfly, jellyfish, goat, tiger\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chicken, lion, frog, pajamas, red, swimsuit, hippo\nOutput: frog, chicken, hippo, lion\n\nInput: actor, horse, lion, snake, ice cream\nOutput: horse, lion, snake\n\nInput: doctor, mouse, chicken, mango, spider, hat\nOutput: mouse, chicken, spider\n\nInput: sheep, journalist, monkey, bat, belt, goat\nOutput: monkey, sheep, bat, goat\n\nInput: goat, milk, jellyfish, butterfly, tiger, artist, purple\nOutput: butterfly, jellyfish, goat, tiger"
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: elephant, ship, horse, truck, giraffe, pasta\nOutput: horse, giraffe, elephant\n\nInput: pink, hippo, chicken, actor, car, monkey\nOutput: chicken, monkey, hippo\n\nInput: whale, nurse, artist, swan, snail, duck\nOutput: swan, duck, whale, snail\n\nInput: panda, egg, parrot, jacket, mouse, elephant\nOutput: panda, mouse, parrot, elephant\n\nInput: burger, swan, mechanic, penguin, donkey, ship\nOutput: penguin, swan, donkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: elephant, ship, horse, truck, giraffe, pasta\nOutput: horse, giraffe, elephant\n\nInput: pink, hippo, chicken, actor, car, monkey\nOutput: chicken, monkey, hippo\n\nInput: whale, nurse, artist, swan, snail, duck\nOutput: swan, duck, whale, snail\n\nInput: panda, egg, parrot, jacket, mouse, elephant\nOutput: panda, mouse, parrot, elephant\n\nInput: burger, swan, mechanic, penguin, donkey, ship\nOutput: penguin, swan, donkey"
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: ship, dolphin, swan, rice, butter, duck, monkey\nOutput: duck, swan, monkey, dolphin\n\nInput: trousers, butterfly, motorway, pink, spider, jellyfish\nOutput: spider, butterfly, jellyfish\n\nInput: pink, horse, journalist, octopus, rabbit\nOutput: rabbit, octopus, horse\n\nInput: snail, cat, mechanic, bat, taxi, ambulance\nOutput: cat, snail, bat\n\nInput: artist, snake, dolphin, panda, yellow, helicopter\nOutput: dolphin, panda, snake\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: ship, dolphin, swan, rice, butter, duck, monkey\nOutput: duck, swan, monkey, dolphin\n\nInput: trousers, butterfly, motorway, pink, spider, jellyfish\nOutput: spider, butterfly, jellyfish\n\nInput: pink, horse, journalist, octopus, rabbit\nOutput: rabbit, octopus, horse\n\nInput: snail, cat, mechanic, bat, taxi, ambulance\nOutput: cat, snail, bat\n\nInput: artist, snake, dolphin, panda, yellow, helicopter\nOutput: dolphin, panda, snake"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hat, dolphin, potato, horse, whale, hippo\nOutput: dolphin, whale, horse, hippo\n\nInput: onion, pajamas, lion, donkey, giraffe, octopus\nOutput: giraffe, donkey, lion, octopus\n\nInput: tortoise, donkey, shark, gray, designer, dolphin, taxi\nOutput: shark, tortoise, dolphin, donkey\n\nInput: rice, panda, rabbit, tiger, sock, mouse\nOutput: mouse, tiger, panda, rabbit\n\nInput: swan, monkey, engineer, cat, glove, octopus\nOutput: octopus, swan, monkey, cat\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hat, dolphin, potato, horse, whale, hippo\nOutput: dolphin, whale, horse, hippo\n\nInput: onion, pajamas, lion, donkey, giraffe, octopus\nOutput: giraffe, donkey, lion, octopus\n\nInput: tortoise, donkey, shark, gray, designer, dolphin, taxi\nOutput: shark, tortoise, dolphin, donkey\n\nInput: rice, panda, rabbit, tiger, sock, mouse\nOutput: mouse, tiger, panda, rabbit\n\nInput: swan, monkey, engineer, cat, glove, octopus\nOutput: octopus, swan, monkey, cat"
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: blue, fly, dress, bee, tomato, hippo\nOutput: fly, hippo, bee\n\nInput: rabbit, hippo, teacher, penguin, engineer, designer\nOutput: rabbit, hippo, penguin\n\nInput: lion, zebra, swimsuit, fly, ship, photographer\nOutput: zebra, fly, lion\n\nInput: designer, swan, taxi, lion, ambulance, horse\nOutput: horse, lion, swan\n\nInput: butterfly, donkey, hat, gold, helicopter, dolphin\nOutput: donkey, butterfly, dolphin\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: blue, fly, dress, bee, tomato, hippo\nOutput: fly, hippo, bee\n\nInput: rabbit, hippo, teacher, penguin, engineer, designer\nOutput: rabbit, hippo, penguin\n\nInput: lion, zebra, swimsuit, fly, ship, photographer\nOutput: zebra, fly, lion\n\nInput: designer, swan, taxi, lion, ambulance, horse\nOutput: horse, lion, swan\n\nInput: butterfly, donkey, hat, gold, helicopter, dolphin\nOutput: donkey, butterfly, dolphin"
+      }
+    }
+  }
+}

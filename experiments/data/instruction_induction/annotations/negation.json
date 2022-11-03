@@ -1,0 +1,12 @@
+{
+  "annotations": [
+    "write the negation",
+    "output the negation of the input",
+    "Write a negated version of the given sentence",
+    "Negate the given sentence",
+    "For each input, write a sentence that expresses the exact opposite meaning of the input.",
+    "Negate the following sentence:",
+    "You will be given a sentence that states a fact (that might be true or not). Try to state the opposite fact.",
+    "Change the fact stated in the sentence to an opposite fact."
+  ]
+}

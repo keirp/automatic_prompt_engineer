@@ -1,0 +1,14 @@
+{
+  "annotations": [
+    "Given two sentences and a common word, output \"same\" if the common word has the same meaning in both sentences, and \"not the same\" otherwise.",
+    "Given two sentences and a common word, output \"same\" if the common word has the same meaning in both sentences, otherwise output \"not the same\"",
+    "For each input, determine whether the two sentences (marked 'Sentence 1' and 'Sentence 2') use the selected word (marked 'Word:') with the same meaning or not.",
+    "For each input, determine if the keyword (marked in 'Word:') is used in the same meaning in both the sentences (marked 'Sentence 1' and 'Sentence 2').",
+    "Each input consists of two sentences (Sentence 1 and Sentence 2) and a word that appears in both of them (Word). Classify whether the meaning of this word is the same in both sentences (options are \"same\" or \"not the same\")",
+    "Each input consists of two sentences (Sentence 1 and Sentence 2), and a word that appears in at least one sentence as is or in a modified way (Word). Classify whether the meaning of this word is the same in both sentences (options are \"same\" or \"not the same\")",
+    "\"same\" if the word has the same meaning in both sentences, otherwise \"not the same\"",
+    "Write \"same\" if the word has the same meaning in both sentences, otherwise write \"not the same\"",
+    "Whether the meaning of the word is the same or not in both sentences",
+    "Determine whether the meaning of the word is the same in both sentences"
+  ]
+}

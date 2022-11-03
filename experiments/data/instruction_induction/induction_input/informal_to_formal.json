@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered."
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival."
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage."
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper."
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: This song is fire.\nOutput: This song is incredibly good."
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: This song is fire.\nOutput: This song is incredibly good."
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered."
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper."
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight."
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated."
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered."
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated."
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting."
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper."
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated."
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight."
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated."
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting."
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: This song is fire.\nOutput: This song is incredibly good."
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage."
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage."
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper."
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper."
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper."
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting."
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight."
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival."
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage."
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight."
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I got what you said.\nOutput: I understood you.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: She looks like her sister.\nOutput: She resembles her sister."
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival."
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I got what you said.\nOutput: I understood you.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage."
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival."
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated."
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage."
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful."
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage."
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered."
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I can't stand his temper.\nOutput: I cannot tolerate his temper."
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: This song is fire.\nOutput: This song is incredibly good."
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight."
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: This song is fire.\nOutput: This song is incredibly good.\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them."
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: Thanks for your help.\nOutput: Your assistance is much appreciated.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated."
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I got what you said.\nOutput: I understood you.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered."
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The whole story was made up.\nOutput: The entire story was fabricated.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nInput: I got what you said.\nOutput: I understood you."
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I think that this is interesting.\nOutput: It is my opinion that this is interesting.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: I considered many approaches.\nOutput: Various approaches were considered."
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: I got what you said.\nOutput: I understood you.\n\nInput: See you tonight.\nOutput: I look forward to meeting you tonight.\n\nInput: I can't tell the difference between these two.\nOutput: I find it hard to distinguish between them.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: Please call once you get there.\nOutput: Please call upon your arrival.\n\nInput: We don't think it's a good idea to do anything right now.\nOutput: It is suggested that no action should be taken at this stage.\n\nInput: Do you want me to go with you?\nOutput: Shall I accompany you?\n\nInput: The lawyer I met yesterday was helpful. \nOutput: The lawyer whom I met yesterday was helpful.\n\nInput: This song is fire.\nOutput: This song is incredibly good."
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival.\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: This song is fire.\nOutput: This song is incredibly good.\n\nInput: Can you do all these tasks?\nOutput: Would you be able to accomplish all these tasks?\n\nInput: I got what you said.\nOutput: I understood you.\n\nInput: She looks like her sister.\nOutput: She resembles her sister.\n\nInput: Please call once you get there.\nOutput: Please call upon your arrival."
+      }
+    }
+  }
+}

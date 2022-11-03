@@ -1,0 +1,12 @@
+{
+  "annotations": [
+    "output how the number in the input is pronounced in English",
+    "output the pronunciation of the number in the input",
+    "Write the number in English words",
+    "For each input, write the number in plain English words without using digits.",
+    "For each input, write the number in plain English words without using digits or numbers.",
+    "Write the following number with words:",
+    "You will be given an input number and you need to output the number while writing it with words",
+    "Write the input number with words."
+  ]
+}

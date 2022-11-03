@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "num_examples": 16
+  },
+  "examples": {
+    "1": {
+      "concept": "involve vertical movement.",
+      "items": [
+        "rock climbing",
+        "elevators",
+        "helicopters"
+      ],
+      "all_common_concepts": [
+        "involve vertical movement.",
+        "involve going up."
+      ]
+    },
+    "2": {
+      "concept": "involve going up.",
+      "items": [
+        "rock climbing",
+        "elevators",
+        "helicopters"
+      ],
+      "all_common_concepts": [
+        "involve vertical movement.",
+        "involve going up."
+      ]
+    },
+    "3": {
+      "concept": "can make a buzz.",
+      "items": [
+        "bumble bees",
+        "cell phones",
+        "exciting news"
+      ],
+      "all_common_concepts": [
+        "can make a buzz."
+      ]
+    },
+    "4": {
+      "concept": "involve strings.",
+      "items": [
+        "guitars",
+        "sewing",
+        "tennis rackets",
+        "theoretical particle physics"
+      ],
+      "all_common_concepts": [
+        "involve strings."
+      ]
+    },
+    "5": {
+      "concept": "involve bishops.",
+      "items": [
+        "chess",
+        "Catholicism",
+        "Berkeley"
+      ],
+      "all_common_concepts": [
+        "involve bishops."
+      ]
+    },
+    "6": {
+      "concept": "can be used to measure time.",
+      "items": [
+        "sand falling",
+        "redshifts in cosmology",
+        "pendulums"
+      ],
+      "all_common_concepts": [
+        "can be used to measure time."
+      ]
+    },
+    "7": {
+      "concept": "ham.",
+      "items": [
+        "amateur radio",
+        "prosciutto",
+        "exaggerated acting"
+      ],
+      "all_common_concepts": [
+        "ham."
+      ]
+    },
+    "8": {
+      "concept": "related to oil.",
+      "items": [
+        "coconut",
+        "paint",
+        "motor"
+      ],
+      "all_common_concepts": [
+        "related to oil."
+      ]
+    },
+    "9": {
+      "concept": "types of networks.",
+      "items": [
+        "local",
+        "cable",
+        "cell"
+      ],
+      "all_common_concepts": [
+        "types of networks."
+      ]
+    },
+    "10": {
+      "concept": "types of pedals.",
+      "items": [
+        "bike",
+        "piano",
+        "brake"
+      ],
+      "all_common_concepts": [
+        "types of pedals."
+      ]
+    },
+    "11": {
+      "concept": "castles.",
+      "items": [
+        "rooks in chess",
+        "the Tower of London"
+      ],
+      "all_common_concepts": [
+        "castles."
+      ]
+    },
+    "12": {
+      "concept": "involve courts.",
+      "items": [
+        "lawyers",
+        "basketball",
+        "walled yards"
+      ],
+      "all_common_concepts": [
+        "involve courts."
+      ]
+    },
+    "13": {
+      "concept": "types of cuts.",
+      "items": [
+        "hair",
+        "laceration",
+        "short"
+      ],
+      "all_common_concepts": [
+        "types of cuts."
+      ]
+    },
+    "14": {
+      "concept": "involve branch cuts.",
+      "items": [
+        "pruning trees",
+        "complex analysis",
+        "closing stores in a franchise"
+      ],
+      "all_common_concepts": [
+        "involve branch cuts."
+      ]
+    },
+    "15": {
+      "concept": "have pyramids.",
+      "items": [
+        "food",
+        "the Louvre",
+        "the Aztecs"
+      ],
+      "all_common_concepts": [
+        "have pyramids."
+      ]
+    },
+    "16": {
+      "concept": "coverings.",
+      "items": [
+        "blanket",
+        "roof",
+        "umbrella",
+        "hat"
+      ],
+      "all_common_concepts": [
+        "coverings."
+      ]
+    }
+  }
+}

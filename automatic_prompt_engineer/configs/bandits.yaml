@@ -1,0 +1,46 @@
+generation:
+  num_subsamples: 5 # the number of unique queries sent to the LLM with different demonstrations for prompt generation
+  num_demos: 5 # the number of demonstrations sent to the LLM for each unique query
+  num_prompts_per_subsample: 50 # the number of prompts generated for each unique query
+  model:
+    name: GPT_forward # the name of the model used for prompt generation
+    batch_size: 500 # the maximum batch size used for prompt generation
+    gpt_config: # the configuration of the GPT model used for prompt generation (these are fed directly to the openai function)
+      model: text-davinci-002
+      temperature: 0.9
+      max_tokens: 50
+      top_p: 0.9
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+evaluation:
+  method: bandits # the evaluation method used for prompt evaluation
+  rounds: 5 # the number of rounds of evaluation
+  num_prompts_per_round: 50 # the number of prompts evaluated in each round
+  bandit_method: ucb # the bandit method used for prompt evaluation (only supports ucb)
+  bandit_config:
+    c: 1.0
+  base_eval_method: likelihood # the base evaluation method used for prompt evaluation (replace this string with the evaluation function you want to use if you make a custom evaluation function)
+  base_eval_config:
+    num_samples: 50 # a prompt is evaluated on this many samples (during each round of evaluation)
+    num_few_shot: 5 # the number of samples used for few-shot evaluation (only used if [full_DEMO] is present in the eval_template)
+    model:
+      name: GPT_forward
+      batch_size: 500
+      gpt_config:
+        model: text-davinci-002
+        temperature: 0.7
+        max_tokens: 200
+        top_p: 1.0
+        frequency_penalty: 0.0
+        presence_penalty: 0.0
+demo:
+  model:
+    name: GPT_forward
+    batch_size: 500
+    gpt_config:
+      model: text-davinci-002
+      temperature: 0.7
+      max_tokens: 200
+      top_p: 1.0
+      frequency_penalty: 0.0
+      presence_penalty: 0.0

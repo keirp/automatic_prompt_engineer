@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "num_examples": 25
+  },
+  "examples": {
+    "1": {
+      "cause": "The child hurt their knee.",
+      "effect": "The child started crying."
+    },
+    "2": {
+      "cause": "My car got dirty.",
+      "effect": "I washed the car."
+    },
+    "3": {
+      "cause": "Someone fainted.",
+      "effect": "Someone called 911."
+    },
+    "4": {
+      "cause": "A man accidently pushed the vase off a counter.",
+      "effect": "The vase shattered on the floor."
+    },
+    "5": {
+      "cause": "There was a loud noise.",
+      "effect": "The boy lifted his eyes from the book."
+    },
+    "6": {
+      "cause": "The girl had a nightmare.",
+      "effect": "The girl woke up covered in cold sweat."
+    },
+    "7": {
+      "cause": "It started raining.",
+      "effect": "The driver turned the wipers on."
+    },
+    "8": {
+      "cause": "She noticed that she was out of toilet paper.",
+      "effect": "She went to the store and bought toilet paper."
+    },
+    "9": {
+      "cause": "The girl stepped onto the street.",
+      "effect": "The driver hit the brakes."
+    },
+    "10": {
+      "cause": "The team won the game.",
+      "effect": "The team won the championship."
+    },
+    "11": {
+      "cause": "There was a snowstorm.",
+      "effect": "School was cancelled."
+    },
+    "12": {
+      "cause": "The tenants noticed mold on the bathroom ceiling.",
+      "effect": "The tenants contacted their landlord."
+    },
+    "13": {
+      "cause": "I studied hard.",
+      "effect": "I got an A on the test."
+    },
+    "14": {
+      "cause": "The boy threw a rock.",
+      "effect": "The window broke."
+    },
+    "15": {
+      "cause": "The driver ran a red light.",
+      "effect": "The driver was pulled over and was fined."
+    },
+    "16": {
+      "cause": "School was on break.",
+      "effect": "The family went on vacation."
+    },
+    "17": {
+      "cause": "The girl had a fever.",
+      "effect": "Mom gave the girl fever medicine."
+    },
+    "18": {
+      "cause": "The bread was dry.",
+      "effect": "We made French toast."
+    },
+    "19": {
+      "cause": "My clothes got dirty.",
+      "effect": "I put my clothes in the washing machine."
+    },
+    "20": {
+      "cause": "The basketball player was shoved.",
+      "effect": "The basketball player took a free throw."
+    },
+    "21": {
+      "cause": "Alice didn't wake up.",
+      "effect": "Alice missed her flight."
+    },
+    "22": {
+      "cause": "It rained.",
+      "effect": "The picnic was cancelled."
+    },
+    "23": {
+      "cause": "The girl didn't wear her sweater.",
+      "effect": "The girl caught a cold."
+    },
+    "24": {
+      "cause": "The man got lost in the woods.",
+      "effect": "A search party was assembled."
+    },
+    "25": {
+      "cause": "Alice ate the last cookie.",
+      "effect": "Bob opened the jar and was frustrated."
+    }
+  }
+}

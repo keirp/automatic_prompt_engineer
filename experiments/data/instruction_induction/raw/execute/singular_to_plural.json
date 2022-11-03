@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "end",
+      "output": "ends",
+      "input_count": 45830
+    },
+    "2": {
+      "input": "life",
+      "output": "lives",
+      "input_count": 39032
+    },
+    "3": {
+      "input": "world",
+      "output": "worlds",
+      "input_count": 30418
+    },
+    "4": {
+      "input": "match",
+      "output": "matches",
+      "input_count": 27928
+    },
+    "5": {
+      "input": "career",
+      "output": "careers",
+      "input_count": 26132
+    },
+    "6": {
+      "input": "player",
+      "output": "players",
+      "input_count": 25238
+    },
+    "7": {
+      "input": "development",
+      "output": "developments",
+      "input_count": 20746
+    },
+    "8": {
+      "input": "style",
+      "output": "styles",
+      "input_count": 18539
+    },
+    "9": {
+      "input": "body",
+      "output": "bodies",
+      "input_count": 17059
+    },
+    "10": {
+      "input": "process",
+      "output": "processes",
+      "input_count": 13528
+    },
+    "11": {
+      "input": "base",
+      "output": "bases",
+      "input_count": 12123
+    },
+    "12": {
+      "input": "star",
+      "output": "stars",
+      "input_count": 11270
+    },
+    "13": {
+      "input": "issue",
+      "output": "issues",
+      "input_count": 11230
+    },
+    "14": {
+      "input": "king",
+      "output": "kings",
+      "input_count": 11042
+    },
+    "15": {
+      "input": "pressure",
+      "output": "pressures",
+      "input_count": 10919
+    },
+    "16": {
+      "input": "structure",
+      "output": "structures",
+      "input_count": 10460
+    },
+    "17": {
+      "input": "car",
+      "output": "cars",
+      "input_count": 10344
+    },
+    "18": {
+      "input": "face",
+      "output": "faces",
+      "input_count": 9538
+    },
+    "19": {
+      "input": "meeting",
+      "output": "meetings",
+      "input_count": 9108
+    },
+    "20": {
+      "input": "fight",
+      "output": "fights",
+      "input_count": 8681
+    },
+    "21": {
+      "input": "singer",
+      "output": "singers",
+      "input_count": 8632
+    },
+    "22": {
+      "input": "commander",
+      "output": "commanders",
+      "input_count": 8210
+    },
+    "23": {
+      "input": "coach",
+      "output": "coaches",
+      "input_count": 7439
+    },
+    "24": {
+      "input": "enemy",
+      "output": "enemies",
+      "input_count": 7187
+    },
+    "25": {
+      "input": "mission",
+      "output": "missions",
+      "input_count": 7134
+    },
+    "26": {
+      "input": "camp",
+      "output": "camps",
+      "input_count": 5961
+    },
+    "27": {
+      "input": "value",
+      "output": "values",
+      "input_count": 5921
+    },
+    "28": {
+      "input": "offer",
+      "output": "offers",
+      "input_count": 5833
+    },
+    "29": {
+      "input": "spring",
+      "output": "springs",
+      "input_count": 5207
+    },
+    "30": {
+      "input": "genus",
+      "output": "genera",
+      "input_count": 5150
+    },
+    "31": {
+      "input": "deck",
+      "output": "decks",
+      "input_count": 4771
+    },
+    "32": {
+      "input": "lap",
+      "output": "laps",
+      "input_count": 4390
+    },
+    "33": {
+      "input": "winner",
+      "output": "winners",
+      "input_count": 4102
+    },
+    "34": {
+      "input": "journey",
+      "output": "journeys",
+      "input_count": 3662
+    },
+    "35": {
+      "input": "cruiser",
+      "output": "cruisers",
+      "input_count": 3491
+    },
+    "36": {
+      "input": "climate",
+      "output": "climates",
+      "input_count": 3487
+    },
+    "37": {
+      "input": "submarine",
+      "output": "submarines",
+      "input_count": 3284
+    },
+    "38": {
+      "input": "facility",
+      "output": "facilities",
+      "input_count": 3251
+    },
+    "39": {
+      "input": "bus",
+      "output": "buses",
+      "input_count": 2846
+    },
+    "40": {
+      "input": "wear",
+      "output": "wears",
+      "input_count": 2479
+    },
+    "41": {
+      "input": "monument",
+      "output": "monuments",
+      "input_count": 2358
+    },
+    "42": {
+      "input": "predecessor",
+      "output": "predecessors",
+      "input_count": 2356
+    },
+    "43": {
+      "input": "typhoon",
+      "output": "typhoons",
+      "input_count": 2303
+    },
+    "44": {
+      "input": "justice",
+      "output": "justices",
+      "input_count": 2298
+    },
+    "45": {
+      "input": "loan",
+      "output": "loans",
+      "input_count": 2140
+    },
+    "46": {
+      "input": "sculpture",
+      "output": "sculptures",
+      "input_count": 1750
+    },
+    "47": {
+      "input": "guy",
+      "output": "guys",
+      "input_count": 1678
+    },
+    "48": {
+      "input": "feud",
+      "output": "feuds",
+      "input_count": 1634
+    },
+    "49": {
+      "input": "cup",
+      "output": "cups",
+      "input_count": 1623
+    },
+    "50": {
+      "input": "relation",
+      "output": "relations",
+      "input_count": 1599
+    },
+    "51": {
+      "input": "jet",
+      "output": "jets",
+      "input_count": 1556
+    },
+    "52": {
+      "input": "roadway",
+      "output": "roadways",
+      "input_count": 1541
+    },
+    "53": {
+      "input": "closure",
+      "output": "closures",
+      "input_count": 1529
+    },
+    "54": {
+      "input": "paint",
+      "output": "paints",
+      "input_count": 1481
+    },
+    "55": {
+      "input": "cemetery",
+      "output": "cemeteries",
+      "input_count": 1446
+    },
+    "56": {
+      "input": "electron",
+      "output": "electrons",
+      "input_count": 1419
+    },
+    "57": {
+      "input": "sum",
+      "output": "sums",
+      "input_count": 1400
+    },
+    "58": {
+      "input": "variant",
+      "output": "variants",
+      "input_count": 1332
+    },
+    "59": {
+      "input": "grid",
+      "output": "grids",
+      "input_count": 1331
+    },
+    "60": {
+      "input": "supporter",
+      "output": "supporters",
+      "input_count": 1282
+    },
+    "61": {
+      "input": "jaw",
+      "output": "jaws",
+      "input_count": 1221
+    },
+    "62": {
+      "input": "photograph",
+      "output": "photographs",
+      "input_count": 1213
+    },
+    "63": {
+      "input": "diary",
+      "output": "diaries",
+      "input_count": 1136
+    },
+    "64": {
+      "input": "assignment",
+      "output": "assignments",
+      "input_count": 1127
+    },
+    "65": {
+      "input": "duet",
+      "output": "duets",
+      "input_count": 1102
+    },
+    "66": {
+      "input": "scorer",
+      "output": "scorers",
+      "input_count": 1065
+    },
+    "67": {
+      "input": "configuration",
+      "output": "configurations",
+      "input_count": 1026
+    },
+    "68": {
+      "input": "sentiment",
+      "output": "sentiments",
+      "input_count": 985
+    },
+    "69": {
+      "input": "statute",
+      "output": "statutes",
+      "input_count": 939
+    },
+    "70": {
+      "input": "interface",
+      "output": "interfaces",
+      "input_count": 930
+    },
+    "71": {
+      "input": "kit",
+      "output": "kits",
+      "input_count": 910
+    },
+    "72": {
+      "input": "mortar",
+      "output": "mortars",
+      "input_count": 907
+    },
+    "73": {
+      "input": "kilometre",
+      "output": "kilometres",
+      "input_count": 884
+    },
+    "74": {
+      "input": "triangle",
+      "output": "triangles",
+      "input_count": 881
+    },
+    "75": {
+      "input": "poster",
+      "output": "posters",
+      "input_count": 872
+    },
+    "76": {
+      "input": "insect",
+      "output": "insects",
+      "input_count": 864
+    },
+    "77": {
+      "input": "shed",
+      "output": "sheds",
+      "input_count": 822
+    },
+    "78": {
+      "input": "replica",
+      "output": "replicas",
+      "input_count": 790
+    },
+    "79": {
+      "input": "recreation",
+      "output": "recreations",
+      "input_count": 786
+    },
+    "80": {
+      "input": "warship",
+      "output": "warships",
+      "input_count": 676
+    },
+    "81": {
+      "input": "butterfly",
+      "output": "butterflies",
+      "input_count": 669
+    },
+    "82": {
+      "input": "fence",
+      "output": "fences",
+      "input_count": 657
+    },
+    "83": {
+      "input": "diocese",
+      "output": "dioceses",
+      "input_count": 641
+    },
+    "84": {
+      "input": "merge",
+      "output": "merges",
+      "input_count": 614
+    },
+    "85": {
+      "input": "pupil",
+      "output": "pupils",
+      "input_count": 588
+    },
+    "86": {
+      "input": "spine",
+      "output": "spines",
+      "input_count": 560
+    },
+    "87": {
+      "input": "shower",
+      "output": "showers",
+      "input_count": 553
+    },
+    "88": {
+      "input": "dislike",
+      "output": "dislikes",
+      "input_count": 515
+    },
+    "89": {
+      "input": "broadcaster",
+      "output": "broadcasters",
+      "input_count": 508
+    },
+    "90": {
+      "input": "outlook",
+      "output": "outlooks",
+      "input_count": 467
+    },
+    "91": {
+      "input": "invest",
+      "output": "invests",
+      "input_count": 467
+    },
+    "92": {
+      "input": "botanist",
+      "output": "botanists",
+      "input_count": 441
+    },
+    "93": {
+      "input": "voter",
+      "output": "voters",
+      "input_count": 434
+    },
+    "94": {
+      "input": "quartet",
+      "output": "quartets",
+      "input_count": 431
+    },
+    "95": {
+      "input": "cartoonist",
+      "output": "cartoonists",
+      "input_count": 429
+    },
+    "96": {
+      "input": "diversion",
+      "output": "diversions",
+      "input_count": 429
+    },
+    "97": {
+      "input": "bath",
+      "output": "baths",
+      "input_count": 410
+    },
+    "98": {
+      "input": "denomination",
+      "output": "denominations",
+      "input_count": 399
+    },
+    "99": {
+      "input": "stereotype",
+      "output": "stereotypes",
+      "input_count": 397
+    },
+    "100": {
+      "input": "distortion",
+      "output": "distortions",
+      "input_count": 381
+    }
+  }
+}

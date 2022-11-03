@@ -1,0 +1,2409 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "kangaroo, beetle, bike, bird, bear, noodles, bicycle",
+      "output": "beetle, bear, kangaroo, bird",
+      "words": [
+        "kangaroo",
+        "beetle",
+        "bike",
+        "bird",
+        "bear",
+        "noodles",
+        "bicycle"
+      ],
+      "category_items": [
+        "beetle",
+        "bear",
+        "kangaroo",
+        "bird"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "2": {
+      "input": "cow, dog, bird, boat, singer, bike",
+      "output": "dog, cow, bird",
+      "words": [
+        "cow",
+        "dog",
+        "bird",
+        "boat",
+        "singer",
+        "bike"
+      ],
+      "category_items": [
+        "dog",
+        "cow",
+        "bird"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "3": {
+      "input": "dog, kangaroo, noodles, bicycle, eagle",
+      "output": "kangaroo, eagle, dog",
+      "words": [
+        "dog",
+        "kangaroo",
+        "noodles",
+        "bicycle",
+        "eagle"
+      ],
+      "category_items": [
+        "kangaroo",
+        "eagle",
+        "dog"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "4": {
+      "input": "eagle, bird, cow, silver, boots, pilot",
+      "output": "cow, eagle, bird",
+      "words": [
+        "eagle",
+        "bird",
+        "cow",
+        "silver",
+        "boots",
+        "pilot"
+      ],
+      "category_items": [
+        "cow",
+        "eagle",
+        "bird"
+      ],
+      "other_categories": [
+        "profession",
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "5": {
+      "input": "black, bicycle, eagle, bird, boat, cow",
+      "output": "bird, cow, eagle",
+      "words": [
+        "black",
+        "bicycle",
+        "eagle",
+        "bird",
+        "boat",
+        "cow"
+      ],
+      "category_items": [
+        "bird",
+        "cow",
+        "eagle"
+      ],
+      "other_categories": [
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "6": {
+      "input": "bird, bicycle, cow, jam, pie, kangaroo",
+      "output": "kangaroo, cow, bird",
+      "words": [
+        "bird",
+        "bicycle",
+        "cow",
+        "jam",
+        "pie",
+        "kangaroo"
+      ],
+      "category_items": [
+        "kangaroo",
+        "cow",
+        "bird"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "7": {
+      "input": "bear, boots, boat, dog, crocodile, noodles",
+      "output": "crocodile, dog, bear",
+      "words": [
+        "bear",
+        "boots",
+        "boat",
+        "dog",
+        "crocodile",
+        "noodles"
+      ],
+      "category_items": [
+        "crocodile",
+        "dog",
+        "bear"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "8": {
+      "input": "eagle, bike, bear, silver, beetle, bird, black",
+      "output": "bear, beetle, bird, eagle",
+      "words": [
+        "eagle",
+        "bike",
+        "bear",
+        "silver",
+        "beetle",
+        "bird",
+        "black"
+      ],
+      "category_items": [
+        "bear",
+        "beetle",
+        "bird",
+        "eagle"
+      ],
+      "other_categories": [
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "9": {
+      "input": "bird, cake, kangaroo, dog, bicycle, bear, boat",
+      "output": "bird, bear, dog, kangaroo",
+      "words": [
+        "bird",
+        "cake",
+        "kangaroo",
+        "dog",
+        "bicycle",
+        "bear",
+        "boat"
+      ],
+      "category_items": [
+        "bird",
+        "bear",
+        "dog",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "10": {
+      "input": "black, dog, singer, bear, beetle, cow",
+      "output": "cow, beetle, bear, dog",
+      "words": [
+        "black",
+        "dog",
+        "singer",
+        "bear",
+        "beetle",
+        "cow"
+      ],
+      "category_items": [
+        "cow",
+        "beetle",
+        "bear",
+        "dog"
+      ],
+      "other_categories": [
+        "profession",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "11": {
+      "input": "cheese, dog, singer, bear, pilot, crocodile",
+      "output": "crocodile, bear, dog",
+      "words": [
+        "cheese",
+        "dog",
+        "singer",
+        "bear",
+        "pilot",
+        "crocodile"
+      ],
+      "category_items": [
+        "crocodile",
+        "bear",
+        "dog"
+      ],
+      "other_categories": [
+        "profession",
+        "food"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "12": {
+      "input": "bicycle, bird, beetle, shorts, kangaroo, bear",
+      "output": "beetle, bear, bird, kangaroo",
+      "words": [
+        "bicycle",
+        "bird",
+        "beetle",
+        "shorts",
+        "kangaroo",
+        "bear"
+      ],
+      "category_items": [
+        "beetle",
+        "bear",
+        "bird",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "13": {
+      "input": "black, crocodile, dog, cow, shorts",
+      "output": "crocodile, dog, cow",
+      "words": [
+        "black",
+        "crocodile",
+        "dog",
+        "cow",
+        "shorts"
+      ],
+      "category_items": [
+        "crocodile",
+        "dog",
+        "cow"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "14": {
+      "input": "bear, boat, kangaroo, dog, black, bike, cow",
+      "output": "cow, dog, bear, kangaroo",
+      "words": [
+        "bear",
+        "boat",
+        "kangaroo",
+        "dog",
+        "black",
+        "bike",
+        "cow"
+      ],
+      "category_items": [
+        "cow",
+        "dog",
+        "bear",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "15": {
+      "input": "bicycle, dog, beetle, eagle, cow, pilot",
+      "output": "eagle, beetle, dog, cow",
+      "words": [
+        "bicycle",
+        "dog",
+        "beetle",
+        "eagle",
+        "cow",
+        "pilot"
+      ],
+      "category_items": [
+        "eagle",
+        "beetle",
+        "dog",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "16": {
+      "input": "cow, dog, jam, bear, silver, bird",
+      "output": "dog, bird, bear, cow",
+      "words": [
+        "cow",
+        "dog",
+        "jam",
+        "bear",
+        "silver",
+        "bird"
+      ],
+      "category_items": [
+        "dog",
+        "bird",
+        "bear",
+        "cow"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "17": {
+      "input": "bird, bicycle, eagle, astronaut, crocodile",
+      "output": "eagle, bird, crocodile",
+      "words": [
+        "bird",
+        "bicycle",
+        "eagle",
+        "astronaut",
+        "crocodile"
+      ],
+      "category_items": [
+        "eagle",
+        "bird",
+        "crocodile"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "18": {
+      "input": "eagle, cheese, crocodile, cow, pilot",
+      "output": "eagle, crocodile, cow",
+      "words": [
+        "eagle",
+        "cheese",
+        "crocodile",
+        "cow",
+        "pilot"
+      ],
+      "category_items": [
+        "eagle",
+        "crocodile",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "food"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "19": {
+      "input": "eagle, dog, bear, silver, black, cake",
+      "output": "dog, eagle, bear",
+      "words": [
+        "eagle",
+        "dog",
+        "bear",
+        "silver",
+        "black",
+        "cake"
+      ],
+      "category_items": [
+        "dog",
+        "eagle",
+        "bear"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "20": {
+      "input": "bear, pilot, silver, cow, crocodile, dog, bicycle",
+      "output": "bear, cow, dog, crocodile",
+      "words": [
+        "bear",
+        "pilot",
+        "silver",
+        "cow",
+        "crocodile",
+        "dog",
+        "bicycle"
+      ],
+      "category_items": [
+        "bear",
+        "cow",
+        "dog",
+        "crocodile"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "21": {
+      "input": "astronaut, bike, black, eagle, kangaroo, cow, beetle",
+      "output": "beetle, kangaroo, eagle, cow",
+      "words": [
+        "astronaut",
+        "bike",
+        "black",
+        "eagle",
+        "kangaroo",
+        "cow",
+        "beetle"
+      ],
+      "category_items": [
+        "beetle",
+        "kangaroo",
+        "eagle",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "22": {
+      "input": "crocodile, pie, dog, silver, beetle",
+      "output": "crocodile, dog, beetle",
+      "words": [
+        "crocodile",
+        "pie",
+        "dog",
+        "silver",
+        "beetle"
+      ],
+      "category_items": [
+        "crocodile",
+        "dog",
+        "beetle"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "23": {
+      "input": "beetle, bird, singer, bear, cow, astronaut, pilot",
+      "output": "beetle, bear, cow, bird",
+      "words": [
+        "beetle",
+        "bird",
+        "singer",
+        "bear",
+        "cow",
+        "astronaut",
+        "pilot"
+      ],
+      "category_items": [
+        "beetle",
+        "bear",
+        "cow",
+        "bird"
+      ],
+      "other_categories": [
+        "profession"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "24": {
+      "input": "kangaroo, black, crocodile, silver, eagle, pizza, bear",
+      "output": "eagle, bear, kangaroo, crocodile",
+      "words": [
+        "kangaroo",
+        "black",
+        "crocodile",
+        "silver",
+        "eagle",
+        "pizza",
+        "bear"
+      ],
+      "category_items": [
+        "eagle",
+        "bear",
+        "kangaroo",
+        "crocodile"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "25": {
+      "input": "eagle, bird, dog, singer, boat",
+      "output": "dog, bird, eagle",
+      "words": [
+        "eagle",
+        "bird",
+        "dog",
+        "singer",
+        "boat"
+      ],
+      "category_items": [
+        "dog",
+        "bird",
+        "eagle"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "26": {
+      "input": "grape, pie, dog, singer, eagle, cow, beetle",
+      "output": "eagle, beetle, cow, dog",
+      "words": [
+        "grape",
+        "pie",
+        "dog",
+        "singer",
+        "eagle",
+        "cow",
+        "beetle"
+      ],
+      "category_items": [
+        "eagle",
+        "beetle",
+        "cow",
+        "dog"
+      ],
+      "other_categories": [
+        "profession",
+        "food"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "27": {
+      "input": "kangaroo, bicycle, boots, crocodile, singer, eagle",
+      "output": "kangaroo, eagle, crocodile",
+      "words": [
+        "kangaroo",
+        "bicycle",
+        "boots",
+        "crocodile",
+        "singer",
+        "eagle"
+      ],
+      "category_items": [
+        "kangaroo",
+        "eagle",
+        "crocodile"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "28": {
+      "input": "bird, cereal, eagle, crocodile, bicycle",
+      "output": "bird, crocodile, eagle",
+      "words": [
+        "bird",
+        "cereal",
+        "eagle",
+        "crocodile",
+        "bicycle"
+      ],
+      "category_items": [
+        "bird",
+        "crocodile",
+        "eagle"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "29": {
+      "input": "bear, coat, silver, shorts, dog, bird, eagle",
+      "output": "eagle, bird, bear, dog",
+      "words": [
+        "bear",
+        "coat",
+        "silver",
+        "shorts",
+        "dog",
+        "bird",
+        "eagle"
+      ],
+      "category_items": [
+        "eagle",
+        "bird",
+        "bear",
+        "dog"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "30": {
+      "input": "eagle, coat, dog, silver, crocodile, bear, boots",
+      "output": "bear, eagle, crocodile, dog",
+      "words": [
+        "eagle",
+        "coat",
+        "dog",
+        "silver",
+        "crocodile",
+        "bear",
+        "boots"
+      ],
+      "category_items": [
+        "bear",
+        "eagle",
+        "crocodile",
+        "dog"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "31": {
+      "input": "kangaroo, bird, dog, beetle, black, silver",
+      "output": "dog, kangaroo, bird, beetle",
+      "words": [
+        "kangaroo",
+        "bird",
+        "dog",
+        "beetle",
+        "black",
+        "silver"
+      ],
+      "category_items": [
+        "dog",
+        "kangaroo",
+        "bird",
+        "beetle"
+      ],
+      "other_categories": [
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "32": {
+      "input": "cow, beetle, grape, black, bird, crocodile",
+      "output": "cow, beetle, crocodile, bird",
+      "words": [
+        "cow",
+        "beetle",
+        "grape",
+        "black",
+        "bird",
+        "crocodile"
+      ],
+      "category_items": [
+        "cow",
+        "beetle",
+        "crocodile",
+        "bird"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "33": {
+      "input": "dog, bike, bicycle, bear, beetle",
+      "output": "dog, beetle, bear",
+      "words": [
+        "dog",
+        "bike",
+        "bicycle",
+        "bear",
+        "beetle"
+      ],
+      "category_items": [
+        "dog",
+        "beetle",
+        "bear"
+      ],
+      "other_categories": [
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "34": {
+      "input": "beetle, silver, cow, dog, singer, boots, bear",
+      "output": "dog, beetle, cow, bear",
+      "words": [
+        "beetle",
+        "silver",
+        "cow",
+        "dog",
+        "singer",
+        "boots",
+        "bear"
+      ],
+      "category_items": [
+        "dog",
+        "beetle",
+        "cow",
+        "bear"
+      ],
+      "other_categories": [
+        "profession",
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "35": {
+      "input": "beetle, coat, bird, eagle, cow, black, boots",
+      "output": "bird, beetle, eagle, cow",
+      "words": [
+        "beetle",
+        "coat",
+        "bird",
+        "eagle",
+        "cow",
+        "black",
+        "boots"
+      ],
+      "category_items": [
+        "bird",
+        "beetle",
+        "eagle",
+        "cow"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "36": {
+      "input": "cheese, eagle, dog, crocodile, bike, pilot",
+      "output": "crocodile, eagle, dog",
+      "words": [
+        "cheese",
+        "eagle",
+        "dog",
+        "crocodile",
+        "bike",
+        "pilot"
+      ],
+      "category_items": [
+        "crocodile",
+        "eagle",
+        "dog"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "37": {
+      "input": "singer, cow, crocodile, coat, kangaroo, dog",
+      "output": "kangaroo, cow, crocodile, dog",
+      "words": [
+        "singer",
+        "cow",
+        "crocodile",
+        "coat",
+        "kangaroo",
+        "dog"
+      ],
+      "category_items": [
+        "kangaroo",
+        "cow",
+        "crocodile",
+        "dog"
+      ],
+      "other_categories": [
+        "profession",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "38": {
+      "input": "beetle, kangaroo, bike, eagle, crocodile, silver, bicycle",
+      "output": "crocodile, eagle, kangaroo, beetle",
+      "words": [
+        "beetle",
+        "kangaroo",
+        "bike",
+        "eagle",
+        "crocodile",
+        "silver",
+        "bicycle"
+      ],
+      "category_items": [
+        "crocodile",
+        "eagle",
+        "kangaroo",
+        "beetle"
+      ],
+      "other_categories": [
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "39": {
+      "input": "bicycle, pilot, eagle, dog, beetle, boots, cow",
+      "output": "eagle, dog, cow, beetle",
+      "words": [
+        "bicycle",
+        "pilot",
+        "eagle",
+        "dog",
+        "beetle",
+        "boots",
+        "cow"
+      ],
+      "category_items": [
+        "eagle",
+        "dog",
+        "cow",
+        "beetle"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "40": {
+      "input": "kangaroo, dog, eagle, shorts, noodles, bird",
+      "output": "dog, bird, kangaroo, eagle",
+      "words": [
+        "kangaroo",
+        "dog",
+        "eagle",
+        "shorts",
+        "noodles",
+        "bird"
+      ],
+      "category_items": [
+        "dog",
+        "bird",
+        "kangaroo",
+        "eagle"
+      ],
+      "other_categories": [
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "41": {
+      "input": "silver, bear, beetle, crocodile, dog, pie, astronaut",
+      "output": "crocodile, bear, dog, beetle",
+      "words": [
+        "silver",
+        "bear",
+        "beetle",
+        "crocodile",
+        "dog",
+        "pie",
+        "astronaut"
+      ],
+      "category_items": [
+        "crocodile",
+        "bear",
+        "dog",
+        "beetle"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "42": {
+      "input": "crocodile, singer, bike, bird, pie, kangaroo, eagle",
+      "output": "kangaroo, bird, crocodile, eagle",
+      "words": [
+        "crocodile",
+        "singer",
+        "bike",
+        "bird",
+        "pie",
+        "kangaroo",
+        "eagle"
+      ],
+      "category_items": [
+        "kangaroo",
+        "bird",
+        "crocodile",
+        "eagle"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "43": {
+      "input": "shorts, dog, bear, jam, eagle",
+      "output": "bear, dog, eagle",
+      "words": [
+        "shorts",
+        "dog",
+        "bear",
+        "jam",
+        "eagle"
+      ],
+      "category_items": [
+        "bear",
+        "dog",
+        "eagle"
+      ],
+      "other_categories": [
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "44": {
+      "input": "bear, black, noodles, kangaroo, dog",
+      "output": "kangaroo, bear, dog",
+      "words": [
+        "bear",
+        "black",
+        "noodles",
+        "kangaroo",
+        "dog"
+      ],
+      "category_items": [
+        "kangaroo",
+        "bear",
+        "dog"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "45": {
+      "input": "crocodile, kangaroo, silver, bear, singer, pilot",
+      "output": "crocodile, bear, kangaroo",
+      "words": [
+        "crocodile",
+        "kangaroo",
+        "silver",
+        "bear",
+        "singer",
+        "pilot"
+      ],
+      "category_items": [
+        "crocodile",
+        "bear",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "profession",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "46": {
+      "input": "kangaroo, silver, bird, bear, beetle, black",
+      "output": "bear, beetle, bird, kangaroo",
+      "words": [
+        "kangaroo",
+        "silver",
+        "bird",
+        "bear",
+        "beetle",
+        "black"
+      ],
+      "category_items": [
+        "bear",
+        "beetle",
+        "bird",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "47": {
+      "input": "beetle, bird, bear, boat, noodles, eagle",
+      "output": "beetle, eagle, bird, bear",
+      "words": [
+        "beetle",
+        "bird",
+        "bear",
+        "boat",
+        "noodles",
+        "eagle"
+      ],
+      "category_items": [
+        "beetle",
+        "eagle",
+        "bird",
+        "bear"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "48": {
+      "input": "astronaut, grape, kangaroo, bird, bear, cow, boots",
+      "output": "bear, bird, cow, kangaroo",
+      "words": [
+        "astronaut",
+        "grape",
+        "kangaroo",
+        "bird",
+        "bear",
+        "cow",
+        "boots"
+      ],
+      "category_items": [
+        "bear",
+        "bird",
+        "cow",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "49": {
+      "input": "coat, cheese, eagle, astronaut, cow, kangaroo, bear",
+      "output": "kangaroo, eagle, bear, cow",
+      "words": [
+        "coat",
+        "cheese",
+        "eagle",
+        "astronaut",
+        "cow",
+        "kangaroo",
+        "bear"
+      ],
+      "category_items": [
+        "kangaroo",
+        "eagle",
+        "bear",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "50": {
+      "input": "bird, kangaroo, cow, pilot, boots, noodles",
+      "output": "kangaroo, cow, bird",
+      "words": [
+        "bird",
+        "kangaroo",
+        "cow",
+        "pilot",
+        "boots",
+        "noodles"
+      ],
+      "category_items": [
+        "kangaroo",
+        "cow",
+        "bird"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "51": {
+      "input": "kangaroo, pizza, beetle, eagle, grape, crocodile",
+      "output": "kangaroo, crocodile, beetle, eagle",
+      "words": [
+        "kangaroo",
+        "pizza",
+        "beetle",
+        "eagle",
+        "grape",
+        "crocodile"
+      ],
+      "category_items": [
+        "kangaroo",
+        "crocodile",
+        "beetle",
+        "eagle"
+      ],
+      "other_categories": [
+        "food"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "52": {
+      "input": "dog, bear, eagle, noodles, boots, black",
+      "output": "dog, bear, eagle",
+      "words": [
+        "dog",
+        "bear",
+        "eagle",
+        "noodles",
+        "boots",
+        "black"
+      ],
+      "category_items": [
+        "dog",
+        "bear",
+        "eagle"
+      ],
+      "other_categories": [
+        "food",
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "53": {
+      "input": "astronaut, cow, dog, black, eagle",
+      "output": "dog, eagle, cow",
+      "words": [
+        "astronaut",
+        "cow",
+        "dog",
+        "black",
+        "eagle"
+      ],
+      "category_items": [
+        "dog",
+        "eagle",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "54": {
+      "input": "bear, black, coat, cow, kangaroo",
+      "output": "cow, kangaroo, bear",
+      "words": [
+        "bear",
+        "black",
+        "coat",
+        "cow",
+        "kangaroo"
+      ],
+      "category_items": [
+        "cow",
+        "kangaroo",
+        "bear"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "55": {
+      "input": "bear, bird, cow, boots, black",
+      "output": "cow, bird, bear",
+      "words": [
+        "bear",
+        "bird",
+        "cow",
+        "boots",
+        "black"
+      ],
+      "category_items": [
+        "cow",
+        "bird",
+        "bear"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "56": {
+      "input": "eagle, bird, noodles, bicycle, dog, crocodile, coat",
+      "output": "bird, crocodile, dog, eagle",
+      "words": [
+        "eagle",
+        "bird",
+        "noodles",
+        "bicycle",
+        "dog",
+        "crocodile",
+        "coat"
+      ],
+      "category_items": [
+        "bird",
+        "crocodile",
+        "dog",
+        "eagle"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "57": {
+      "input": "bike, beetle, eagle, kangaroo, cereal",
+      "output": "beetle, eagle, kangaroo",
+      "words": [
+        "bike",
+        "beetle",
+        "eagle",
+        "kangaroo",
+        "cereal"
+      ],
+      "category_items": [
+        "beetle",
+        "eagle",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "58": {
+      "input": "cow, bear, bird, bike, kangaroo, boots",
+      "output": "bear, bird, kangaroo, cow",
+      "words": [
+        "cow",
+        "bear",
+        "bird",
+        "bike",
+        "kangaroo",
+        "boots"
+      ],
+      "category_items": [
+        "bear",
+        "bird",
+        "kangaroo",
+        "cow"
+      ],
+      "other_categories": [
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "59": {
+      "input": "bird, kangaroo, dog, bike, shorts, pie, cow",
+      "output": "cow, bird, kangaroo, dog",
+      "words": [
+        "bird",
+        "kangaroo",
+        "dog",
+        "bike",
+        "shorts",
+        "pie",
+        "cow"
+      ],
+      "category_items": [
+        "cow",
+        "bird",
+        "kangaroo",
+        "dog"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "60": {
+      "input": "bicycle, cow, kangaroo, singer, bird, beetle, boat",
+      "output": "bird, beetle, cow, kangaroo",
+      "words": [
+        "bicycle",
+        "cow",
+        "kangaroo",
+        "singer",
+        "bird",
+        "beetle",
+        "boat"
+      ],
+      "category_items": [
+        "bird",
+        "beetle",
+        "cow",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "61": {
+      "input": "silver, bird, black, crocodile, cow, astronaut, beetle",
+      "output": "bird, beetle, crocodile, cow",
+      "words": [
+        "silver",
+        "bird",
+        "black",
+        "crocodile",
+        "cow",
+        "astronaut",
+        "beetle"
+      ],
+      "category_items": [
+        "bird",
+        "beetle",
+        "crocodile",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "62": {
+      "input": "eagle, beetle, kangaroo, cheese, coconut, boat",
+      "output": "kangaroo, eagle, beetle",
+      "words": [
+        "eagle",
+        "beetle",
+        "kangaroo",
+        "cheese",
+        "coconut",
+        "boat"
+      ],
+      "category_items": [
+        "kangaroo",
+        "eagle",
+        "beetle"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "63": {
+      "input": "eagle, kangaroo, silver, bicycle, singer, crocodile",
+      "output": "crocodile, eagle, kangaroo",
+      "words": [
+        "eagle",
+        "kangaroo",
+        "silver",
+        "bicycle",
+        "singer",
+        "crocodile"
+      ],
+      "category_items": [
+        "crocodile",
+        "eagle",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "profession",
+        "color",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "64": {
+      "input": "eagle, dog, shorts, crocodile, grape, kangaroo",
+      "output": "eagle, dog, crocodile, kangaroo",
+      "words": [
+        "eagle",
+        "dog",
+        "shorts",
+        "crocodile",
+        "grape",
+        "kangaroo"
+      ],
+      "category_items": [
+        "eagle",
+        "dog",
+        "crocodile",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "65": {
+      "input": "black, bear, crocodile, kangaroo, silver, astronaut, bird",
+      "output": "bear, bird, crocodile, kangaroo",
+      "words": [
+        "black",
+        "bear",
+        "crocodile",
+        "kangaroo",
+        "silver",
+        "astronaut",
+        "bird"
+      ],
+      "category_items": [
+        "bear",
+        "bird",
+        "crocodile",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "profession",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "66": {
+      "input": "grape, bird, dog, shorts, crocodile, silver",
+      "output": "bird, dog, crocodile",
+      "words": [
+        "grape",
+        "bird",
+        "dog",
+        "shorts",
+        "crocodile",
+        "silver"
+      ],
+      "category_items": [
+        "bird",
+        "dog",
+        "crocodile"
+      ],
+      "other_categories": [
+        "food",
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "67": {
+      "input": "bear, kangaroo, cheese, crocodile, black, cow",
+      "output": "cow, crocodile, bear, kangaroo",
+      "words": [
+        "bear",
+        "kangaroo",
+        "cheese",
+        "crocodile",
+        "black",
+        "cow"
+      ],
+      "category_items": [
+        "cow",
+        "crocodile",
+        "bear",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "68": {
+      "input": "coat, bird, eagle, cheese, astronaut, beetle",
+      "output": "beetle, eagle, bird",
+      "words": [
+        "coat",
+        "bird",
+        "eagle",
+        "cheese",
+        "astronaut",
+        "beetle"
+      ],
+      "category_items": [
+        "beetle",
+        "eagle",
+        "bird"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "69": {
+      "input": "crocodile, noodles, singer, bear, kangaroo, boots, dog",
+      "output": "bear, kangaroo, dog, crocodile",
+      "words": [
+        "crocodile",
+        "noodles",
+        "singer",
+        "bear",
+        "kangaroo",
+        "boots",
+        "dog"
+      ],
+      "category_items": [
+        "bear",
+        "kangaroo",
+        "dog",
+        "crocodile"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "70": {
+      "input": "crocodile, bike, bear, bird, singer, silver",
+      "output": "crocodile, bird, bear",
+      "words": [
+        "crocodile",
+        "bike",
+        "bear",
+        "bird",
+        "singer",
+        "silver"
+      ],
+      "category_items": [
+        "crocodile",
+        "bird",
+        "bear"
+      ],
+      "other_categories": [
+        "profession",
+        "color",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "71": {
+      "input": "eagle, crocodile, beetle, bird, black, shorts",
+      "output": "eagle, bird, crocodile, beetle",
+      "words": [
+        "eagle",
+        "crocodile",
+        "beetle",
+        "bird",
+        "black",
+        "shorts"
+      ],
+      "category_items": [
+        "eagle",
+        "bird",
+        "crocodile",
+        "beetle"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "72": {
+      "input": "eagle, silver, pilot, astronaut, crocodile, dog",
+      "output": "eagle, dog, crocodile",
+      "words": [
+        "eagle",
+        "silver",
+        "pilot",
+        "astronaut",
+        "crocodile",
+        "dog"
+      ],
+      "category_items": [
+        "eagle",
+        "dog",
+        "crocodile"
+      ],
+      "other_categories": [
+        "profession",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "73": {
+      "input": "silver, bird, grape, beetle, bear, black, crocodile",
+      "output": "beetle, crocodile, bear, bird",
+      "words": [
+        "silver",
+        "bird",
+        "grape",
+        "beetle",
+        "bear",
+        "black",
+        "crocodile"
+      ],
+      "category_items": [
+        "beetle",
+        "crocodile",
+        "bear",
+        "bird"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "74": {
+      "input": "astronaut, dog, beetle, eagle, singer",
+      "output": "beetle, eagle, dog",
+      "words": [
+        "astronaut",
+        "dog",
+        "beetle",
+        "eagle",
+        "singer"
+      ],
+      "category_items": [
+        "beetle",
+        "eagle",
+        "dog"
+      ],
+      "other_categories": [
+        "profession"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "75": {
+      "input": "bird, silver, beetle, cow, jam",
+      "output": "beetle, cow, bird",
+      "words": [
+        "bird",
+        "silver",
+        "beetle",
+        "cow",
+        "jam"
+      ],
+      "category_items": [
+        "beetle",
+        "cow",
+        "bird"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "76": {
+      "input": "cereal, beetle, bird, eagle, crocodile, coat",
+      "output": "bird, crocodile, beetle, eagle",
+      "words": [
+        "cereal",
+        "beetle",
+        "bird",
+        "eagle",
+        "crocodile",
+        "coat"
+      ],
+      "category_items": [
+        "bird",
+        "crocodile",
+        "beetle",
+        "eagle"
+      ],
+      "other_categories": [
+        "food",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "77": {
+      "input": "dog, cow, beetle, bird, pilot, boat",
+      "output": "bird, beetle, dog, cow",
+      "words": [
+        "dog",
+        "cow",
+        "beetle",
+        "bird",
+        "pilot",
+        "boat"
+      ],
+      "category_items": [
+        "bird",
+        "beetle",
+        "dog",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "78": {
+      "input": "boots, crocodile, bear, pilot, beetle",
+      "output": "crocodile, bear, beetle",
+      "words": [
+        "boots",
+        "crocodile",
+        "bear",
+        "pilot",
+        "beetle"
+      ],
+      "category_items": [
+        "crocodile",
+        "bear",
+        "beetle"
+      ],
+      "other_categories": [
+        "profession",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "79": {
+      "input": "dog, silver, kangaroo, pie, bike, eagle",
+      "output": "dog, eagle, kangaroo",
+      "words": [
+        "dog",
+        "silver",
+        "kangaroo",
+        "pie",
+        "bike",
+        "eagle"
+      ],
+      "category_items": [
+        "dog",
+        "eagle",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "80": {
+      "input": "beetle, pilot, crocodile, cow, boots, boat, bird",
+      "output": "crocodile, bird, beetle, cow",
+      "words": [
+        "beetle",
+        "pilot",
+        "crocodile",
+        "cow",
+        "boots",
+        "boat",
+        "bird"
+      ],
+      "category_items": [
+        "crocodile",
+        "bird",
+        "beetle",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "81": {
+      "input": "bicycle, singer, bird, astronaut, kangaroo, eagle, beetle",
+      "output": "eagle, beetle, bird, kangaroo",
+      "words": [
+        "bicycle",
+        "singer",
+        "bird",
+        "astronaut",
+        "kangaroo",
+        "eagle",
+        "beetle"
+      ],
+      "category_items": [
+        "eagle",
+        "beetle",
+        "bird",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "82": {
+      "input": "crocodile, bear, cereal, coconut, kangaroo",
+      "output": "bear, kangaroo, crocodile",
+      "words": [
+        "crocodile",
+        "bear",
+        "cereal",
+        "coconut",
+        "kangaroo"
+      ],
+      "category_items": [
+        "bear",
+        "kangaroo",
+        "crocodile"
+      ],
+      "other_categories": [
+        "food"
+      ],
+      "num_category_items": 3,
+      "num_others": 2
+    },
+    "83": {
+      "input": "dog, beetle, silver, coat, boat, bear, eagle",
+      "output": "dog, beetle, bear, eagle",
+      "words": [
+        "dog",
+        "beetle",
+        "silver",
+        "coat",
+        "boat",
+        "bear",
+        "eagle"
+      ],
+      "category_items": [
+        "dog",
+        "beetle",
+        "bear",
+        "eagle"
+      ],
+      "other_categories": [
+        "vehicle",
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "84": {
+      "input": "bear, dog, pie, cereal, beetle, black, cow",
+      "output": "bear, cow, beetle, dog",
+      "words": [
+        "bear",
+        "dog",
+        "pie",
+        "cereal",
+        "beetle",
+        "black",
+        "cow"
+      ],
+      "category_items": [
+        "bear",
+        "cow",
+        "beetle",
+        "dog"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "85": {
+      "input": "crocodile, cow, black, dog, pizza, silver",
+      "output": "crocodile, cow, dog",
+      "words": [
+        "crocodile",
+        "cow",
+        "black",
+        "dog",
+        "pizza",
+        "silver"
+      ],
+      "category_items": [
+        "crocodile",
+        "cow",
+        "dog"
+      ],
+      "other_categories": [
+        "food",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "86": {
+      "input": "silver, bear, singer, grape, dog, bird",
+      "output": "bird, bear, dog",
+      "words": [
+        "silver",
+        "bear",
+        "singer",
+        "grape",
+        "dog",
+        "bird"
+      ],
+      "category_items": [
+        "bird",
+        "bear",
+        "dog"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "color"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "87": {
+      "input": "eagle, coat, cow, kangaroo, boat, bear, silver",
+      "output": "bear, eagle, kangaroo, cow",
+      "words": [
+        "eagle",
+        "coat",
+        "cow",
+        "kangaroo",
+        "boat",
+        "bear",
+        "silver"
+      ],
+      "category_items": [
+        "bear",
+        "eagle",
+        "kangaroo",
+        "cow"
+      ],
+      "other_categories": [
+        "vehicle",
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "88": {
+      "input": "bird, kangaroo, black, crocodile, silver, beetle",
+      "output": "crocodile, beetle, bird, kangaroo",
+      "words": [
+        "bird",
+        "kangaroo",
+        "black",
+        "crocodile",
+        "silver",
+        "beetle"
+      ],
+      "category_items": [
+        "crocodile",
+        "beetle",
+        "bird",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "89": {
+      "input": "crocodile, dog, coat, cow, bird, black",
+      "output": "dog, crocodile, cow, bird",
+      "words": [
+        "crocodile",
+        "dog",
+        "coat",
+        "cow",
+        "bird",
+        "black"
+      ],
+      "category_items": [
+        "dog",
+        "crocodile",
+        "cow",
+        "bird"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "90": {
+      "input": "jam, cow, boat, bear, crocodile, beetle, silver",
+      "output": "bear, crocodile, beetle, cow",
+      "words": [
+        "jam",
+        "cow",
+        "boat",
+        "bear",
+        "crocodile",
+        "beetle",
+        "silver"
+      ],
+      "category_items": [
+        "bear",
+        "crocodile",
+        "beetle",
+        "cow"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "91": {
+      "input": "black, cow, astronaut, bear, boat, beetle, crocodile",
+      "output": "beetle, crocodile, cow, bear",
+      "words": [
+        "black",
+        "cow",
+        "astronaut",
+        "bear",
+        "boat",
+        "beetle",
+        "crocodile"
+      ],
+      "category_items": [
+        "beetle",
+        "crocodile",
+        "cow",
+        "bear"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "92": {
+      "input": "crocodile, astronaut, cheese, kangaroo, eagle, bird",
+      "output": "bird, kangaroo, crocodile, eagle",
+      "words": [
+        "crocodile",
+        "astronaut",
+        "cheese",
+        "kangaroo",
+        "eagle",
+        "bird"
+      ],
+      "category_items": [
+        "bird",
+        "kangaroo",
+        "crocodile",
+        "eagle"
+      ],
+      "other_categories": [
+        "profession",
+        "food"
+      ],
+      "num_category_items": 4,
+      "num_others": 2
+    },
+    "93": {
+      "input": "bird, bike, astronaut, bicycle, cow, dog",
+      "output": "bird, dog, cow",
+      "words": [
+        "bird",
+        "bike",
+        "astronaut",
+        "bicycle",
+        "cow",
+        "dog"
+      ],
+      "category_items": [
+        "bird",
+        "dog",
+        "cow"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "94": {
+      "input": "crocodile, silver, coat, beetle, eagle, boots, bird",
+      "output": "beetle, crocodile, bird, eagle",
+      "words": [
+        "crocodile",
+        "silver",
+        "coat",
+        "beetle",
+        "eagle",
+        "boots",
+        "bird"
+      ],
+      "category_items": [
+        "beetle",
+        "crocodile",
+        "bird",
+        "eagle"
+      ],
+      "other_categories": [
+        "color",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "95": {
+      "input": "astronaut, jam, bird, crocodile, silver, kangaroo, beetle",
+      "output": "kangaroo, beetle, crocodile, bird",
+      "words": [
+        "astronaut",
+        "jam",
+        "bird",
+        "crocodile",
+        "silver",
+        "kangaroo",
+        "beetle"
+      ],
+      "category_items": [
+        "kangaroo",
+        "beetle",
+        "crocodile",
+        "bird"
+      ],
+      "other_categories": [
+        "profession",
+        "food",
+        "color"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "96": {
+      "input": "bear, silver, pilot, bird, kangaroo, crocodile, bicycle",
+      "output": "kangaroo, crocodile, bear, bird",
+      "words": [
+        "bear",
+        "silver",
+        "pilot",
+        "bird",
+        "kangaroo",
+        "crocodile",
+        "bicycle"
+      ],
+      "category_items": [
+        "kangaroo",
+        "crocodile",
+        "bear",
+        "bird"
+      ],
+      "other_categories": [
+        "profession",
+        "color",
+        "vehicle"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "97": {
+      "input": "crocodile, bike, bicycle, bear, dog, singer",
+      "output": "crocodile, bear, dog",
+      "words": [
+        "crocodile",
+        "bike",
+        "bicycle",
+        "bear",
+        "dog",
+        "singer"
+      ],
+      "category_items": [
+        "crocodile",
+        "bear",
+        "dog"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    },
+    "98": {
+      "input": "bird, shorts, crocodile, kangaroo, bear, bike, noodles",
+      "output": "bear, bird, crocodile, kangaroo",
+      "words": [
+        "bird",
+        "shorts",
+        "crocodile",
+        "kangaroo",
+        "bear",
+        "bike",
+        "noodles"
+      ],
+      "category_items": [
+        "bear",
+        "bird",
+        "crocodile",
+        "kangaroo"
+      ],
+      "other_categories": [
+        "food",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "99": {
+      "input": "singer, eagle, cow, kangaroo, coat, beetle, bike",
+      "output": "beetle, cow, kangaroo, eagle",
+      "words": [
+        "singer",
+        "eagle",
+        "cow",
+        "kangaroo",
+        "coat",
+        "beetle",
+        "bike"
+      ],
+      "category_items": [
+        "beetle",
+        "cow",
+        "kangaroo",
+        "eagle"
+      ],
+      "other_categories": [
+        "profession",
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 4,
+      "num_others": 3
+    },
+    "100": {
+      "input": "boots, shorts, dog, bicycle, bird, bear",
+      "output": "dog, bear, bird",
+      "words": [
+        "boots",
+        "shorts",
+        "dog",
+        "bicycle",
+        "bird",
+        "bear"
+      ],
+      "category_items": [
+        "dog",
+        "bear",
+        "bird"
+      ],
+      "other_categories": [
+        "vehicle",
+        "clothing"
+      ],
+      "num_category_items": 3,
+      "num_others": 3
+    }
+  }
+}

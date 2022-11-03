@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "94",
+      "output": "ninety-four"
+    },
+    "2": {
+      "input": "122",
+      "output": "one hundred and twenty-two"
+    },
+    "3": {
+      "input": "239",
+      "output": "two hundred and thirty-nine"
+    },
+    "4": {
+      "input": "259",
+      "output": "two hundred and fifty-nine"
+    },
+    "5": {
+      "input": "285",
+      "output": "two hundred and eighty-five"
+    },
+    "6": {
+      "input": "316",
+      "output": "three hundred and sixteen"
+    },
+    "7": {
+      "input": "444",
+      "output": "four hundred and forty-four"
+    },
+    "8": {
+      "input": "504",
+      "output": "five hundred and four"
+    },
+    "9": {
+      "input": "572",
+      "output": "five hundred and seventy-two"
+    },
+    "10": {
+      "input": "648",
+      "output": "six hundred and forty-eight"
+    },
+    "11": {
+      "input": "658",
+      "output": "six hundred and fifty-eight"
+    },
+    "12": {
+      "input": "672",
+      "output": "six hundred and seventy-two"
+    },
+    "13": {
+      "input": "742",
+      "output": "seven hundred and forty-two"
+    },
+    "14": {
+      "input": "753",
+      "output": "seven hundred and fifty-three"
+    },
+    "15": {
+      "input": "887",
+      "output": "eight hundred and eighty-seven"
+    },
+    "16": {
+      "input": "1033",
+      "output": "one thousand and thirty-three"
+    },
+    "17": {
+      "input": "1057",
+      "output": "one thousand and fifty-seven"
+    },
+    "18": {
+      "input": "1123",
+      "output": "one thousand, one hundred and twenty-three"
+    },
+    "19": {
+      "input": "1156",
+      "output": "one thousand, one hundred and fifty-six"
+    },
+    "20": {
+      "input": "1234",
+      "output": "one thousand, two hundred and thirty-four"
+    },
+    "21": {
+      "input": "1249",
+      "output": "one thousand, two hundred and forty-nine"
+    },
+    "22": {
+      "input": "1375",
+      "output": "one thousand, three hundred and seventy-five"
+    },
+    "23": {
+      "input": "1457",
+      "output": "one thousand, four hundred and fifty-seven"
+    },
+    "24": {
+      "input": "1485",
+      "output": "one thousand, four hundred and eighty-five"
+    },
+    "25": {
+      "input": "1495",
+      "output": "one thousand, four hundred and ninety-five"
+    },
+    "26": {
+      "input": "1612",
+      "output": "one thousand, six hundred and twelve"
+    },
+    "27": {
+      "input": "1816",
+      "output": "one thousand, eight hundred and sixteen"
+    },
+    "28": {
+      "input": "1874",
+      "output": "one thousand, eight hundred and seventy-four"
+    },
+    "29": {
+      "input": "1914",
+      "output": "one thousand, nine hundred and fourteen"
+    },
+    "30": {
+      "input": "2029",
+      "output": "two thousand and twenty-nine"
+    },
+    "31": {
+      "input": "2313",
+      "output": "two thousand, three hundred and thirteen"
+    },
+    "32": {
+      "input": "2355",
+      "output": "two thousand, three hundred and fifty-five"
+    },
+    "33": {
+      "input": "2363",
+      "output": "two thousand, three hundred and sixty-three"
+    },
+    "34": {
+      "input": "2433",
+      "output": "two thousand, four hundred and thirty-three"
+    },
+    "35": {
+      "input": "2532",
+      "output": "two thousand, five hundred and thirty-two"
+    },
+    "36": {
+      "input": "2687",
+      "output": "two thousand, six hundred and eighty-seven"
+    },
+    "37": {
+      "input": "2737",
+      "output": "two thousand, seven hundred and thirty-seven"
+    },
+    "38": {
+      "input": "2784",
+      "output": "two thousand, seven hundred and eighty-four"
+    },
+    "39": {
+      "input": "2905",
+      "output": "two thousand, nine hundred and five"
+    },
+    "40": {
+      "input": "2999",
+      "output": "two thousand, nine hundred and ninety-nine"
+    },
+    "41": {
+      "input": "3041",
+      "output": "three thousand and forty-one"
+    },
+    "42": {
+      "input": "3277",
+      "output": "three thousand, two hundred and seventy-seven"
+    },
+    "43": {
+      "input": "3524",
+      "output": "three thousand, five hundred and twenty-four"
+    },
+    "44": {
+      "input": "3879",
+      "output": "three thousand, eight hundred and seventy-nine"
+    },
+    "45": {
+      "input": "4082",
+      "output": "four thousand and eighty-two"
+    },
+    "46": {
+      "input": "4093",
+      "output": "four thousand and ninety-three"
+    },
+    "47": {
+      "input": "4365",
+      "output": "four thousand, three hundred and sixty-five"
+    },
+    "48": {
+      "input": "4416",
+      "output": "four thousand, four hundred and sixteen"
+    },
+    "49": {
+      "input": "4451",
+      "output": "four thousand, four hundred and fifty-one"
+    },
+    "50": {
+      "input": "4506",
+      "output": "four thousand, five hundred and six"
+    },
+    "51": {
+      "input": "4534",
+      "output": "four thousand, five hundred and thirty-four"
+    },
+    "52": {
+      "input": "4844",
+      "output": "four thousand, eight hundred and forty-four"
+    },
+    "53": {
+      "input": "4919",
+      "output": "four thousand, nine hundred and nineteen"
+    },
+    "54": {
+      "input": "4954",
+      "output": "four thousand, nine hundred and fifty-four"
+    },
+    "55": {
+      "input": "5003",
+      "output": "five thousand and three"
+    },
+    "56": {
+      "input": "5464",
+      "output": "five thousand, four hundred and sixty-four"
+    },
+    "57": {
+      "input": "5598",
+      "output": "five thousand, five hundred and ninety-eight"
+    },
+    "58": {
+      "input": "5670",
+      "output": "five thousand, six hundred and seventy"
+    },
+    "59": {
+      "input": "5672",
+      "output": "five thousand, six hundred and seventy-two"
+    },
+    "60": {
+      "input": "5727",
+      "output": "five thousand, seven hundred and twenty-seven"
+    },
+    "61": {
+      "input": "5810",
+      "output": "five thousand, eight hundred and ten"
+    },
+    "62": {
+      "input": "5820",
+      "output": "five thousand, eight hundred and twenty"
+    },
+    "63": {
+      "input": "6182",
+      "output": "six thousand, one hundred and eighty-two"
+    },
+    "64": {
+      "input": "6327",
+      "output": "six thousand, three hundred and twenty-seven"
+    },
+    "65": {
+      "input": "6819",
+      "output": "six thousand, eight hundred and nineteen"
+    },
+    "66": {
+      "input": "6821",
+      "output": "six thousand, eight hundred and twenty-one"
+    },
+    "67": {
+      "input": "7144",
+      "output": "seven thousand, one hundred and forty-four"
+    },
+    "68": {
+      "input": "7174",
+      "output": "seven thousand, one hundred and seventy-four"
+    },
+    "69": {
+      "input": "7202",
+      "output": "seven thousand, two hundred and two"
+    },
+    "70": {
+      "input": "7220",
+      "output": "seven thousand, two hundred and twenty"
+    },
+    "71": {
+      "input": "7428",
+      "output": "seven thousand, four hundred and twenty-eight"
+    },
+    "72": {
+      "input": "7440",
+      "output": "seven thousand, four hundred and forty"
+    },
+    "73": {
+      "input": "7594",
+      "output": "seven thousand, five hundred and ninety-four"
+    },
+    "74": {
+      "input": "7610",
+      "output": "seven thousand, six hundred and ten"
+    },
+    "75": {
+      "input": "7633",
+      "output": "seven thousand, six hundred and thirty-three"
+    },
+    "76": {
+      "input": "7669",
+      "output": "seven thousand, six hundred and sixty-nine"
+    },
+    "77": {
+      "input": "7714",
+      "output": "seven thousand, seven hundred and fourteen"
+    },
+    "78": {
+      "input": "7746",
+      "output": "seven thousand, seven hundred and forty-six"
+    },
+    "79": {
+      "input": "7797",
+      "output": "seven thousand, seven hundred and ninety-seven"
+    },
+    "80": {
+      "input": "7881",
+      "output": "seven thousand, eight hundred and eighty-one"
+    },
+    "81": {
+      "input": "7933",
+      "output": "seven thousand, nine hundred and thirty-three"
+    },
+    "82": {
+      "input": "7974",
+      "output": "seven thousand, nine hundred and seventy-four"
+    },
+    "83": {
+      "input": "8124",
+      "output": "eight thousand, one hundred and twenty-four"
+    },
+    "84": {
+      "input": "8135",
+      "output": "eight thousand, one hundred and thirty-five"
+    },
+    "85": {
+      "input": "8242",
+      "output": "eight thousand, two hundred and forty-two"
+    },
+    "86": {
+      "input": "8324",
+      "output": "eight thousand, three hundred and twenty-four"
+    },
+    "87": {
+      "input": "8438",
+      "output": "eight thousand, four hundred and thirty-eight"
+    },
+    "88": {
+      "input": "8506",
+      "output": "eight thousand, five hundred and six"
+    },
+    "89": {
+      "input": "8678",
+      "output": "eight thousand, six hundred and seventy-eight"
+    },
+    "90": {
+      "input": "8686",
+      "output": "eight thousand, six hundred and eighty-six"
+    },
+    "91": {
+      "input": "8865",
+      "output": "eight thousand, eight hundred and sixty-five"
+    },
+    "92": {
+      "input": "9116",
+      "output": "nine thousand, one hundred and sixteen"
+    },
+    "93": {
+      "input": "9131",
+      "output": "nine thousand, one hundred and thirty-one"
+    },
+    "94": {
+      "input": "9225",
+      "output": "nine thousand, two hundred and twenty-five"
+    },
+    "95": {
+      "input": "9486",
+      "output": "nine thousand, four hundred and eighty-six"
+    },
+    "96": {
+      "input": "9539",
+      "output": "nine thousand, five hundred and thirty-nine"
+    },
+    "97": {
+      "input": "9549",
+      "output": "nine thousand, five hundred and forty-nine"
+    },
+    "98": {
+      "input": "9626",
+      "output": "nine thousand, six hundred and twenty-six"
+    },
+    "99": {
+      "input": "9747",
+      "output": "nine thousand, seven hundred and forty-seven"
+    },
+    "100": {
+      "input": "9854",
+      "output": "nine thousand, eight hundred and fifty-four"
+    }
+  }
+}

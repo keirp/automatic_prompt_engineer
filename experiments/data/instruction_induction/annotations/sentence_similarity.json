@@ -1,0 +1,10 @@
+{
+  "annotations": [
+    "Rate from 0 (definitely not) to 5 (perfectly) the degree in which both sentences describe the same event.",
+    "Rate from 0 (definitly not) to 5 (perfectly) the degree in which the two sentences describe the same thing.",
+    "Each input consists of two sentences (Sentence 1 and Sentence 2). Rate on a scale of 0 to 5 whether Sentence 1 is a paraphrase of Sentence 2",
+    "Each input consists of two sentences (Sentence 1 and Sentence 2). Rate on a scale of 0 to 5 whether those sentences are paraphrases of each other, and also give a brief textual description of the rating (0 being definitely not, 2 being possibly, 3 being probably, 4 being almost perfectly and 5 being perfectly). Use \" - \" to separate them",
+    "Score from 0 to 5 whether the two sentences describe the same event (5 being highest and 0 lowest)",
+    "Score from 0 to 5 whether the two sentences describe the same event"
+  ]
+}

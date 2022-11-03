@@ -1,0 +1,604 @@
+{
+  "examples": {
+    "1": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cougar, flea\nOutput: cougar\n\nInput: whale shark, dog\nOutput: whale shark\n\nInput: human, bald eagle\nOutput: human\n\nInput: flea, great white shark\nOutput: great white shark\n\nInput: coyote, tiger\nOutput: tiger\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: cougar, flea\nOutput: cougar\n\nInput: whale shark, dog\nOutput: whale shark\n\nInput: human, bald eagle\nOutput: human\n\nInput: flea, great white shark\nOutput: great white shark\n\nInput: coyote, tiger\nOutput: tiger"
+      }
+    },
+    "2": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: labradoodle, chinchilla\nOutput: labradoodle\n\nInput: parrot, chinook\nOutput: chinook\n\nInput: chinook, snail\nOutput: chinook\n\nInput: orangutan, puppy\nOutput: orangutan\n\nInput: pony, goldendoodle\nOutput: pony\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: labradoodle, chinchilla\nOutput: labradoodle\n\nInput: parrot, chinook\nOutput: chinook\n\nInput: chinook, snail\nOutput: chinook\n\nInput: orangutan, puppy\nOutput: orangutan\n\nInput: pony, goldendoodle\nOutput: pony"
+      }
+    },
+    "3": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dachshund, cheetah\nOutput: cheetah\n\nInput: raccoon, toy poodle\nOutput: raccoon\n\nInput: swallow, racoon\nOutput: racoon\n\nInput: polar bear, goldendoodle\nOutput: polar bear\n\nInput: bat, cougar\nOutput: cougar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dachshund, cheetah\nOutput: cheetah\n\nInput: raccoon, toy poodle\nOutput: raccoon\n\nInput: swallow, racoon\nOutput: racoon\n\nInput: polar bear, goldendoodle\nOutput: polar bear\n\nInput: bat, cougar\nOutput: cougar"
+      }
+    },
+    "4": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: elephant, chamois\nOutput: elephant\n\nInput: toy poodle, koi\nOutput: koi\n\nInput: dog, horse\nOutput: horse\n\nInput: chinook, crocodile\nOutput: crocodile\n\nInput: jaguar, common carp\nOutput: jaguar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: elephant, chamois\nOutput: elephant\n\nInput: toy poodle, koi\nOutput: koi\n\nInput: dog, horse\nOutput: horse\n\nInput: chinook, crocodile\nOutput: crocodile\n\nInput: jaguar, common carp\nOutput: jaguar"
+      }
+    },
+    "5": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: crocodile, coyote\nOutput: crocodile\n\nInput: collie, tuna\nOutput: tuna\n\nInput: rabbit, lion\nOutput: lion\n\nInput: raccoon, hippopotamus\nOutput: hippopotamus\n\nInput: killer whale, octopus\nOutput: killer whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: crocodile, coyote\nOutput: crocodile\n\nInput: collie, tuna\nOutput: tuna\n\nInput: rabbit, lion\nOutput: lion\n\nInput: raccoon, hippopotamus\nOutput: hippopotamus\n\nInput: killer whale, octopus\nOutput: killer whale"
+      }
+    },
+    "6": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: coyote, deer\nOutput: deer\n\nInput: pug, guinea pig\nOutput: pug\n\nInput: giraffe, cat\nOutput: giraffe\n\nInput: gorilla, rabbit\nOutput: gorilla\n\nInput: cougar, collie\nOutput: cougar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: coyote, deer\nOutput: deer\n\nInput: pug, guinea pig\nOutput: pug\n\nInput: giraffe, cat\nOutput: giraffe\n\nInput: gorilla, rabbit\nOutput: gorilla\n\nInput: cougar, collie\nOutput: cougar"
+      }
+    },
+    "7": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: golden retriever, lobster\nOutput: golden retriever\n\nInput: grizzly bear, labradoodle\nOutput: grizzly bear\n\nInput: bat, chinook\nOutput: chinook\n\nInput: toy poodle, poodle\nOutput: poodle\n\nInput: boxer, mosquito\nOutput: boxer\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: golden retriever, lobster\nOutput: golden retriever\n\nInput: grizzly bear, labradoodle\nOutput: grizzly bear\n\nInput: bat, chinook\nOutput: chinook\n\nInput: toy poodle, poodle\nOutput: poodle\n\nInput: boxer, mosquito\nOutput: boxer"
+      }
+    },
+    "8": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pelican, rat\nOutput: pelican\n\nInput: donkey, lobster\nOutput: donkey\n\nInput: elephant, ferret\nOutput: elephant\n\nInput: greyhound, common carp\nOutput: greyhound\n\nInput: rat terrier, whale shark\nOutput: whale shark\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pelican, rat\nOutput: pelican\n\nInput: donkey, lobster\nOutput: donkey\n\nInput: elephant, ferret\nOutput: elephant\n\nInput: greyhound, common carp\nOutput: greyhound\n\nInput: rat terrier, whale shark\nOutput: whale shark"
+      }
+    },
+    "9": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goldendoodle, jaguar\nOutput: jaguar\n\nInput: mule, donkey\nOutput: mule\n\nInput: ferret, koi\nOutput: koi\n\nInput: coyote, orangutan\nOutput: orangutan\n\nInput: chipmunk, cheetah\nOutput: cheetah\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goldendoodle, jaguar\nOutput: jaguar\n\nInput: mule, donkey\nOutput: mule\n\nInput: ferret, koi\nOutput: koi\n\nInput: coyote, orangutan\nOutput: orangutan\n\nInput: chipmunk, cheetah\nOutput: cheetah"
+      }
+    },
+    "10": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rat terrier, rat\nOutput: rat terrier\n\nInput: lobster, spider\nOutput: lobster\n\nInput: chinook, bear\nOutput: bear\n\nInput: bulldog, ferret\nOutput: bulldog\n\nInput: turtle, flea\nOutput: turtle\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rat terrier, rat\nOutput: rat terrier\n\nInput: lobster, spider\nOutput: lobster\n\nInput: chinook, bear\nOutput: bear\n\nInput: bulldog, ferret\nOutput: bulldog\n\nInput: turtle, flea\nOutput: turtle"
+      }
+    },
+    "11": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mosquito, coyote\nOutput: coyote\n\nInput: chihuahua, sperm whale\nOutput: sperm whale\n\nInput: largemouth bass, bee\nOutput: largemouth bass\n\nInput: spider, poodle\nOutput: poodle\n\nInput: camel, bat\nOutput: camel\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mosquito, coyote\nOutput: coyote\n\nInput: chihuahua, sperm whale\nOutput: sperm whale\n\nInput: largemouth bass, bee\nOutput: largemouth bass\n\nInput: spider, poodle\nOutput: poodle\n\nInput: camel, bat\nOutput: camel"
+      }
+    },
+    "12": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collie, cheetah\nOutput: cheetah\n\nInput: bald eagle, sperm whale\nOutput: sperm whale\n\nInput: tiger, racoon\nOutput: tiger\n\nInput: chihuahua, rabbit\nOutput: rabbit\n\nInput: snail, horse\nOutput: horse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: collie, cheetah\nOutput: cheetah\n\nInput: bald eagle, sperm whale\nOutput: sperm whale\n\nInput: tiger, racoon\nOutput: tiger\n\nInput: chihuahua, rabbit\nOutput: rabbit\n\nInput: snail, horse\nOutput: horse"
+      }
+    },
+    "13": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: toy poodle, common carp\nOutput: common carp\n\nInput: gorilla, bald eagle\nOutput: gorilla\n\nInput: crocodile, swallow\nOutput: crocodile\n\nInput: largemouth bass, bear\nOutput: bear\n\nInput: horse, spider\nOutput: horse\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: toy poodle, common carp\nOutput: common carp\n\nInput: gorilla, bald eagle\nOutput: gorilla\n\nInput: crocodile, swallow\nOutput: crocodile\n\nInput: largemouth bass, bear\nOutput: bear\n\nInput: horse, spider\nOutput: horse"
+      }
+    },
+    "14": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goat, poodle\nOutput: goat\n\nInput: dog, moose\nOutput: moose\n\nInput: pit bull, poodle\nOutput: pit bull\n\nInput: human, hummingbird\nOutput: human\n\nInput: camel, racoon\nOutput: camel\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goat, poodle\nOutput: goat\n\nInput: dog, moose\nOutput: moose\n\nInput: pit bull, poodle\nOutput: pit bull\n\nInput: human, hummingbird\nOutput: human\n\nInput: camel, racoon\nOutput: camel"
+      }
+    },
+    "15": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bull shark, labradoodle\nOutput: bull shark\n\nInput: elephant, poodle\nOutput: elephant\n\nInput: liger, rat\nOutput: liger\n\nInput: toy poodle, poodle\nOutput: poodle\n\nInput: cheetah, swallow\nOutput: cheetah\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bull shark, labradoodle\nOutput: bull shark\n\nInput: elephant, poodle\nOutput: elephant\n\nInput: liger, rat\nOutput: liger\n\nInput: toy poodle, poodle\nOutput: poodle\n\nInput: cheetah, swallow\nOutput: cheetah"
+      }
+    },
+    "16": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hummingbird, polar bear\nOutput: polar bear\n\nInput: goldendoodle, killer whale\nOutput: killer whale\n\nInput: goat, largemouth bass\nOutput: goat\n\nInput: lobster, sea lion\nOutput: sea lion\n\nInput: donkey, rat terrier\nOutput: donkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hummingbird, polar bear\nOutput: polar bear\n\nInput: goldendoodle, killer whale\nOutput: killer whale\n\nInput: goat, largemouth bass\nOutput: goat\n\nInput: lobster, sea lion\nOutput: sea lion\n\nInput: donkey, rat terrier\nOutput: donkey"
+      }
+    },
+    "17": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: guinea pig, whale shark\nOutput: whale shark\n\nInput: grizzly bear, puppy\nOutput: grizzly bear\n\nInput: chipmunk, elephant\nOutput: elephant\n\nInput: bat, chinook\nOutput: chinook\n\nInput: pelican, wildebeest\nOutput: wildebeest\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: guinea pig, whale shark\nOutput: whale shark\n\nInput: grizzly bear, puppy\nOutput: grizzly bear\n\nInput: chipmunk, elephant\nOutput: elephant\n\nInput: bat, chinook\nOutput: chinook\n\nInput: pelican, wildebeest\nOutput: wildebeest"
+      }
+    },
+    "18": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: koi, mouse\nOutput: koi\n\nInput: hippopotamus, parrot\nOutput: hippopotamus\n\nInput: hummingbird, hippopotamus\nOutput: hippopotamus\n\nInput: spider, deer\nOutput: deer\n\nInput: shark, rabbit\nOutput: shark\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: koi, mouse\nOutput: koi\n\nInput: hippopotamus, parrot\nOutput: hippopotamus\n\nInput: hummingbird, hippopotamus\nOutput: hippopotamus\n\nInput: spider, deer\nOutput: deer\n\nInput: shark, rabbit\nOutput: shark"
+      }
+    },
+    "19": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bald eagle, hummingbird\nOutput: bald eagle\n\nInput: chinchilla, boxer\nOutput: boxer\n\nInput: chamois, bald eagle\nOutput: chamois\n\nInput: mule, koi\nOutput: mule\n\nInput: mouse, octopus\nOutput: octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bald eagle, hummingbird\nOutput: bald eagle\n\nInput: chinchilla, boxer\nOutput: boxer\n\nInput: chamois, bald eagle\nOutput: chamois\n\nInput: mule, koi\nOutput: mule\n\nInput: mouse, octopus\nOutput: octopus"
+      }
+    },
+    "20": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bat, chamois\nOutput: chamois\n\nInput: whale shark, ferret\nOutput: whale shark\n\nInput: grizzly bear, koi\nOutput: grizzly bear\n\nInput: golden retriever, cockapoo\nOutput: golden retriever\n\nInput: mouse, octopus\nOutput: octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bat, chamois\nOutput: chamois\n\nInput: whale shark, ferret\nOutput: whale shark\n\nInput: grizzly bear, koi\nOutput: grizzly bear\n\nInput: golden retriever, cockapoo\nOutput: golden retriever\n\nInput: mouse, octopus\nOutput: octopus"
+      }
+    },
+    "21": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: elephant, puppy\nOutput: elephant\n\nInput: cockapoo, manatee\nOutput: manatee\n\nInput: alpaca, snail\nOutput: alpaca\n\nInput: chipmunk, largemouth bass\nOutput: largemouth bass\n\nInput: ferret, coyote\nOutput: coyote\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: elephant, puppy\nOutput: elephant\n\nInput: cockapoo, manatee\nOutput: manatee\n\nInput: alpaca, snail\nOutput: alpaca\n\nInput: chipmunk, largemouth bass\nOutput: largemouth bass\n\nInput: ferret, coyote\nOutput: coyote"
+      }
+    },
+    "22": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: elephant, pug\nOutput: elephant\n\nInput: elephant, ferret\nOutput: elephant\n\nInput: guinea pig, turtle\nOutput: turtle\n\nInput: sheltie, elephant\nOutput: elephant\n\nInput: spider, llama\nOutput: llama\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: elephant, pug\nOutput: elephant\n\nInput: elephant, ferret\nOutput: elephant\n\nInput: guinea pig, turtle\nOutput: turtle\n\nInput: sheltie, elephant\nOutput: elephant\n\nInput: spider, llama\nOutput: llama"
+      }
+    },
+    "23": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: butterfly, elephant\nOutput: elephant\n\nInput: dog, llama\nOutput: llama\n\nInput: mosquito, deer\nOutput: deer\n\nInput: butterfly, parrot\nOutput: parrot\n\nInput: greyhound, common carp\nOutput: greyhound\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: butterfly, elephant\nOutput: elephant\n\nInput: dog, llama\nOutput: llama\n\nInput: mosquito, deer\nOutput: deer\n\nInput: butterfly, parrot\nOutput: parrot\n\nInput: greyhound, common carp\nOutput: greyhound"
+      }
+    },
+    "24": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: moose, flea\nOutput: moose\n\nInput: dachshund, wild boar\nOutput: wild boar\n\nInput: alpaca, swallow\nOutput: alpaca\n\nInput: koala, swallow\nOutput: koala\n\nInput: lion, pelican\nOutput: lion\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: moose, flea\nOutput: moose\n\nInput: dachshund, wild boar\nOutput: wild boar\n\nInput: alpaca, swallow\nOutput: alpaca\n\nInput: koala, swallow\nOutput: koala\n\nInput: lion, pelican\nOutput: lion"
+      }
+    },
+    "25": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dachshund, capybara\nOutput: capybara\n\nInput: chipmunk, capybara\nOutput: capybara\n\nInput: liger, spider\nOutput: liger\n\nInput: alpaca, mosquito\nOutput: alpaca\n\nInput: parrot, jaguar\nOutput: jaguar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dachshund, capybara\nOutput: capybara\n\nInput: chipmunk, capybara\nOutput: capybara\n\nInput: liger, spider\nOutput: liger\n\nInput: alpaca, mosquito\nOutput: alpaca\n\nInput: parrot, jaguar\nOutput: jaguar"
+      }
+    },
+    "26": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, chihuahua\nOutput: tiger\n\nInput: chihuahua, pug\nOutput: pug\n\nInput: wombat, swallow\nOutput: wombat\n\nInput: cattle, cockapoo\nOutput: cattle\n\nInput: wolf, ferret\nOutput: wolf\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, chihuahua\nOutput: tiger\n\nInput: chihuahua, pug\nOutput: pug\n\nInput: wombat, swallow\nOutput: wombat\n\nInput: cattle, cockapoo\nOutput: cattle\n\nInput: wolf, ferret\nOutput: wolf"
+      }
+    },
+    "27": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snail, mule\nOutput: mule\n\nInput: golden retriever, chipmunk\nOutput: golden retriever\n\nInput: capybara, common carp\nOutput: capybara\n\nInput: racoon, leopard\nOutput: leopard\n\nInput: dachshund, grizzly bear\nOutput: grizzly bear\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snail, mule\nOutput: mule\n\nInput: golden retriever, chipmunk\nOutput: golden retriever\n\nInput: capybara, common carp\nOutput: capybara\n\nInput: racoon, leopard\nOutput: leopard\n\nInput: dachshund, grizzly bear\nOutput: grizzly bear"
+      }
+    },
+    "28": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: camel, swallow\nOutput: camel\n\nInput: chipmunk, polar bear\nOutput: polar bear\n\nInput: bull shark, labradoodle\nOutput: bull shark\n\nInput: octopus, shark\nOutput: shark\n\nInput: deer, goldendoodle\nOutput: deer\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: camel, swallow\nOutput: camel\n\nInput: chipmunk, polar bear\nOutput: polar bear\n\nInput: bull shark, labradoodle\nOutput: bull shark\n\nInput: octopus, shark\nOutput: shark\n\nInput: deer, goldendoodle\nOutput: deer"
+      }
+    },
+    "29": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bull shark, pelican\nOutput: bull shark\n\nInput: wildebeest, chihuahua\nOutput: wildebeest\n\nInput: common carp, horse\nOutput: horse\n\nInput: liger, mouse\nOutput: liger\n\nInput: rabbit, leopard\nOutput: leopard\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bull shark, pelican\nOutput: bull shark\n\nInput: wildebeest, chihuahua\nOutput: wildebeest\n\nInput: common carp, horse\nOutput: horse\n\nInput: liger, mouse\nOutput: liger\n\nInput: rabbit, leopard\nOutput: leopard"
+      }
+    },
+    "30": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chipmunk, giraffe\nOutput: giraffe\n\nInput: hummingbird, chinook\nOutput: chinook\n\nInput: bald eagle, sea lion\nOutput: sea lion\n\nInput: human, donkey\nOutput: human\n\nInput: pit bull, bald eagle\nOutput: pit bull\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chipmunk, giraffe\nOutput: giraffe\n\nInput: hummingbird, chinook\nOutput: chinook\n\nInput: bald eagle, sea lion\nOutput: sea lion\n\nInput: human, donkey\nOutput: human\n\nInput: pit bull, bald eagle\nOutput: pit bull"
+      }
+    },
+    "31": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: whale shark, racoon\nOutput: whale shark\n\nInput: human, collie\nOutput: human\n\nInput: manatee, labradoodle\nOutput: manatee\n\nInput: snail, labradoodle\nOutput: labradoodle\n\nInput: beagle, cheetah\nOutput: cheetah\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: whale shark, racoon\nOutput: whale shark\n\nInput: human, collie\nOutput: human\n\nInput: manatee, labradoodle\nOutput: manatee\n\nInput: snail, labradoodle\nOutput: labradoodle\n\nInput: beagle, cheetah\nOutput: cheetah"
+      }
+    },
+    "32": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goldendoodle, greyhound\nOutput: greyhound\n\nInput: alpaca, parrot\nOutput: alpaca\n\nInput: rat, koi\nOutput: koi\n\nInput: bat, chimpanzee\nOutput: chimpanzee\n\nInput: spider, chamois\nOutput: chamois\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goldendoodle, greyhound\nOutput: greyhound\n\nInput: alpaca, parrot\nOutput: alpaca\n\nInput: rat, koi\nOutput: koi\n\nInput: bat, chimpanzee\nOutput: chimpanzee\n\nInput: spider, chamois\nOutput: chamois"
+      }
+    },
+    "33": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: wildebeest, puppy\nOutput: wildebeest\n\nInput: polar bear, octopus\nOutput: polar bear\n\nInput: giraffe, largemouth bass\nOutput: giraffe\n\nInput: polar bear, butterfly\nOutput: polar bear\n\nInput: pug, bat\nOutput: pug\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: wildebeest, puppy\nOutput: wildebeest\n\nInput: polar bear, octopus\nOutput: polar bear\n\nInput: giraffe, largemouth bass\nOutput: giraffe\n\nInput: polar bear, butterfly\nOutput: polar bear\n\nInput: pug, bat\nOutput: pug"
+      }
+    },
+    "34": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: moose, sheltie\nOutput: moose\n\nInput: rat terrier, crocodile\nOutput: crocodile\n\nInput: hippopotamus, parrot\nOutput: hippopotamus\n\nInput: largemouth bass, chamois\nOutput: chamois\n\nInput: chihuahua, octopus\nOutput: octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: moose, sheltie\nOutput: moose\n\nInput: rat terrier, crocodile\nOutput: crocodile\n\nInput: hippopotamus, parrot\nOutput: hippopotamus\n\nInput: largemouth bass, chamois\nOutput: chamois\n\nInput: chihuahua, octopus\nOutput: octopus"
+      }
+    },
+    "35": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: manatee, rat\nOutput: manatee\n\nInput: elephant, snail\nOutput: elephant\n\nInput: liger, beagle\nOutput: liger\n\nInput: collie, liger\nOutput: liger\n\nInput: dachshund, cheetah\nOutput: cheetah\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: manatee, rat\nOutput: manatee\n\nInput: elephant, snail\nOutput: elephant\n\nInput: liger, beagle\nOutput: liger\n\nInput: collie, liger\nOutput: liger\n\nInput: dachshund, cheetah\nOutput: cheetah"
+      }
+    },
+    "36": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: jaguar, donkey\nOutput: jaguar\n\nInput: sperm whale, labradoodle\nOutput: sperm whale\n\nInput: guinea pig, wildebeest\nOutput: wildebeest\n\nInput: dog, elephant\nOutput: elephant\n\nInput: whale shark, cockapoo\nOutput: whale shark\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: jaguar, donkey\nOutput: jaguar\n\nInput: sperm whale, labradoodle\nOutput: sperm whale\n\nInput: guinea pig, wildebeest\nOutput: wildebeest\n\nInput: dog, elephant\nOutput: elephant\n\nInput: whale shark, cockapoo\nOutput: whale shark"
+      }
+    },
+    "37": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rat terrier, octopus\nOutput: octopus\n\nInput: ferret, capybara\nOutput: capybara\n\nInput: wildebeest, dachshund\nOutput: wildebeest\n\nInput: guinea pig, shark\nOutput: shark\n\nInput: grizzly bear, rabbit\nOutput: grizzly bear\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rat terrier, octopus\nOutput: octopus\n\nInput: ferret, capybara\nOutput: capybara\n\nInput: wildebeest, dachshund\nOutput: wildebeest\n\nInput: guinea pig, shark\nOutput: shark\n\nInput: grizzly bear, rabbit\nOutput: grizzly bear"
+      }
+    },
+    "38": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goldendoodle, cougar\nOutput: cougar\n\nInput: guinea pig, crocodile\nOutput: crocodile\n\nInput: cougar, butterfly\nOutput: cougar\n\nInput: spider, boxer\nOutput: boxer\n\nInput: golden retriever, beagle\nOutput: golden retriever\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goldendoodle, cougar\nOutput: cougar\n\nInput: guinea pig, crocodile\nOutput: crocodile\n\nInput: cougar, butterfly\nOutput: cougar\n\nInput: spider, boxer\nOutput: boxer\n\nInput: golden retriever, beagle\nOutput: golden retriever"
+      }
+    },
+    "39": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: coyote, wombat\nOutput: wombat\n\nInput: flea, elephant\nOutput: elephant\n\nInput: snail, crocodile\nOutput: crocodile\n\nInput: greyhound, parrot\nOutput: greyhound\n\nInput: killer whale, goldfish\nOutput: killer whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: coyote, wombat\nOutput: wombat\n\nInput: flea, elephant\nOutput: elephant\n\nInput: snail, crocodile\nOutput: crocodile\n\nInput: greyhound, parrot\nOutput: greyhound\n\nInput: killer whale, goldfish\nOutput: killer whale"
+      }
+    },
+    "40": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chinchilla, donkey\nOutput: donkey\n\nInput: mosquito, coyote\nOutput: coyote\n\nInput: sturgeon, largemouth bass\nOutput: sturgeon\n\nInput: wild boar, mosquito\nOutput: wild boar\n\nInput: wild boar, racoon\nOutput: wild boar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chinchilla, donkey\nOutput: donkey\n\nInput: mosquito, coyote\nOutput: coyote\n\nInput: sturgeon, largemouth bass\nOutput: sturgeon\n\nInput: wild boar, mosquito\nOutput: wild boar\n\nInput: wild boar, racoon\nOutput: wild boar"
+      }
+    },
+    "41": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: human, flea\nOutput: human\n\nInput: lobster, turtle\nOutput: turtle\n\nInput: octopus, horse\nOutput: horse\n\nInput: goldfish, great white shark\nOutput: great white shark\n\nInput: toy poodle, pony\nOutput: pony\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: human, flea\nOutput: human\n\nInput: lobster, turtle\nOutput: turtle\n\nInput: octopus, horse\nOutput: horse\n\nInput: goldfish, great white shark\nOutput: great white shark\n\nInput: toy poodle, pony\nOutput: pony"
+      }
+    },
+    "42": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goldfish, tiger\nOutput: tiger\n\nInput: capybara, toy poodle\nOutput: capybara\n\nInput: beagle, chamois\nOutput: chamois\n\nInput: cattle, snail\nOutput: cattle\n\nInput: bee, pug\nOutput: pug\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goldfish, tiger\nOutput: tiger\n\nInput: capybara, toy poodle\nOutput: capybara\n\nInput: beagle, chamois\nOutput: chamois\n\nInput: cattle, snail\nOutput: cattle\n\nInput: bee, pug\nOutput: pug"
+      }
+    },
+    "43": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cat, leopard\nOutput: leopard\n\nInput: greyhound, common carp\nOutput: greyhound\n\nInput: wolf, coyote\nOutput: wolf\n\nInput: horse, spider\nOutput: horse\n\nInput: bull shark, raccoon\nOutput: bull shark\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: cat, leopard\nOutput: leopard\n\nInput: greyhound, common carp\nOutput: greyhound\n\nInput: wolf, coyote\nOutput: wolf\n\nInput: horse, spider\nOutput: horse\n\nInput: bull shark, raccoon\nOutput: bull shark"
+      }
+    },
+    "44": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chinook, elk\nOutput: elk\n\nInput: chinook, moose\nOutput: moose\n\nInput: rat terrier, mosquito\nOutput: rat terrier\n\nInput: bulldog, mouse\nOutput: bulldog\n\nInput: koala, pit bull\nOutput: pit bull\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chinook, elk\nOutput: elk\n\nInput: chinook, moose\nOutput: moose\n\nInput: rat terrier, mosquito\nOutput: rat terrier\n\nInput: bulldog, mouse\nOutput: bulldog\n\nInput: koala, pit bull\nOutput: pit bull"
+      }
+    },
+    "45": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bat, gorilla\nOutput: gorilla\n\nInput: rat, great white shark\nOutput: great white shark\n\nInput: collie, bee\nOutput: collie\n\nInput: cat, bat\nOutput: cat\n\nInput: octopus, chinchilla\nOutput: octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bat, gorilla\nOutput: gorilla\n\nInput: rat, great white shark\nOutput: great white shark\n\nInput: collie, bee\nOutput: collie\n\nInput: cat, bat\nOutput: cat\n\nInput: octopus, chinchilla\nOutput: octopus"
+      }
+    },
+    "46": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: llama, beagle\nOutput: llama\n\nInput: mule, chinook\nOutput: mule\n\nInput: chipmunk, shark\nOutput: shark\n\nInput: sheltie, deer\nOutput: deer\n\nInput: beagle, sea lion\nOutput: sea lion\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: llama, beagle\nOutput: llama\n\nInput: mule, chinook\nOutput: mule\n\nInput: chipmunk, shark\nOutput: shark\n\nInput: sheltie, deer\nOutput: deer\n\nInput: beagle, sea lion\nOutput: sea lion"
+      }
+    },
+    "47": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chamois, moose\nOutput: moose\n\nInput: human, dachshund\nOutput: human\n\nInput: donkey, polar bear\nOutput: polar bear\n\nInput: wolf, lobster\nOutput: wolf\n\nInput: crocodile, swallow\nOutput: crocodile\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chamois, moose\nOutput: moose\n\nInput: human, dachshund\nOutput: human\n\nInput: donkey, polar bear\nOutput: polar bear\n\nInput: wolf, lobster\nOutput: wolf\n\nInput: crocodile, swallow\nOutput: crocodile"
+      }
+    },
+    "48": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mouse, camel\nOutput: camel\n\nInput: hummingbird, beagle\nOutput: beagle\n\nInput: rat terrier, pony\nOutput: pony\n\nInput: hippopotamus, spider\nOutput: hippopotamus\n\nInput: ferret, turtle\nOutput: turtle\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mouse, camel\nOutput: camel\n\nInput: hummingbird, beagle\nOutput: beagle\n\nInput: rat terrier, pony\nOutput: pony\n\nInput: hippopotamus, spider\nOutput: hippopotamus\n\nInput: ferret, turtle\nOutput: turtle"
+      }
+    },
+    "49": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: butterfly, common carp\nOutput: common carp\n\nInput: flea, octopus\nOutput: octopus\n\nInput: snail, jaguar\nOutput: jaguar\n\nInput: toy poodle, whale shark\nOutput: whale shark\n\nInput: chamois, bald eagle\nOutput: chamois\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: butterfly, common carp\nOutput: common carp\n\nInput: flea, octopus\nOutput: octopus\n\nInput: snail, jaguar\nOutput: jaguar\n\nInput: toy poodle, whale shark\nOutput: whale shark\n\nInput: chamois, bald eagle\nOutput: chamois"
+      }
+    },
+    "50": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: killer whale, flea\nOutput: killer whale\n\nInput: koi, elk\nOutput: elk\n\nInput: sperm whale, chamois\nOutput: sperm whale\n\nInput: cattle, rat\nOutput: cattle\n\nInput: human, chinchilla\nOutput: human\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: killer whale, flea\nOutput: killer whale\n\nInput: koi, elk\nOutput: elk\n\nInput: sperm whale, chamois\nOutput: sperm whale\n\nInput: cattle, rat\nOutput: cattle\n\nInput: human, chinchilla\nOutput: human"
+      }
+    },
+    "51": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bat, orangutan\nOutput: orangutan\n\nInput: wolf, lobster\nOutput: wolf\n\nInput: camel, chihuahua\nOutput: camel\n\nInput: hippopotamus, koi\nOutput: hippopotamus\n\nInput: sturgeon, hummingbird\nOutput: sturgeon\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bat, orangutan\nOutput: orangutan\n\nInput: wolf, lobster\nOutput: wolf\n\nInput: camel, chihuahua\nOutput: camel\n\nInput: hippopotamus, koi\nOutput: hippopotamus\n\nInput: sturgeon, hummingbird\nOutput: sturgeon"
+      }
+    },
+    "52": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: cattle, mosquito\nOutput: cattle\n\nInput: chihuahua, bull shark\nOutput: bull shark\n\nInput: labradoodle, wombat\nOutput: wombat\n\nInput: puppy, crocodile\nOutput: crocodile\n\nInput: whale shark, rabbit\nOutput: whale shark\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: cattle, mosquito\nOutput: cattle\n\nInput: chihuahua, bull shark\nOutput: bull shark\n\nInput: labradoodle, wombat\nOutput: wombat\n\nInput: puppy, crocodile\nOutput: crocodile\n\nInput: whale shark, rabbit\nOutput: whale shark"
+      }
+    },
+    "53": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: labradoodle, gorilla\nOutput: gorilla\n\nInput: rat, chamois\nOutput: chamois\n\nInput: bat, capybara\nOutput: capybara\n\nInput: beagle, wild boar\nOutput: wild boar\n\nInput: guinea pig, largemouth bass\nOutput: largemouth bass\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: labradoodle, gorilla\nOutput: gorilla\n\nInput: rat, chamois\nOutput: chamois\n\nInput: bat, capybara\nOutput: capybara\n\nInput: beagle, wild boar\nOutput: wild boar\n\nInput: guinea pig, largemouth bass\nOutput: largemouth bass"
+      }
+    },
+    "54": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hummingbird, turtle\nOutput: turtle\n\nInput: pug, shark\nOutput: shark\n\nInput: koala, golden retriever\nOutput: golden retriever\n\nInput: mosquito, turtle\nOutput: turtle\n\nInput: chinook, elephant\nOutput: elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hummingbird, turtle\nOutput: turtle\n\nInput: pug, shark\nOutput: shark\n\nInput: koala, golden retriever\nOutput: golden retriever\n\nInput: mosquito, turtle\nOutput: turtle\n\nInput: chinook, elephant\nOutput: elephant"
+      }
+    },
+    "55": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, chihuahua\nOutput: tiger\n\nInput: chinook, rabbit\nOutput: chinook\n\nInput: sturgeon, coyote\nOutput: sturgeon\n\nInput: bald eagle, rat\nOutput: bald eagle\n\nInput: llama, koala\nOutput: llama\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, chihuahua\nOutput: tiger\n\nInput: chinook, rabbit\nOutput: chinook\n\nInput: sturgeon, coyote\nOutput: sturgeon\n\nInput: bald eagle, rat\nOutput: bald eagle\n\nInput: llama, koala\nOutput: llama"
+      }
+    },
+    "56": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: dachshund, bull shark\nOutput: bull shark\n\nInput: sea lion, chinchilla\nOutput: sea lion\n\nInput: butterfly, elk\nOutput: elk\n\nInput: dog, goldfish\nOutput: dog\n\nInput: spider, wild boar\nOutput: wild boar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: dachshund, bull shark\nOutput: bull shark\n\nInput: sea lion, chinchilla\nOutput: sea lion\n\nInput: butterfly, elk\nOutput: elk\n\nInput: dog, goldfish\nOutput: dog\n\nInput: spider, wild boar\nOutput: wild boar"
+      }
+    },
+    "57": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: crocodile, chihuahua\nOutput: crocodile\n\nInput: donkey, koi\nOutput: donkey\n\nInput: orangutan, puppy\nOutput: orangutan\n\nInput: cheetah, spider\nOutput: cheetah\n\nInput: beagle, chihuahua\nOutput: beagle\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: crocodile, chihuahua\nOutput: crocodile\n\nInput: donkey, koi\nOutput: donkey\n\nInput: orangutan, puppy\nOutput: orangutan\n\nInput: cheetah, spider\nOutput: cheetah\n\nInput: beagle, chihuahua\nOutput: beagle"
+      }
+    },
+    "58": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: raccoon, wild boar\nOutput: wild boar\n\nInput: lion, alpaca\nOutput: lion\n\nInput: chinchilla, lion\nOutput: lion\n\nInput: labradoodle, turtle\nOutput: turtle\n\nInput: raccoon, golden retriever\nOutput: golden retriever\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: raccoon, wild boar\nOutput: wild boar\n\nInput: lion, alpaca\nOutput: lion\n\nInput: chinchilla, lion\nOutput: lion\n\nInput: labradoodle, turtle\nOutput: turtle\n\nInput: raccoon, golden retriever\nOutput: golden retriever"
+      }
+    },
+    "59": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: racoon, cattle\nOutput: cattle\n\nInput: beagle, goat\nOutput: goat\n\nInput: whale shark, ferret\nOutput: whale shark\n\nInput: camel, raccoon\nOutput: camel\n\nInput: mouse, killer whale\nOutput: killer whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: racoon, cattle\nOutput: cattle\n\nInput: beagle, goat\nOutput: goat\n\nInput: whale shark, ferret\nOutput: whale shark\n\nInput: camel, raccoon\nOutput: camel\n\nInput: mouse, killer whale\nOutput: killer whale"
+      }
+    },
+    "60": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chamois, koala\nOutput: chamois\n\nInput: lion, koi\nOutput: lion\n\nInput: rat terrier, alpaca\nOutput: alpaca\n\nInput: lion, hummingbird\nOutput: lion\n\nInput: butterfly, hippopotamus\nOutput: hippopotamus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chamois, koala\nOutput: chamois\n\nInput: lion, koi\nOutput: lion\n\nInput: rat terrier, alpaca\nOutput: alpaca\n\nInput: lion, hummingbird\nOutput: lion\n\nInput: butterfly, hippopotamus\nOutput: hippopotamus"
+      }
+    },
+    "61": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mule, chinook\nOutput: mule\n\nInput: turtle, spider\nOutput: turtle\n\nInput: cockapoo, llama\nOutput: llama\n\nInput: bat, whale shark\nOutput: whale shark\n\nInput: tortoise, bald eagle\nOutput: tortoise\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mule, chinook\nOutput: mule\n\nInput: turtle, spider\nOutput: turtle\n\nInput: cockapoo, llama\nOutput: llama\n\nInput: bat, whale shark\nOutput: whale shark\n\nInput: tortoise, bald eagle\nOutput: tortoise"
+      }
+    },
+    "62": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mouse, cat\nOutput: cat\n\nInput: human, spider\nOutput: human\n\nInput: wombat, snail\nOutput: wombat\n\nInput: goldfish, pelican\nOutput: pelican\n\nInput: lion, parrot\nOutput: lion\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mouse, cat\nOutput: cat\n\nInput: human, spider\nOutput: human\n\nInput: wombat, snail\nOutput: wombat\n\nInput: goldfish, pelican\nOutput: pelican\n\nInput: lion, parrot\nOutput: lion"
+      }
+    },
+    "63": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mosquito, crocodile\nOutput: crocodile\n\nInput: rat terrier, wombat\nOutput: wombat\n\nInput: mule, cat\nOutput: mule\n\nInput: goldendoodle, gorilla\nOutput: gorilla\n\nInput: common carp, boxer\nOutput: boxer\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mosquito, crocodile\nOutput: crocodile\n\nInput: rat terrier, wombat\nOutput: wombat\n\nInput: mule, cat\nOutput: mule\n\nInput: goldendoodle, gorilla\nOutput: gorilla\n\nInput: common carp, boxer\nOutput: boxer"
+      }
+    },
+    "64": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: hummingbird, tuna\nOutput: tuna\n\nInput: llama, chihuahua\nOutput: llama\n\nInput: bald eagle, grizzly bear\nOutput: grizzly bear\n\nInput: raccoon, moose\nOutput: moose\n\nInput: bulldog, rat\nOutput: bulldog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: hummingbird, tuna\nOutput: tuna\n\nInput: llama, chihuahua\nOutput: llama\n\nInput: bald eagle, grizzly bear\nOutput: grizzly bear\n\nInput: raccoon, moose\nOutput: moose\n\nInput: bulldog, rat\nOutput: bulldog"
+      }
+    },
+    "65": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: collie, bulldog\nOutput: bulldog\n\nInput: mosquito, elephant\nOutput: elephant\n\nInput: camel, pug\nOutput: camel\n\nInput: sperm whale, chamois\nOutput: sperm whale\n\nInput: pony, bee\nOutput: pony\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: collie, bulldog\nOutput: bulldog\n\nInput: mosquito, elephant\nOutput: elephant\n\nInput: camel, pug\nOutput: camel\n\nInput: sperm whale, chamois\nOutput: sperm whale\n\nInput: pony, bee\nOutput: pony"
+      }
+    },
+    "66": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: parrot, wildebeest\nOutput: wildebeest\n\nInput: great white shark, labradoodle\nOutput: great white shark\n\nInput: rat, polar bear\nOutput: polar bear\n\nInput: octopus, butterfly\nOutput: octopus\n\nInput: crocodile, common carp\nOutput: crocodile\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: parrot, wildebeest\nOutput: wildebeest\n\nInput: great white shark, labradoodle\nOutput: great white shark\n\nInput: rat, polar bear\nOutput: polar bear\n\nInput: octopus, butterfly\nOutput: octopus\n\nInput: crocodile, common carp\nOutput: crocodile"
+      }
+    },
+    "67": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: leopard, largemouth bass\nOutput: leopard\n\nInput: sea lion, flea\nOutput: sea lion\n\nInput: parrot, tuna\nOutput: tuna\n\nInput: largemouth bass, bull shark\nOutput: bull shark\n\nInput: dachshund, turtle\nOutput: turtle\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: leopard, largemouth bass\nOutput: leopard\n\nInput: sea lion, flea\nOutput: sea lion\n\nInput: parrot, tuna\nOutput: tuna\n\nInput: largemouth bass, bull shark\nOutput: bull shark\n\nInput: dachshund, turtle\nOutput: turtle"
+      }
+    },
+    "68": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: goat, goldendoodle\nOutput: goat\n\nInput: chipmunk, beagle\nOutput: beagle\n\nInput: dachshund, capybara\nOutput: capybara\n\nInput: spider, manatee\nOutput: manatee\n\nInput: cattle, collie\nOutput: cattle\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: goat, goldendoodle\nOutput: goat\n\nInput: chipmunk, beagle\nOutput: beagle\n\nInput: dachshund, capybara\nOutput: capybara\n\nInput: spider, manatee\nOutput: manatee\n\nInput: cattle, collie\nOutput: cattle"
+      }
+    },
+    "69": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rabbit, chipmunk\nOutput: rabbit\n\nInput: racoon, shark\nOutput: shark\n\nInput: tiger, alpaca\nOutput: tiger\n\nInput: llama, bat\nOutput: llama\n\nInput: tuna, chipmunk\nOutput: tuna\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rabbit, chipmunk\nOutput: rabbit\n\nInput: racoon, shark\nOutput: shark\n\nInput: tiger, alpaca\nOutput: tiger\n\nInput: llama, bat\nOutput: llama\n\nInput: tuna, chipmunk\nOutput: tuna"
+      }
+    },
+    "70": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: killer whale, cockapoo\nOutput: killer whale\n\nInput: labradoodle, pit bull\nOutput: pit bull\n\nInput: goat, rat terrier\nOutput: goat\n\nInput: manatee, rat\nOutput: manatee\n\nInput: deer, flea\nOutput: deer\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: killer whale, cockapoo\nOutput: killer whale\n\nInput: labradoodle, pit bull\nOutput: pit bull\n\nInput: goat, rat terrier\nOutput: goat\n\nInput: manatee, rat\nOutput: manatee\n\nInput: deer, flea\nOutput: deer"
+      }
+    },
+    "71": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: lion, bald eagle\nOutput: lion\n\nInput: elephant, bald eagle\nOutput: elephant\n\nInput: gorilla, goldfish\nOutput: gorilla\n\nInput: poodle, swallow\nOutput: poodle\n\nInput: coyote, elephant\nOutput: elephant\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: lion, bald eagle\nOutput: lion\n\nInput: elephant, bald eagle\nOutput: elephant\n\nInput: gorilla, goldfish\nOutput: gorilla\n\nInput: poodle, swallow\nOutput: poodle\n\nInput: coyote, elephant\nOutput: elephant"
+      }
+    },
+    "72": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: mouse, grizzly bear\nOutput: grizzly bear\n\nInput: goldfish, parrot\nOutput: parrot\n\nInput: liger, spider\nOutput: liger\n\nInput: butterfly, raccoon\nOutput: raccoon\n\nInput: ferret, parrot\nOutput: parrot\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: mouse, grizzly bear\nOutput: grizzly bear\n\nInput: goldfish, parrot\nOutput: parrot\n\nInput: liger, spider\nOutput: liger\n\nInput: butterfly, raccoon\nOutput: raccoon\n\nInput: ferret, parrot\nOutput: parrot"
+      }
+    },
+    "73": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: wildebeest, ferret\nOutput: wildebeest\n\nInput: bear, swallow\nOutput: bear\n\nInput: spider, collie\nOutput: collie\n\nInput: puppy, sea lion\nOutput: sea lion\n\nInput: tuna, chinchilla\nOutput: tuna\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: wildebeest, ferret\nOutput: wildebeest\n\nInput: bear, swallow\nOutput: bear\n\nInput: spider, collie\nOutput: collie\n\nInput: puppy, sea lion\nOutput: sea lion\n\nInput: tuna, chinchilla\nOutput: tuna"
+      }
+    },
+    "74": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: octopus, liger\nOutput: liger\n\nInput: chinook, chipmunk\nOutput: chinook\n\nInput: donkey, tiger\nOutput: tiger\n\nInput: elephant, octopus\nOutput: elephant\n\nInput: greyhound, mouse\nOutput: greyhound\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: octopus, liger\nOutput: liger\n\nInput: chinook, chipmunk\nOutput: chinook\n\nInput: donkey, tiger\nOutput: tiger\n\nInput: elephant, octopus\nOutput: elephant\n\nInput: greyhound, mouse\nOutput: greyhound"
+      }
+    },
+    "75": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: butterfly, killer whale\nOutput: killer whale\n\nInput: cheetah, sheltie\nOutput: cheetah\n\nInput: lion, puppy\nOutput: lion\n\nInput: tortoise, pug\nOutput: tortoise\n\nInput: rat terrier, chinook\nOutput: chinook\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: butterfly, killer whale\nOutput: killer whale\n\nInput: cheetah, sheltie\nOutput: cheetah\n\nInput: lion, puppy\nOutput: lion\n\nInput: tortoise, pug\nOutput: tortoise\n\nInput: rat terrier, chinook\nOutput: chinook"
+      }
+    },
+    "76": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: toy poodle, cat\nOutput: cat\n\nInput: llama, koi\nOutput: llama\n\nInput: giraffe, coyote\nOutput: giraffe\n\nInput: chihuahua, racoon\nOutput: racoon\n\nInput: parrot, bat\nOutput: parrot\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: toy poodle, cat\nOutput: cat\n\nInput: llama, koi\nOutput: llama\n\nInput: giraffe, coyote\nOutput: giraffe\n\nInput: chihuahua, racoon\nOutput: racoon\n\nInput: parrot, bat\nOutput: parrot"
+      }
+    },
+    "77": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: grizzly bear, goldfish\nOutput: grizzly bear\n\nInput: mule, cockapoo\nOutput: mule\n\nInput: flea, goldendoodle\nOutput: goldendoodle\n\nInput: koala, guinea pig\nOutput: koala\n\nInput: butterfly, parrot\nOutput: parrot\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: grizzly bear, goldfish\nOutput: grizzly bear\n\nInput: mule, cockapoo\nOutput: mule\n\nInput: flea, goldendoodle\nOutput: goldendoodle\n\nInput: koala, guinea pig\nOutput: koala\n\nInput: butterfly, parrot\nOutput: parrot"
+      }
+    },
+    "78": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bald eagle, chipmunk\nOutput: bald eagle\n\nInput: pony, hummingbird\nOutput: pony\n\nInput: butterfly, alpaca\nOutput: alpaca\n\nInput: chinook, coyote\nOutput: chinook\n\nInput: pelican, sea lion\nOutput: sea lion\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bald eagle, chipmunk\nOutput: bald eagle\n\nInput: pony, hummingbird\nOutput: pony\n\nInput: butterfly, alpaca\nOutput: alpaca\n\nInput: chinook, coyote\nOutput: chinook\n\nInput: pelican, sea lion\nOutput: sea lion"
+      }
+    },
+    "79": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: shark, butterfly\nOutput: shark\n\nInput: rabbit, tiger\nOutput: tiger\n\nInput: hummingbird, pug\nOutput: pug\n\nInput: collie, crocodile\nOutput: crocodile\n\nInput: octopus, pony\nOutput: pony\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: shark, butterfly\nOutput: shark\n\nInput: rabbit, tiger\nOutput: tiger\n\nInput: hummingbird, pug\nOutput: pug\n\nInput: collie, crocodile\nOutput: crocodile\n\nInput: octopus, pony\nOutput: pony"
+      }
+    },
+    "80": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: tiger, chipmunk\nOutput: tiger\n\nInput: liger, toy poodle\nOutput: liger\n\nInput: lobster, goat\nOutput: goat\n\nInput: racoon, polar bear\nOutput: polar bear\n\nInput: dog, rat\nOutput: dog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: tiger, chipmunk\nOutput: tiger\n\nInput: liger, toy poodle\nOutput: liger\n\nInput: lobster, goat\nOutput: goat\n\nInput: racoon, polar bear\nOutput: polar bear\n\nInput: dog, rat\nOutput: dog"
+      }
+    },
+    "81": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: beagle, manatee\nOutput: manatee\n\nInput: bull shark, ferret\nOutput: bull shark\n\nInput: sheltie, shark\nOutput: shark\n\nInput: cheetah, spider\nOutput: cheetah\n\nInput: donkey, lobster\nOutput: donkey\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: beagle, manatee\nOutput: manatee\n\nInput: bull shark, ferret\nOutput: bull shark\n\nInput: sheltie, shark\nOutput: shark\n\nInput: cheetah, spider\nOutput: cheetah\n\nInput: donkey, lobster\nOutput: donkey"
+      }
+    },
+    "82": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chimpanzee, goldfish\nOutput: chimpanzee\n\nInput: parrot, bat\nOutput: parrot\n\nInput: tiger, common carp\nOutput: tiger\n\nInput: spider, chinook\nOutput: chinook\n\nInput: alpaca, chihuahua\nOutput: alpaca\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chimpanzee, goldfish\nOutput: chimpanzee\n\nInput: parrot, bat\nOutput: parrot\n\nInput: tiger, common carp\nOutput: tiger\n\nInput: spider, chinook\nOutput: chinook\n\nInput: alpaca, chihuahua\nOutput: alpaca"
+      }
+    },
+    "83": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: koala, pit bull\nOutput: pit bull\n\nInput: chinchilla, killer whale\nOutput: killer whale\n\nInput: golden retriever, guinea pig\nOutput: golden retriever\n\nInput: liger, labradoodle\nOutput: liger\n\nInput: spider, capybara\nOutput: capybara\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: koala, pit bull\nOutput: pit bull\n\nInput: chinchilla, killer whale\nOutput: killer whale\n\nInput: golden retriever, guinea pig\nOutput: golden retriever\n\nInput: liger, labradoodle\nOutput: liger\n\nInput: spider, capybara\nOutput: capybara"
+      }
+    },
+    "84": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chinchilla, killer whale\nOutput: killer whale\n\nInput: chihuahua, octopus\nOutput: octopus\n\nInput: goldendoodle, moose\nOutput: moose\n\nInput: butterfly, puppy\nOutput: puppy\n\nInput: sturgeon, parrot\nOutput: sturgeon\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chinchilla, killer whale\nOutput: killer whale\n\nInput: chihuahua, octopus\nOutput: octopus\n\nInput: goldendoodle, moose\nOutput: moose\n\nInput: butterfly, puppy\nOutput: puppy\n\nInput: sturgeon, parrot\nOutput: sturgeon"
+      }
+    },
+    "85": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pug, liger\nOutput: liger\n\nInput: labradoodle, toy poodle\nOutput: labradoodle\n\nInput: guinea pig, tiger\nOutput: tiger\n\nInput: bee, chinook\nOutput: chinook\n\nInput: swallow, greyhound\nOutput: greyhound\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pug, liger\nOutput: liger\n\nInput: labradoodle, toy poodle\nOutput: labradoodle\n\nInput: guinea pig, tiger\nOutput: tiger\n\nInput: bee, chinook\nOutput: chinook\n\nInput: swallow, greyhound\nOutput: greyhound"
+      }
+    },
+    "86": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: camel, parrot\nOutput: camel\n\nInput: chihuahua, greyhound\nOutput: greyhound\n\nInput: tuna, bat\nOutput: tuna\n\nInput: hippopotamus, puppy\nOutput: hippopotamus\n\nInput: koi, alpaca\nOutput: alpaca\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: camel, parrot\nOutput: camel\n\nInput: chihuahua, greyhound\nOutput: greyhound\n\nInput: tuna, bat\nOutput: tuna\n\nInput: hippopotamus, puppy\nOutput: hippopotamus\n\nInput: koi, alpaca\nOutput: alpaca"
+      }
+    },
+    "87": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: elephant, dog\nOutput: elephant\n\nInput: butterfly, llama\nOutput: llama\n\nInput: bee, golden retriever\nOutput: golden retriever\n\nInput: bull shark, pug\nOutput: bull shark\n\nInput: bulldog, pelican\nOutput: bulldog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: elephant, dog\nOutput: elephant\n\nInput: butterfly, llama\nOutput: llama\n\nInput: bee, golden retriever\nOutput: golden retriever\n\nInput: bull shark, pug\nOutput: bull shark\n\nInput: bulldog, pelican\nOutput: bulldog"
+      }
+    },
+    "88": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: grizzly bear, snail\nOutput: grizzly bear\n\nInput: common carp, shark\nOutput: shark\n\nInput: gorilla, bald eagle\nOutput: gorilla\n\nInput: giraffe, spider\nOutput: giraffe\n\nInput: cockapoo, manatee\nOutput: manatee\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: grizzly bear, snail\nOutput: grizzly bear\n\nInput: common carp, shark\nOutput: shark\n\nInput: gorilla, bald eagle\nOutput: gorilla\n\nInput: giraffe, spider\nOutput: giraffe\n\nInput: cockapoo, manatee\nOutput: manatee"
+      }
+    },
+    "89": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rat terrier, tuna\nOutput: tuna\n\nInput: chihuahua, sea lion\nOutput: sea lion\n\nInput: beagle, sturgeon\nOutput: sturgeon\n\nInput: chinook, elk\nOutput: elk\n\nInput: octopus, chinchilla\nOutput: octopus\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rat terrier, tuna\nOutput: tuna\n\nInput: chihuahua, sea lion\nOutput: sea lion\n\nInput: beagle, sturgeon\nOutput: sturgeon\n\nInput: chinook, elk\nOutput: elk\n\nInput: octopus, chinchilla\nOutput: octopus"
+      }
+    },
+    "90": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: boxer, pug\nOutput: boxer\n\nInput: mule, racoon\nOutput: mule\n\nInput: chipmunk, coyote\nOutput: coyote\n\nInput: gorilla, rabbit\nOutput: gorilla\n\nInput: goldendoodle, sea lion\nOutput: sea lion\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: boxer, pug\nOutput: boxer\n\nInput: mule, racoon\nOutput: mule\n\nInput: chipmunk, coyote\nOutput: coyote\n\nInput: gorilla, rabbit\nOutput: gorilla\n\nInput: goldendoodle, sea lion\nOutput: sea lion"
+      }
+    },
+    "91": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: pelican, sea lion\nOutput: sea lion\n\nInput: wombat, pelican\nOutput: wombat\n\nInput: shark, goldendoodle\nOutput: shark\n\nInput: collie, snail\nOutput: collie\n\nInput: turtle, puppy\nOutput: turtle\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: pelican, sea lion\nOutput: sea lion\n\nInput: wombat, pelican\nOutput: wombat\n\nInput: shark, goldendoodle\nOutput: shark\n\nInput: collie, snail\nOutput: collie\n\nInput: turtle, puppy\nOutput: turtle"
+      }
+    },
+    "92": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: wombat, koala\nOutput: wombat\n\nInput: chimpanzee, coyote\nOutput: chimpanzee\n\nInput: pelican, orangutan\nOutput: orangutan\n\nInput: spider, elephant\nOutput: elephant\n\nInput: coyote, snail\nOutput: coyote\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: wombat, koala\nOutput: wombat\n\nInput: chimpanzee, coyote\nOutput: chimpanzee\n\nInput: pelican, orangutan\nOutput: orangutan\n\nInput: spider, elephant\nOutput: elephant\n\nInput: coyote, snail\nOutput: coyote"
+      }
+    },
+    "93": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: manatee, lobster\nOutput: manatee\n\nInput: parrot, pony\nOutput: pony\n\nInput: coyote, bee\nOutput: coyote\n\nInput: sperm whale, snail\nOutput: sperm whale\n\nInput: capybara, parrot\nOutput: capybara\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: manatee, lobster\nOutput: manatee\n\nInput: parrot, pony\nOutput: pony\n\nInput: coyote, bee\nOutput: coyote\n\nInput: sperm whale, snail\nOutput: sperm whale\n\nInput: capybara, parrot\nOutput: capybara"
+      }
+    },
+    "94": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: rat, collie\nOutput: collie\n\nInput: puppy, whale shark\nOutput: whale shark\n\nInput: cat, elephant\nOutput: elephant\n\nInput: killer whale, hummingbird\nOutput: killer whale\n\nInput: dog, chinook\nOutput: chinook\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: rat, collie\nOutput: collie\n\nInput: puppy, whale shark\nOutput: whale shark\n\nInput: cat, elephant\nOutput: elephant\n\nInput: killer whale, hummingbird\nOutput: killer whale\n\nInput: dog, chinook\nOutput: chinook"
+      }
+    },
+    "95": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chamois, parrot\nOutput: chamois\n\nInput: sperm whale, snail\nOutput: sperm whale\n\nInput: cougar, largemouth bass\nOutput: cougar\n\nInput: elk, poodle\nOutput: elk\n\nInput: hummingbird, chimpanzee\nOutput: chimpanzee\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chamois, parrot\nOutput: chamois\n\nInput: sperm whale, snail\nOutput: sperm whale\n\nInput: cougar, largemouth bass\nOutput: cougar\n\nInput: elk, poodle\nOutput: elk\n\nInput: hummingbird, chimpanzee\nOutput: chimpanzee"
+      }
+    },
+    "96": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: bulldog, goldendoodle\nOutput: bulldog\n\nInput: collie, chimpanzee\nOutput: chimpanzee\n\nInput: cattle, common carp\nOutput: cattle\n\nInput: cat, elephant\nOutput: elephant\n\nInput: sea lion, cockapoo\nOutput: sea lion\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: bulldog, goldendoodle\nOutput: bulldog\n\nInput: collie, chimpanzee\nOutput: chimpanzee\n\nInput: cattle, common carp\nOutput: cattle\n\nInput: cat, elephant\nOutput: elephant\n\nInput: sea lion, cockapoo\nOutput: sea lion"
+      }
+    },
+    "97": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: spider, goldendoodle\nOutput: goldendoodle\n\nInput: boxer, puppy\nOutput: boxer\n\nInput: elephant, spider\nOutput: elephant\n\nInput: poodle, cheetah\nOutput: cheetah\n\nInput: chinchilla, jaguar\nOutput: jaguar\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: spider, goldendoodle\nOutput: goldendoodle\n\nInput: boxer, puppy\nOutput: boxer\n\nInput: elephant, spider\nOutput: elephant\n\nInput: poodle, cheetah\nOutput: cheetah\n\nInput: chinchilla, jaguar\nOutput: jaguar"
+      }
+    },
+    "98": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: largemouth bass, elephant\nOutput: elephant\n\nInput: coyote, tiger\nOutput: tiger\n\nInput: rabbit, golden retriever\nOutput: golden retriever\n\nInput: dog, manatee\nOutput: manatee\n\nInput: butterfly, bear\nOutput: bear\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: largemouth bass, elephant\nOutput: elephant\n\nInput: coyote, tiger\nOutput: tiger\n\nInput: rabbit, golden retriever\nOutput: golden retriever\n\nInput: dog, manatee\nOutput: manatee\n\nInput: butterfly, bear\nOutput: bear"
+      }
+    },
+    "99": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: snail, puppy\nOutput: puppy\n\nInput: bear, chinchilla\nOutput: bear\n\nInput: bee, gorilla\nOutput: gorilla\n\nInput: chamois, jaguar\nOutput: jaguar\n\nInput: rabbit, bulldog\nOutput: bulldog\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: snail, puppy\nOutput: puppy\n\nInput: bear, chinchilla\nOutput: bear\n\nInput: bee, gorilla\nOutput: gorilla\n\nInput: chamois, jaguar\nOutput: jaguar\n\nInput: rabbit, bulldog\nOutput: bulldog"
+      }
+    },
+    "100": {
+      "input": "I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs.\nHere are the input-output pairs:\n\nInput: chamois, rabbit\nOutput: chamois\n\nInput: donkey, rat terrier\nOutput: donkey\n\nInput: pelican, orangutan\nOutput: orangutan\n\nInput: pelican, cougar\nOutput: cougar\n\nInput: killer whale, sheltie\nOutput: killer whale\n\nThe instruction was",
+      "metadata": {
+        "examples_seen": "Input: chamois, rabbit\nOutput: chamois\n\nInput: donkey, rat terrier\nOutput: donkey\n\nInput: pelican, orangutan\nOutput: orangutan\n\nInput: pelican, cougar\nOutput: cougar\n\nInput: killer whale, sheltie\nOutput: killer whale"
+      }
+    }
+  }
+}
