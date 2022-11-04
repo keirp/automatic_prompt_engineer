@@ -164,7 +164,7 @@ def run_ape(prompt_gen_data, eval_data,
     df = prompts_to_df(prompts, scores)
     generation_query = ape.get_generation_query(eval_template, demos_template, conf, prompt_gen_data,
                                                 prompt_gen_template)[0]
-    evaluation_query = ape.get_evaluation_query(eval_template, demos_template, conf, eval_data, prompt_gen_data)
+    evaluation_query = ape.get_evaluation_query(eval_template, demos_template, conf, eval_data, prompt_gen_data)[0]
 
     return df, generation_query, evaluation_query, prompts[0], prompts[0], scores[0]
 

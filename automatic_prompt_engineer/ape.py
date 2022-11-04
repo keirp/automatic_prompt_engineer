@@ -219,7 +219,7 @@ def estimate_cost(eval_template,
 
     # Compute cost of prompt generation
     queries = get_generation_query(
-        eval_template, demos_template, conf, prompt_gen_data, prompt_gen_template)
+        eval_template, demos_template, conf, prompt_gen_data, prompt_gen_template, num_query=50)
 
     query_cost = 0
     for query in queries:
@@ -232,17 +232,19 @@ def estimate_cost(eval_template,
     if few_shot_data is None:
         few_shot_data = prompt_gen_data
 
-    query = get_evaluation_query(
-        eval_template, demos_template, conf, eval_data, few_shot_data, eval_query)
+    queries = get_evaluation_query(
+        eval_template, demos_template, conf, eval_data, few_shot_data, eval_query, num_query=50)
 
     if conf['evaluation']['method'] == 'bandits':
-        eval_cost = llm.gpt_get_estimated_cost(
-            conf['evaluation']['base_eval_config']['model'], query, 0)
+        model_name = conf['evaluation']['base_eval_config']['model']
     else:
-        eval_cost = llm.gpt_get_estimated_cost(
-            conf['evaluation']['model'], query, 0)
+        model_name = conf['evaluation']['model']
 
-    total_eval_cost = eval_cost * num_evals
+    query_cost = 0
+    for query in queries:
+        query_cost += llm.gpt_get_estimated_cost(model_name, query, 0)
+
+    total_eval_cost = query_cost / len(queries) * num_evals
 
     return total_query_cost + total_eval_cost
 
@@ -251,7 +253,8 @@ def get_generation_query(eval_template,
                          demos_template,
                          conf,
                          prompt_gen_data,
-                         prompt_gen_template=None):
+                         prompt_gen_template=None,
+                         num_query=1):
     # Generate prompts
     eval_template = template.EvalTemplate(eval_template)
     demos_template = template.DemosTemplate(demos_template)
@@ -262,7 +265,7 @@ def get_generation_query(eval_template,
 
     # First, generate a few prompt queries:
     queries = []
-    for _ in range(conf['generation']['num_subsamples']):
+    for _ in range(num_query):
         subsampled_data = data.subsample_data(
             prompt_gen_data, conf['generation']['num_demos'])
         queries.append(generate.get_query(prompt_gen_template,
@@ -276,7 +279,8 @@ def get_evaluation_query(eval_template,
                          conf,
                          eval_data,
                          few_shot_data,
-                         eval_query=None
+                         eval_query=None,
+                         num_query=1
                          ):
     eval_template = template.EvalTemplate(eval_template)
     demos_template = template.DemosTemplate(demos_template)
@@ -298,9 +302,13 @@ def get_evaluation_query(eval_template,
 
     max_prompt_len = conf['generation']['model']['gpt_config']['max_tokens']
     filler_prompt = 'GGGG' * max_prompt_len
-    idx = random.randint(0, len(eval_data[0]) - 1)
-    input_, output_ = eval_data[0][idx], eval_data[1][idx]
-    demo_data = data.subsample_data(few_shot_data, num_few_shot)
-    query = eval_query(filler_prompt, eval_template, input_,
-                       output_, demo_data, demos_template)[0]
-    return query
+
+    queries = []
+    for _ in range(num_query):
+        idx = random.randint(0, len(eval_data[0]) - 1)
+        input_, output_ = eval_data[0][idx], eval_data[1][idx]
+        demo_data = data.subsample_data(few_shot_data, num_few_shot)
+        query = eval_query(filler_prompt, eval_template, input_,
+                           output_, demo_data, demos_template)[0]
+        queries.append(query)
+    return queries
