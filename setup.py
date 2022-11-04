@@ -14,5 +14,6 @@ setup(
         'openai',
         'fire',
         'tqdm',
+        'gradio',
     ],
 )
