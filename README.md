@@ -3,6 +3,8 @@
 Yongchao Zhou*, Andrei Ioan Muresanu*, Ziwen Han\*, Keiran Paster, Silviu Pitis, Harris Chan, Jimmy Ba
 
 [Project Page](https://sites.google.com/view/automatic-prompt-engineer) | [ArXiv](https://arxiv.org/abs/2211.01910)
+| [Colab](https://colab.research.google.com/drive/1Hrz6Q7GFdH5OVg3Dis86f5OqiGdkDfRP?usp=sharing)
+| [Demo](https://colab.research.google.com/drive/1oL1CcvzRybAbmeqs--2csaIvSOpjH072?usp=sharing)
 
 This repo contains code for "Large Language Models Are Human-Level Prompt Engineers". Please see our
 paper and project page for more results.
@@ -38,13 +40,16 @@ export OPENAI_API_KEY=YOUR_KEY
 
 ## Using `APE`
 
-APE comes with two interfaces, the `find_prompts` function and a simplified version which takes care of most of the configuration for you.
+APE comes with two interfaces, the `find_prompts` function and a simplified version which takes care of most of the
+configuration for you.
 
 ### Templates :memo:
 
-APE is built around three types of templates: evaluation templates, prompt generation templates, and demonstration templates.
+APE is built around three types of templates: evaluation templates, prompt generation templates, and demonstration
+templates.
 
-The evaluation template (`eval_template`) defines the format of the input to the language model used to evaluate the quality of different prompts. The template supports the following tokens:
+The evaluation template (`eval_template`) defines the format of the input to the language model used to evaluate the
+quality of different prompts. The template supports the following tokens:
 
 - [PROMPT] - The prompt to evaluate
 - [INPUT] - The input to the model
@@ -70,7 +75,8 @@ Input: [INPUT]
 Output: [OUTPUT]
 ```
 
-The prompt generation template (`prompt_gen_template`) defines the format of the input to the language model used to generate candidate prompts. The template supports the following tokens:
+The prompt generation template (`prompt_gen_template`) defines the format of the input to the language model used to
+generate candidate prompts. The template supports the following tokens:
 
 - [APE] - A token to be replaced by the LLM's generated text
 - [full_DEMO] - Demonstrations of input/output pairs
@@ -87,24 +93,28 @@ I gave a friend an instruction. Based on the instruction they produced the follo
 The instruction was to [APE]
 ```
 
-:warning: By default, `prompt_gen_template` is set to `None`. In this case, if the `prompt_gen_mode` is `forward`, the above tepmlate is used. If the `prompt_gen_mode` is `insert`, the template is simply converted from the evaluation template by replacing `[PROMPT]` with `[APE]`.
+:warning: By default, `prompt_gen_template` is set to `None`. In this case, if the `prompt_gen_mode` is `forward`, the
+above tepmlate is used. If the `prompt_gen_mode` is `insert`, the template is simply converted from the evaluation
+template by replacing `[PROMPT]` with `[APE]`.
 
-Finally, the demonstration template (`demos_template`) defines the format of the demonstrations. The template supports the following tokens:
+Finally, the demonstration template (`demos_template`) defines the format of the demonstrations. The template supports
+the following tokens:
 
 - [INPUT] - The input of the demonstration
 - [OUTPUT] - The output of the demonstration
 
 ### Data :card_index:
 
-Datasets in this codebase are represented using separate lists for inputs and outputs. For example, a dataset for words and their antonyms can be written as:
+Datasets in this codebase are represented using separate lists for inputs and outputs. For example, a dataset for words
+and their antonyms can be written as:
 
 ```python
 words = ["sane", "direct", "informally", "unpopular", "subtractive", "nonresidential",
-    "inexact", "uptown", "incomparable", "powerful", "gaseous", "evenly", "formality",
-    "deliberately", "off"]
+         "inexact", "uptown", "incomparable", "powerful", "gaseous", "evenly", "formality",
+         "deliberately", "off"]
 antonyms = ["insane", "indirect", "formally", "popular", "additive", "residential",
-    "exact", "downtown", "comparable", "powerless", "solid", "unevenly", "informality",
-    "accidentally", "on"]
+            "exact", "downtown", "comparable", "powerless", "solid", "unevenly", "informality",
+            "accidentally", "on"]
 data = (words, antonyms)
 ```
 
@@ -118,20 +128,24 @@ The `find_prompts` function takes the following arguments:
 - `eval_data` - The data used to evaluate the quality of candidate prompts
 - `conf` - A dictionary of configuration options
 - `base_conf` - The path to the base configuration dataset.
-  - `'configs/default.yaml'`: Default configuration that uses likelihood to evaluate prompts.
-  - `'configs/bandits.yaml'`: Configuration that uses the Upper Confidence Bound algorithm to save resources when evaluating prompts. Uses likelihood as its base evaluation method.
+    - `'configs/default.yaml'`: Default configuration that uses likelihood to evaluate prompts.
+    - `'configs/bandits.yaml'`: Configuration that uses the Upper Confidence Bound algorithm to save resources when
+      evaluating prompts. Uses likelihood as its base evaluation method.
 - `few_shot_data` - The data used for few-shot learning
 - `prompt_gen_template` - The prompt generation template
 
 For more information on the `conf` dictionary, please refer to the annotations in `configs/bandits.yaml`.
 
-`find_prompts` returns an evaluation result object and a demo function to allow you to evaluate the quality of the selected prompt manually. To get the best prompts and their associated scores from the evaluation result object, use the `sorted()` method.
+`find_prompts` returns an evaluation result object and a demo function to allow you to evaluate the quality of the
+selected prompt manually. To get the best prompts and their associated scores from the evaluation result object, use
+the `sorted()` method.
 
 ### `simple_ape`
 
 The `simple_ape` function takes the following arguments:
 
-- `dataset` - The dataset to use (simple APE uses the same dataset for prompt generation, evaluation, and few-shot learning)
+- `dataset` - The dataset to use (simple APE uses the same dataset for prompt generation, evaluation, and few-shot
+  learning)
 - `eval_template` - The evaluation template (default: `'Instruction: [PROMPT]\nInput: [INPUT]\nOutput: [OUTPUT]'`)
 - `prompt_gen_template` - The prompt generation template (default: `None`)
 - `prompt_gen_mode` - The mode to use for prompt generation (default: `'forward'`)
@@ -143,7 +157,10 @@ The `simple_ape` function takes the following arguments:
 - `prompt_gen_batch_size` - The batch size to use for prompt generation (default: `200`)
 - `eval_batch_size` - The batch size to use for evaluation (default: `500`)
 
-`simple_ape` is designed to simplify many of the choices that need to be made when using `find_prompts`. Particularly, it simplifies evaluation by choosing only the amount of candidate prompts to generate and the number of rounds of UCB to run. Behind the scenes, `simple_ape` uses `num_prompts_per_round` equal to `num_prompts // 3` and fixes the number of samples per prompt per round to `5`.
+`simple_ape` is designed to simplify many of the choices that need to be made when using `find_prompts`. Particularly,
+it simplifies evaluation by choosing only the amount of candidate prompts to generate and the number of rounds of UCB to
+run. Behind the scenes, `simple_ape` uses `num_prompts_per_round` equal to `num_prompts // 3` and fixes the number of
+samples per prompt per round to `5`.
 
 An example usage of this function would look like:
 
@@ -151,11 +168,11 @@ An example usage of this function would look like:
 from automatic_prompt_engineer import ape
 
 words = ["sane", "direct", "informally", "unpopular", "subtractive", "nonresidential",
-    "inexact", "uptown", "incomparable", "powerful", "gaseous", "evenly", "formality",
-    "deliberately", "off"]
+         "inexact", "uptown", "incomparable", "powerful", "gaseous", "evenly", "formality",
+         "deliberately", "off"]
 antonyms = ["insane", "indirect", "formally", "popular", "additive", "residential",
-    "exact", "downtown", "comparable", "powerless", "solid", "unevenly", "informality",
-    "accidentally", "on"]
+            "exact", "downtown", "comparable", "powerless", "solid", "unevenly", "informality",
+            "accidentally", "on"]
 
 result, demo_fn = ape.simple_ape(
     dataset=(words, antonyms),
@@ -163,11 +180,15 @@ result, demo_fn = ape.simple_ape(
 )
 ```
 
-`find_prompts` returns an evaluation result object and a demo function to allow you to evaluate the quality of the selected prompt manually. To get the best prompts and their associated scores from the evaluation result object, use the `sorted()` method.
+`find_prompts` returns an evaluation result object and a demo function to allow you to evaluate the quality of the
+selected prompt manually. To get the best prompts and their associated scores from the evaluation result object, use
+the `sorted()` method.
 
 ### Cost Estimation
 
-As APE can often be expensive to run, we provide cost estimations for `find_prompts` and `simple_ape`. Simply use `ape.estimate_cost` or `ape.simple_estimate_cost` with the same arguments as `find_prompts` and `simple_ape` respectively.
+As APE can often be expensive to run, we provide cost estimations for `find_prompts` and `simple_ape`. Simply
+use `ape.estimate_cost` or `ape.simple_estimate_cost` with the same arguments as `find_prompts` and `simple_ape`
+respectively.
 
 ## Try it out! :eyes:
 
@@ -204,7 +225,8 @@ We also provide a GUI for easily using APE. Please follow the instructions in th
 
 ## Reproducing Experiments :test_tube:
 
-To reproduce the experiments from the paper, simply run the scripts in the `experiments` folder. For example, to reproduce the experiments for the instruction induction task, run:
+To reproduce the experiments from the paper, simply run the scripts in the `experiments` folder. For example, to
+reproduce the experiments for the instruction induction task, run:
 
 `python experiments/run_instruction_induction.py --task=antonyms`
 
