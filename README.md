@@ -222,5 +222,12 @@ Our codebase is based on the following repo. Thanks for open-sourcing!
 ## BibTeX
 
 ```
-
+@article{zhou2022large,
+      title={Large Language Models Are Human-Level Prompt Engineers}, 
+      author={Yongchao Zhou and Andrei Ioan Muresanu and Ziwen Han and Keiran Paster and Silviu Pitis and Harris Chan and Jimmy Ba},
+      year={2022},
+      eprint={2211.01910},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
