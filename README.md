@@ -2,7 +2,7 @@
 
 Yongchao Zhou*, Andrei Ioan Muresanu*, Ziwen Han\*, Keiran Paster, Silviu Pitis, Harris Chan, Jimmy Ba
 
-[Project Page](https://sites.google.com/view/automatic-prompt-engineer) | [ArXiv](https://github.com/keirp/automatic_prompt_engineer)
+[Project Page](https://sites.google.com/view/automatic-prompt-engineer) | [ArXiv](https://arxiv.org/abs/2211.01910)
 
 This repo contains code for "Large Language Models Are Human-Level Prompt Engineers". Please see our
 paper and project page for more results.
