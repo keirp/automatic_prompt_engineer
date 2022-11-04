@@ -18,36 +18,6 @@ task_types = ['antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_w
               'translation_en-fr', 'word_in_context']
 
 
-def arithmetic_dataset():
-    # Generate basic arithmetic dataset (procedurally generated)
-    inputs = []
-    outputs = []
-    for i in range(1000):
-        # Pick how many numbers in the expression (2-4)
-        num_numbers = np.random.randint(2, 5)
-        # Pick the numbers
-        numbers = np.random.randint(1, 10, size=num_numbers)
-        # Pick the operators
-        operators = np.random.choice(['+', '-', '*'], size=num_numbers - 1)
-        # Generate the expression
-        expression = ''
-        for i in range(num_numbers - 1):
-            expression += str(numbers[i]) + operators[i]
-        expression += str(numbers[-1])
-        # Evaluate the expression
-        output = str(eval(expression))
-        # Add to the dataset
-        inputs.append(expression)
-        outputs.append(output)
-
-    data_str = ""
-    for input_, output_ in zip(inputs, outputs):
-        data_str += input_ + ' >>> ' + output_ + '\n'
-    data_str = data_str[:-1]
-
-    return data_str
-
-
 def load_task(task):
     inputs, outputs = load_data('induce', task)
     train_data = '\n'.join([f'{inp} >>> {out[0] if len(out) == 1 else out}' for inp, out in zip(inputs, outputs)])
@@ -274,7 +244,7 @@ def estimate_cost(prompt_gen_data, eval_data,
                              prompt_gen_template=prompt_gen_template)
     generation_query = ape.get_generation_query(eval_template, demos_template, conf, prompt_gen_data,
                                                 prompt_gen_template)[0]
-    evaluation_query = ape.get_evaluation_query(eval_template, demos_template, conf, eval_data, prompt_gen_data)
+    evaluation_query = ape.get_evaluation_query(eval_template, demos_template, conf, eval_data, prompt_gen_data)[0]
     return cost, generation_query, evaluation_query
 
 
@@ -398,9 +368,9 @@ def get_demo():
 
                 with gr.Tab("Dataset"):
                     with gr.Row():
-                        prompt_gen_data = gr.Textbox(lines=10, value=arithmetic_dataset(),
+                        prompt_gen_data = gr.Textbox(lines=10, value=load_task('antonyms')[0],
                                                      label="Data for prompt generation")
-                        eval_data = gr.Textbox(lines=10, value=arithmetic_dataset(),
+                        eval_data = gr.Textbox(lines=10, value=load_task('antonyms')[1],
                                                label="Data for scoring")
                     with gr.Row():
                         task = gr.Dropdown(label="Task", choices=task_types, value="antonyms")
@@ -435,7 +405,7 @@ def get_demo():
                                                   label="Number of demos for instruction generation")
 
                         with gr.Row():
-                            num_samples = gr.Slider(minimum=1, maximum=50, value=5, step=1,
+                            num_samples = gr.Slider(minimum=1, maximum=50, value=10, step=1,
                                                     label="Number of evaluation samples at each round")
                             num_few_shot = gr.Slider(minimum=0, maximum=25, value=0, step=1,
                                                      label="Number of few-shot examples used in evaluation")
@@ -454,15 +424,6 @@ def get_demo():
                                                           label="Evaluation Prompts",
                                                           disabled=True)
 
-            with gr.Tab("Prompt Score"):
-                with gr.Row():
-                    with gr.Column(scale=1):
-                        score_prompt = gr.Textbox(lines=3, value="Please evaluate the following expression.",
-                                                  label="Prompt (Evaluate on scoring dataset using Evaluation Template)")
-                        compute_score_button = gr.Button("Compute Score")
-                    with gr.Column(scale=1):
-                        test_score = gr.Textbox(lines=1, value="", label="Log(p)", disabled=True)
-
             with gr.Tab("Prompt Deployment"):
                 with gr.Row():
                     with gr.Column(scale=1):
@@ -473,6 +434,15 @@ def get_demo():
                         answer_button = gr.Button("Submit")
                     with gr.Column(scale=1):
                         test_output = gr.Textbox(lines=9, value="", label="Model Output")
+
+            with gr.Tab("Prompt Score"):
+                with gr.Row():
+                    with gr.Column(scale=1):
+                        score_prompt = gr.Textbox(lines=3, value="Please evaluate the following expression.",
+                                                  label="Prompt (Evaluate on scoring dataset using Evaluation Template)")
+                        compute_score_button = gr.Button("Compute Score")
+                    with gr.Column(scale=1):
+                        test_score = gr.Textbox(lines=1, value="", label="Log(p)", disabled=True)
 
         ##############################
         # Button Callbacks
