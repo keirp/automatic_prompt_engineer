@@ -176,7 +176,6 @@ antonyms = ["insane", "indirect", "formally", "popular", "additive", "residentia
 
 result, demo_fn = ape.simple_ape(
     dataset=(words, antonyms),
-    eval_template=eval_template,
 )
 ```
 
