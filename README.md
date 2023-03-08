@@ -173,6 +173,11 @@ words = ["sane", "direct", "informally", "unpopular", "subtractive", "nonresiden
 antonyms = ["insane", "indirect", "formally", "popular", "additive", "residential",
             "exact", "downtown", "comparable", "powerless", "solid", "unevenly", "informality",
             "accidentally", "on"]
+            
+eval_template = \
+"""Instruction: [PROMPT]
+Input: [INPUT]
+Output: [OUTPUT]"""
 
 result, demo_fn = ape.simple_ape(
     dataset=(words, antonyms),
