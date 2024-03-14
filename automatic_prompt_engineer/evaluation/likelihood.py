@@ -80,9 +80,10 @@ class LikelihoodEvaluationResult(evaluate.EvaluationResult):
     def _compute_avg_likelihood(self, prompts, log_probs, num_samples):
         i = 0
         prompt_log_probs = []
-        for prompt in prompts:
+        # TODO: Prompts and NumSamples should be the loop strengths
+        for log_prob in log_probs:
             prompt_log_probs.append([])
-            for _ in range(num_samples):
+            for _ in range(len(log_probs)):
                 lps = log_probs[i]
                 prompt_log_probs[-1].append(sum(lps) / len(lps))
                 i += 1
