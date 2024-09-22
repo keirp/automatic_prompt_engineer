@@ -7,7 +7,7 @@ from experiments.data.instruction_induction.load_data import load_data
 from automatic_prompt_engineer.ape import get_simple_prompt_gen_template
 from automatic_prompt_engineer import ape, evaluate, config, template, llm
 
-model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'text-davinci-002']
+model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'gpt-3.5-turbo']
 mode_types = ['forward', 'insert']
 eval_types = ['likelihood', 'bandits']
 task_types = ['antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_word_letter',
@@ -59,8 +59,8 @@ def run_ape(prompt_gen_data, eval_data,
             eval_template='Instruction: [PROMPT]\nInput: [INPUT]\nOutput: [OUTPUT]',
             prompt_gen_template=None,
             demos_template='Input: [INPUT]\nOutput: [OUTPUT]',
-            eval_model='text-davinci-002',
-            prompt_gen_model='text-davinci-002',
+            eval_model='gpt-3.5-turbo',
+            prompt_gen_model='gpt-3.5-turbo',
             prompt_gen_mode='forward',
             num_prompts=50, eval_rounds=10, prompt_gen_batch_size=200, eval_batch_size=500,  # basic
             num_subsamples=None, num_demos=None,  # advanced
@@ -141,8 +141,8 @@ def run_ape(prompt_gen_data, eval_data,
 
 def basic_ape(prompt_gen_data, eval_data,
               eval_template='Instruction: [PROMPT]\nInput: [INPUT]\nOutput: [OUTPUT]',
-              eval_model='text-davinci-002',
-              prompt_gen_model='text-davinci-002',
+              eval_model='gpt-3.5-turbo',
+              prompt_gen_model='gpt-3.5-turbo',
               prompt_gen_mode='forward',
               num_prompts=50, eval_rounds=10, prompt_gen_batch_size=200, eval_batch_size=500):
     return run_ape(prompt_gen_data, eval_data, eval_template,
@@ -153,8 +153,8 @@ def basic_ape(prompt_gen_data, eval_data,
 
 def advance_ape(prompt_gen_data, eval_data,
                 eval_template, prompt_gen_template, demos_template,
-                eval_model='text-davinci-002',
-                prompt_gen_model='text-davinci-002',
+                eval_model='gpt-3.5-turbo',
+                prompt_gen_model='gpt-3.5-turbo',
                 prompt_gen_mode='forward',
                 num_prompts=50, eval_rounds=10, prompt_gen_batch_size=200, eval_batch_size=500,  # basic
                 num_subsamples=None, num_demos=None,  # advanced
@@ -175,8 +175,8 @@ def estimate_cost(prompt_gen_data, eval_data,
                   eval_template='Instruction: [PROMPT]\nInput: [INPUT]\nOutput: [OUTPUT]',
                   prompt_gen_template=None,
                   demos_template='Input: [INPUT]\nOutput: [OUTPUT]',
-                  eval_model='text-davinci-002',
-                  prompt_gen_model='text-davinci-002',
+                  eval_model='gpt-3.5-turbo',
+                  prompt_gen_model='gpt-3.5-turbo',
                   prompt_gen_mode='forward',
                   num_prompts=50, eval_rounds=10, prompt_gen_batch_size=200, eval_batch_size=500,  # basic
                   num_subsamples=None, num_demos=None,  # advanced
@@ -251,8 +251,8 @@ def estimate_cost(prompt_gen_data, eval_data,
 def basic_estimate_cost(prompt_gen_data,
                         eval_data,
                         eval_template='Instruction: [PROMPT]\nInput: [INPUT]\nOutput: [OUTPUT]',
-                        eval_model='text-davinci-002',
-                        prompt_gen_model='text-davinci-002',
+                        eval_model='gpt-3.5-turbo',
+                        prompt_gen_model='gpt-3.5-turbo',
                         prompt_gen_mode='forward',
                         num_prompts=50, eval_rounds=10, prompt_gen_batch_size=200, eval_batch_size=500):
     return estimate_cost(prompt_gen_data, eval_data, eval_template,
@@ -263,8 +263,8 @@ def basic_estimate_cost(prompt_gen_data,
 
 def advance_estimate_cost(prompt_gen_data, eval_data,
                           eval_template, prompt_gen_template, demos_template,
-                          eval_model='text-davinci-002',
-                          prompt_gen_model='text-davinci-002',
+                          eval_model='gpt-3.5-turbo',
+                          prompt_gen_model='gpt-3.5-turbo',
                           num_prompts=50, eval_rounds=10, prompt_gen_batch_size=200, eval_batch_size=500,  # basic
                           num_subsamples=None, num_demos=None,  # advanced
                           num_samples=None, num_few_shot=None  # advanced
@@ -285,7 +285,7 @@ def compute_score(prompt,
                   eval_data,
                   eval_template,
                   demos_template,
-                  eval_model='text-davinci-002',
+                  eval_model='gpt-3.5-turbo',
                   num_few_shot=None  # advanced
                   ):
     eval_data = parse_data(eval_data)
@@ -302,8 +302,8 @@ def compute_score(prompt,
 
 def run_prompt(prompt, inputs,
                eval_template='Instruction: [PROMPT]\nInput: [INPUT]\nOutput: [OUTPUT]',
-               eval_model='text-davinci-002',
-               prompt_gen_model='text-davinci-002',
+               eval_model='gpt-3.5-turbo',
+               prompt_gen_model='gpt-3.5-turbo',
                prompt_gen_mode='forward',
                num_prompts=50, eval_rounds=10, prompt_gen_batch_size=200, eval_batch_size=500):
     conf = config.simple_config(
@@ -381,10 +381,10 @@ def get_demo():
                 with gr.Tab("Basic"):
                     with gr.Row():
                         prompt_gen_model = gr.Dropdown(label="Prompt Generation Model", choices=model_types,
-                                                       value="text-davinci-002")
+                                                       value="gpt-3.5-turbo")
 
                         eval_model = gr.Dropdown(label="Evaluation Model", choices=model_types,
-                                                 value="text-davinci-002")
+                                                 value="gpt-3.5-turbo")
 
                     with gr.Row():
                         num_prompts = gr.Slider(label="Number of Prompts", minimum=1, maximum=250, step=10, value=50)

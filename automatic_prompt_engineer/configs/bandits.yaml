@@ -6,7 +6,7 @@ generation:
     name: GPT_forward # the name of the model used for prompt generation
     batch_size: 500 # the maximum batch size used for prompt generation
     gpt_config: # the configuration of the GPT model used for prompt generation (these are fed directly to the openai function)
-      model: text-davinci-002
+      model: gpt-3.5-turbo
       temperature: 0.9
       max_tokens: 50
       top_p: 0.9
@@ -27,7 +27,7 @@ evaluation:
       name: GPT_forward
       batch_size: 500
       gpt_config:
-        model: text-davinci-002
+        model: gpt-3.5-turbo
         temperature: 0.7
         max_tokens: 200
         top_p: 1.0
@@ -38,7 +38,7 @@ demo:
     name: GPT_forward
     batch_size: 500
     gpt_config:
-      model: text-davinci-002
+      model: gpt-3.5-turbo
       temperature: 0.7
       max_tokens: 200
       top_p: 1.0

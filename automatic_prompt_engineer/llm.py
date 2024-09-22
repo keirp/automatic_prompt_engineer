@@ -5,7 +5,9 @@ import time
 from tqdm import tqdm
 from abc import ABC, abstractmethod
 
-import openai
+from openai import OpenAI
+
+client = OpenAI()
 
 gpt_costs_per_thousand = {
     'davinci': 0.0200,
@@ -157,8 +159,7 @@ class GPT_Forward(LLM):
         response = None
         while response is None:
             try:
-                response = openai.Completion.create(
-                    **config, prompt=prompt)
+                response = client.completions.create(**config, prompt=prompt)
             except Exception as e:
                 if 'is greater than the maximum' in str(e):
                     raise BatchSizeException()
@@ -166,7 +167,7 @@ class GPT_Forward(LLM):
                 print('Retrying...')
                 time.sleep(5)
 
-        return [response['choices'][i]['text'] for i in range(len(response['choices']))]
+        return [response.choices[i].text for i in range(len(response.choices))]
 
     def __complete(self, prompt, n):
         """Generates text from the model and returns the log prob data."""
@@ -180,13 +181,12 @@ class GPT_Forward(LLM):
         response = None
         while response is None:
             try:
-                response = openai.Completion.create(
-                    **config, prompt=prompt)
+                response = client.completions.create(**config, prompt=prompt)
             except Exception as e:
                 print(e)
                 print('Retrying...')
                 time.sleep(5)
-        return response['choices']
+        return response.choices
 
     def __log_probs(self, text, log_prob_range=None):
         """Returns the log probs of the text."""
@@ -209,18 +209,17 @@ class GPT_Forward(LLM):
         response = None
         while response is None:
             try:
-                response = openai.Completion.create(
-                    **config, prompt=text)
+                response = client.completions.create(**config, prompt=text)
             except Exception as e:
                 print(e)
                 print('Retrying...')
                 time.sleep(5)
-        log_probs = [response['choices'][i]['logprobs']['token_logprobs'][1:]
-                     for i in range(len(response['choices']))]
-        tokens = [response['choices'][i]['logprobs']['tokens'][1:]
-                  for i in range(len(response['choices']))]
-        offsets = [response['choices'][i]['logprobs']['text_offset'][1:]
-                   for i in range(len(response['choices']))]
+        log_probs = [response.choices[i].logprobs.token_logprobs[1:]
+                     for i in range(len(response.choices))]
+        tokens = [response.choices[i].logprobs.tokens[1:]
+                  for i in range(len(response.choices))]
+        offsets = [response.choices[i].logprobs.text_offset[1:]
+                   for i in range(len(response.choices))]
 
         # Subtract 1 from the offsets to account for the newline
         for i in range(len(offsets)):
@@ -316,15 +315,14 @@ class GPT_Insert(LLM):
         response = None
         while response is None:
             try:
-                response = openai.Completion.create(
-                    **config, prompt=prefix, suffix=suffix)
+                response = client.completions.create(**config, prompt=prefix, suffix=suffix)
             except Exception as e:
                 print(e)
                 print('Retrying...')
                 time.sleep(5)
 
         # Remove suffix from the generated text
-        texts = [response['choices'][i]['text'].replace(suffix, '') for i in range(len(response['choices']))]
+        texts = [response.choices[i].text.replace(suffix, '') for i in range(len(response.choices))]
         return texts
 
 
